@@ -175,13 +175,25 @@ function toggleFaq(btn) {
 /* ==============================================================================
    FITBLISS LUXURY FAQ ACCORDION - CLEAN SEAMLESS DESIGN & NORMAL + / - ICONS
    ============================================================================== */
-.qodef-qi-accordion,
 .elementor-widget-qi_addons_for_elementor_accordion,
+.elementor-widget-accordion,
+.elementor-widget-qi_addons_for_elementor_accordion .elementor-widget-container,
+.elementor-widget-accordion .elementor-widget-container {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: visible !important;
+}
+
+.qodef-qi-accordion,
 .elementor-accordion {
     visibility: visible !important;
     display: block !important;
     width: 100% !important;
-    margin-top: 15px !important;
+    margin: 0 !important;
+    padding: 0 !important;
     background: #091212 !important;
     border: 1px solid rgba(255, 255, 255, 0.09) !important;
     border-radius: 6px !important;
@@ -209,6 +221,7 @@ function toggleFaq(btn) {
 
 .qodef-qi-accordion .qodef-e-title-holder:first-child {
     border-top: none !important;
+    margin-top: 0 !important;
 }
 
 .qodef-qi-accordion .qodef-e-title-holder:hover {
@@ -337,31 +350,6 @@ function toggleFaq(btn) {
     .qodef-qi-accordion .qodef-e-content-inner p {
         font-size: 15px !important;
     }
-}
-
-/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
-.elementor-slideshow__title,
-.elementor-slideshow__description,
-.elementor-slideshow__footer,
-.dialog-lightbox-title,
-.dialog-lightbox-description,
-.elementor-lightbox .dialog-header,
-.elementor-lightbox .elementor-slideshow__title,
-.elementor-lightbox .elementor-slideshow__description,
-.elementor-lightbox .elementor-slideshow__footer,
-.elementor-gallery-item__title,
-.elementor-gallery-item__description,
-.elementor-gallery-item__content,
-.elementor-gallery-item__overlay .elementor-gallery-item__title {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-    height: 0 !important;
-    width: 0 !important;
-    min-height: 0 !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    pointer-events: none !important;
 }
 </style>
 

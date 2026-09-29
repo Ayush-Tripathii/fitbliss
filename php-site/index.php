@@ -287,13 +287,68 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         }
     }
 
-/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
+/* Elementor Lightbox Styling & Prominent Close Button */
+.dialog-widget.dialog-type-lightbox,
+.dialog-widget.dialog-lightbox-widget,
+.elementor-lightbox {
+    z-index: 999999999 !important;
+}
+
+.elementor-lightbox .dialog-header {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 0 !important;
+    height: 70px !important;
+    z-index: 1000000000 !important;
+    background: transparent !important;
+}
+
+.dialog-lightbox-close-button,
+.dialog-close-button,
+.elementor-lightbox .dialog-close-button,
+.elementor-lightbox .dialog-lightbox-close-button,
+.elementor-lightbox .dialog-header .dialog-close-button {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    position: absolute !important;
+    top: 24px !important;
+    right: 24px !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    background: rgba(0, 0, 0, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    z-index: 1000000001 !important;
+    transition: all 0.25s ease !important;
+}
+
+.dialog-lightbox-close-button:hover,
+.dialog-close-button:hover,
+.elementor-lightbox .dialog-close-button:hover {
+    background: #3ec28b !important;
+    border-color: #3ec28b !important;
+    color: #040909 !important;
+    transform: scale(1.08) !important;
+}
+
+/* Hide only image title captions and filenames */
 .elementor-slideshow__title,
 .elementor-slideshow__description,
 .elementor-slideshow__footer,
 .dialog-lightbox-title,
 .dialog-lightbox-description,
-.elementor-lightbox .dialog-header,
 .elementor-lightbox .elementor-slideshow__title,
 .elementor-lightbox .elementor-slideshow__description,
 .elementor-lightbox .elementor-slideshow__footer,
