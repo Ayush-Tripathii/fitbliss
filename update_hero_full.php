@@ -90,7 +90,32 @@ if (preg_match($pattern, $html)) {
     $html = preg_replace($pattern, $hero_css_replacement, $html);
 } else {
     // Inject into custom responsive style block
-    $html = str_replace('</style>', "\n" . $hero_css_replacement . "\n</style>", $html);
+    $html = str_replace('
+/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
+.elementor-slideshow__title,
+.elementor-slideshow__description,
+.elementor-slideshow__footer,
+.dialog-lightbox-title,
+.dialog-lightbox-description,
+.elementor-lightbox .dialog-header,
+.elementor-lightbox .elementor-slideshow__title,
+.elementor-lightbox .elementor-slideshow__description,
+.elementor-lightbox .elementor-slideshow__footer,
+.elementor-gallery-item__title,
+.elementor-gallery-item__description,
+.elementor-gallery-item__content,
+.elementor-gallery-item__overlay .elementor-gallery-item__title {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+}
+</style>', "\n" . $hero_css_replacement . "\n</style>", $html);
 }
 
 file_put_contents($file, $html);

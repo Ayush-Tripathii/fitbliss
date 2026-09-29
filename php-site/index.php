@@ -286,6 +286,31 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             font-size: 10px !important;
         }
     }
+
+/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
+.elementor-slideshow__title,
+.elementor-slideshow__description,
+.elementor-slideshow__footer,
+.dialog-lightbox-title,
+.dialog-lightbox-description,
+.elementor-lightbox .dialog-header,
+.elementor-lightbox .elementor-slideshow__title,
+.elementor-lightbox .elementor-slideshow__description,
+.elementor-lightbox .elementor-slideshow__footer,
+.elementor-gallery-item__title,
+.elementor-gallery-item__description,
+.elementor-gallery-item__content,
+.elementor-gallery-item__overlay .elementor-gallery-item__title {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+}
 </style>
 
 <link rel='stylesheet' id='fluentform-elementor-widget-css' href='/fitbliss/wp-content/plugins/fluentform/assets/css/fluent-forms-elementor-widget.css?ver=6.2.14' media='all' />
@@ -5558,35 +5583,35 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-7dc5dba0 elementor-widget elementor-widget-gallery" data-id="7dc5dba0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;lazyload&quot;:&quot;yes&quot;,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns&quot;:4,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-gallery__container">
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="DSC04158_11zon.jpg" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQxNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQxNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/DSC04158_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_2025-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="DSC_2025-scaled.jpg" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODgsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzIwMjUtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_2025-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODgsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzIwMjUtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/DSC_2025-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_0058-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="DSC_0058-scaled.jpg" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODksInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzAwNTgtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_0058-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODksInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzAwNTgtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/DSC_0058-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_8892-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="DSC_8892-scaled.jpg" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTAsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzg4OTItc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC_8892-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTAsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzg4OTItc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/DSC_8892-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="DSC04258_11zon.jpg" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQyNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQyNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/DSC04258_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/IMG_0642-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="IMG_0642-scaled.webp" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTIsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvSU1HXzA2NDItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/IMG_0642-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTIsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvSU1HXzA2NDItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/IMG_0642-scaled-1-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/TZ3_0696-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="TZ3_0696-scaled.webp" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTMsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA2OTYtc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/TZ3_0696-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTMsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA2OTYtc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/TZ3_0696-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/TZ3_0772-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="TZ3_0772-scaled.webp" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTQsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA3NzItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/wp-content/uploads/2026/07/TZ3_0772-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTQsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA3NzItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
 					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/wp-content/uploads/2026/07/TZ3_0772-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>

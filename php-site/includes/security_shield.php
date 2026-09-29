@@ -93,7 +93,32 @@ if (!defined('FITBLISS_SECURITY_SHIELD')) {
                . '.box{background:#0d1717;border:1px solid rgba(55,192,128,0.3);padding:40px;max-width:500px;text-align:center;border-radius:6px;box-shadow:0 10px 30px rgba(0,0,0,0.8);}'
                . 'h1{color:#37c080;font-size:24px;margin-top:0;}p{color:#9b998b;font-size:14px;line-height:1.6;}'
                . '.code{background:#050a0b;padding:8px 12px;color:#f4f2ea;font-family:monospace;font-size:12px;margin:15px 0;display:inline-block;border:1px solid rgba(255,255,255,0.08);}'
-               . '</style></head><body><div class="box">'
+               . '
+/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
+.elementor-slideshow__title,
+.elementor-slideshow__description,
+.elementor-slideshow__footer,
+.dialog-lightbox-title,
+.dialog-lightbox-description,
+.elementor-lightbox .dialog-header,
+.elementor-lightbox .elementor-slideshow__title,
+.elementor-lightbox .elementor-slideshow__description,
+.elementor-lightbox .elementor-slideshow__footer,
+.elementor-gallery-item__title,
+.elementor-gallery-item__description,
+.elementor-gallery-item__content,
+.elementor-gallery-item__overlay .elementor-gallery-item__title {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+}
+</style></head><body><div class="box">'
                . '<h1>Access Denied</h1>'
                . '<p>Your request was blocked by the FitBliss Web Application Firewall (WAF) because potentially malicious payload patterns were detected.</p>'
                . '<div class="code">Security Event ID: ' . substr(md5($time . $ip), 0, 12) . '</div>'

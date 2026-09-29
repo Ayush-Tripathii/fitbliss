@@ -92,6 +92,31 @@ $darker_mask_css = <<<CSS
         background: linear-gradient(180deg, #010303 0%, rgba(1, 3, 3, 0.95) 50%, transparent 100%) !important;
     }
 }
+
+/* Hide Elementor Lightbox and Gallery Item Titles/Captions/Filenames */
+.elementor-slideshow__title,
+.elementor-slideshow__description,
+.elementor-slideshow__footer,
+.dialog-lightbox-title,
+.dialog-lightbox-description,
+.elementor-lightbox .dialog-header,
+.elementor-lightbox .elementor-slideshow__title,
+.elementor-lightbox .elementor-slideshow__description,
+.elementor-lightbox .elementor-slideshow__footer,
+.elementor-gallery-item__title,
+.elementor-gallery-item__description,
+.elementor-gallery-item__content,
+.elementor-gallery-item__overlay .elementor-gallery-item__title {
+    display: none !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    width: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    pointer-events: none !important;
+}
 </style>
 CSS;
 
