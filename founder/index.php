@@ -1718,34 +1718,28 @@ SHAPED THE VISION.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-dc13d50 elementor-widget elementor-widget-html" data-id="dc13d50" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<div style="max-width:1400px;margin:0 auto;">
-  <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;
-               letter-spacing:3px;color:#37c080;">— The space she built</span>
-  <h2 style="margin:14px 0 0px;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,4.5vw,4rem);
-             text-transform:uppercase;line-height:.93;color:#f4f2ea;font-weight:400;">
-    Every detail,<br /><span style="color:#37c080;">intentional.</span></h2>
+					<div style="max-width:1400px;margin:0 auto;padding:10px 0;">
   <div id="fbvs">
-    <div class="fbv" data-v="0" style="display:flex;gap:50px;align-items:center;flex-wrap:wrap;">
-      <div style="flex:1;min-width:260px;">
-        <p
-          style="font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.7;color:#9b998b;margin-bottom:26px;">
-          From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss
-          reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa
-          treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.</p>
+    <div class="fbv" data-v="0" style="display:flex;gap:52px;align-items:center;flex-wrap:wrap;">
+      <div style="flex:1;min-width:280px;">
+        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;display:inline-block;margin-bottom:12px;">— The space she built</span>
+        <h2 style="margin:0 0 24px 0;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,4.5vw,4rem);text-transform:uppercase;line-height:0.95;color:#f4f2ea;font-weight:400;letter-spacing:1px;">
+          Every detail,<br /><span style="color:#37c080;">intentional.</span>
+        </h2>
+        <p style="font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.75;color:#9b998b;margin:0;max-width:540px;">
+          From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.
+        </p>
       </div>
       <div style="flex:1.4;min-width:300px;">
-        <div
-          style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border:1px solid rgba(255,255,255,0.14);">
-          <video controls poster="/fitbliss/wp-content/uploads/2026/07/truestory.png" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
-        
-        <source src="/fitbliss/wp-content/uploads/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4" type="video/mp4">
-    </video>
-          </div>
+        <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border:1px solid rgba(255,255,255,0.18);border-radius:6px;box-shadow:0 20px 50px rgba(0,0,0,0.5);background:#071010;">
+          <video controls poster="/fitbliss/wp-content/uploads/2026/07/truestory.png" preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block;">
+            <source src="/fitbliss/wp-content/uploads/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
+          </video>
+        </div>
       </div>
     </div>
   </div>
 </div>
-				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-76337fcb e-con-full e-flex e-con e-child" data-id="76337fcb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
