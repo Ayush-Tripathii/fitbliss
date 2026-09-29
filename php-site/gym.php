@@ -1645,7 +1645,7 @@ training floor.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-f91ae75 elementor-widget elementor-widget-text-editor" data-id="f91ae75" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04  <strong> </strong></span>Integrated Wellness Ecosystem</h5><p class="mt-4 max-w-2xl text-foreground/85" data-tsd-source="/src/components/ServicePage.tsx:191:19">Pilates, Physiotherapy, Nutrition, Recovery and Aquatic Wellness — all under one roof, working together to keep you progressing.</p>								</div>
+									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">05  <strong> </strong></span>Integrated Wellness Ecosystem</h5><p class="mt-4 max-w-2xl text-foreground/85" data-tsd-source="/src/components/ServicePage.tsx:191:19">Pilates, Physiotherapy, Nutrition, Recovery and Aquatic Wellness — all under one roof, working together to keep you progressing.</p>								</div>
 				</div>
 				</div>
 				</div>
