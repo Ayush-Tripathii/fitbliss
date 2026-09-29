@@ -1,0 +1,695 @@
+/* ─── Track ─── */
+    #fbtTrack {
+        display: flex;
+        gap: 16px;
+        transition: transform .55s cubic-bezier(.4, 0, .2, 1);
+        will-change: transform;
+    }
+
+    .fbt-card:hover { border-color: rgba(55, 192, 128, 0.55); }
+
+    /* ─── Section wrapper ─── */
+    .fbt-section {
+        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
+        background: #010303;
+        border-bottom: 1px solid rgba(255,255,255,0.08);
+        box-sizing: border-box;
+    }
+
+    /* ─── Footer row: dots left, text+nav right ─── */
+    .fbt-footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 22px;
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .fbt-dots-wrap {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        flex-wrap: wrap;    /* dots wrap if needed */
+        flex: 1;
+        min-width: 0;
+    }
+
+    .fbt-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 14px;
+        flex-shrink: 0;
+    }
+
+    .fbt-right p {
+        margin: 0;
+        max-width: 320px;
+        text-align: right;
+        font-family: 'Barlow', Inter, sans-serif;
+        font-size: 15px;
+        line-height: 1.65;
+        color: #9b998b;
+    }
+
+    .fbt-nav { display: flex; gap: 10px; }
+
+    /* ─── Mobile ≤ 767px ─── */
+    @media (max-width: 767px) {
+        .fbt-footer {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .fbt-dots-wrap {
+            /* 12 dots of 16px + gaps = fine on most mobiles, keep visible */
+            order: 2;
+        }
+
+        .fbt-right {
+            align-items: flex-start;
+            width: 100%;
+            order: 1;
+        }
+
+        .fbt-right p {
+            text-align: left;
+            max-width: 100%;
+            font-size: 13px;
+        }
+
+        #fbtCount {
+            font-size: 10px !important;
+        }
+    }
+
+    @media (max-width: 479px) {
+        .fbt-nav button {
+            width: 38px !important;
+            height: 38px !important;
+        }
+    }
+</style>
+
+<div class="fbt-section">
+    <!-- Slider viewport -->
+    <div style="overflow:hidden;width:100%;">
+        <div id="fbtTrack">
+            <!-- Card 1 -->
+            <div class="fbt-card" data-idx="0" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv0"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv0Ov" onclick="fbPlayVideo('fbv0')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">
+                        Transformation
+                    </span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 1</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="fbt-card" data-idx="1" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv1"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv1Ov" onclick="fbPlayVideo('fbv1')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Weight Loss</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 2</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="fbt-card" data-idx="2" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv2"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv2Ov" onclick="fbPlayVideo('fbv2')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Strength</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 3</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="fbt-card" data-idx="3" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv3"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/At-Fitbliss-its-never-just-about-workouts-or-machines-—-its-about-people.-💫Every-transformat.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv3Ov" onclick="fbPlayVideo('fbv3')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Pilates</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 4</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="fbt-card" data-idx="4" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv4"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Harleens-journey-with-FITBLISS-by-Shruti-Kapoor-is-all-about-finding-joy-in-the-process-✨She-sh.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv4Ov" onclick="fbPlayVideo('fbv4')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Boxing</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 5</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="fbt-card" data-idx="5" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv5"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Kartikey-Singh-Chouhan-shares-his-journey-with-the-Fitbliss-by-Shruti-Kapoor✨—-from-structured-w.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv5Ov" onclick="fbPlayVideo('fbv5')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Yoga</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 6</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="fbt-card" data-idx="6" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv6"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Real-people.-Real-struggles.-Real-transformation.Proud-to-be-part-of-your-journey.-💫–-FitBliss.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv6Ov" onclick="fbPlayVideo('fbv6')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Fitness</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 7</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="fbt-card" data-idx="7" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv7"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Real-stories.-Real-results.-💪Heres-what-our-Fitbliss-client-had-to-say-about-their-journey-🌟.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv7Ov" onclick="fbPlayVideo('fbv7')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Recovery</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 8</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="fbt-card" data-idx="8" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv8"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Results-dont-come-from-shortcuts.They-come-from-consistency-care-and-the-right-guidance.Arti_.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv8Ov" onclick="fbPlayVideo('fbv8')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Zumba</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 9</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 10 -->
+            <div class="fbt-card" data-idx="9" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv9"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Amanat-Singh-Chouhan-shares-her-experience-with-Fitbliss-by-Shruti-Kapoor-—-a-journey-guided-by.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv9Ov" onclick="fbPlayVideo('fbv9')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Wellness</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 10</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 11 -->
+            <div class="fbt-card" data-idx="10" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv10"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv10Ov" onclick="fbPlayVideo('fbv10')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Transformation</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 1</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+            <!-- Card 12 -->
+            <div class="fbt-card" data-idx="11" style="flex:0 0 calc(100%/3 - 10px);
+            width:calc(100%/3 - 10px);
+            min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);
+            overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
+                <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
+                    <video id="fbv11"
+                        src="https://fitblissbysk.com/wp-content/uploads/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4"
+                        preload="metadata" playsinline
+                        style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                    </video>
+                    <div id="fbv11Ov" onclick="fbPlayVideo('fbv11')" style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+                background:rgba(1,3,3,0.35);cursor:pointer;transition:background .2s;"
+                        onmouseover="this.style.background='rgba(1,3,3,0.2)'"
+                        onmouseout="this.style.background='rgba(1,3,3,0.35)'">
+                        <div style="width:60px;height:60px;border-radius:50%;
+                  background:#37c080;display:flex;align-items:center;justify-content:center;
+                  box-shadow:0 0 0 6px rgba(55,192,128,0.25);">
+                            <svg width="22" height="22" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21" /></svg>
+                        </div>
+                    </div>
+                    <span style="position:absolute;top:12px;left:12px;
+                  background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.5);
+                  color:#37c080;padding:5px 12px;font-family:'Barlow', Inter, sans-serif;font-size:10px;
+                  font-weight:600;text-transform:uppercase;letter-spacing:2px;pointer-events:none;">Weight Loss</span>
+                </div>
+                <div style="padding:14px 16px;display:flex;align-items:center;justify-content:space-between;border-top:1px solid rgba(255,255,255,0.08);">
+                    <div style="display:flex;align-items:center;gap:10px;">
+                        <div style="width:30px;height:30px;border-radius:50%;background:rgba(55,192,128,0.15);
+                  border:1px solid rgba(55,192,128,0.4);display:flex;align-items:center;
+                  justify-content:center;font-family:'Bebas Neue', Impact, sans-serif;font-size:14px;color:#37c080;">M</div>
+                        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;color:#f4f2ea;">Member 2</span>
+                    </div>
+                    <span style="font-family:'Barlow', Inter, sans-serif;font-size:10px;text-transform:uppercase;letter-spacing:2px;color:#9b998b;">FitBliss Member</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Dots + counter -->
+    <div class="fbt-footer">
+        <!-- Dots -->
+        <div class="fbt-dots-wrap">
+            <button onclick="fbtGo(0)"  data-dot="0"  style="width:32px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:#37c080;transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(1)"  data-dot="1"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(2)"  data-dot="2"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(3)"  data-dot="3"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(4)"  data-dot="4"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(5)"  data-dot="5"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(6)"  data-dot="6"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(7)"  data-dot="7"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(8)"  data-dot="8"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(9)"  data-dot="9"  style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(10)" data-dot="10" style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+            <button onclick="fbtGo(11)" data-dot="11" style="width:16px;height:3px;border:none;padding:0;cursor:pointer;border-radius:999px;background:rgba(244,242,234,0.2);transition:all .3s;flex-shrink:0;"></button>
+        </div>
+
+        <!-- Right: text + nav + counter -->
+        <div class="fbt-right">
+            <p>Real members. Real transformations. Watch their stories in their own words.</p>
+            <div class="fbt-nav">
+                <button onclick="fbtSlide(-1)" style="width:42px;height:42px;border:1px solid rgba(255,255,255,.2);
+                          background:transparent;color:#f4f2ea;cursor:pointer;font-size:18px;
+                          display:flex;align-items:center;justify-content:center;transition:all .2s;"
+                    onmouseover="this.style.borderColor='#37c080';this.style.color='#37c080'"
+                    onmouseout="this.style.borderColor='rgba(255,255,255,.2)';this.style.color='#f4f2ea'">←</button>
+                <button onclick="fbtSlide(1)" style="width:42px;height:42px;border:1px solid rgba(255,255,255,.2);
+                          background:transparent;color:#f4f2ea;cursor:pointer;font-size:18px;
+                          display:flex;align-items:center;justify-content:center;transition:all .2s;"
+                    onmouseover="this.style.borderColor='#37c080';this.style.color='#37c080'"
+                    onmouseout="this.style.borderColor='rgba(255,255,255,.2)';this.style.color='#f4f2ea'">→</button>
+            </div>
+            <span id="fbtCount" style="font-family:'Barlow', Inter, sans-serif;font-size:11px;text-transform:uppercase;
+                   letter-spacing:2.5px;color:#9b998b;">01 / 12</span>
+        </div>
+    </div>
+</div>
+
+<script>
+    (function () {
+        var track   = document.getElementById('fbtTrack');
+        var dotEls  = document.querySelectorAll('[data-dot]');
+        var counter = document.getElementById('fbtCount');
+        var N = 12, GAP = 16, cur = 0;
+
+        /* Responsive SHOW count */
+        function getShow() {
+            var w = window.innerWidth;
+            if (w < 600) return 1;
+            if (w < 960) return 2;
+            return 3;
+        }
+
+        /* ── Play / pause logic ─────────────────────────────── */
+        window.fbPlayVideo = function (id) {
+            var vid = document.getElementById(id);
+            var ov  = document.getElementById(id + 'Ov');
+            if (!vid) return;
+            document.querySelectorAll('video').forEach(function (v) {
+                if (v.id !== id) { v.pause(); v.currentTime = 0; }
+                var o = document.getElementById(v.id + 'Ov');
+                if (o && v.id !== id) o.style.display = 'flex';
+            });
+            if (vid.paused) {
+                vid.play();
+                if (ov) ov.style.display = 'none';
+            } else {
+                vid.pause();
+                if (ov) ov.style.display = 'flex';
+            }
+            vid.addEventListener('ended', function () {
+                if (ov) ov.style.display = 'flex';
+            }, { once: true });
+        };
+
+        /* ── Slider logic ───────────────────────────────────── */
+        function cardW() {
+            var SHOW = getShow();
+            return (track.parentElement.offsetWidth - (SHOW - 1) * GAP) / SHOW;
+        }
+
+        function updateCardWidths() {
+            var SHOW = getShow();
+            var cw   = cardW();
+            track.querySelectorAll('.fbt-card').forEach(function (c) {
+                c.style.flex  = '0 0 ' + cw + 'px';
+                c.style.width = cw + 'px';
+            });
+        }
+
+        function goTo(idx, animate) {
+            /* Pause all videos when sliding */
+            document.querySelectorAll('video').forEach(function (v) {
+                v.pause(); v.currentTime = 0;
+                var o = document.getElementById(v.id + 'Ov');
+                if (o) o.style.display = 'flex';
+            });
+            cur = ((idx % N) + N) % N;
+            var tx = cur * (cardW() + GAP);
+            track.style.transition = animate === false ? 'none' : 'transform .55s cubic-bezier(.4,0,.2,1)';
+            track.style.transform  = 'translateX(-' + tx + 'px)';
+            dotEls.forEach(function (d, i) {
+                d.style.width      = i === cur ? '32px' : '16px';
+                d.style.background = i === cur ? '#37c080' : 'rgba(244,242,234,0.2)';
+            });
+            if (counter) counter.textContent = String(cur + 1).padStart(2, '0') + ' / ' + String(N).padStart(2, '0');
+        }
+
+        track.addEventListener('transitionend', function () {
+            if (cur >= N) goTo(cur - N, false);
+            if (cur < 0)  goTo(cur + N, false);
+        });
+
+        /* Touch swipe */
+        var startX = 0, currentX = 0, isDragging = false;
+        track.addEventListener('touchstart', function (e) {
+            startX = currentX = e.touches[0].clientX;
+            isDragging = true;
+        }, { passive: true });
+        track.addEventListener('touchmove', function (e) {
+            if (!isDragging) return;
+            currentX = e.touches[0].clientX;
+        }, { passive: true });
+        track.addEventListener('touchend', function () {
+            if (!isDragging) return;
+            isDragging = false;
+            var diff = startX - currentX;
+            if (Math.abs(diff) > 40) fbtSlide(diff > 0 ? 1 : -1);
+        }, { passive: true });
+
+        window.fbtSlide = function (d) { goTo(cur + d, true); };
+        window.fbtGo    = function (i) { goTo(i, true); };
+
+        window.addEventListener('resize', function () {
+            updateCardWidths();
+            goTo(cur, false);
+        });
+
+        window.addEventListener('load', function () {
+            updateCardWidths();
+            goTo(0, false);
+        });
+
+        updateCardWidths();
+        goTo(0, false);
+    })();
+</script>

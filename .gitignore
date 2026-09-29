@@ -1,0 +1,35 @@
+# Large Video and Media Files
+*.mp4
+*.mov
+*.avi
+*.wmv
+*.flv
+*.mkv
+*.heic
+
+# Raw Uncompressed Uploads / Heavy Camera Originals (>2-3GB)
+wp-content/uploads/2026/
+wp-content/uploads/2024/
+
+# WordPress Backups & Large Archives
+wp-content/ai1wm-backups/
+wp-content/wpvividbackups/
+wp-content/wpvivid_staging/
+wp-content/uploads/wpvividbackups/
+wp-content/uploads/wp-file-manager-pro/
+wp-content/uploads/nitropack-logs/
+wp-content/wflogs/
+*.wpress
+*.tar.gz
+*.zip
+
+# Temp scripts
+analyze_git_size.php
+check_git_sizes.php
+check_stage_size.php
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

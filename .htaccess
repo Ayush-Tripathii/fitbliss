@@ -1,0 +1,56 @@
+# ==============================================================================
+# FitBliss Enterprise Security Hardening & Firewall Configuration
+# ==============================================================================
+
+# 1. PREVENT DIRECTORY BROWSING
+Options -Indexes -ExecCGI
+
+# 2. BLOCK ACCESS TO HIDDEN & SENSITIVE FILES
+<FilesMatch "(^\.|\.env|\.git|\.htaccess|\.htpasswd|\.bak|\.config|\.sql|\.fla|\.psd|\.ini|\.log|\.sh|\.inc|\.json|\.md|package\.json|composer\.json)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order allow,deny
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# 3. ENFORCE HTTP SECURITY HEADERS
+<IfModule mod_headers.c>
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    Header always set Content-Security-Policy "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data: blob:; font-src 'self' https: data:; media-src 'self' https: data: blob:; frame-src 'self' https:;"
+</IfModule>
+
+# 4. WEB APPLICATION FIREWALL (WAF) REWRITE RULES
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /fitbliss/
+
+    # Block SQL Injection Attempts
+    RewriteCond %{QUERY_STRING} (union.*select|insert.*into|delete.*from|drop.*table|information_schema|benchmark\(|load_file\() [NC,OR]
+    
+    # Block PHP / Remote Code Execution Injections
+    RewriteCond %{QUERY_STRING} (base64_decode|gzinflate|eval\(|passthru|shell_exec|system\(|assert\() [NC,OR]
+    
+    # Block Path Traversal / Local File Inclusion
+    RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|etc/passwd|boot\.ini|win\.ini) [NC,OR]
+    
+    # Block XSS Script Injections
+    RewriteCond %{QUERY_STRING} (<script|javascript:|vbscript:|onload=|onerror=) [NC,OR]
+    
+    # Block Spam Injection Signatures
+    RewriteCond %{QUERY_STRING} (portbet|denemebonusu|slot-gacor|poker-online) [NC]
+    RewriteRule ^.*$ - [F,L]
+
+    # Clean URL Routing for pages
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^([^/]+)/?$ $1.php [L]
+</IfModule>
+

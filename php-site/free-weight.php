@@ -1,0 +1,1775 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Free weight &#8211; Fit Bliss</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel="alternate" type="application/rss+xml" title="Fit Bliss &raquo; Feed" href="index.phpfeed/" />
+<link rel="alternate" type="application/rss+xml" title="Fit Bliss &raquo; Comments Feed" href="index.phpcomments/feed/" />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="index.phpwp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitblissbysk.com%2Ffree-weight%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="index.phpwp-json/oembed/1.0/embed?url=https%3A%2F%2Ffitblissbysk.com%2Ffree-weight%2F&#038;format=xml" />
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+
+<link rel='stylesheet' id='fluentform-elementor-widget-css' href='index.phpwp-content/plugins/fluentform/assets/css/fluent-forms-elementor-widget.css?ver=6.2.14' media='all' />
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id="popup-builder-block-popup-builder-style-inline-css">
+.pbb-noscroll{overflow:hidden}.popupkit-campaigns-template-default{background-color:transparent}.popup-builder{position:relative;width:100%;z-index:1}.popup-builder-modal{align-items:center;display:none;justify-content:center;opacity:0;pointer-events:all;transition:opacity .15s linear}.popup-builder-container{animation-duration:1.2s;max-height:100%;max-width:100%;overflow:visible;pointer-events:all;position:relative}.popup-builder-container .popupkit-container-overlay{height:100%;left:0;opacity:.5;position:absolute;top:0;transition:.3s;width:100%}.popup-builder-content{background-color:#fff;border-radius:3px;box-sizing:border-box;line-height:1.5;max-height:100vh;max-width:100vw;overflow:auto;padding:0;position:relative;width:100%}.popup-builder-content-credit{background-color:#fff;border-radius:3px;bottom:-29px;cursor:pointer;display:flex;left:50%;position:absolute;transform:translate(-50%);z-index:9999}.popup-builder-content-credit a{color:#000;font-size:14px;font-weight:500;text-decoration:none}.popup-builder-content-credit a svg{position:relative;top:3px}.popup-builder-close{color:transparent;cursor:pointer;display:flex;font-size:14px;line-height:1;margin-top:0;opacity:1;pointer-events:all;position:absolute;right:20px;text-decoration:none;top:20px;transition:all .4s ease;z-index:9999}:root{--pbb-popup-animate-duration:1s}.popup_animated{animation-duration:1s;animation-duration:var(--pbb-popup-animate-duration);animation-fill-mode:both}.popup_animated.reverse{animation-direction:reverse;animation-fill-mode:forwards}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}.fadeInDown{animation-name:fadeInDown}@keyframes fadeInLeft{0%{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}.fadeInLeft{animation-name:fadeInLeft}@keyframes fadeInRight{0%{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}.fadeInRight{animation-name:fadeInRight}@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}.fadeInUp{animation-name:fadeInUp}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/popup-builder/style-index.css */
+</style>
+<style id="popup-builder-block-button-style-inline-css">
+.pbb-btn{align-items:center;color:#fff;cursor:pointer;display:inline-flex!important;justify-content:center;text-decoration:none;transition:.3s}.pbb-btn .gkit-icon{transition:.3s;vertical-align:middle}.pbb-btn:hover{background-color:#666}.pbb-btn:hover:before{opacity:1}.pbb-btn:before{background-size:102% 102%;border-radius:inherit;content:"";height:100%;left:0;opacity:0;position:absolute;top:0;transition:all .4s ease;width:100%;z-index:-1}.pbb-btn span{transition:.3s}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/button/style-index.css */
+</style>
+<style id="popup-builder-block-form-style-inline-css">
+.pbb-form,.pbb-form__field{display:flex;flex-wrap:wrap}.pbb-form__field{align-items:center;position:relative;width:100%}.pbb-form__field-privacy-notice{display:block}.pbb-form__label{display:block;font-size:16px;margin-bottom:5px}.pbb-form__label.required:after{color:red;content:"*";margin-left:5px}.pbb-form__input-wrap{align-items:center;background-color:#fff;border:1px solid #ccc;border-radius:5px;display:flex;position:relative;transition:all .3s ease-in-out;width:100%}.pbb-form__input-wrap .pbb-form__input{border:none;border-radius:5px;font-size:16px;outline:none;padding:10px;transition:all .3s ease-in-out;width:100%}.pbb-form__input-wrap .pbb-form__input:focus-visible{outline:none}.pbb-form__input-wrap .pbb-form__input:focus{border:none;box-shadow:none;outline:none}.pbb-form__submit-btn{align-items:center;background:#fff;border:1px solid #ccc;border-radius:5px;color:#333;cursor:pointer;display:flex;flex-direction:row;font-size:16px;justify-content:center;padding:10px 20px;transition:all .3s;width:100%}.pbb-form__submit-btn .pbb-form-loader{display:inline-block;height:15px;left:45%;position:absolute;top:41%;transform:translate(-50%,-50%);width:auto}.pbb-form__submit-btn .pbb-form-loader:before{animation:ripple-scale 1s ease-out infinite;border:1px solid #fff;border-radius:50%;color:#5b8c51;content:"";height:20px;position:absolute;width:20px;z-index:-1}@keyframes ripple-scale{0%{opacity:1;transform:scale(0)}50%{opacity:.7;transform:scale(1.2)}to{opacity:0;transform:scale(1.5)}}.pbb-form__submit-btn .btn-text{line-height:1}.pbb-form__submit-btn .input-icon{display:flex}.pbb-form__submit-btn:hover{background:#333;color:#fff}.pbb-form__submit-btn[disabled]{pointer-events:none}.pbb-form-success{background-color:#fff;border-radius:4px;color:#000;font-size:16px;font-weight:500;margin-top:8px;text-align:center;width:100%}.pbb-form .error-message{color:red;font-size:12px}.pbb-form__field-checkbox,.pbb-form__field-radio{display:block}.pbb-form__options-wrap{display:inline-grid}.pbb-form__option .pbb-form__option-input{display:none}.pbb-form__option .pbb-form__option-label{cursor:pointer;padding-left:28px;position:relative}.pbb-form__option .pbb-form__option-label:before{background:#fff;border:1.5px solid #cbd5e1;border-radius:4px;content:"";height:14px;left:0;position:absolute;top:50%;transform:translateY(-50%);transition:all .2s ease;width:14px}.pbb-form__option .pbb-form__option-label:after{border-bottom:2px solid #fff;border-right:2px solid #fff;content:"";height:7px;left:6px;opacity:0;position:absolute;top:50%;transform:translateY(-60%) rotate(45deg);transition:opacity .2s ease;width:3px}.pbb-form__option .pbb-form__option-input[type=checkbox]:checked+.pbb-form__option-label:before{background:#2563eb;border-color:#2563eb}.pbb-form__option .pbb-form__option-input[type=checkbox]:checked+.pbb-form__option-label:after{opacity:1}.pbb-form__option .pbb-form__option-input[type=radio]+.pbb-form__option-label:before{border-radius:50%}.pbb-form__option .pbb-form__option-input[type=radio]+.pbb-form__option-label:after{background:#2563eb;border:none;border-radius:50%;height:8px;left:4px;top:50%;transform:translateY(-50%);width:8px}.pbb-form__option .pbb-form__option-input[type=radio]:checked+.pbb-form__option-label:before{background:#fff;border-color:#2563eb}.pbb-form__option .pbb-form__option-input[type=radio]:checked+.pbb-form__option-label:after{opacity:1}.pbb-form__option-label{font-size:16px}.popup-builder .pbb-form__submit-btn{display:inherit}.pbb-form .pbb-form__hp{height:1px!important;left:-9999px!important;opacity:0;overflow:hidden;pointer-events:none;position:absolute!important;top:auto!important;width:1px!important}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/form/style-index.css */
+</style>
+<style id="popup-builder-block-advanced-paragraph-style-inline-css">
+.popupkit-adv-paragraph .popupkit-adv-paragraph-text{margin-bottom:0;margin-top:0}.popupkit-adv-paragraph .popupkit-adv-paragraph-text a{display:inline-block;transition:.3s}.popupkit-adv-paragraph .popupkit-adv-paragraph-text strong{display:inline-block;font-weight:900;transition:.3s}.popupkit-adv-paragraph .popupkit-adv-paragraph-text strong a{display:inline-block;transition:.3s}.popupkit-adv-paragraph .popupkit-focused-text-fill strong{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.popupkit-adv-paragraph .popupkit-drop-cap-letter:first-letter{float:left;font-size:45px;line-height:50px}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/advanced-paragraph/style-index.css */
+</style>
+<style id="popup-builder-block-advanced-image-style-inline-css">
+.wp-block-popup-builder-block-advanced-image img{border:none;border-radius:0;display:inline-block;height:auto;max-width:100%;vertical-align:middle}.wp-block-popup-builder-block-advanced-image.alignfull img,.wp-block-popup-builder-block-advanced-image.alignwide img{width:100%}.wp-block-popup-builder-block-advanced-image .popupkit-image-block{display:inline-block}.wp-block-popup-builder-block-advanced-image .popupkit-image-block a{text-decoration:none}.wp-block-popup-builder-block-advanced-image .popupkit-container-overlay:after,.wp-block-popup-builder-block-advanced-image .popupkit-container-overlay:before{content:"";height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;z-index:1}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/advanced-image/style-index.css */
+</style>
+<style id="popup-builder-block-icon-style-inline-css">
+.wp-block-popup-builder-block-icon{display:flex}.wp-block-popup-builder-block-icon .popupkit-icons{display:inline-flex;transition:.3s}.wp-block-popup-builder-block-icon .popupkit-icons svg{display:block}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/icon/style-index.css */
+</style>
+<style id="popup-builder-block-container-style-inline-css">
+.gkit-block__inner{margin-left:auto;margin-right:auto}.gkit-block-video-wrap{height:100%;overflow:hidden;position:absolute;width:100%}.gkit-block-video-wrap video{background-size:cover;height:100%;object-fit:cover;width:100%}.wp-block-popup-builder-block-container{margin-left:auto;margin-right:auto;position:relative;transition:background var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),border var(--gkit-bg-border-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),box-shadow var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),border-radius var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease);z-index:1}.wp-block-popup-builder-block-container>.gkit-block__inner{display:flex}.wp-block-popup-builder-block-container .gkit-container-overlay{height:100%;left:0;position:absolute;top:0;width:100%}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container{flex-grow:0;flex-shrink:1;margin-left:unset;margin-right:unset}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container.alignfull{flex-shrink:1;width:100%}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container.alignwide{flex-shrink:1}.wp-block-popup-builder-block-container .gkit-image-scroll-container{height:100%;left:0;overflow:hidden;position:absolute;top:0;width:100%;z-index:-1}.wp-block-popup-builder-block-container .gkit-image-scroll-layer{height:100%;left:0;position:absolute;top:0;width:100%}.wp-block-popup-builder-block-container .is-style-wide{width:100%}.wp-site-blocks .wp-block-popup-builder-block-container .gkit-block-video-wrap{z-index:-1}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/container/style-index.css */
+</style>
+<style id="popup-builder-block-heading-style-inline-css">
+.wp-block-popup-builder-block-heading,.wp-block-popup-builder-block-heading.popupkit-heading-has-border .popupkit-heading-title{position:relative}.wp-block-popup-builder-block-heading.popupkit-heading-has-border .popupkit-heading-title:before{background:linear-gradient(180deg,#ff512f,#dd2476);content:"";display:block;height:100%;left:0;position:absolute;width:4px}.wp-block-popup-builder-block-heading.popupkit-heading-has-border.popupkit-heading-border-position-end .popupkit-heading-title:before{left:auto;right:0}.wp-block-popup-builder-block-heading .popupkit-heading-title{margin:0 0 20px;position:relative;transition:all .3s ease-in-out;z-index:1}.wp-block-popup-builder-block-heading .popupkit-heading-title strong{font-weight:900;transition:color .3s ease-in-out}.wp-block-popup-builder-block-heading .popupkit-heading-title strong a{transition:.3s}.wp-block-popup-builder-block-heading .popupkit-heading-title.popupkit-heading-title-text-fill strong{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle{margin:8px 0 16px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border{display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:after,.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:before{background-color:#d7d7d7;content:"";display:inline-block;height:3px;vertical-align:middle;width:40px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:before{margin-right:15px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:after{margin-left:15px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-outline:not(.popupkit-heading-subtitle-has-border){border:2px solid #d7d7d7;display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-text-fill{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.wp-block-popup-builder-block-heading .popupkit-heading-shadow-text{color:transparent;font-family:Archivo,sans-serif;font-size:90px;font-weight:700;letter-spacing:-6px;line-height:120px;position:absolute;white-space:nowrap;z-index:0;-webkit-text-fill-color:#fff;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:hsla(0,0%,6%,.1);transform:translate(-50%,-50%)}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-style-none{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-divider{background:currentColor;border-radius:2px;box-sizing:border-box;color:#2575fc;height:4px;margin-left:27px;position:relative;width:30px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-divider:before{background-color:currentColor;border-radius:50%;box-shadow:9px 0 0 0 currentColor,18px 0 0 0 currentColor;content:"";display:inline-block;height:4px;left:-27px;position:absolute;top:0;width:4px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-dotted .popupkit-heading-separetor-divider{width:100px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid .popupkit-heading-separetor-divider{background:currentColor;border-radius:0;margin-left:0;width:150px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider{background:#2575fc;background:linear-gradient(90deg,currentColor,currentColor 38%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0) 62%,currentColor 0,currentColor);color:#2575fc;height:2px;margin-left:0;position:relative;width:135px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider:after{background-color:currentColor;content:"";height:14.3px;left:50%;position:absolute;top:0;top:-7.15px;transform:translateX(-50%) rotate(45deg);width:14.3px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider{background:#2575fc;background:linear-gradient(90deg,currentColor,currentColor 38%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0) 62%,currentColor 0,currentColor);color:#2575fc;height:2px;margin-left:0;position:relative;width:100px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider:after{background-color:currentColor;border-radius:50%;content:"";height:14.3px;left:50%;position:absolute;top:0;top:-7.15px;transform:translateX(-50%);width:14.3px}.wp-block-popup-builder-block-heading .popupkit-heading-description{display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-description p{margin:0}.wp-block-popup-builder-block-heading.has-text-align-center .popupkit-heading-separetor-divider{margin:0 auto!important}.wp-block-popup-builder-block-heading.has-text-align-right .popupkit-heading-separetor-divider{margin-left:auto!important}
+
+/*# sourceURL=index.phpwp-content/plugins/popup-builder-block/build/blocks/heading/style-index.css */
+</style>
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--bebas-neue: "Bebas Neue", sans-serif;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}.wp-block-button{--wp--preset--dimension--25: 25%;--wp--preset--dimension--50: 50%;--wp--preset--dimension--75: 75%;--wp--preset--dimension--100: 100%;}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-bebas-neue-font-family{font-family: var(--wp--preset--font-family--bebas-neue) !important;}
+:root :where(.wp-block-icon svg){width: 24px;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<link rel='stylesheet' id='gutenkit-third-party-editor-compatibility-css' href='index.phpwp-content/plugins/popup-builder-block/build/compatibility/frontend.css?ver=fa9b2727afc9d74855b4' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css' href='index.phpwp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css' href='index.phpwp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-style-css' href='index.phpwp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='index.phpwp-content/themes/hello-elementor/assets/css/reset.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='index.phpwp-content/themes/hello-elementor/assets/css/theme.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='index.phpwp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='index.phpwp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='elementor-post-21-css' href='index.phpwp-content/uploads/elementor/css/post-21.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='index.phpwp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='index.phpwp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='swiper-css' href='index.phpwp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='index.phpwp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='index.phpwp-content/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='index.phpwp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='index.phpwp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='index.phpwp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='fluent-form-styles-css' href='index.phpwp-content/plugins/fluentform/assets/css/fluent-forms-public.css?ver=6.2.14' media='all' />
+<link rel='stylesheet' id='fluentform-public-default-css' href='index.phpwp-content/plugins/fluentform/assets/css/fluentform-public-default.css?ver=6.2.14' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='index.phpwp-content/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInDown-css' href='index.phpwp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='e-motion-fx-css' href='index.phpwp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='widget-accordion-css' href='index.phpwp-content/plugins/elementor/assets/css/widget-accordion.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='e-animation-shrink-css' href='index.phpwp-content/plugins/elementor/assets/lib/animations/styles/e-animation-shrink.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='elementor-post-930-css' href='index.phpwp-content/uploads/elementor/css/post-930.css?ver=1790158486' media='all' />
+<link rel='stylesheet' id='elementor-post-27-css' href='index.phpwp-content/uploads/elementor/css/post-27.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='elementor-post-29-css' href='index.phpwp-content/uploads/elementor/css/post-29.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='elementor-post-1638-css' href='index.phpwp-content/uploads/elementor/css/post-1638.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='chaty-front-css-css' href='index.phpwp-content/plugins/chaty/dist/css/style.css?ver=3.6.11785238286' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-inter-css' href='index.phpwp-content/uploads/elementor/google-fonts/css/inter.css?ver=1749298517' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='index.phpwp-content/uploads/elementor/google-fonts/css/roboto.css?ver=1749298521' media='all' />
+<script id="jquery-core-js" src="index.phpwp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="index.phpwp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel="https://api.w.org/" href="index.phpwp-json/" /><link rel="alternate" title="JSON" type="application/json" href="index.phpwp-json/wp/v2/pages/930" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="index.phpxmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.1.2" />
+<link rel="canonical" href="free-weight.php" />
+<link rel='shortlink' href='index.php?p=930' />
+<meta name="google-site-verification" content="esp5culI75683oug1lhRO_V48ms0gQHhbfVejWE5sG4" />
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17391758722"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-17391758722');
+</script><meta name="generator" content="Elementor 4.3.0; features: e_font_icon_svg, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style class="wp-fonts-local">
+@font-face{font-family:"Bebas Neue";font-style:normal;font-weight:400;font-display:fallback;src:url('index.phpwp-content/uploads/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2') format('woff2');}
+</style>
+<link rel="icon" href="index.phpwp-content/uploads/2024/04/cropped-LOGO-copy-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="index.phpwp-content/uploads/2024/04/cropped-LOGO-copy-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="index.phpwp-content/uploads/2024/04/cropped-LOGO-copy-1-180x180.png" />
+<meta name="msapplication-TileImage" content="index.phpwp-content/uploads/2024/04/cropped-LOGO-copy-1-270x270.png" />
+<style id="wp-custom-css">
+.chaty {
+    fill: black !important;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+</style>
+<style id="fitbliss-custom-responsive-qa">
+/* ─── FITBLISS MOBILE & RESPONSIVE QA ENHANCEMENTS ─── */
+html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+    box-sizing: border-box;
+}
+
+/* Mobile Header & Hamburger Menu */
+.elementor-menu-toggle {
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+}
+
+@media (min-width: 1025px) {
+    .elementor-menu-toggle {
+        display: none !important;
+    }
+    .elementor-nav-menu--dropdown {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .elementor-nav-menu--main {
+        display: none !important;
+    }
+    .elementor-menu-toggle {
+        display: flex !important;
+    }
+    .elementor-nav-menu--dropdown {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #010303;
+        border-top: 1px solid rgba(255,255,255,0.1);
+        border-bottom: 2px solid #37c080;
+        padding: 20px;
+        box-sizing: border-box;
+        z-index: 9998;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+    }
+    .elementor-nav-menu--dropdown.elementor-active {
+        display: block !important;
+    }
+    .elementor-nav-menu--dropdown ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .elementor-nav-menu--dropdown li {
+        margin: 10px 0;
+    }
+    .elementor-nav-menu--dropdown a {
+        color: #f4f2ea !important;
+        font-family: 'Barlow', Inter, sans-serif !important;
+        font-size: 16px !important;
+        text-transform: uppercase !important;
+        letter-spacing: 1.5px !important;
+        text-decoration: none !important;
+        display: block;
+        padding: 8px 0;
+    }
+    .elementor-nav-menu--dropdown a:hover,
+    .elementor-nav-menu--dropdown a:focus {
+        color: #37c080 !important;
+    }
+    .elementor-nav-menu--dropdown .sub-menu {
+        padding-left: 20px;
+        border-left: 2px solid rgba(55,192,128,0.3);
+        margin: 8px 0;
+    }
+}
+
+/* Mobile Hero Overlay */
+@media (max-width: 768px) {
+    .hero-grid {
+        opacity: 1 !important;
+        visibility: visible !important;
+        pointer-events: auto !important;
+        grid-template-columns: 1fr !important;
+        gap: 20px !important;
+    }
+    .hero-cta-group {
+        justify-content: flex-start !important;
+    }
+    .hero-container {
+        padding: 20px 16px 24px !important;
+    }
+}
+
+/* Touch & tap states */
+a, button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Video Testimonial Responsive adjustments */
+.fbt-section {
+    width: 100% !important;
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+}
+
+/* Responsive Images & Videos */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+</style>
+<style>
+/* ==============================================================================
+   FITBLISS ACCORDION & FAQ ENGINE (QI ADDONS & NATIVE ACCORDION)
+   ============================================================================== */
+.qodef-qi-accordion,
+.elementor-widget-qi_addons_for_elementor_accordion,
+.elementor-accordion {
+    visibility: visible !important;
+    display: block !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 22px 26px !important;
+    background: #0d1717 !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 4px !important;
+    margin-bottom: 12px !important;
+    cursor: pointer !important;
+    transition: all 0.25s ease !important;
+    user-select: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder:hover {
+    border-color: rgba(62, 194, 139, 0.4) !important;
+    background: #111e1e !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active {
+    border-color: rgba(62, 194, 139, 0.6) !important;
+    background: #122120 !important;
+    margin-bottom: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.qodef-qi-accordion .qodef-e-title {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #f2ece0 !important;
+    letter-spacing: 0.3px !important;
+    margin: 0 !important;
+    padding-right: 20px !important;
+    line-height: 1.4 !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-e-title {
+    color: #3ec28b !important;
+}
+
+.qodef-qi-accordion .qodef-e-mark {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 28px !important;
+    height: 28px !important;
+    flex-shrink: 0 !important;
+    color: #3ec28b !important;
+}
+
+.qodef-qi-accordion .qodef-e-mark svg {
+    width: 14px !important;
+    height: 14px !important;
+    fill: currentColor !important;
+}
+
+.qodef-qi-accordion .qodef-icon--minus {
+    display: none !important;
+}
+
+.qodef-qi-accordion .qodef-icon--plus {
+    display: flex !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-icon--plus,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-icon--plus {
+    display: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-icon--minus,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-icon--minus {
+    display: flex !important;
+}
+
+.qodef-qi-accordion .qodef-e-content {
+    display: none;
+    background: #0a1313 !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-top: none !important;
+    border-bottom-left-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    padding: 20px 26px 24px !important;
+    margin-bottom: 12px !important;
+}
+
+.qodef-qi-accordion .qodef-e-content.qodef--active {
+    display: block !important;
+}
+
+.qodef-qi-accordion .qodef-e-content-inner p {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 14.5px !important;
+    line-height: 1.65 !important;
+    color: rgba(242, 236, 224, 0.8) !important;
+    margin: 0 !important;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize all Qi accordions
+    function initAccordions() {
+        const accordions = document.querySelectorAll('.qodef-qi-accordion');
+        accordions.forEach(function(acc) {
+            acc.classList.add('qodef--init');
+            const titles = acc.querySelectorAll('.qodef-e-title-holder');
+            
+            titles.forEach(function(title, idx) {
+                // Next element is the content
+                const content = title.nextElementSibling;
+                
+                // Open first item by default if none active
+                if (idx === 0 && !acc.querySelector('.qodef--active')) {
+                    title.classList.add('qodef--active');
+                    if (content) content.classList.add('qodef--active');
+                }
+                
+                // Remove existing cloned listeners
+                title.onclick = function(e) {
+                    e.preventDefault();
+                    const isOpen = title.classList.contains('qodef--active');
+                    
+                    // Close all in this accordion
+                    titles.forEach(function(t) {
+                        t.classList.remove('qodef--active');
+                        t.classList.remove('ui-state-active');
+                        const c = t.nextElementSibling;
+                        if (c) c.classList.remove('qodef--active');
+                    });
+                    
+                    // If it was closed, open it
+                    if (!isOpen) {
+                        title.classList.add('qodef--active');
+                        title.classList.add('ui-state-active');
+                        if (content) content.classList.add('qodef--active');
+                    }
+                };
+            });
+        });
+    }
+
+    initAccordions();
+    setTimeout(initAccordions, 500);
+});
+</script>
+<!-- FITBLISS ACCORDION & FAQ ENGINE -->
+<style id="fitbliss-faq-active-engine">
+/* ==============================================================================
+   FITBLISS LUXURY FAQ ACCORDION - CLEAN SEAMLESS DESIGN & NORMAL + / - ICONS
+   ============================================================================== */
+.qodef-qi-accordion,
+.elementor-widget-qi_addons_for_elementor_accordion,
+.elementor-accordion {
+    visibility: visible !important;
+    display: block !important;
+    width: 100% !important;
+    margin-top: 15px !important;
+    background: #091212 !important;
+    border: 1px solid rgba(255, 255, 255, 0.09) !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Individual Accordion Item Title */
+.qodef-qi-accordion .qodef-e-title-holder {
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    padding: 22px 28px !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 0 !important;
+    cursor: pointer !important;
+    transition: background 0.25s ease !important;
+    user-select: none !important;
+    gap: 16px !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder:first-child {
+    border-top: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder:hover {
+    background: rgba(62, 194, 139, 0.04) !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder:hover .qodef-e-title {
+    color: #3ec28b !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active {
+    background: rgba(62, 194, 139, 0.06) !important;
+    border-bottom: none !important;
+}
+
+/* Question Title Typography */
+.qodef-qi-accordion .qodef-e-title {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    color: #f2ece0 !important;
+    letter-spacing: 0.2px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.45 !important;
+    transition: color 0.2s ease !important;
+    flex: 1 !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-e-title,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-e-title {
+    color: #3ec28b !important;
+}
+
+/* Normal Clean + and - Symbols (No Circles / No Backgrounds) */
+.qodef-qi-accordion .qodef-e-mark {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    height: auto !important;
+    min-width: 20px !important;
+    flex-shrink: 0 !important;
+    color: #3ec28b !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder:hover .qodef-e-mark,
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-e-mark,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-e-mark {
+    background: transparent !important;
+    border: none !important;
+    color: #3ec28b !important;
+    transform: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-mark svg {
+    width: 15px !important;
+    height: 15px !important;
+    fill: #3ec28b !important;
+    color: #3ec28b !important;
+    transition: transform 0.2s ease !important;
+}
+
+.qodef-qi-accordion .qodef-icon--minus {
+    display: none !important;
+}
+
+.qodef-qi-accordion .qodef-icon--plus {
+    display: inline-flex !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-icon--plus,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-icon--plus {
+    display: none !important;
+}
+
+.qodef-qi-accordion .qodef-e-title-holder.qodef--active .qodef-icon--minus,
+.qodef-qi-accordion .qodef-e-title-holder.ui-state-active .qodef-icon--minus {
+    display: inline-flex !important;
+}
+
+/* Accordion Answer Content */
+.qodef-qi-accordion .qodef-e-content {
+    display: none;
+    background: rgba(62, 194, 139, 0.03) !important;
+    border: none !important;
+    padding: 0 28px 24px 28px !important;
+    margin: 0 !important;
+}
+
+.qodef-qi-accordion .qodef-e-content.qodef--active {
+    display: block !important;
+}
+
+.qodef-qi-accordion .qodef-e-content-inner {
+    padding-top: 4px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.qodef-qi-accordion .qodef-e-content-inner p {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 16px !important;
+    line-height: 1.7 !important;
+    color: rgba(242, 236, 224, 0.85) !important;
+    margin: 12px 0 0 !important;
+}
+
+@media (max-width: 767px) {
+    .qodef-qi-accordion .qodef-e-title-holder {
+        padding: 18px 20px !important;
+    }
+    .qodef-qi-accordion .qodef-e-title {
+        font-size: 16.5px !important;
+    }
+    .qodef-qi-accordion .qodef-e-content {
+        padding: 0 20px 20px 20px !important;
+    }
+    .qodef-qi-accordion .qodef-e-content-inner p {
+        font-size: 15px !important;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    function initAccordions() {
+        const accordions = document.querySelectorAll('.qodef-qi-accordion');
+        accordions.forEach(function(acc) {
+            acc.classList.add('qodef--init');
+            const titles = acc.querySelectorAll('.qodef-e-title-holder');
+            
+            titles.forEach(function(title, idx) {
+                const content = title.nextElementSibling;
+                
+                if (idx === 0 && !acc.querySelector('.qodef--active')) {
+                    title.classList.add('qodef--active');
+                    if (content) content.classList.add('qodef--active');
+                }
+                
+                title.onclick = function(e) {
+                    e.preventDefault();
+                    const isOpen = title.classList.contains('qodef--active');
+                    
+                    titles.forEach(function(t) {
+                        t.classList.remove('qodef--active');
+                        t.classList.remove('ui-state-active');
+                        const c = t.nextElementSibling;
+                        if (c) c.classList.remove('qodef--active');
+                    });
+                    
+                    if (!isOpen) {
+                        title.classList.add('qodef--active');
+                        title.classList.add('ui-state-active');
+                        if (content) content.classList.add('qodef--active');
+                    }
+                };
+            });
+        });
+    }
+
+    initAccordions();
+    setTimeout(initAccordions, 400);
+});
+</script>
+</head>
+<body class="wp-singular page-template-default page page-id-930 wp-embed-responsive wp-theme-hello-elementor qodef-qi--no-touch qi-addons-for-elementor-1.11.1 hello-elementor-default elementor-default elementor-kit-21 elementor-page elementor-page-930">
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<!-- TOP STRIP & LUXURY HEADER -->
+<header class="header" id="header">
+  <div class="topstrip">
+    <div class="container">
+      <div class="row">
+        <div class="tag">Luxury Wellness Destination · Bhopal</div>
+        <div class="links">
+          <a href="mailto:info@fitblissbysk.com">info@fitblissbysk.com</a>
+          <a href="tel:+917470787012">+91 74707 87012</a>
+          <a href="tel:+917470787014">+91 74707 87014</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="navrow">
+      <!-- LEFT NAV -->
+      <nav class="navlist" id="leftNav">
+        <div class="item" data-name="Home"><a class="link" href="/fitbliss/">Home</a></div>
+        <div class="item" data-name="About Us"><a class="link" href="/fitbliss/about/">About Us</a></div>
+        <div class="item" data-name="Services"><a class="link" href="/fitbliss/gym/">Services</a></div>
+        <div class="item" data-name="Membership"><a class="link" href="/fitbliss/membership/">Membership</a></div>
+      </nav>
+
+      <!-- CENTER LOGO -->
+      <a class="logo" href="/fitbliss/">
+        <img src="/fitbliss/wp-content/uploads/2026/07/logo.png" alt="FitBliss by Shruti Kapoor" onerror="this.onerror=null; this.src='https://staging.fitblissbysk.com/wp-content/uploads/2026/07/logo.png';">
+      </a>
+
+      <!-- RIGHT NAV -->
+      <div class="right">
+        <nav class="navlist" id="rightNav">
+          <div class="item" data-name="Gallery"><a class="link" href="/fitbliss/gallery/">Gallery</a></div>
+          <div class="item" data-name="Blog"><a class="link" href="/fitbliss/blog/">Blog</a></div>
+          <div class="item" data-name="Trainers"><a class="link" href="/fitbliss/trainers/">Trainers</a></div>
+          <div class="item" data-name="Contact"><a class="link" href="/fitbliss/contact/">Contact</a></div>
+        </nav>
+        <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
+        <button class="burger" id="burgerBtn" aria-label="Toggle menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mega Menu Dropdown -->
+  <div class="mega" id="mega">
+    <div class="container">
+      <div class="mega-inner" id="megaInner"></div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile" id="mobile">
+    <div class="container mobile-inner">
+      <nav id="mobileNav"></nav>
+      <a href="tel:+917470787014" class="m-cta" style="margin-top:20px;display:flex;align-items:center;justify-content:center;gap:12px;background:#3ec28b;color:#0a1414;padding:15px 24px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.28em;border-radius:2px;text-decoration:none;">Book a free trial →</a>
+    </div>
+  </div>
+</header>
+
+<main id="content" class="site-main post-930 page type-page status-publish hentry">
+
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="930" class="elementor elementor-930" data-elementor-post-type="page">
+						<section class="elementor-section elementor-top-section elementor-element elementor-element-36cb7e7 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="36cb7e7" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-e5cac03" data-id="e5cac03" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-6f980f7 elementor-widget elementor-widget-heading" data-id="6f980f7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">FREE WEIGHT</h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ed560cc elementor-widget elementor-widget-text-editor" data-id="ed560cc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<a href="#">Home</a> &#8211; FREE WEIGHT								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-45b2568 e-flex e-con-boxed e-con e-parent" data-id="45b2568" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-7211cd2 e-con-full e-flex e-con e-child" data-id="7211cd2" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-e824b3b elementor-widget elementor-widget-heading" data-id="e824b3b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Looks</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-45dcadb animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="45dcadb" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">We Will Change Your Out Looks</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5a394be elementor-widget elementor-widget-text-editor" data-id="5a394be" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Achieving a full-body workout at home is easier than you might think, especially with the versatility of free weights. Incorporating free weights into your exercise routine can help you build strength, improve muscle tone, and boost overall fitness levels without the need for expensive gym equipment. Here are some effective free weights exercises to target every major muscle group:</span></p>								</div>
+				</div>
+				<div class="elementor-element elementor-element-7c1af0c elementor-tablet-align-center elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7c1af0c" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Squats</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Lunges</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Deadlift</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Chest Press</span>
+									</li>
+								<li class="elementor-icon-list-item">
+										<span class="elementor-icon-list-text">Bent Over Rows</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-1598817 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="1598817" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.4,&quot;sizes&quot;:[]},&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="793" height="796" src="index.phpwp-content/uploads/2024/04/bg-chakra.webp" class="attachment-full size-full wp-image-559" alt="" srcset="index.phpwp-content/uploads/2024/04/bg-chakra.webp 793w, index.phpwp-content/uploads/2024/04/bg-chakra-300x300.webp 300w, index.phpwp-content/uploads/2024/04/bg-chakra-150x150.webp 150w, index.phpwp-content/uploads/2024/04/bg-chakra-768x771.webp 768w" sizes="(max-width: 793px) 100vw, 793px" />															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-ace28ad e-con-full e-flex e-con e-child" data-id="ace28ad" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-c794100 elementor-widget elementor-widget-image" data-id="c794100" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="541" height="713" src="index.phpwp-content/uploads/2024/04/about-right-img.png" class="attachment-full size-full wp-image-940" alt="" srcset="index.phpwp-content/uploads/2024/04/about-right-img.png 541w, index.phpwp-content/uploads/2024/04/about-right-img-228x300.png 228w" sizes="(max-width: 541px) 100vw, 541px" />															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2115e72 e-flex e-con-boxed e-con e-parent" data-id="2115e72" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-76b5c2a e-con-full e-flex e-con e-child" data-id="76b5c2a" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		<div class="elementor-element elementor-element-9d8d079 e-flex e-con-boxed e-con e-child" data-id="9d8d079" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-6df1830 elementor-widget elementor-widget-heading" data-id="6df1830" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Looks</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2cd519b animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="2cd519b" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">What are free-weight exercises?</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3a1ec4f elementor-widget elementor-widget-text-editor" data-id="3a1ec4f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Free weights refer to exercise equipment that is not attached to a machine and allows for unrestricted movement.</p><p>They include dumbbells, barbells, kettlebells, and weight plates. Unlike machines that provide guided movements, free weights require stabilization from muscles throughout the body, engaging more muscle groups and promoting functional strength.</p><p>Free weight exercises often mimic natural movements, making them effective for building overall strength, muscle mass, and improving coordination.</p><p>They are versatile and can be used for various exercises targeting different muscle groups, making them a popular choice for both beginners and experienced athletes in strength training programs.</p>								</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-31cc8e4 elementor-hidden-mobile e-flex e-con-boxed e-con e-child" data-id="31cc8e4" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+					</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8b3bbff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8b3bbff" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fd63748" data-id="fd63748" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5a76ac5 elementor-widget elementor-widget-heading" data-id="5a76ac5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Break Barriers, Build Muscle !</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3cce7f3 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="3cce7f3" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Importance of FREE WEIGHT</h2>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-396d48b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="396d48b" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a316954 animated-slow elementor-invisible" data-id="a316954" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-a7b834f elementor-widget elementor-widget-image" data-id="a7b834f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/weight-loss.png" title="weight-loss" alt="weight-loss" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-0434f35 elementor-widget elementor-widget-heading" data-id="0434f35" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Practice Without Weights</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-105ba63 elementor-widget elementor-widget-text-editor" data-id="105ba63" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Begin by practicing the movement without weights. This allows your body to familiarize itself with the motion before adding additional resistance, reducing the risk of injury and ensuring proper form.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0afbde3 animated-slow elementor-invisible" data-id="0afbde3" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-243c7a7 elementor-view-default elementor-widget elementor-widget-icon" data-id="243c7a7" data-element_type="widget" data-e-type="widget" data-widget_type="icon.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-wrapper">
+			<div class="elementor-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" x="0px" y="0px" viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve"><style type="text/css">	.st0{display:none;}	.st1{display:inline;}	.st2{display:inline;fill:#FEFF00;}	.st3{display:inline;fill:#FFFFFF;}	.st4{display:inline;fill:#FEFF00;stroke:#E3E3E3;stroke-miterlimit:10;}</style><g class="st0">	<path class="st1" d="M113.6,190.3c0-10.5,0-20.1,0-29.7c0-7.4,0.3-7.6,7-4.8c1.6,0.7,3.2,1.3,5.3,2.2c0-3,0.1-5.6-0.1-8.2  c-0.1-0.7-1-1.6-1.7-1.9c-2.6-1.2-5.2-2.3-7.9-3.3c-1.8-0.7-2.7-1.8-2.6-3.8c0.1-3.7,0-7.5,0-11.2c0.1-3.3,1.3-4.1,4.3-2.9  c2.5,1,5,2.1,8,3.3c0-3.1,0.1-5.6-0.1-8.2c-0.1-0.7-0.9-1.7-1.6-2c-2.7-1.3-5.5-2.1-8.1-3.5c-1.1-0.6-2.3-2.1-2.3-3.2  c-0.3-4-0.2-8.1-0.1-12.1c0.1-2.7,1.4-3.5,3.9-2.5c2.7,1,5.3,2.1,8.4,3.4c0-3,0.1-5.6-0.1-8.2c-0.1-0.7-1-1.6-1.7-2  c-2.6-1.2-5.2-2.3-7.9-3.3c-1.8-0.7-2.7-1.7-2.7-3.7c0.1-5.7,0.1-11.4,0-17.2c0-2.5,1.1-3.6,3.6-3.5c4.7,0.1,9.4,0,14.3,0  c0-5.9,0-11.5,0-17.5c-4.5,0-8.9,0-13.3,0c-4.2,0-4.6-0.4-4.6-4.6c0-7.6,0.1-15.2,0-22.8c0-2.7,1-3.9,3.8-3.9  c21.3,0.1,42.6,0.1,63.9,0c2.8,0,3.9,1.1,3.9,3.8c-0.1,7.9-0.1,15.8,0,23.7c0,2.6-1.1,3.8-3.7,3.7c-4.6-0.1-9.3,0-14.1,0  c0,5.8,0,11.5,0,17.5c4.6,0,9.1,0,13.6,0c3.6,0,4.2,0.5,4.2,4.1c0,14.6,0,29.2,0,43.8c0,3.8-1.2,4.5-4.8,3.1  c-2.4-0.9-4.7-1.9-7.5-3c0,3-0.1,5.7,0.1,8.3c0.1,0.7,1,1.5,1.8,1.9c2.7,1.3,5.5,2.1,8.1,3.5c1.1,0.6,2.1,2.1,2.2,3.3  c0.3,3.9,0.2,7.9,0.1,11.8c-0.1,2.9-1.3,3.7-4,2.6c-2.6-1-5.2-2.1-8.2-3.3c0,3-0.1,5.5,0.1,8.1c0.1,0.7,0.9,1.7,1.6,2  c2.7,1.3,5.4,2.4,8.2,3.4c1.7,0.6,2.5,1.7,2.5,3.5c-0.1,3.8,0,7.7,0,11.5c-0.1,3.1-1.3,3.9-4.1,2.8c-2.6-1-5.1-2.1-8.1-3.4  c0,3.2-0.1,5.9,0.1,8.6c0,0.6,1,1.3,1.7,1.7c2.3,1.1,4.7,2.2,7.1,2.9c2.8,0.9,3.6,2.6,3.5,5.3c-0.2,3.8,0,7.7,0,12.1  c7.7-2.7,15.4-4.2,18.8-12.6c2.6-6.3,5.2-12.6,8.1-18.7c1.7-3.4,3.8-6.7,6.1-9.7c2.9-3.8,6.8-6.1,11.6-6.9  c9.8-1.5,17.6-6.2,22.3-15.2c1.8-3.4,4.9-4.7,8.4-5.3c7.4-1.4,14.7-0.1,22,1.4c0.9,0.2,1.7,1.8,2.3,2.9c0.3,0.5,0.1,1.4,0.1,2  c0,47.9,0,95.8,0,143.7c0,4.6-0.2,4.8-4.8,4.8c-86.7,0-173.3,0-260,0c-4.8,0-4.9-0.1-4.9-5c0-42.1,0-84.2,0-126.3  c0-4.3,0.3-4.8,4.5-5.1c12.1-1.1,23,1.4,31.9,10.5c4.6,4.7,9.8,8.9,15.1,12.7c6.1,4.3,8.7,3.7,13.7-1.7c3.5-3.8,7.9-4.6,12.2-1.8  c2.7,1.8,5,4.1,7.2,6.5C104.4,179.5,108.7,184.6,113.6,190.3z M19.9,279.9c86.9,0,173.4,0,260,0c0-39.7,0-79.2,0-119.5  c-6.3-0.1-12.5-0.5-18.6-0.2c-1.8,0.1-4.2,1.7-5.1,3.3c-5.7,10-14.4,15.4-25.5,17.2c-3.5,0.6-6.4,2-8.5,4.8  c-1.9,2.5-3.8,5.1-5.2,7.9c-2.9,6-5.6,12.1-8,18.4c-2.6,6.9-7.5,11.1-14.2,13.5c-9.1,3.3-18.5,4.7-28.1,5.1  c-1.9,0.1-3.1,0.6-4.2,2.1c-3.4,4.8-7,9.5-10.5,14.3c-2,2.6-3.3,2.6-5.2,0c-4.4-5.8-8.6-11.7-13.1-17.5c-0.8-1.1-2.2-2-3.5-2.3  c-12.2-3.3-22.5-9.3-30.2-19.4c-2.1-2.7-4.5-5.3-6.9-7.7c-3.7-3.7-6.9-4.2-10.6,0.4c-3.7,4.7-8.5,5.7-14,3.2  c-2.8-1.3-5.5-2.8-7.8-4.7c-5-4.1-9.8-8.5-14.6-12.9c-7.5-6.8-16.4-7.8-26-7.1C19.9,212.6,19.9,246.2,19.9,279.9z M149.4,242.1  c0.8-0.9,1.4-1.6,2-2.4c7.4-9.9,14.3-20.1,22.2-29.5c5.3-6.5,8.1-13.1,7-21.5c-0.3-2.2-0.7-3.4-2.9-4.3  c-16.4-6.7-32.7-13.5-49.1-20.2c-3.2-1.3-6.5-2.7-10.1-4.2c0,1.4,0,2.4,0,3.4c0,11.5-0.1,23.1,0.1,34.6c0,1.7,0.7,3.7,1.7,5.1  c9,12.3,18.2,24.6,27.3,36.8C148,240.5,148.6,241.2,149.4,242.1z M168,225.2c0.1,0.3,0.3,0.5,0.4,0.8c6.2-1.1,12.3-2.1,18.5-3.2  c9.6-1.8,16.2-6.8,19.4-16.6c2.3-7,6-13.7,9.6-20.2c3.2-5.7,8.2-9.1,15.1-10.2c8.6-1.3,15.9-5.6,20.1-13.5c2.5-4.6,6.2-6.9,11.1-7  c5.9-0.2,11.7,0.2,17.8,0.4c0-5.9,0-12.2-0.1-18.5c0-0.6-0.9-1.7-1.4-1.7c-6-0.3-12-0.8-17.9-0.6c-1.6,0.1-3.8,1.8-4.7,3.4  c-5.3,9.2-13.1,14.8-23.3,16.5c-6.8,1.1-11.2,4.6-14.1,10.3c-3.2,6.5-6.5,13.1-9,19.9c-2.9,7.9-8.1,13.5-16.1,15.5  c-7.8,1.9-12.7,6.6-16.8,13C174.1,217.5,171,221.3,168,225.2z M127.4,221c-0.8-1.2-1.3-1.8-1.7-2.5c-5-7.3-11.6-13.7-14.5-22.4  c-0.3-1-1-1.9-1.7-2.7c-5.4-6.3-10.8-12.8-16.5-18.9c-3.3-3.6-6.7-4.7-10.8,0.3c-3.8,4.7-8.5,5.6-14,3.1c-2.8-1.3-5.6-2.9-8-4.9  c-5-4.1-9.8-8.6-14.6-12.9c-7.4-6.7-16.3-7.5-25.6-6.9c0,7.1,0,13.8,0,20.6c1,0,1.8,0,2.6,0c11.5-0.4,21.4,2.8,29.6,11.4  c4.4,4.6,9.5,8.6,14.7,12.2c6,4.2,8.5,3.6,13.4-1.8c3.6-3.9,8-4.6,12.5-1.7c2,1.3,3.9,3,5.6,4.8c2.7,2.9,5.2,5.9,7.7,8.9  C111.7,213.9,118.6,218.2,127.4,221z M180.2,68.7c-20.6,0-41.1,0-61.9,0c0,4.2,0.1,8.2,0,12.2c-0.1,2.2,0.6,3.3,2.7,4.1  c18.9,7.7,37.8,15.6,56.7,23.4c0.8,0.3,1.6,0.5,2.5,0.8C180.2,95.6,180.2,82.2,180.2,68.7z M180.2,41.4c0-7.3,0-14.3,0-21.4  c-20.6,0-41.1,0-61.6,0c0,7.2,0,14.2,0,21.4C139.1,41.4,159.5,41.4,180.2,41.4z M118.3,103.7c0,1.7,0.2,3,0,4.2  c-0.5,3.1,0.8,4.6,3.8,5.8c18.4,7.4,36.7,15.1,55,22.7c1,0.4,1.9,0.7,3.3,1.2c0-1.7-0.1-3.1,0-4.5c0.4-2.8-0.7-4.1-3.4-5.1  c-12.5-5-24.9-10.2-37.3-15.4C132.7,109.6,125.8,106.7,118.3,103.7z M180.4,165.8c0-1.9-0.2-3,0-4.2c0.5-3.1-0.8-4.6-3.8-5.8  c-18.3-7.4-36.5-15-54.8-22.6c-1-0.4-2.1-0.8-3.5-1.3c0,1.9,0.2,3.3,0,4.6c-0.4,2.7,0.7,3.9,3.3,4.9c15.2,6.1,30.4,12.5,45.5,18.8  C171.3,162,175.6,163.8,180.4,165.8z M162.2,63.6c0-5.9,0-11.5,0-17.2c-8.7,0-17.1,0-25.6,0c0,5.8,0,11.4,0,17.2  C145.1,63.6,153.5,63.6,162.2,63.6z M130.7,122.2c0,2.6,0.2,4.6,0,6.6c-0.2,2.3,0.7,3.3,2.8,4.1c9.7,3.9,19.3,7.9,28.9,11.9  c1.8,0.7,3.6,1.5,5.8,2.4c0-3.1,0.1-5.7-0.1-8.4c0-0.6-0.7-1.4-1.3-1.7C154.9,132.2,143.1,127.4,130.7,122.2z M130.7,150.5  c0,2.4,0.2,4.4,0,6.4c-0.2,2.2,0.6,3.3,2.7,4.1c10.6,4.2,21.1,8.7,31.6,13c0.9,0.4,1.8,0.6,3.2,1.1c0-2.4-0.2-4.5,0-6.5  c0.2-2.3-0.7-3.2-2.8-4.1c-10.7-4.3-21.2-8.8-31.9-13.1C132.7,151.2,131.9,150.9,130.7,150.5z M130.7,94.1c0,2.8,0.1,5,0,7.3  c-0.1,1.8,0.6,2.6,2.2,3.2c9.6,3.9,19.1,7.8,28.6,11.8c2,0.8,4.1,1.7,6.6,2.7c0-3.2,0.1-5.8-0.1-8.4c0-0.6-0.8-1.4-1.3-1.6  C154.9,104.1,143.1,99.2,130.7,94.1z"></path>	<path class="st1" d="M233.3,131.9c-0.1,6.3-4.4,11.5-9.6,11.5c-5.8,0-11.6-5.9-11.6-11.7c0.1-5.9,5.9-11.5,11.8-11.4  C229.2,120.4,233.4,125.6,233.3,131.9z M228.6,132c0.1-3.8-2.1-6.9-4.9-6.9c-3.1,0-6.7,3.4-6.8,6.6s3.6,7,6.8,7  C226.2,138.6,228.5,135.6,228.6,132z"></path>	<path class="st1" d="M76.7,150.2c0-0.4,0.1-1.2,0.2-2.1c1.2-8,7.4-11.1,14.4-6.7c1.6,1,3.2,3.1,3.6,5c2,7.9-4,14.9-11.7,13.8  C78.6,159.5,76.6,156.7,76.7,150.2z M85,144.4c-1.7-0.3-2.9,0.6-3.2,2.6c-0.2,1.5-0.4,3.1-0.4,4.7c0,3.5,2.6,5,5.8,3.5  c2.1-1,3.8-4.7,3.3-7.4C90,144.9,87.7,144.7,85,144.4z"></path>	<path class="st1" d="M203.1,160.2c-5.4,0-9.7-4.4-9.7-9.8c0.1-6.1,3.8-10.5,8.8-10.5c5.4,0,9.7,4.4,9.7,9.8  C212,155.6,208.1,160.2,203.1,160.2z M198.2,150.1c-0.1,3,2,5.3,4.7,5.3c2.5,0,4.4-2.4,4.4-5.6c0-2.8-2-5-4.6-5.2  C200.1,144.5,198.3,146.8,198.2,150.1z"></path>	<path class="st1" d="M55.2,126.8c0-5,3.7-8.5,9-8.5c5.7,0,10.1,5,10.1,11.3c0,5-3.8,8.6-9,8.5C59.6,138.1,55.2,133.2,55.2,126.8z   M59.9,127.1c-0.1,3.4,2.3,6.2,5.3,6.3c2.5,0.1,4.2-1.5,4.3-3.9c0.1-3.3-2.3-6.3-5.2-6.5C61.7,122.9,60,124.5,59.9,127.1z"></path>	<path class="st1" d="M195.9,180.4c-2.6,0-4.6-1.9-4.5-4.4c0.1-2.4,1.9-4.3,4.3-4.3c2.5,0,4.6,2,4.5,4.4  C200.1,178.4,198.2,180.3,195.9,180.4z"></path>	<path class="st1" d="M90.3,123.9c2.5-0.1,4.6,1.9,4.6,4.3c0,2.3-2,4.4-4.2,4.5c-2.5,0.1-4.6-1.9-4.6-4.4  C86.1,125.9,87.9,124,90.3,123.9z"></path>	<path class="st1" d="M104.8,168.6c-2.4,0-4.4-1.9-4.4-4.2c-0.1-2.4,2-4.5,4.4-4.5s4.3,1.8,4.4,4.2  C109.2,166.6,107.3,168.6,104.8,168.6z"></path>	<path class="st1" d="M200.1,123.9c2.6,0,4.5,1.8,4.4,4.4c0,2.4-1.9,4.3-4.3,4.4c-2.5,0-4.5-2-4.5-4.5  C195.9,125.7,197.7,123.9,200.1,123.9z"></path></g><g class="st0">	<path class="st1" d="M14.9,15.2v269.6h270.2V15.2H14.9z M268.1,268H31.7V32.1H268V268H268.1z"></path>	<path class="st1" d="M14.9,15.2v269.6h270.2V15.2H14.9z M268.1,268H31.7V32.1H268V268H268.1z"></path>	<polygon class="st1" points="227.8,108.4 124.2,212.2 71.7,158.9 83.5,147.2 124.1,188.1 215.9,96.5  "></polygon>	<polygon class="st1" points="227.8,108.4 124.2,212.2 71.7,158.9 83.5,147.2 124.1,188.1 215.9,96.5  "></polygon></g><g class="st0">	<path class="st1" d="M241.3,181.3c3,1.4,5.5,2.6,8.1,3.7c1.9,0.9,3.5,2,3.6,4.3c0.1,2.5-1.6,3.7-3.6,4.6  c-20.4,9.3-40.9,18.6-61.3,28c-11.5,5.2-22.9,10.4-34.3,15.7c-2.5,1.2-4.7,1.2-7.2,0.1C114.8,223.1,83,208.6,51.2,194  c-1.4-0.6-2.8-1.7-3.6-3c-1.2-2-0.1-4.4,2.3-5.6c2.8-1.4,5.7-2.7,9-4.2c-2.9-1.3-5.4-2.5-8-3.6c-2-0.9-3.7-2-3.7-4.5  s1.7-3.6,3.7-4.5c20.8-9.5,41.5-18.9,62.3-28.4c0.7-0.3,1.3-0.6,2.3-1.1c-0.6-0.9-1.1-1.7-1.7-2.4c-7.3-9.7-13.9-19.9-18.6-31.2  c-12.9-31.2,5.3-66.8,37.1-76.8c35-11.1,71.5,12,76.6,48.3c1.8,12.9-1.1,24.8-7.2,35.9c-4.9,9-10.7,17.5-16.2,26.4  c0.2,0.1,1,0.5,1.7,0.9c20.6,9.4,41.2,18.8,61.8,28.2c2.2,1,4.1,2,4.1,4.8c0,2.6-2,3.7-4,4.6C246.6,178.9,244.2,180,241.3,181.3z   M179.2,146.2c-8.6,9.9-16.9,19.5-25.2,29.1c-2.6,3-5.2,3-7.8,0.1c-2-2.2-3.9-4.5-5.9-6.8c-6.4-7.4-12.8-14.8-19.3-22.3  c-19.5,8.9-39,17.8-58.9,26.9c1,0.5,1.7,0.9,2.4,1.3c27.8,12.7,55.6,25.3,83.3,38.1c1.7,0.8,3,0.6,4.6-0.1  c22.2-10.2,44.5-20.3,66.8-30.5c6.2-2.8,12.3-5.7,19-8.7C218.2,164,198.7,155.1,179.2,146.2z M150.1,166.5  c5.8-6.7,11.3-13,16.8-19.4c9.9-11.7,19.5-23.7,26.6-37.4c4.8-9.3,8-19,6.9-29.7c-2.2-20.6-16.8-38-37-43.5  c-20-5.5-41.8,1.9-53.9,18.8c-12.4,17.3-13,35.3-3.1,54C117.7,130.6,134.2,148,150.1,166.5z M62.1,189.5c1.2,0.6,2,1,2.8,1.4  c27.5,12.6,55.1,25.1,82.6,37.7c1.9,0.9,3.4,0.9,5.3,0c20.9-9.6,41.9-19.1,62.8-28.7c7.4-3.4,14.8-6.8,22.3-10.2  c-4-2.8-7.6-3.5-12.3-1.3c-23.7,11.2-47.7,21.9-71.6,32.9c-2.7,1.3-5,1.2-7.7-0.1c-24.9-11.4-49.8-22.8-74.7-34.1  c-0.9-0.4-2.2-0.8-3-0.5C66.4,187.3,64.4,188.4,62.1,189.5z"></path>	<path class="st1" d="M38.7,174.4c2.1,0.1,3.6,1.1,4.1,3.2c0.6,2.3-0.3,4.1-2.5,5.1c-5.2,2.4-10.5,4.8-15.8,7.2  c-1.3,0.6-2.6,1.3-4,1.7c-2.2,0.7-3.9-0.2-5-2.1c-1.1-2-0.8-4.3,1.1-5.3c7-3.4,14.1-6.5,21.1-9.7C38,174.4,38.3,174.4,38.7,174.4z"></path>	<path class="st1" d="M285.1,186.8c0,3.6-2.9,5.9-5.6,4.7c-6.8-2.9-13.5-6-20.2-9.2c-2.1-1-2.7-3.6-1.7-5.6c1.1-2.1,3.4-3,5.8-1.9  c6.4,2.8,12.7,5.7,19,8.6c0.4,0.2,0.9,0.4,1.1,0.7C284.2,185.2,284.8,186.3,285.1,186.8z"></path>	<path class="st1" d="M145.7,259.8c0-3-0.1-6,0-9c0.1-2.8,1.8-4.7,4.3-4.7c2.5-0.1,4.4,1.9,4.4,4.8c0.1,6.2,0.1,12.3,0,18.5  c0,2.8-1.8,4.7-4.3,4.7c-2.5,0.1-4.4-1.9-4.4-4.8C145.6,266.1,145.7,263,145.7,259.8z"></path>	<path class="st1" d="M150.2,45.4c22,0,39.7,17.8,39.7,39.9c0,22-17.9,39.7-39.9,39.7s-39.7-17.9-39.7-39.9  C110.3,63,128.1,45.3,150.2,45.4z M150.1,54.1C132.9,54,119,67.9,119,85.1c0,17.1,13.9,31,30.9,31.1c17.2,0.1,31.2-13.8,31.3-31  C181.2,68,167.3,54.1,150.1,54.1z"></path></g><g class="st0">	<path class="st1" d="M55.3,270.9c-0.3-0.1-0.5-0.3-0.8-0.4c-7.4-2.2-11.5-7.5-11.6-15.2c-0.1-9.9,0-19.8,0-29.7  c0-10.9,0-21.9,0-32.8c0-0.8,0-1.6,0.1-2.4c0.3-1.9,1.4-3,3.3-3.1c1.9-0.1,3.1,0.9,3.5,2.8C50,191,50,192,50,192.9  c0,17.9,0,35.7,0,53.6c0,0.9,0,1.9,0,3.3c25.6-14.1,50.7-27.9,75.5-41.6c-25-25.2-49.9-50.3-75.2-75.8c-0.1,1.5-0.3,2.8-0.3,4.1  c0,12.2,0,24.4,0,36.6c0,0.7,0,1.4,0,2.1c-0.2,2.4-1.7,3.8-3.7,3.7s-3.3-1.5-3.3-3.8c0-13.6,0-27.2,0-40.8c0-4.1,1.8-7.6,4.8-10.4  c4-3.9,7.9-7.9,11.9-11.7c1.2-1.2,1.8-2.3,1.7-4.1c-0.1-9.4-0.1-18.7,0-28.1c0-9.9,6.3-16.2,16.2-16.3c9.7,0,19.5,0,29.2-0.1  c1.2,0,2.8-0.6,3.6-1.5c8.5-8.2,17-16.6,25.4-24.9c3.3-3.3,6.7-6.5,11.4-7.9c1.9,0,3.8,0,5.7,0c4.8,1.3,8.2,4.7,11.6,8.1  c8.3,8.3,16.8,16.6,25.2,24.8c0.9,0.9,2.4,1.5,3.6,1.5c9.7,0.1,19.3,0,29,0.1c10,0,16.3,6.3,16.4,16.3c0,2.4,0,4.7,0,7.1  c-0.1,2.3-1.3,3.7-3.3,3.8c-2.1,0.1-3.6-1.4-3.7-3.7c-0.1-2.5,0-5,0-7.6c-0.1-5.5-3.3-8.8-8.8-8.8c-20.4,0-40.8,0-61.3,0  c-27.7,0-55.4,0-83.2,0c-7,0-9.9,2.9-9.9,9.9c0,19.1,0,38.2,0,57.4c0,1.5,0.4,2.6,1.5,3.7c20.4,20.4,40.8,40.8,61.2,61.2  c1.2,1.2,2,1.3,3.4,0.4c2.8-1.6,5.6-3.2,8.5-4.7c4.6-2.4,9.2-2.4,13.8-0.1c3.1,1.5,6.1,3.2,9.1,5c1.2,0.7,1.9,0.5,2.8-0.4  c20.6-20.6,41.2-41.2,61.8-61.9c0.7-0.7,1.1-2.1,1.1-3.1c0.1-11.4,0-22.8,0.1-34.2c0-0.9,0.1-1.9,0.4-2.8c0.6-1.6,1.9-2.3,3.6-2.1  c1.8,0.2,2.9,1.3,3,3.1c0.1,2.1-0.1,4.3,0.1,6.4c0.1,1.1,0.6,2.4,1.4,3.2c3.9,4,7.9,7.9,11.9,11.8c3.5,3.3,5.2,7.4,5.2,12.2  c0,39.8,0,79.6,0,119.4c0,8-4.1,13.2-11.6,15.5c-0.3,0.1-0.5,0.3-0.8,0.4c-14,0-28,0-41.9,0c-1.7-1.1-3-2.5-2.2-4.7  c0.7-2.2,2.6-2.5,4.6-2.4c0.6,0,1.3,0,1.9,0c11.5,0,22.9,0,34.4,0c4.4,0,7.5-2.4,8.1-6.2c-0.3-0.2-0.6-0.4-1-0.6  c-31.3-17.3-62.7-34.5-94-51.8c-3.2-1.8-6.2-1.6-9.4,0.1c-26.9,14.9-53.9,29.7-80.8,44.5c-4.7,2.6-9.4,5.2-14.1,7.8  c1.3,4.4,4,6.2,9,6.2c42.6,0,85.3,0,127.9,0c2,0,3.9,0.3,4.6,2.4c0.8,2.2-0.5,3.6-2.2,4.7C144.8,270.9,100.1,270.9,55.3,270.9z   M249.7,249.5c0-39.2,0-78.1,0-117.2c-25.3,25.5-50.3,50.7-75.2,75.8C199.3,221.7,224.4,235.6,249.7,249.5z M180.7,63.5  c-0.6-0.7-0.8-1-1.1-1.4c-7.8-7.7-15.6-15.5-23.5-23.1c-3.9-3.8-8.4-3.7-12.3,0.1c-7.7,7.5-15.3,15.1-23,22.6  c-0.5,0.4-0.8,1-1.4,1.7C139.9,63.5,160.1,63.5,180.7,63.5z M61.2,120.7c-2.1,2.2-4,4.1-5.5,5.7c1.7,1.9,3.6,3.9,5.5,6  C61.2,128.4,61.2,124.6,61.2,120.7z M238.8,120.6c0,4.1,0,7.9,0,11.6c2-1.9,4-3.8,5.8-5.5C242.7,124.7,240.8,122.7,238.8,120.6z"></path>	<path class="st1" d="M149.9,101.7c-17.3,0-34.5,0-51.8,0c-0.6,0-1.3,0-1.9,0c-2.8-0.1-4.3-1.4-4.2-3.7c0.1-2.2,1.5-3.4,4.2-3.4  c7.9,0,15.9,0,23.8,0c27.6,0,55.1,0,82.7,0c3.8,0,5.3,0.9,5.4,3.4c0.1,2.5-1.6,3.7-5.4,3.7C185.1,101.7,167.5,101.7,149.9,101.7z"></path>	<path class="st1" d="M150.2,121.7c17.4,0,34.9,0,52.3,0c0.8,0,1.6-0.1,2.4,0.1c1.9,0.3,3.1,1.5,3.1,3.5s-1.2,3.2-3.1,3.5  c-0.7,0.1-1.4,0-2.1,0c-35.2,0-70.3,0-105.5,0c-0.6,0-1.3,0-1.9,0c-2-0.2-3.4-1.6-3.4-3.5s1.3-3.3,3.4-3.5c0.7-0.1,1.4,0,2.1,0  C115.1,121.7,132.7,121.7,150.2,121.7z"></path>	<path class="st1" d="M149.9,155.9c-17.5,0-35,0-52.5,0c-3.9,0-5.5-1.1-5.4-3.6c0-2.5,1.6-3.5,5.3-3.5c35.1,0,70.2,0,105.3,0  c3.9,0,5.5,1.1,5.4,3.6c0,2.5-1.6,3.5-5.3,3.5C185.1,155.9,167.5,155.9,149.9,155.9z"></path></g><g class="st0">	<path class="st1" d="M-713.8,139.8c1.1-4.9,3.9-8.9,6.9-12.7c3.5-4.5,6.8-9.1,10.3-13.6c2-2.6,3-5.5,3-8.8c0.1-7,0.1-14.1,0.3-21.1  c0.2-9.9,5-16.3,14.4-19.2c6.9-2.2,13.8-4.3,20.8-6.4c2.7-0.8,4.9-2.4,6.7-4.7c4.3-5.8,8.6-11.5,12.9-17.2  c6.1-8.1,13.6-10.4,23.1-7.2c5.6,1.9,11.2,3.8,16.8,5.7c2.6,0.9,3.8,2.7,3.1,4.7c-0.7,2.2-2.7,2.9-5.5,2  c-5.8-1.9-11.5-3.9-17.2-5.9c-5.8-2-10.5-0.5-14.2,4.4c-4.4,5.9-8.9,11.7-13.2,17.6c-2.7,3.7-6.3,6.1-10.6,7.5  c-6.9,2.1-13.7,4.2-20.6,6.3c-6.2,1.9-9.2,5.8-9.3,12.3c-0.1,7-0.2,14.1-0.2,21.1c0,5-1.5,9.4-4.6,13.4  c-4.3,5.5-8.5,11.2-12.7,16.8c-3.9,5.2-4,10-0.3,15.2c4.2,6,8.3,11.9,12.5,17.8c2.6,3.7,3.9,7.7,3.8,12.2  c-0.2,7.3-0.2,14.5-0.3,21.8c-0.1,6.6,2.6,10.5,8.8,12.7c6.8,2.3,13.6,4.7,20.4,6.9c4.4,1.5,7.9,4.1,10.6,7.9  c4.1,6,8.3,11.9,12.5,17.8c3.6,5.1,8.3,6.7,14.3,4.9c6.7-2,13.4-4,20.1-6.2c4.9-1.6,9.6-1.6,14.4,0.2c6.6,2.4,13.3,4.6,19.9,6.8  c6.1,2.1,10.7,0.7,14.6-4.5c4.2-5.6,8.5-11.2,12.6-16.9c3-4.1,6.9-6.8,11.8-8.3c6.7-2,13.4-4.1,20.1-6.2c6.1-1.9,9-5.8,9.1-12.2  c0.1-6.9,0.2-13.9,0.2-20.8c0-5.2,1.5-9.7,4.7-13.8c4.3-5.5,8.5-11.2,12.7-16.8c3.7-5,3.8-9.9,0.2-15.1  c-4.1-5.9-8.2-11.8-12.4-17.6c-2.7-3.8-4.1-7.9-3.9-12.6c0.2-7.2,0.2-14.4,0.3-21.6c0.1-6.6-2.6-10.5-8.8-12.7  c-6.7-2.3-13.4-4.7-20.1-6.9c-4.6-1.5-8.2-4.2-11-8.2c-4.1-5.9-8.2-11.8-12.4-17.6c-3.6-5.1-8.3-6.7-14.3-4.9s-12,3.7-18.1,5.6  c-2.5,0.8-4.4-0.1-5.1-2c-0.7-2.1,0.4-3.9,3-4.7c6.3-2,12.6-4,19-5.9c7.9-2.3,15.7,0.3,20.6,7c4.4,6.1,8.7,12.2,13,18.4  c1.9,2.8,4.4,4.6,7.6,5.7c6.8,2.2,13.6,4.6,20.4,7c8.9,3.1,13.5,9.8,13.3,19.3c-0.1,7.2-0.1,14.4-0.3,21.6c-0.1,3.2,0.9,6,2.7,8.6  c4.1,5.8,8.2,11.6,12.3,17.4c5.5,7.9,5.4,16-0.3,23.7c-4.2,5.6-8.3,11.2-12.5,16.7c-2.3,2.9-3.4,6.1-3.4,9.8  c0,6.8-0.1,13.6-0.2,20.4c-0.2,10-5,16.5-14.6,19.4c-6.8,2.1-13.5,4.2-20.3,6.2c-3,0.9-5.3,2.6-7.2,5.1  c-4.3,5.8-8.7,11.6-13.1,17.4c-5.4,7.1-13.9,9.7-22.4,6.8c-6.6-2.2-13.2-4.4-19.7-6.8c-3.6-1.3-7-1.3-10.6-0.1  c-6.7,2.2-13.4,4.2-20.1,6.2c-8.7,2.6-16.4,0-21.7-7.3c-4.3-6-8.5-12-12.7-18c-1.8-2.7-4.2-4.4-7.2-5.4c-6.7-2.2-13.3-4.5-19.9-6.8  c-9.6-3.3-14.2-9.9-14-20c0.1-7.1,0.2-14.2,0.3-21.3c0.1-3.1-0.8-5.7-2.6-8.2c-3.2-4.5-6.3-9.1-9.6-13.5c-2.9-4-5.7-7.9-6.9-12.8  C-713.8,143.6-713.8,141.7-713.8,139.8z"></path>	<path class="st1" d="M-592.6,110.9c-19.6,0-39.2,0-58.7-0.1c-2.1,0-3,0.7-3.9,2.5c-3.3,7.1-5.6,14.4-6.5,22.1  c-0.1,0.5-0.1,0.9-0.2,1.4c-0.5,2.2-2.1,3.3-4.1,2.9c-2.1-0.4-3.2-2-2.8-4c1.2-5.9,1.9-11.9,4.1-17.4  c11.2-28.4,31.9-45.6,62.1-50.4c38.2-6,76.2,20.6,85,58.6c10,43-18.7,86-62.3,93.4c-41.3,7-81.7-21.9-88.4-63.4  c-0.2-1.4-0.5-2.8-0.5-4.2c-0.1-2.1,1-3.7,2.9-4c1.9-0.3,3.6,0.9,4,3.1c0.9,4.3,1.5,8.7,2.7,12.9c1.1,3.8,2.9,7.5,4.4,11.2  c0.5,1.3,1.3,1.7,2.7,1.7c39.8,0,79.6,0,119.4,0c1.3,0,1.9-0.4,2.5-1.6c10.1-21.1,10-42.1,0.1-63.2c-0.7-1.4-1.6-1.7-2.9-1.6  C-553,111-572.8,110.9-592.6,110.9z M-596.2,213.2c0-9.5,0-19,0-28.6c-7.7,0-15.3,0-22.9,0C-615,199.4-604.6,212.2-596.2,213.2z   M-588.8,213.2c8.8-1.4,21-16.8,22.9-28.6c-7.6,0-15.2,0-22.9,0C-588.8,194.2-588.8,203.6-588.8,213.2z M-619.1,103.7  c7.6,0,15.3,0,22.9,0c0-9.6,0-19.1,0-28.7C-605.2,76.4-615.3,89.7-619.1,103.7z M-588.8,103.7c7.8,0,15.4,0,23.2,0  c-2.1-6.6-4.8-12.7-9-18c-2.6-3.2-5.8-6-9-8.7c-1.3-1.1-3.3-1.6-5.2-2.5C-588.8,84.6-588.8,94.1-588.8,103.7z M-613.5,210.5  c-5.9-7.3-9.9-15.6-12.8-24.4c-0.5-1.4-1.2-1.7-2.6-1.7c-4.9,0.1-9.8,0-14.7,0c-1.8,0-3.7,0-6,0  C-640.2,197.4-628.3,205.9-613.5,210.5z M-613.6,77.8c-14.8,4.6-26.6,13.1-36,26c7.5,0,14.5,0,21.5-0.1c0.5,0,1.3-0.8,1.5-1.3  C-623.5,93.6-619.6,85.2-613.6,77.8z M-535.5,184.4c-7.5,0-14.5,0-21.4,0.1c-0.6,0-1.3,0.9-1.6,1.5c-1.1,2.5-1.8,5.3-3.1,7.7  c-3,5.7-6.3,11.3-9.3,16.8C-556.8,205.9-545,197.3-535.5,184.4z M-571.4,77.9c5.9,7.3,9.9,15.6,12.8,24.4c0.4,1.4,1.2,1.6,2.4,1.6  c4.9-0.1,9.8,0,14.7,0c1.8,0,3.7,0,6,0C-545,91-556.7,82.4-571.4,77.9z"></path>	<path class="st1" d="M-592.8,236.2c-43.5-0.7-80.7-31.1-89.6-73.6c-10.3-49.4,22.6-99,71.9-108.5c48.9-9.4,95.4,20.6,107.3,69.1  c1,4,1.4,8.1,2,12.1c0.4,2.5-0.9,4.3-3,4.5c-2.2,0.2-3.7-1.1-4-3.7c-1.8-17.1-7.9-32.5-19-45.6c-19.1-22.5-43.5-33-72.9-30.7  c-37.7,2.9-69.7,32.7-75.8,70c-7.4,45.7,21.9,88.2,67.2,97.3c45,9,90.1-21,99.1-66c0.6-3,1-6.1,1.4-9.1c0.4-2.5,1.9-3.9,4-3.6  c2.1,0.3,3.3,2.1,3,4.6c-4.1,41-36.2,75.2-76.8,81.6C-582.9,235.4-587.9,235.7-592.8,236.2z"></path>	<path class="st1" d="M-565.3,166.1c-12.1-0.1-22-10.1-21.8-22.1c0.2-12.1,10.1-21.8,22.2-21.7c12,0.1,21.7,10,21.7,22  C-543.3,156.3-553.2,166.1-565.3,166.1z M-565.2,129.4c-8.2,0-15,6.7-14.9,14.9c0.1,8.1,6.7,14.7,14.8,14.7  c8.2,0,14.9-6.7,14.9-14.9S-557,129.4-565.2,129.4z"></path>	<path class="st1" d="M-610,166c-5.5-0.2-10.3-2.1-14.3-6c-1.8-1.8-2-3.9-0.6-5.4c1.5-1.6,3.5-1.5,5.4,0.3c3.1,3,6.8,4.3,11,3.9  c1.4-0.1,2.8-0.7,3.9-1.4c3.4-2.2,3.3-5.8,0-8.1c-0.9-0.6-1.9-1.1-2.9-1.5c-3.1-1.3-6.3-2.6-9.4-3.8c-4.1-1.6-6.5-4.7-6.8-9.1  c-0.4-4.5,1.6-8,5.3-10.4c6.6-4.2,15.4-2.3,21.1,2.5c1.5,1.3,1.6,3.1,0.4,4.7c-1.1,1.6-3,1.9-4.8,0.7c-2.8-1.8-5.6-3.3-9-3  c-1.4,0.1-3,0.4-3.9,1.3c-1,0.9-1.9,2.5-1.8,3.7c0.1,1.1,1.4,2.5,2.5,3c3,1.5,6.3,2.5,9.4,3.9c1.9,0.9,3.9,1.9,5.5,3.2  c5.4,4.5,5.7,11.8,0.9,16.9C-601.2,164.5-605.4,166.2-610,166z"></path>	<path class="st1" d="M-641.8,144.1c0-5.7,0-11.4,0-17.1c0-3.2,1.2-4.8,3.6-4.8c2.3,0,3.5,1.6,3.5,4.6c0,11.5,0,23.1,0,34.6  c0,3-1.3,4.6-3.6,4.5c-2.3,0-3.5-1.6-3.5-4.6C-641.8,155.6-641.8,149.9-641.8,144.1z"></path></g><g class="st0">	<path class="st1" d="M-175.1,314c3.9-3.6,7.7-7.3,11.8-10.7c3.7-3.1,8.5-3.7,12.8-2.3c16.6,5.5,33.1,11.5,50.5,17.6  c-6.9,4.5-9,11.1-11.2,17.7c-1.4,4.1-4.8,6.1-8.6,7.8c-25.3,11.7-50.7,23.4-76,35c-32.6,15-65.1,30.1-97.7,45.1  c-6.3,2.9-10.9,7.4-12.7,14.6c-0.9-0.4-1.7-0.7-2.4-1.1c-20.5-12.3-41-24.7-61.6-36.9c-3.1-1.8-3.4-3.6-1.9-6.6  c2.2-4.4,5.7-7.1,10.2-8.7c32-11.8,64-23.6,96-35.3c23.7-8.7,47.6-17,71.1-26.4c16-6.4,31.8-6.2,47.9-1.7  c5.9,1.6,11.5,3.9,17.4,5.7c1.1,0.4,2.6-0.3,3.9-0.4c-0.9-1-1.6-2.4-2.7-2.8c-14.9-6.1-30.2-10.2-46.5-9.7  C-174.9,314.6-175,314.3-175.1,314z M-361,391.7c-0.6,0.4-1.7,1.1-1.6,1.2c0.5,1.1,1,2.5,1.9,3.1c15.3,9.4,30.6,18.6,46,27.8  c1.1,0.7,2.8,0.3,4.2,0.4c-0.8-1.2-1.3-2.8-2.4-3.5c-15.1-9.2-30.2-18.3-45.4-27.4C-359,392.7-359.9,392.3-361,391.7z"></path>	<path class="st1" d="M-111.8,345c1.9-4.1,4-7.6,5.3-11.4c1.9-5.7,5-10.2,10.4-13c0.9-0.5,1.5-1.7,2.2-2.6c-0.9-0.6-1.6-1.5-2.6-1.9  c-17-6.1-34-12.1-51-18.1c-8-2.8-14.9-0.9-21.1,4.7c-3.8,3.5-7.5,7-11.3,10.4c-3.6,3.2-7.4,4.8-12,1.7c-1.7-1.2-3.9-1.7-6.4-2.8  c1.4-1.1,2.5-2,3.5-2.9c5.7-5.3,11.2-10.6,17-15.8c3.1-2.7,6.4-5.2,9.9-7.3c5.5-3.4,11.5-4.3,17.6-2.3  c26.4,8.5,52.8,17.2,79.1,25.8c0.2,0.1,0.4,0.3,0.7,0.5c0,4.3-1.4,7.5-4.7,10.9c-4.8,4.9-8.3,11.1-12.4,16.7  c-2.7,3.8-5.4,7.8-8.2,11.6c-1.4,1.9-3.1,2.4-5.5,1C-104.6,348.2-108.5,346.5-111.8,345z"></path>	<path class="st2" d="M-202.8,312.2l16.7,7.2l5.9-2.5l21,0.9c0,0,15.4,2.1,24.5,5.8c9.2,3.8,25.6,11.4,25.6,11.4l-5.3,8.9  c0,0-2.2,2,0.9,3s15.1,6.7,15.1,6.7s3.8,0.1,6.3-3.9c2.5-4,15.3-24.3,21.4-30.3l2.7-10.6l-83.9-27.3c0,0-8.7-2.9-16.4,2.7  S-202.8,312.2-202.8,312.2z"></path>	<path class="st3" d="M-95.4,74.5c3.9,1.1,8,1.8,11.8,3.2c13.6,5.1,18.2,14.1,14.8,28.3c-0.1,0.5-0.2,0.9-0.3,1.6  c4.9,1.2,9.9,1.9,14.5,3.7c5.6,2.2,11.3,4.6,16.3,8.1c6,4.2,7,10.2,4.2,17c-3.4,8.1-9.3,14.1-16.2,19.2c-1.8,1.3-2.4,2.6-2.2,4.9  c2.3,25.2,5.2,50.4,6.2,75.6c1.1,26.8,0.5,53.6,0.2,80.4c-0.1,8.9-1.8,17.8-2.5,26.8c-0.2,2.8-1.5,4.3-4.1,5.5  c-41.3,18.8-82.5,37.7-123.7,56.6c-37.1,17-74.3,34-111.4,51.1c-2.6,1.2-4.5,1.2-6.8-0.6c-2.5-2-5.3-3.7-8-5.5  c-2.3-1.4-4.3-2.9-4-6.1c0.1-0.7-0.8-1.7-1.6-2.2C-330,429.1-352,416.1-374,403c-1.9,4.4-1.9,4.4-6,1.8c-4.1-2.6-8.2-5.3-12.4-7.7  c-2-1.2-2.4-2.4-1.6-4.6c3.4-9.5,9.3-15.9,19.1-19.4c56.5-20.3,112.9-40.8,169.3-61.4c7.8-2.8,13-9,18.8-14.6  c0.5-0.5,0.7-1.6,0.8-2.4c3.3-27.5,6.2-55,6-82.8c-0.2-22.1-2.2-44.1-7.4-65.6c-0.2-0.9-0.5-1.9-0.8-2.8  c-14.8,8.1-30.4,10.7-46.8,9.5c-8.3-0.6-14.1-7.2-13.6-15.3c0.5-8.6,6.7-14.5,15.2-14c10.3,0.6,20-1,29.6-5  c2.8-1.2,6.3-0.8,9.4-1.1c1.4-0.2,3-0.2,4.2-0.8c8.1-3.5,15.9-7.9,24.3-10.6c7.1-2.3,14.8-3,22.3-4.1c2.2-0.3,3.5-0.9,4.4-3.2  C-134,85-124.1,76.7-109.1,75c0.3,0,0.7-0.3,1-0.5C-103.8,74.5-99.6,74.5-95.4,74.5z M-57.7,133.8c-0.1-0.4-0.2-0.8-0.3-1.2  c-6.9-1.4-13.8-3-20.7-4.2c-1.3-0.2-3.2,0.4-4.2,1.3c-5.3,4.7-11.3,8.4-18.4,8.2c-12.1-0.2-24.1-2-35.2-7.5  c-1.9-0.9-3.8-2.2-4.9-3.8c-1.3-2-2.8-2.3-4.7-1.8c-7,1.8-13.9,3.7-20.9,5.5c-2.4,0.6-2.6,1.9-2.2,4.1c1.5,8.6,3.2,17.2,4.1,25.8  c3.9,37.8,3.3,75.7,1.1,113.6c-0.1,2.2,0,4.4,0,6.7c6.7-2,12.8-0.9,19,1.2c23.4,7.7,46.8,15.3,70.3,23c1.6,0.5,3.3,1,5.4,1.6  c4.9-46.1,4-91.6-1.8-136.8c-6.3,2.1-12,4.3-17.9,5.7c-8.1,1.9-16.5,3.3-24.7,0.3c-7-2.5-10.9-8.8-9.8-15.4  c1.3-7.5,7.3-13.2,14.7-12.8c9.7,0.5,18.5-1.9,26.9-6.3c3.7-2,7.6-2,11.6-0.6c1,0.3,2.4,0.7,3.1,0.2  C-64,138.5-60.9,136.1-57.7,133.8z M-175.1,314c0.1,0.3,0.3,0.6,0.4,0.9c16.3-0.6,31.6,3.5,46.5,9.7c1.1,0.5,1.8,1.9,2.7,2.8  c-1.3,0.2-2.8,0.8-3.9,0.4c-5.8-1.8-11.5-4.1-17.4-5.7c-16.1-4.5-31.9-4.8-47.9,1.7c-23.5,9.4-47.3,17.6-71.1,26.4  c-32,11.8-64,23.6-96,35.3c-4.5,1.7-8,4.4-10.2,8.7c-1.5,2.9-1.2,4.7,1.9,6.6c20.6,12.2,41,24.6,61.6,36.9c0.7,0.4,1.5,0.7,2.4,1.1  c1.8-7.2,6.4-11.6,12.7-14.6c32.6-15,65.1-30,97.7-45.1c25.3-11.7,50.6-23.4,76-35c3.7-1.7,7.2-3.7,8.6-7.8  c2.2-6.6,4.3-13.2,11.2-17.7c-17.4-6.1-33.9-12-50.5-17.6c-4.3-1.4-9.1-0.8-12.8,2.3C-167.4,306.6-171.2,310.4-175.1,314z   M-71.4,324.1c-0.4-0.2-0.8-0.3-1.2-0.5c-0.5,0.5-1.2,0.8-1.6,1.4c-4.2,6.3-8.6,12.5-12.6,19c-3.7,6-8.5,10.4-15,13.4  c-53.9,25.2-107.8,50.5-161.6,76c-7.6,3.6-14.8,8-22.2,12c-0.6,0.3-1.5,0-2.3,0c0.1-0.9-0.2-2.2,0.2-2.6c2.7-2.1,5.5-4.4,8.5-5.8  c57.7-27.2,115.4-54.4,173-81.5c1.1-0.5,2.3-1.2,3.9-2c-4-1.9-7.5-3.4-10.7-5.2c-2.6-1.5-4.7-1.3-7.3,0  c-26.2,12.2-52.4,24.2-78.7,36.3c-31,14.3-62,28.6-93,42.8c-5.6,2.6-9.3,6.5-10.7,12.6c-0.9,4-0.3,7,3.8,8.9  c1.9,0.9,3.6,2.2,5.3,3.5c1.8,1.5,3.3,1.4,5.4,0.5c67.8-31.3,135.7-62.6,203.5-93.9c1.4-0.6,3.1-1.7,3.5-3  C-77.8,345.4-74.7,334.7-71.4,324.1z M-75.7,355.3c7.1-3.2,14.6-6.4,22-9.9c0.9-0.4,1.6-2.1,1.7-3.3c1.2-16.5,2.9-33,3.3-49.6  c0.8-32.9-0.9-65.8-3.5-98.6c-0.9-11.3-2.3-22.5-3.6-34.3c-3.2,1.8-5.9,3.2-8.6,4.7c-3,1.7-3.6,4.1-3.3,7.7c1.7,21,3.6,42,4.5,63  c1,26.3,0.2,52.7-3.9,78.7C-69.2,327.6-72.7,341.2-75.7,355.3z M-111.8,345c3.3,1.6,7.2,3.2,10.8,5.3c2.4,1.3,4.1,0.9,5.5-1  c2.8-3.8,5.4-7.7,8.2-11.6c4-5.7,7.6-11.8,12.4-16.7c3.3-3.4,4.7-6.7,4.7-10.9c-0.3-0.2-0.5-0.4-0.7-0.5  c-26.4-8.6-52.7-17.3-79.1-25.8c-6.1-2-12.2-1.1-17.6,2.3c-3.5,2.2-6.8,4.6-9.9,7.3c-5.8,5.1-11.3,10.5-17,15.8  c-1,1-2.2,1.8-3.5,2.9c2.5,1.1,4.7,1.6,6.4,2.8c4.6,3.1,8.4,1.5,12-1.7c3.8-3.4,7.5-6.9,11.3-10.4c6.1-5.6,13.1-7.5,21.1-4.7  c17,6,34,12,51,18.1c1,0.3,1.7,1.2,2.6,1.9c-0.7,0.9-1.3,2.1-2.2,2.6c-5.4,2.8-8.5,7.3-10.4,13C-107.8,337.4-109.9,340.9-111.8,345  z M-191.2,318.9c-3.3-1.4-5.9-2.7-8.6-3.5c-1.6-0.5-3.7-0.8-5.2-0.2c-57,20.6-114,41.3-171,62c-8,2.9-12.2,8.9-14.7,16.9  c4.2,2.6,8.3,5.2,12.6,8c0.2-1.1,0.4-1.6,0.5-2.2c1.7-9.3,7.1-15,16.1-18.3c45.5-16.6,90.9-33.4,136.4-50.2  C-214,327.3-202.9,323.2-191.2,318.9z M-172.2,132.5c-3.9,1.7-6.6,3.1-9.4,4.1c-3.1,1.2-3.9,3.1-3.2,6.4  c2.3,11.7,4.9,23.4,6.2,35.3c3.8,34.6,1.6,69.2-2.5,103.7c-0.4,3.2-0.7,6.5-1.1,10.2c3.6-2.8,6.4-5.6,9.7-7.4c4-2.1,5-5,5.2-9.2  c1.7-34.3,2.7-68.5-0.1-102.8C-168.4,159.6-170.5,146.5-172.2,132.5z M-228,127.1c-2.2,0-4.5-0.1-6.7,0c-5.7,0.3-9.9,4.6-10.2,10.4  c-0.3,6.4,3.1,11,8.9,11.8c15,1.9,29.2-0.9,42.8-7.1c3.8-1.7,6.1-4.7,6.3-9c0.5-9.1-7.5-14.8-16.2-11.1  C-211,125.5-219.3,127.5-228,127.1z M-103.2,173.9c11.8-0.7,22.7-4.1,32.9-9.7c5.7-3.2,7.5-9.1,4.6-14.7c-2.9-5.8-9.1-8.1-14.8-5.2  c-9.1,4.7-18.4,7.2-28.7,6.7c-5.2-0.3-9.6,3.7-10.6,8.7c-1.1,5.4,1.2,10,6.5,12C-110.1,172.9-106.6,173.2-103.2,173.9z   M-102.8,78.2c-1.1,0-3.2,0-5.3,0.3c-9.5,1.1-18.3,4.3-23.1,13c-3.7,6.8-6.6,14.2-8.6,21.7c-2.3,9.1-0.1,13,9,15.8  c8.4,2.5,17.2,3.9,25.8,5.3c6.9,1.1,13-1.6,18.2-6.1c7.9-6.8,12.9-15.4,15.2-25.5c2-9.1-1.1-15.3-9.3-19.8  C-87.4,79.3-94.4,78.1-102.8,78.2z M-59.7,157.6c7.8-4.5,15.4-10.1,20.4-18.6c5.4-9,3.8-15.8-5.8-20.1c-7.4-3.3-15.5-5.1-23.4-7.5  c-0.7-0.2-2,0.3-2.4,0.9c-2.4,4-4.5,8.1-6.9,12.4c0.9,0.2,1.6,0.4,2.3,0.5c6.5,1.5,13.1,2.9,19.6,4.7c3.2,0.9,3.6,2.4,1.3,4.8  c-3.2,3.2-6.8,6.1-9.6,8.6C-62.7,148.1-61.2,152.7-59.7,157.6z M-142.3,105.6c-12.4-0.5-36.6,7.3-45.2,14.4  c1.9,4.3,3.7,8.4,5.3,12.1c12.2-4,24.9-8.1,37.8-12.3C-143.8,115.6-143.1,110.7-142.3,105.6z"></path>	<path class="st1" d="M-71.4,324.1c-3.2,10.7-6.4,21.3-9.8,31.9c-0.4,1.3-2.1,2.4-3.5,3c-67.8,31.3-135.7,62.6-203.5,93.9  c-2.1,1-3.6,1-5.4-0.5c-1.6-1.3-3.4-2.7-5.3-3.5c-4.1-1.9-4.7-4.9-3.8-8.9c1.4-6.1,5.1-10,10.7-12.6c31-14.3,62-28.6,93-42.8  c26.2-12.1,52.5-24.2,78.7-36.3c2.6-1.2,4.7-1.4,7.3,0c3.2,1.8,6.7,3.3,10.7,5.2c-1.6,0.8-2.7,1.4-3.9,2  c-57.7,27.2-115.4,54.3-173,81.5c-3.1,1.5-5.8,3.7-8.5,5.8c-0.5,0.4-0.2,1.7-0.2,2.6c0.8,0,1.7,0.3,2.3,0c7.4-4,14.6-8.4,22.2-12  c53.8-25.4,107.7-50.8,161.6-76c6.5-3,11.3-7.4,15-13.4c4-6.5,8.4-12.7,12.6-19c0.4-0.6,1.1-0.9,1.6-1.4  C-72.2,323.8-71.8,323.9-71.4,324.1z"></path>	<path class="st1" d="M-75.7,355.3c3-14.1,6.5-27.7,8.6-41.5c4-26.1,4.9-52.4,3.9-78.7c-0.8-21-2.7-42-4.5-63  c-0.3-3.6,0.3-6,3.3-7.7c2.7-1.5,5.4-3,8.6-4.7c1.2,11.8,2.6,23.1,3.6,34.3c2.6,32.8,4.4,65.7,3.5,98.6  c-0.4,16.5-2.1,33.1-3.3,49.6c-0.1,1.2-0.8,2.9-1.7,3.3C-61.1,348.9-68.6,352.1-75.7,355.3z"></path>	<path class="st1" d="M-191.2,318.9c-11.8,4.3-22.8,8.4-33.9,12.5c-45.5,16.8-90.9,33.6-136.4,50.2c-9,3.3-14.4,9-16.1,18.3  c-0.1,0.6-0.3,1.1-0.5,2.2c-4.4-2.8-8.5-5.3-12.6-8c2.5-8,6.7-14,14.7-16.9c57-20.7,114-41.4,171-62c1.5-0.6,3.6-0.3,5.2,0.2  C-197,316.2-194.5,317.5-191.2,318.9z"></path>	<path class="st1" d="M-172.2,132.5c1.7,14,3.7,27.1,4.8,40.4c2.8,34.2,1.7,68.5,0.1,102.8c-0.2,4.2-1.2,7.1-5.2,9.2  c-3.3,1.8-6.1,4.6-9.7,7.4c0.4-3.7,0.7-7,1.1-10.2c4.1-34.5,6.4-69,2.5-103.7c-1.3-11.8-3.9-23.6-6.2-35.3  c-0.7-3.3,0.1-5.2,3.2-6.4C-178.8,135.5-176.1,134.2-172.2,132.5z"></path>	<path class="st1" d="M-228,127.1c8.7,0.4,17-1.6,25-5c8.6-3.7,16.7,2,16.2,11.1c-0.2,4.3-2.6,7.3-6.3,9c-13.6,6.2-27.9,9-42.8,7.1  c-5.8-0.7-9.2-5.4-8.9-11.8c0.3-5.8,4.5-10.1,10.2-10.4C-232.5,127-230.2,127.1-228,127.1z"></path>	<path class="st1" d="M-103.2,173.9c-3.4-0.7-6.9-0.9-10.1-2.1c-5.3-1.9-7.6-6.6-6.5-12c1-5,5.4-9,10.6-8.7  c10.3,0.5,19.7-2,28.7-6.7c5.7-3,11.9-0.6,14.8,5.2c2.8,5.6,1.1,11.5-4.6,14.7C-80.5,169.8-91.4,173.1-103.2,173.9z"></path>	<path class="st1" d="M-102.8,78.2c8.4-0.1,15.4,1.1,21.9,4.6c8.2,4.5,11.3,10.8,9.3,19.8c-2.2,10.1-7.3,18.7-15.2,25.5  c-5.2,4.5-11.2,7.2-18.2,6.1c-8.7-1.4-17.4-2.8-25.8-5.3c-9.1-2.7-11.4-6.6-9-15.8c1.9-7.5,4.8-14.9,8.6-21.7  c4.8-8.7,13.6-11.9,23.1-13C-106,78.2-103.9,78.2-102.8,78.2z M-134.6,112.5c-0.3,5,1.9,8.6,6.4,10c6.1,1.9,12.4,3.3,18.8,4.6  c9.6,1.9,16.8-2.5,22.1-10.1c2.8-4,4.9-8.7,6.3-13.4c2.3-7.6-0.3-13.6-7.3-17.3c-10.5-5.5-21.5-5.9-31.9-0.3  C-130.4,91.5-132.8,102-134.6,112.5z"></path>	<path class="st1" d="M-59.7,157.6c-1.5-4.9-3-9.5-4.5-14.3c2.8-2.5,6.4-5.3,9.6-8.6c2.4-2.4,2-3.9-1.3-4.8  c-6.5-1.7-13-3.2-19.6-4.7c-0.7-0.2-1.4-0.3-2.3-0.5c2.3-4.3,4.5-8.4,6.9-12.4c0.4-0.6,1.7-1.1,2.4-0.9c7.8,2.3,15.9,4.1,23.4,7.5  c9.6,4.3,11.2,11.1,5.8,20.1C-44.3,147.5-51.9,153.2-59.7,157.6z"></path>	<path class="st1" d="M-142.3,105.6c-0.8,5.1-1.5,10-2.1,14.2c-12.8,4.2-25.5,8.3-37.8,12.3c-1.6-3.7-3.4-7.8-5.3-12.1  C-179,112.9-154.8,105-142.3,105.6z"></path>	<path class="st3" d="M-361,391.7c1,0.6,1.9,1,2.8,1.6c15.1,9.1,30.3,18.2,45.4,27.4c1.1,0.7,1.6,2.3,2.4,3.5  c-1.4-0.1-3.1,0.3-4.2-0.4c-15.4-9.2-30.7-18.4-46-27.8c-0.9-0.6-1.4-2-1.9-3.1C-362.6,392.8-361.5,392.1-361,391.7z"></path>	<path class="st3" d="M-134.6,112.5c1.8-10.4,4.2-21,14.4-26.5c10.4-5.6,21.4-5.2,31.9,0.3c7,3.7,9.6,9.8,7.3,17.3  c-1.4,4.7-3.5,9.4-6.3,13.4c-5.2,7.5-12.4,12-22.1,10.1c-6.3-1.2-12.6-2.7-18.8-4.6C-132.7,121-134.8,117.4-134.6,112.5z   M-131.3,112.3c1,2,1.5,4.8,3.1,5.7c7.9,4.6,16.8,6.4,25.8,5.2c8.7-1.2,17.3-12.6,18.2-22.4c0.5-5.5-1.5-9.2-6.6-11.7  c-7.2-3.5-14.8-4-22.5-1.9C-123,89.9-130.1,100.3-131.3,112.3z"></path>	<path class="st4" d="M-131.3,112.3c1.2-12,8.3-22.4,17.9-25c7.7-2.2,15.3-1.6,22.5,1.9c5.2,2.5,7.1,6.2,6.6,11.7  c-0.9,9.8-9.5,21.2-18.2,22.4c-9,1.2-17.9-0.6-25.8-5.2C-129.8,117.1-130.3,114.2-131.3,112.3z"></path></g><g class="st0">	<path class="st1" d="M75.6,287.1c-2.4-1.4-3.4-3.4-3.3-6.2c0.2-3.6,0-7.1,0-10.7c0-4.3,1.6-6,6-6c13.3,0,26.6,0,39.9,0  c5.9,0,11.7,0,17.8,0c0-4.5,0-8.9,0-13.6c-0.9,0-1.8,0-2.8,0c-6.2,0-12.3,0-18.5,0c-9.5-0.1-15.1-5.7-15.1-15.2c0-2.5-0.1-5,0-7.5  c0.3-7.7,5.3-13.2,13-13.7c6.7-0.4,13.4-0.2,20.1-0.2c1,0,2.1,0,3.3,0c0-4.6,0-9,0-13.7c-2.6,0-5.1,0-7.7,0  c-9.2-0.1-14.9-5.6-14.9-14.8c0-32.7,0-65.5,0-98.2c0-9.3,5.6-14.8,14.8-14.9c2.5,0,5,0,7.7,0c0-6.1,0-12,0-18.2  c-2.3,0-4.5,0-6.8,0c-4.3,0-5.3-0.7-6.9-4.6c-14.9,0-29.9,0-45.2,0c0,7.5,0,14.9,0,22.7c4,0.7,4.4,3.7,4.4,7.4  c-0.1,25.8,0,51.6,0,77.4c0,5.4-1.3,6.8-6.8,6.8c-7.8,0-15.5,0-23.3,0c-5,0-6.4-1.4-6.4-6.4c0-26.2,0-52.5,0-78.7  c0-4.2,0.5-5,4.5-6.5c0-0.9,0-1.8,0-2.8c0-13.5,0-26.9,0-40.4c0-5.5,1.4-6.9,6.8-6.9c21,0,41.9,0,62.9,0c1.1,0,2.1,0,3.4,0  c0.6-3.9,3.3-4.7,6.7-4.5c1.2,0.1,2.3,0,3.5,0c2,0.1,3.6,0.1,4.6-2.4c0.4-1.1,2.5-2.1,3.9-2.1c5.9-0.2,11.8-0.1,17.7-0.1  c2.2,0,3.6,1,4.6,3.1c0.3,0.7,1.3,1.3,2,1.4c1.8,0.2,3.6,0.1,5.3,0.1c3.3-0.1,6,0.7,6.7,4.5c6.9,0,13.6,0,20.2,0  c15.3,0,30.7,0,46,0c5.4,0,6.8,1.4,6.8,6.9c0,13.4,0,26.8,0,40.1c0,1,0,2,0,3.1c3.8,0.8,4.5,3.3,4.5,6.8c-0.1,26.1,0,52.1,0,78.2  c0,5.3-1.3,6.6-6.7,6.6c-7.9,0-15.7,0-23.6,0c-4.7,0-6.3-1.6-6.3-6.2c0-26.3,0-52.6,0-79c0-3.9,0.7-4.9,4.4-6.4  c0-7.4,0-14.9,0-22.5c-15.2,0-30.2,0-45.3,0c-2.5,7.4-9,3.2-13.7,4.9c0,5.7,0,11.6,0,17.9c2.6,0,5.2,0,7.7,0  c9.1,0.1,14.8,5.6,14.8,14.6c0,32.9,0,65.8,0,98.8c0,8.9-5.7,14.5-14.6,14.6c-2.6,0-5.1,0-7.9,0c0,4.6,0,9,0,13.7c2,0,3.8,0,5.7,0  c5.9,0,11.8-0.2,17.7,0.2c7.6,0.5,12.6,5.8,13,13.4c0.1,3.1,0.1,6.2,0,9.4c-0.4,8.2-6.1,13.5-14.5,13.6c-6.2,0.1-12.5,0-18.7,0  c-1,0-1.9,0-3.1,0c0,4.6,0,8.9,0,13.6c1.1,0,2.1,0,3.1,0c17.9,0,35.9,0,53.8,0c5.5,0,6.8,1.4,6.8,6.8c0,3.2-0.1,6.4,0,9.6  c0.1,2.9-0.7,5-3.3,6.5C174.8,287.1,125.2,287.1,75.6,287.1z M177.3,136.4c0-16.2,0-32.5,0-48.7c0-4.8-1.5-6.2-6.2-6.2  c-14.1,0-28.2,0-42.3,0c-4.8,0-6.2,1.5-6.2,6.2c0,32.4,0,64.8,0,97.2c0,4.7,1.5,6.3,6.2,6.3c14.1,0,28.2,0,42.3,0  c4.7,0,6.2-1.5,6.2-6.3C177.3,168.7,177.3,152.6,177.3,136.4z M150.1,223.1c-11.8,0-23.5,0-35.3,0c-4.4,0-5.9,1.6-6,6  c0,1.8,0,3.6,0,5.3c0,5.6,1.4,6.9,7,6.9c22.6,0,45.3,0,67.9,0c0.8,0,1.6,0,2.4,0c3.2-0.3,4.9-1.9,5-5.1c0.1-2.2,0-4.5,0-6.7  c0-5-1.5-6.5-6.6-6.5C173.1,223.1,161.6,223.1,150.1,223.1z M72.2,154.4c0-24.4,0-48.6,0-72.7c-6.1,0-12,0-17.9,0  c0,24.3,0,48.5,0,72.7C60.3,154.4,66.2,154.4,72.2,154.4z M227.7,81.6c0,24.4,0,48.5,0,72.8c6,0,11.9,0,18,0c0-24.3,0-48.5,0-72.8  C239.7,81.6,233.8,81.6,227.7,81.6z M67.7,72.3c0-1.2,0-2.2,0-3.1c0-7.4,0-14.8,0-22.2c0-5.2,1.5-6.6,6.7-6.6c15,0,29.9,0,44.9,0  c1,0,2.1,0,3.1,0c0-3.2,0-6,0-9c-21.3,0-42.4,0-63.7,0c0,13.7,0,27.3,0,40.9C61.8,72.3,64.5,72.3,67.7,72.3z M177.4,40.3  c1.2,0,2.2,0,3.2,0c15.1,0,30.1,0,45.2,0c4.9,0,6.4,1.5,6.5,6.4c0,7.6,0,15.1,0,22.7c0,0.9,0.1,1.9,0.1,2.8c3.1,0,5.9,0,8.8,0  c0-13.7,0-27.3,0-40.8c-21.4,0-42.5,0-63.7,0C177.4,34.4,177.4,37.2,177.4,40.3z M131.9,26.8c0,6.2,0,12,0,18c12.1,0,24.1,0,36.1,0  c0-6.1,0-12,0-18C155.9,26.8,144,26.8,131.9,26.8z M81.6,277.8c45.7,0,91.2,0,136.8,0c0-1.5,0-2.8,0-4.3c-45.6,0-91.2,0-136.8,0  C81.6,274.9,81.6,276.2,81.6,277.8z M145.6,54.3c0,6.2,0,12.1,0,18c3,0,5.8,0,8.8,0c0-6,0-12,0-18  C151.4,54.3,148.6,54.3,145.6,54.3z M154.4,200.5c-3,0-5.9,0-8.8,0c0,4.5,0,8.8,0,13.2c3,0,5.9,0,8.8,0  C154.4,209.2,154.4,204.8,154.4,200.5z M145.6,250.7c0,4.5,0,8.9,0,13.3c3,0,5.8,0,8.7,0c0-4.5,0-8.9,0-13.3  C151.3,250.7,148.5,250.7,145.6,250.7z"></path>	<path class="st1" d="M140.7,104.6c0,21.2,0,42.3,0,63.5c-2.9,0-5.8,0-8.8,0c0-21.2,0-42.2,0-63.5  C134.8,104.6,137.7,104.6,140.7,104.6z"></path>	<path class="st1" d="M159.3,104.5c3,0,5.8,0,8.8,0c0,21.2,0,42.2,0,63.5c-2.8,0-5.7,0-8.8,0C159.3,147,159.3,125.9,159.3,104.5z"></path></g><g class="st0">	<path class="st1" d="M51,12.2c4.8,1.8,10,3,14.3,5.7c13.5,8.2,19.1,25,14,39.9c-5.1,14.9-20,24.6-35.5,23.2  C27.8,79.5,15,67.5,12.6,51.8c-2.8-18.6,9.7-35.9,28.2-39.1c0.5-0.1,1-0.3,1.5-0.5C45.2,12.2,48.1,12.2,51,12.2z M35.7,53.8  c-3.2-7.3-2.2-13.1,2.9-17.2c4.5-3.6,10.9-3.8,15.5-0.5c5.5,4,6.7,9.7,3.7,17.3c3,3.3,5.9,6.4,8.7,9.5c8.7-9.7,7.8-25.5-2.2-35  c-10.2-9.6-26-9.4-35.9,0.4c-9.6,9.6-10.3,25.4-1.5,34.8c1.3-1.7,2.4-3.6,3.9-5.1C32.3,56.4,34.1,55.2,35.7,53.8z M34.3,69  c6.5,4.5,18.8,4.6,24.7-0.1c-1.9-5.8-6.6-9.4-12.3-9.4C40.9,59.6,36.2,63.1,34.3,69z M50.9,46.7c0.1-2.3-1.8-4.3-4.2-4.4  c-2.3-0.1-4.3,1.8-4.4,4.2c-0.1,2.3,1.8,4.3,4.2,4.4C48.9,51,50.9,49.1,50.9,46.7z"></path>	<path class="st1" d="M287.8,50.9c-0.4,1.6-0.8,3.3-1.2,4.9C282,72,265.9,83,249.8,80.9c-17.4-2.2-30.5-16.3-30.9-33.1  c-0.4-17.4,11.7-32.1,28.6-35.1c0.5-0.1,1-0.3,1.5-0.5c2.9,0,5.7,0,8.6,0c0.5,0.2,1,0.4,1.5,0.5c14,2.9,23.1,11.2,27.4,24.7  c0.5,1.6,0.8,3.3,1.3,4.9C287.8,45.2,287.8,48.1,287.8,50.9z M273.3,62.9c8.8-10.1,7.7-25.9-2.6-35.4c-10.4-9.5-26.4-8.8-36.1,1.5  c-9.1,9.6-9.4,25.6-1.1,33.8c2.9-3.1,5.8-6.2,8.8-9.4c-3-6.7-2.1-12.5,2.9-16.7c4.4-3.7,11-4.2,15.4-0.6c2.1,1.7,3.8,4.1,4.9,6.5  c1.7,3.8,0.6,7.7-1,10.8C267.5,56.7,270.3,59.7,273.3,62.9z M265.7,69.3c-1.8-6.2-6.8-9.9-12.8-9.7c-5.7,0.2-10.5,4.1-11.9,9.8  C249.2,73.5,257.4,73.5,265.7,69.3z M253.4,42.4c-2.3-0.1-4.3,1.8-4.4,4.2c-0.1,2.3,1.8,4.3,4.2,4.4c2.3,0.1,4.3-1.8,4.4-4.2  C257.7,44.4,255.8,42.4,253.4,42.4z"></path>	<path class="st1" d="M287.8,257.6c-0.4,1.5-0.8,3.1-1.2,4.6c-4.3,16.2-20.6,27.4-36.9,25.3c-17.7-2.3-30.7-16.5-30.9-33.7  c-0.2-17.3,12.3-32,29.3-34.5c18.6-2.8,35.9,9.7,39.1,28.2c0.1,0.5,0.3,1,0.5,1.5C287.8,251.8,287.8,254.7,287.8,257.6z M242.2,260  c-3-6.5-2.1-12.3,2.7-16.5c4.3-3.8,10.9-4.4,15.4-0.9c2.1,1.6,3.9,4,5,6.4c1.8,3.9,0.7,7.8-0.9,11c3.1,3.4,6,6.5,8.8,9.5  c9-10.5,7.7-26.4-3.1-35.8c-10.5-9.2-26.5-8.2-36,2.3c-8.7,9.6-8.9,25.7-0.7,33.4C236.3,266.4,239.1,263.3,242.2,260z M265.8,275.9  c-1.9-6.3-6.9-9.9-12.9-9.7c-5.7,0.2-10.5,4.1-11.8,9.8C249.2,280.2,257.4,280.2,265.8,275.9z M257.6,253.2  c-0.1-2.3-2.1-4.2-4.4-4.2c-2.3,0.1-4.2,2.1-4.2,4.4c0.1,2.3,2.1,4.2,4.4,4.2C255.8,257.5,257.7,255.5,257.6,253.2z"></path>	<path class="st1" d="M231.8,150c0,45.2-36.7,81.8-81.9,81.7c-45.1-0.1-81.8-36.8-81.8-81.9c0-45.1,36.8-81.8,81.9-81.7  C195.3,68.2,231.9,104.9,231.8,150z M76.8,149.8c-0.1,40.4,32.8,73.3,73.2,73.3c40.3,0,73.1-32.6,73.2-72.9  c0.1-40.4-32.5-73.3-73-73.4C109.8,76.7,76.9,109.4,76.8,149.8z"></path>	<path class="st1" d="M46.6,218.8c18.9,0,34.4,15.5,34.4,34.4c0,19-15.5,34.6-34.6,34.5c-18.9,0-34.3-15.6-34.3-34.5  C12.2,234.3,27.7,218.8,46.6,218.8z M66.6,269.5c8.6-9.5,7.8-25.3-1.9-34.8c-10.1-9.7-25.9-9.7-35.9,0c-9.8,9.5-10.5,25.3-1.9,34.7  c2.9-3.1,5.8-6.2,8.8-9.5c-3-7.1-2-12.9,3.3-17c4.6-3.5,10.9-3.6,15.5-0.2c5.4,4.1,6.5,9.7,3.5,17.1  C60.8,263.3,63.7,266.4,66.6,269.5z M34.3,275.6c6.8,4.6,18.8,4.6,24.7,0c-1.8-5.7-6.4-9.3-12-9.4  C41.1,266.1,36.3,269.6,34.3,275.6z M46.6,249c-2.3,0-4.3,2-4.3,4.3c0,2.3,2,4.3,4.3,4.3c2.3,0,4.3-2,4.3-4.3  C50.9,250.9,49,249,46.6,249z"></path>	<path class="st1" d="M150,50.9c-18,0-36.1,0-54.1,0c-0.9,0-1.8,0.1-2.7-0.1c-2.2-0.5-3.5-1.9-3.4-4.2c0-2.3,1.3-3.7,3.5-4.2  c0.9-0.2,2-0.1,2.9-0.1c35.9,0,71.8,0,107.6,0c0.4,0,0.7,0,1.1,0c3.4,0,5.4,1.6,5.3,4.3c0,2.7-2,4.3-5.4,4.3  C186.6,50.9,168.3,50.9,150,50.9z"></path>	<path class="st1" d="M42.4,149.7c0-17.8,0-35.7,0-53.5c0-0.9-0.1-1.8,0.1-2.7c0.4-2.3,1.9-3.7,4.2-3.7c2.4,0,3.8,1.4,4.2,3.7  c0.2,0.9,0.1,1.8,0.1,2.7c0,35.9,0,71.7,0,107.6c0,0.3,0,0.5,0,0.8c0,3.6-1.6,5.6-4.3,5.6c-2.8,0-4.3-2-4.3-5.6  C42.3,186.3,42.4,168,42.4,149.7z"></path>	<path class="st1" d="M249,149.7c0-17.8,0-35.7,0-53.5c0-0.9-0.1-1.8,0.1-2.7c0.4-2.3,1.9-3.7,4.2-3.7c2.4,0,3.8,1.4,4.2,3.7  c0.2,0.9,0.1,1.8,0.1,2.7c0,35.9,0,71.7,0,107.6c0,0.3,0,0.5,0,0.8c0,3.6-1.6,5.6-4.3,5.6c-2.8,0-4.3-2-4.3-5.6  C249,186.3,249,168,249,149.7z"></path>	<path class="st1" d="M149.7,257.6c-17.9,0-35.7,0-53.6,0c-0.9,0-1.8,0.1-2.7-0.1c-2.3-0.4-3.7-1.9-3.7-4.2c0-2.4,1.4-3.8,3.7-4.2  c0.9-0.2,1.8-0.1,2.7-0.1c35.9,0,71.8,0,107.6,0c0.3,0,0.5,0,0.8,0c3.6,0,5.6,1.5,5.6,4.3c0,2.8-2,4.3-5.6,4.3  C186.3,257.6,168,257.6,149.7,257.6z"></path>	<path class="st1" d="M167.2,160.9c-11.6,0-22.8,0-34.5,0c0,3.3,0,6.4,0,9.6c0,8-5.5,13.9-12.9,13.9c-7.4,0-12.9-5.8-12.9-13.9  c0-5.3,0-10.6,0-16c-2.4-0.7-4.3-1.9-4.3-4.7c0.1-2.6,1.9-3.7,4.3-4.4c0-5.4,0-10.7,0-16.1c0-8,5.5-13.9,12.9-13.9  c7.4,0,12.9,5.8,12.9,13.9c0,3.1,0,6.3,0,9.6c11.4,0,22.8,0,34.5,0c0-3.2,0-6.5,0-9.8c0-7.8,5.5-13.6,12.8-13.7  c7.5,0,13,5.8,13,13.8c0,4.5,0,9,0,13.4c0,0.9,0,1.8,0,2.7c2.4,0.7,4.3,1.9,4.3,4.6c0,2.7-1.9,3.8-4.3,4.4c0,5.5,0,10.9,0,16.3  c0,7.8-5.5,13.6-12.9,13.6c-7.3,0-12.9-5.8-12.9-13.6C167.2,167.6,167.2,164.4,167.2,160.9z M124.2,150.1c0-6.9,0-13.8,0-20.7  c0-3.2-1.6-5.1-4.2-5.2c-2.7-0.1-4.4,1.9-4.4,5.3c0,13.7,0,27.4,0,41.2c0,3.2,1.6,5.1,4.2,5.2c2.7,0.1,4.4-1.9,4.4-5.3  C124.2,163.7,124.2,156.9,124.2,150.1z M184.4,150c0-6.8,0-13.6,0-20.4c0-3.4-1.6-5.4-4.3-5.4c-2.7,0-4.3,2-4.3,5.4  c0,13.6,0,27.3,0,40.9c0,3.4,1.6,5.4,4.3,5.4c2.7,0,4.3-2,4.3-5.4C184.5,163.6,184.4,156.8,184.4,150z M167.1,148  c-11.6,0-22.9,0-34.2,0c0,1.4,0,2.6,0,4c11.4,0,22.8,0,34.2,0C167.1,150.6,167.1,149.4,167.1,148z"></path></g><g class="st0">	<path class="st1" d="M165.6,12.2c5,1.8,9.1,4.7,9.8,10.3c0.6,4.6,0.4,9.3,0,13.9c-0.4,4-3,6.9-6.5,8.7c-1.2,0.6-1.7,1.3-1.7,2.6  c0.1,2.4,0,4.8,0,7.1c4.4,0.5,8.8,0.5,12.9,1.5c14.7,3.5,24.3,12.8,28.7,27.3c0.9,2.8-0.2,5.1-2.7,5.9c-2.4,0.8-4.6-0.6-5.5-3.3  c-5.2-15.1-15.4-22.3-31.4-22.3c-30,0-60.1,0-90.1,0c-0.9,0-1.8,0.1-2.7,0c-2.3-0.3-4-2.2-3.9-4.4c0.2-2.4,1.5-3.8,3.9-4.1  c0.9-0.1,1.8-0.1,2.7-0.1c25.3,0,50.6,0,75.9,0c1.1,0,2.1,0,3.4,0c0-2.8,0-5.5,0-8.4c-31.4,0-62.8,0-94.5,0c0,3.9,0,7.7,0,11.6  c0,4-1.5,5.5-5.5,5.5c-6.7,0-13.5-0.3-19.8,2.7c-9.6,4.7-15.3,12.3-17.4,23.1c1.3,0,2.4,0,3.4,0c54,0,108,0,162,0  c4.5,0,6.4,1.3,6.5,4.3c0,2.9-2,4.3-6.4,4.3c-54.1,0-108.2,0-162.3,0c-1.1,0-2.1,0-3.4,0c0,48.8,0,97.4,0,146.4c1.1,0,2.2,0,3.2,0  c49.8,0,99.6,0,149.3,0c4.5,0,6.5,1.3,6.5,4.2c0.1,3-2,4.4-6.6,4.4c-49.4,0-98.8,0-148.3,0c-1,0-2.1,0-3.2,0  c1.1,4.6,5.6,8.1,10.7,8.5c1.2,0.1,2.3,0.1,3.5,0.1c45.1,0,90.2,0,135.3,0c0.6,0,1.3,0,1.9,0c4.6,0,6.7,1.4,6.6,4.4  c-0.1,2.9-2.1,4.2-6.5,4.2c-25.7,0-51.3,0-77,0c-18.1,0-36.2,0-54.4,0c-1,0-2,0-3,0c0.6,4.2,5.3,8,10.5,8.5  c1.1,0.1,2.2,0.1,3.2,0.1c38.8,0,77.7,0,116.5-0.1c2.9,0,5.8-0.9,8.6-1.7c2.7-0.8,4.9-0.4,6,1.8c1.1,2.2,0.4,4.8-2.2,5.8  c-3.2,1.3-6.6,2.7-10,2.7c-40.5,0.2-80.9,0.2-121.4,0.1c-9.3,0-17.3-6.2-20.1-15.1c-0.5-1.7-1.2-2.6-3-3.1  c-9.1-2.7-15.2-10.8-15.3-20.2c0-52.1-0.1-104.2,0-156.3c0.1-20.2,17.3-37.2,37.5-37.6c1.7,0,3.4,0,5.4,0c0-3,0.1-5.8-0.1-8.7  c0-0.5-0.8-1.1-1.3-1.4c-4.9-2.6-7.2-6.8-7.2-12.3c0-2.4,0-4.8,0-7.3c0-6.4,3.2-10.8,9.3-13c0.3-0.1,0.6-0.3,0.9-0.5  C93.1,12.2,129.4,12.2,165.6,12.2z M111.3,38.1c16.9,0,33.7,0,50.6,0c3.9,0,5.3-1.5,5.4-5.4c0-1.9,0-3.8,0-5.6  c0-4.9-1.3-6.2-6.2-6.2c-28.8,0-57.6,0-86.4,0c-4.8,0-9.7,0-14.5,0c-3.2,0-4.8,1.6-4.8,4.8c-0.1,2.2,0,4.3,0,6.5  c0,4.6,1.3,5.9,5.9,5.9C77.9,38.1,94.6,38.1,111.3,38.1z"></path>	<path class="st1" d="M287.8,148.4c-1.6,4-3.8,7.4-8,9.2c-0.6,0.3-1,1.4-1,2.2c-1.2,17-2.3,34-3.4,51c-1.4,21.7-2.8,43.5-4.4,65.2  c-0.5,6.4-5.9,11.6-12.3,11.7c-17.9,0.1-35.9,0.1-53.8,0c-6.6,0-11.9-5.4-12.4-11.9c-1.7-24.8-3.3-49.5-4.9-74.3  c-0.9-13.8-1.8-27.5-2.7-41.3c-0.1-1.5-0.6-2.3-2-3.1c-4.7-2.5-7-6.5-7.1-11.8c0-2.7,0-5.4,0-8.1c0.1-7.4,5.6-12.9,12.9-13  c4.2-0.1,8.4,0,12.9,0c0-4.1,0-7.9,0-11.7c0-13.6,9.2-22.7,22.8-22.7c13.3,0,26.5,0.1,39.8,0c5.7-0.1,10.5,1.6,13.3,6.9  c2.8,5.1,1.9,10-1.7,14.7c3,3.4,3.5,7.5,3.3,11.8c0,0.7,0.3,2,0.9,2.2c4,1.9,6.2,5.2,7.7,9.1C287.8,139,287.8,143.7,287.8,148.4z   M193.6,158.6c0,1.3-0.1,2.2,0,3.1c1.1,16,2.1,32,3.2,48c1.4,21.6,2.9,43.3,4.3,64.9c0.2,3,1.8,4.5,4.9,4.5c17.2,0,34.4,0,51.6,0  c3.1,0,4.6-1.5,4.9-4.5c0.3-4.5,0.7-8.9,1-13.4c2.4-35.3,4.7-70.6,7.1-106c0.2-3.4,1.2-4.6,4.6-5.2c2.8-0.6,4-1.9,4.1-4.8  c0.1-2.2,0-4.5,0-6.7c0-4.2-1.4-5.7-5.6-5.7c-11.7,0-23.3,0-35,0c-16,0-31.9,0-47.9,0c-5.1,0-6.3,1.2-6.3,6.4c0,1.6,0,3.2,0,4.8  c0,4.7,1.3,6,6.1,6c21.6,0,43.2,0,64.8,0c0.9,0,1.8-0.1,2.7,0.1c2.3,0.4,3.7,1.8,3.8,4.1c0.1,2.2-1.6,4.1-3.9,4.4  c-0.8,0.1-1.6,0-2.4,0c-19.6,0-39.3,0-58.9,0C195.7,158.6,194.8,158.6,193.6,158.6z M218.9,124c0-1,0-1.7,0-2.4  c0-9.7,5-14.7,14.8-14.7c10.6,0,21.1,0,31.7,0c3.2,0,5.1-1.6,5.2-4.2c0-2.6-1.9-4.4-5-4.4c-14.1,0-28.3-0.1-42.4,0  c-6.2,0-11.6,4.1-12.4,10.2c-0.7,5.1-0.1,10.3-0.1,15.5C213.3,124,216,124,218.9,124z M245.1,115.6c-4.5,0-9.1-0.1-13.6,0  c-2.1,0.1-3.5,1.4-3.8,3.5c-0.2,1.6,0,3.3,0,4.9c5.8,0,11.4,0,17,0C244.7,121.2,244.9,118.5,245.1,115.6z M270.6,124  c0-1.2,0-2.1,0-3c0-4-1.5-5.5-5.5-5.5c-2.4,0-4.8,0-7.2,0c-2.4,0-4,1.2-4.4,3.5c-0.3,1.6-0.1,3.3-0.1,4.9  C259.3,124,264.8,124,270.6,124z"></path>	<path class="st1" d="M81.4,210.4c-0.2,2.6-0.2,5.1-0.8,7.4c-1.3,5.5-6.2,9.4-11.9,9.6c-3.1,0.1-6.3,0.1-9.4,0  c-4.8-0.2-8.6-2.4-10.9-6.7c-0.8-1.5-1.7-2-3.3-1.9c-2.1,0-4.3,0-6.4-0.5c-5.4-1.4-9.2-6.4-9.3-12.1c-0.1-5.8-0.1-11.7,0-17.5  c0.1-7.2,5.7-12.7,12.9-12.8c0.6,0,1.3-0.1,1.9,0c2.2,0.4,3.5-0.5,4.6-2.5c2.2-3.9,5.9-5.9,10.4-6.1c3-0.1,5.9-0.1,8.9,0  c7.4,0.1,12.8,5.6,13,13c0,1.3,0,2.6,0,4.1c20.1,0,40,0,60.3,0c0-1.5,0-3,0-4.5c0.2-6.9,5.6-12.4,12.5-12.6c3-0.1,5.9-0.1,8.9,0  c5.1,0.1,9,2.4,11.3,6.9c0.8,1.5,1.7,1.8,3.1,1.7c1.1-0.1,2.2-0.1,3.2,0c2.3,0.3,4,2.2,3.9,4.4c-0.2,2.4-1.5,3.8-3.9,4.1  c-1.4,0.2-2.9,0-4.5,0c0,8.6,0,17,0,25.9c1.3,0,2.6-0.1,3.9,0c2.7,0.1,4.5,1.9,4.5,4.3c0,2.3-1.8,4.4-4.3,4.2  c-3.4-0.3-5.4,0.6-7.2,3.7c-2,3.4-5.7,4.8-9.7,4.9c-2.9,0.1-5.7,0.1-8.6,0c-7.6-0.1-13-5.6-13.2-13.1c0-1.2,0-2.5,0-3.9  C121.3,210.4,101.4,210.4,81.4,210.4z M72.5,197.5c0-5.6,0-11.3,0-16.9c0-3-1.7-4.6-4.7-4.7c-2.6-0.1-5.2-0.1-7.8,0  c-3,0.1-4.7,1.6-4.7,4.7c0,11.2,0,22.4,0,33.6c0,3,1.6,4.6,4.7,4.7c2.4,0.1,4.8,0,7.3,0c3.7,0,5.3-1.5,5.3-5.2  C72.5,208.3,72.5,202.9,72.5,197.5z M150,197.3c0,5.6,0,11.1,0,16.7c0,3.2,1.6,4.8,4.8,4.9c2.6,0.1,5.2,0.1,7.8,0  c2.9-0.1,4.6-1.7,4.6-4.5c0.1-11.3,0.1-22.6,0-33.9c0-3-1.7-4.5-4.8-4.6c-2.3-0.1-4.7,0-7,0c-3.9,0-5.4,1.5-5.4,5.3  C150,186.5,150,191.9,150,197.3z M141.3,193.2c-20.1,0-40.1,0-59.9,0c0,2.9,0,5.6,0,8.3c20.1,0,39.9,0,59.9,0  C141.3,198.7,141.3,196.1,141.3,193.2z M46.6,184.4c-1.4,0-2.6,0-3.8,0c-3,0.1-4.7,1.6-4.7,4.6c-0.1,5.5,0,11.1,0,16.6  c0,2.5,1.3,4.1,3.8,4.5c1.5,0.2,3.1,0,4.7,0C46.6,201.5,46.6,193.1,46.6,184.4z"></path>	<path class="st1" d="M124.3,124.1c0,1.6,0,2.8,0,4.3c3.9,0,7.8,0,11.6,0c3.5,0,5.6,1.7,5.5,4.4c-0.1,2.7-2,4.2-5.5,4.2  c-3.8,0-7.7,0-11.6,0c0,1.5,0,2.7,0,4.3c4.1,0,8.2,0,12.3,0c2.9,0,4.8,1.8,4.8,4.3c0,2.3-1.7,4.2-4.3,4.2c-5.7,0.1-11.5,0.1-17.2,0  c-2.6,0-4.2-1.7-4.3-4.3c-0.1-8.6-0.1-17.2,0-25.8c0-2.6,1.7-4.2,4.3-4.3c5.7-0.1,11.5-0.1,17.2,0c2.6,0,4.3,1.9,4.3,4.2  c0,2.4-1.8,4.3-4.5,4.3C132.7,124.2,128.6,124.1,124.3,124.1z"></path>	<path class="st1" d="M59.6,142.8c-2.1,2.2-3.6,3.9-5.3,5.6c-1.4,1.4-3,2-4.9,1.3c-2-0.8-2.8-2.4-2.8-4.5c0-8.3,0-16.7,0-25  c0-2.8,1.8-4.6,4.2-4.6c2.5-0.1,4.3,1.8,4.4,4.7c0.1,2.4,0,4.8,0,7.3c0,2.3,0,4.6,0,7.5c2.8-2.6,5.5-3.2,8.6,0.3c0-2,0-3.2,0-4.5  c0-3.7-0.1-7.3,0-11c0.1-2.5,1.9-4.3,4.3-4.2c2.2,0,4.2,1.7,4.2,4c0.1,8.8,0.1,17.6-0.1,26.3c0,1.3-1.5,3.1-2.7,3.5  c-1.3,0.4-3.4-0.1-4.6-0.9C63.2,147.1,61.7,145,59.6,142.8z"></path>	<path class="st1" d="M98,137.2c-2.7,0-5.4,0-8.3,0c0,2.7,0,5.3,0,7.8c-0.1,3-1.7,4.9-4.2,4.9c-2.6,0.1-4.4-1.9-4.4-5  c0-8.2,0-16.3,0-24.5c0-3,1.6-4.9,4.2-4.9c2.6-0.1,4.4,1.9,4.4,5c0,2.5,0,5,0,7.7c2.8,0,5.5,0,8.6,0c0-2.5,0-5.1,0-7.6  c0-3.2,1.7-5.1,4.3-5.1c2.6,0,4.3,1.9,4.3,5.1c0,8.1,0,16.1,0,24.2c0,3.2-1.7,5.1-4.3,5.1c-2.6,0-4.2-1.9-4.3-5.1  c0-2.4,0-4.8-0.1-7.3C98.3,137.5,98.2,137.5,98,137.2z"></path>	<path class="st1" d="M162.9,125c1.7-2.6,3.2-4.8,4.7-7c1.7-2.5,4.1-3.1,6.2-1.7c2.1,1.4,2.6,3.8,0.9,6.4c-2.1,3.2-4.3,6.4-6.4,9.7  c-0.7,1.1-1.1,2.6-1.2,4c-0.2,2.9,0,5.9-0.1,8.9c-0.1,3-1.8,4.8-4.3,4.8c-2.5,0-4.2-1.9-4.3-4.8c0-0.1,0-0.2,0-0.3  c1.3-7.9-1.3-14.5-6.4-20.4c-0.6-0.7-1.2-1.6-1.6-2.5c-1.1-2.1-0.6-4.4,1.3-5.7c1.9-1.3,4.3-1,5.7,1  C159.5,119.7,161,122.2,162.9,125z"></path>	<path class="st1" d="M227.5,184.4c4.4,0,8.3,0,12.2,0c3.1,0,5.1,1.8,5,4.4c-0.1,2.5-1.9,4.2-4.9,4.2c-4,0-8,0-12.2,0  c0,2.9,0,5.6,0,8.5c3.4,0.4,8.5-1.1,8.3,4.7c-0.2,5.1-4.9,3.8-8.3,4.1c0,2.8,0,5.5,0,8.5c3.9,0,7.8,0,11.6,0c3.4,0,5.4,1.5,5.4,4.2  c0.1,2.8-2,4.4-5.6,4.4c-3.8,0-7.5,0-11.5,0c0,2.9,0,5.6,0,8.5c3.4,0.5,8.2-1,8.3,4.8c0.1,2.9-1.9,3.7-8.5,4c0,1.4,0,2.7,0,4.1  c0,1.3,0,2.7,0,4.4c3.4,0,6.7,0,10,0c1,0,2,0,3,0c2.6,0.2,4.3,2,4.3,4.3c0,2.3-1.8,4.2-4.3,4.2c-5.7,0.1-11.5,0.1-17.2,0  c-2.6,0-4.1-1.7-4.3-4.3c-0.1-0.7,0-1.4,0-2.2c0-24.4,0-48.8,0-73.1c0-0.9-0.1-1.8,0.1-2.7c0.4-2.3,1.9-3.7,4.2-3.7  c2.4,0,3.9,1.4,4.2,3.7C227.6,181.1,227.5,182.6,227.5,184.4z"></path></g><g class="st0">	<path class="st1" d="M104.5,187.9c-2.9-0.8-5.7-1.6-8.6-2.4c4-14.7,8-29.2,11.9-43.6c1.6-5.8,3.6-11.5,4.6-17.4  c0.7-4,0-8.3-0.4-12.4c-1-9.8-2.3-19.6-3.4-29.3c0-0.4-0.2-0.7-0.3-1.3c-4.4,0-8.7,0-13.4,0c0,4.8,0,9.5,0,14.3  c0,11.1-6.6,17.7-17.6,17.7c-4,0-8,0-12.1,0c-5.9-0.1-10.4-2.7-13.8-7.5c-0.6-0.9-2-1.5-3.1-1.6c-3.1-0.3-6.4,0.1-9.4-0.5  c-7.6-1.4-12.7-7.8-12.8-15.5c0-2.2,0-4.4,0-7c-2.8,0-5.5,0-8.3,0c-3.8,0-5.5-1.7-5.5-5.4c0-8.6,0-17.2,0-25.8  c0-3.8,1.7-5.4,5.4-5.5c2.7,0,5.3,0,8.4,0c0-2.3,0-4.5,0-6.7c0.1-9.4,7-16.2,16.4-16.3c0.5,0,1,0,1.4,0c3.9,0.3,7.1,0.1,9.6-4  c2.3-3.8,6.8-5.1,11.3-5.2c4.8-0.1,9.6-0.1,14.3,0c8.7,0.2,15.5,7.1,15.7,15.8c0.1,5.3,0,10.7,0,16.3c4.1,0,8,0.1,11.9-0.1  c0.7,0,1.5-0.7,2-1.3c2.5-2.9,5.5-4.7,9.2-5.5c16.1-3.7,32.2-7.4,48.3-11.2c2.2-0.5,3.9-0.2,5.6,1.2c6.5,5.3,13,10.6,19.6,15.9  c0.6,0.5,1.5,0.9,2.2,0.9c3.6,0.1,7.3,0,11.4,0c0-1.2,0-2.3,0-3.4c0.1-5.4-0.3-11,0.6-16.3c1.2-7.3,7.7-12.3,15.1-12.5  c4.8-0.1,9.6-0.1,14.3,0c5.6,0.1,10.2,2.6,13.2,7.4c0.9,1.4,1.9,1.8,3.4,1.8c3.2,0,6.6-0.1,9.7,0.5c7.3,1.5,12.3,7.7,12.5,15.2  c0.1,2.3,0,4.6,0,7.2c2.9,0,5.6,0,8.4,0c3.7,0.1,5.4,1.7,5.4,5.5c0,8.6,0,17.2,0,25.8c0,3.7-1.7,5.4-5.5,5.4c-2.7,0-5.3,0-8.3,0  c0,2.5,0,4.8,0,7c-0.2,8.9-7.1,15.7-15.9,15.9c-0.6,0-1.2,0-1.7,0c-4-0.3-7.3-0.1-9.9,4c-2.3,3.7-6.7,5-11.1,5.1  c-4.9,0.1-9.8,0.1-14.6,0c-8.6-0.2-15.4-7.1-15.6-15.6c-0.1-5.3,0-10.7,0-16.3c-3,0-6,0-8.8,0c-5.8,11.6-11.6,23.2-17.3,34.8  c-0.7,1.5-1.1,3.5-0.9,5.1c3.6,33.6,7.4,67.3,11.1,100.9c0.5,4.2,1,8.4,1.5,12.5c0.6,4.9,0.3,9.7-1.4,14.4  c-3.1,8.7-5.9,17.6-8.8,26.3c-2.8,8.3-8.2,12.3-16.9,12.3c-15.1,0-30.2,0-45.3,0c-8.5,0-14-4.1-16.6-12.3  c-4.7-15-9.3-30.1-13.9-45.2c-1.4-4.5-1.5-9-0.2-13.5c2.1-7.2,4-14.5,6-22.1c3,0.8,5.8,1.6,8.8,2.4c-1.9,7.2-3.7,14.2-5.8,21.2  c-1,3.4-0.9,6.7,0.1,10.1c4.6,14.6,9,29.2,13.5,43.8c1.6,5,3.4,6.4,8.8,6.4c14.7,0,29.5,0,44.2,0c5.1,0,7-1.4,8.7-6.2  c2.9-8.8,5.6-17.7,8.8-26.3c2-5.6,0.8-11,0.2-16.4c-2.1-20.1-4.4-40.1-6.7-60.1c-1.8-16.3-3.7-32.7-5.4-49c-0.2-2,0.2-4.4,1.1-6.3  c5.1-10.7,10.6-21.2,15.8-31.8c0.7-1.5,1.1-3.2,1.1-4.9c0.1-7.3,0-14.5,0.1-21.8c0-3-1-5.3-3.4-7.2c-4.8-3.7-9.4-7.5-14.1-11.3  c-1.4-1.1-2.6-1.5-4.4-1c-14.5,3.4-29,6.7-43.5,10.1c-5.6,1.3-7.4,4-6.7,9.7c2.6,21.7,5.2,43.5,7.7,65.2c0.1,1,0,2.1-0.2,3.1  c-5.6,20.8-11.3,41.6-17,62.5C105,187.1,104.8,187.4,104.5,187.9z M251.1,94.9c2.2,0,4.2,0,6.1,0c4.7-0.1,7.5-2.8,7.6-7.5  c0.1-3.9,0-7.8,0-11.8c0-12.4,0-24.9,0-37.3c0-4.2-2.2-7.2-5.8-7.6c-2.5-0.3-5.1-0.1-8-0.1c0,6.2,0,12.1,0,18.1c-3.2,0-6.1,0-9.1,0  c0-6.8,0-13.4,0-20c0-4.5-2.8-7.3-7.4-7.4c-4.3-0.1-8.6-0.1-12.9,0c-4.4,0.1-7.2,2.8-7.2,7.2c0,22.7,0,45.5,0,68.2  c0,4.4,2.9,7.1,7.3,7.2c4,0.1,8,0,12,0c5.6,0,8.2-2.6,8.2-8.3c0-11.5,0-22.9,0-34.4c0-1,0-2,0-3c3.3,0,6.2,0,9.2,0  C251.1,70.6,251.1,82.6,251.1,94.9z M85.7,62.9c0-11.3,0-22.5,0-33.8c0-4.9-2.8-7.6-7.7-7.7c-4.1,0-8.2,0-12.3,0  c-4.7,0.1-7.5,2.8-7.5,7.5c0,22.5,0,45.1,0,67.6c0,4.7,2.8,7.4,7.5,7.5c3.9,0.1,7.8,0,11.8,0c5.7,0,8.3-2.6,8.3-8.2  C85.7,84.9,85.7,73.9,85.7,62.9z M48.9,30.6c-2.2,0-4.2,0-6.2,0c-4.7,0.1-7.4,2.8-7.5,7.6c0,5.5,0,11.1,0,16.6  c0,10.8,0,21.6,0,32.4c0,4.3,2.4,7.3,6.2,7.6c2.4,0.2,4.9,0,7.5,0C48.9,73.4,48.9,52.2,48.9,30.6z M105.1,53.8c-3.4,0-6.7,0-10.1,0  c0,6.1,0,12,0,18c4.1,0,8,0,12.2,0C106.5,65.7,105.9,59.8,105.1,53.8z M204.9,71.9c0-6.3,0-12.2,0-18.1c-3.1,0-5.9,0-8.8,0  c0,6.1,0,12.1,0,18.1C199.1,71.9,201.9,71.9,204.9,71.9z M21.6,53.7c0,6.2,0,12.2,0,18.1c1.5,0,2.8,0,4.2,0c0-6.1,0-12.1,0-18.1  C24.4,53.7,23.1,53.7,21.6,53.7z M274.2,53.7c0,6.2,0,12.2,0,18.1c1.5,0,2.8,0,4.2,0c0-6.1,0-12.1,0-18.1  C276.9,53.7,275.6,53.7,274.2,53.7z"></path>	<path class="st1" d="M145.4,168.6c0,1.1,0,2,0,2.9c0,15.1,0,30.2,0,45.3c0,5.2-1.1,10-3.4,14.6c-5.1,10.1-10.2,20.3-15.4,30.8  c-2.8-1.4-5.4-2.6-8.2-4c0.7-1.4,1.3-2.7,1.9-4c4.4-8.9,9.1-17.7,13.2-26.7c1.5-3.4,2.5-7.3,2.6-11c0.3-14.9,0.1-29.8,0.1-44.8  c0-1,0-2.1,0-3.3C139.3,168.6,142.1,168.6,145.4,168.6z"></path></g><g class="st0">	<path class="st1" d="M210.2,161c1.1,2.1,2.3,4,3.3,5.9c1,2,2.2,3.4,4.8,3.7c3.8,0.4,5.9,4.7,4.1,8.2c-1,1.9-0.6,3,0.3,4.5  c0.8,1.3,1.6,2.7,2.3,4.1c1,2.2,2.2,3.6,5,4c3.8,0.5,5.4,4.5,4.1,8.3c-0.4,1.2-0.4,3,0.2,4.2c3,5.7,6.4,11.2,9.4,16.9  c2,3.7,4.6,6.6,8.4,8.3c4.7,2,9.4,3.9,14.4,5.2c7.1,1.8,13.9,4.1,19.6,8.8c14,11.6,11.5,32.6-4.8,40.7c-7.2,3.6-14.9,4.1-22.8,4.1  c-36.1,0-72.1-0.1-108.2-0.1c-5.5,0-10.9,0-16.4,0c-4.3,0-6.8-2.3-6.9-6c0-3.7,2.6-6.1,6.8-6.1c14.7,0,29.4,0,44.1,0  c1.1,0,2.2,0,4.3,0c-1.9-1.4-3-2.2-4.1-3c-43.5-30-87.1-59.9-130.6-89.8c-8.8-6.1-10.4-14.5-3.7-22.8c5.9-7.2,10-14.7,11.7-24.3  c3.2-18.5,14-32.9,29.2-43.9c1-0.7,1.9-1.4,3.5-2.6c-1.9-0.1-3.1-0.2-4.2-0.2c-11.7,0-23.4,0-35.1,0c-1.1,0-2.2,0-3.3-0.1  c-3.5-0.4-5.9-3-5.8-6.2c0.1-3.1,2.4-5.5,5.7-5.9c1.1-0.1,2.2-0.1,3.3-0.1c22.8,0,45.6,0,68.5-0.1c4.5,0,6.7,2.1,7.2,6.5  c1.9,15.6,6.5,30.1,19.3,40.5c9.8,8,21.4,10.7,34.1,11c-0.3-3.4-0.6-6.5-0.7-9.5c-0.8-21.4,5.6-40.6,18-57.8  c7.6-10.6,15.5-20.9,23.3-31.4c0.5-0.7,1-1.5,1.6-2.1c2.3-2.5,5.9-3,8.4-1c2.5,1.9,3.2,5.6,1.2,8.4c-3.4,4.8-7,9.5-10.5,14.2  c-4.7,6.3-9.5,12.6-14.1,19c-10.4,14.4-15.8,30.5-15.8,48.3c0,2.1,0.4,4.2,0.4,6.3c0.1,2.6,0.5,4.6,3.8,5.2c1.3,0.2,2.5,2,3.4,3.4  c2.4,4,4.6,8.1,7,12.3c3.3-0.8,6.3-0.4,8.1,2.8C213.8,155.8,212.7,158.6,210.2,161z M60.7,157.9c-2.3,3-4.4,5.7-6.5,8.4  c-3,3.9-3,4,1.2,6.9c43.9,30.2,87.9,60.3,131.7,90.6c5.5,3.8,11.4,6.4,17.9,7.7c19.7,3.7,39.6,4.2,59.5,3.7  c3.8-0.1,7.6-1.4,11.3-2.6c1.7-0.5,3-2.1,4.4-3.2c-8.9-0.6-17.4-0.6-25.8-0.6c-27-0.1-51.6-7.9-73.5-23.5  c-24.7-17.6-49.2-35.7-73.8-53.5C91.8,180.6,76.4,169.4,60.7,157.9z M103.2,173.6c0.3,0.3,0.4,0.5,0.6,0.6  c6.3,4.6,13,8.7,18.8,13.9c6,5.4,11.7,6.1,19.2,3.4c9.9-3.6,20.2-6,30.6-9c-2.1-3.9-4.1-7.4-6-11c-0.9,0.2-1.4,0.3-1.9,0.5  c-9.9,2.8-19.9,5.7-29.8,8.5c-4.3,1.2-7.5-0.5-8.5-4.2c-0.9-3.4,1.1-6.4,5.2-7.6c2.5-0.7,4.9-1.4,7.4-2.1c7.1-2,14.2-4.1,21.6-6.2  c-3.4-6.3-6.6-12.3-10-18.2c-0.4-0.8-1.5-1.3-2.3-1.7c-16.9-8-27-21.6-32.3-39.2c-1-3.5-1.8-7.1-2.9-11.2c-6.3,3.1-12.4,6-18.6,9  C112.9,122.4,120.3,146.5,103.2,173.6z M281.9,255.6c-2.5-2-4.4-4.1-6.8-5.2c-3.7-1.8-7.6-3.1-11.6-4.1c-9.3-2.4-18-5.7-25.3-12.2  c-0.9-0.8-2.6-1-3.8-0.8c-20.8,3.7-36.5-3.9-46.7-22.6c-3.1-5.7-6.2-11.3-9.4-17.1c-11.4,3.3-22.6,6.5-34.4,9.9  c4.1,3,7.4,5.6,10.9,7.9c1.1,0.7,2.9,0.9,4.2,0.7c3.7-0.8,7.3-2,10.9-3c4.7-1.3,8.1,0.3,9.1,4.1c0.9,3.5-1.3,6.4-5.6,7.6  c-1.1,0.3-2.2,0.7-3.1,0.9C201.7,251.1,239.2,260.8,281.9,255.6z M92.8,166.2c13-16.4,9.2-40.7-8.2-58.8  c-8.9,8.4-14.6,18.7-17.4,30.6c-1.9,8.2-1.9,8.3,4.9,13.2C79,156.2,85.9,161.2,92.8,166.2z M215.1,194.5c-1.9-3.2-3.1-6.9-5.6-8.8  c-1.5-1.1-5.1,0.8-7.8,1.4c-3.4,0.7-6.4-1-7.4-4.1c-1-3.1,0.6-6.2,3.9-7.5c1.6-0.6,3.3-1.1,5.2-1.6c-1.8-3.2-3.5-6.2-5.2-9.2  c-2.3,0.7-4.3,1.3-6.3,1.8c-3.5,0.9-6.9-0.8-7.8-3.9c-1.1-3.4,0.5-6.6,4.1-7.9c1.1-0.4,2.2-0.8,3.6-1.3c-1.2-2.1-2.1-4-3.2-5.7  c-0.4-0.6-1.2-1.2-1.8-1.2c-6.6-0.1-13.2-0.1-20-0.1c0.3,0.6,0.6,1.2,0.9,1.8c10.7,19.6,21.3,39.2,32,58.8c1,1.7,2.1,3.4,3.4,5  c6.6,8,18.4,12.1,27,9.2c-2.9-5.1-5.8-10.2-8.7-15.5c-2.9,0.8-5.5,1.6-8.2,2.3c-3.5,0.9-6.8-1-7.7-4.1c-0.9-3.3,0.8-6.4,4.3-7.6  C211.4,195.5,213.1,195.1,215.1,194.5z"></path>	<path class="st1" d="M145.2,12.2c5.8-0.1,8.5,4.2,6.6,8.9c-3.8,9.5-7.8,18.9-11.7,28.3c-1.5,3.6-2.9,7.2-4.4,10.8  c-1.7,3.9-4.9,5.4-8.3,4c-3.3-1.3-4.6-4.8-3-8.7c5.3-13.1,10.7-26.1,16.1-39.1C141.7,13.9,143.4,12.3,145.2,12.2z"></path>	<path class="st1" d="M55.1,234.1c-6.2,0-12.5,0-18.7,0c-4.2,0-6.8-2.4-6.8-6.1c0-3.7,2.6-6,6.9-6c12.5,0,24.9,0,37.4,0  c4.2,0,6.8,2.4,6.8,6.1c0,3.7-2.6,6-6.9,6C67.6,234.2,61.4,234.1,55.1,234.1z"></path>	<path class="st1" d="M25.7,128.2c-4.8,0-9.6,0.1-14.3,0c-4.3-0.1-6.8-2.5-6.7-6.2c0.1-3.6,2.7-6,6.9-6c9.6,0,19.1-0.1,28.7,0  c4.2,0,6.8,2.4,6.9,6.1c0,3.7-2.4,6-6.8,6.1C35.5,128.2,30.6,128.2,25.7,128.2z"></path></g><g class="st0">	<path class="st1" d="M20.3,286.7c-5.4-2.4-7.5-6.6-7-12.4c0.2-2.4,0-4.8,0-7.2c0.1-5.8,3.9-9.7,9.8-9.7c8.4-0.1,16.7,0,25.1,0  c15.3,0,30.6,0,45.9,0c1,0,1.9,0,3,0C96.1,251,95,245,93.9,239c-0.1-0.6-0.6-1.2-1.1-1.6c-3.8-2.6-7.6-5.1-11.9-7.8  c-2,1.3-4.7,2.8-7.2,4.6c-0.6,0.4-1,1.6-1.1,2.4c-0.3,6.2-2.5,8.4-8.8,8.4c-9.1,0-18.2,0-27.2,0c-5.8,0-8.3-2.5-8.3-8.3  c0-3.1,0-6.2,0-9.3c0.1-4.3,2.6-7.1,6.9-7.2c10.1-0.1,20.3-0.1,30.4,0c3.3,0,5.5,1.8,6.7,5.2c1.7-1,3.2-2,4.3-2.7  c-0.7-4.4-1.8-8.5-2-12.6c-0.3-8.1,2.7-15.1,8.4-20.9c1.3-1.3,1.6-2.5,1.3-4.2c-1.5-8.2-3-16.4-4.4-24.7c-0.5-3.2,0.6-5.1,3-5.5  c2.5-0.4,4.2,1,4.8,4.1c1.4,7.4,2.6,14.9,4,22.3c0.1,0.4,0.2,0.8,0.3,1.1c3.7-0.9,7.4-1.7,11.3-2.7c-0.8-4.6-1.6-9.4-2.5-14.1  c-2.3-12.9-4.6-25.7-6.8-38.6c-0.3-1.8-1-2.2-2.6-2.1c-3.1,0.1-6.2,0-9.7,0c0.8,4.5,1.5,8.6,2.2,12.8c0.1,0.9,0.3,1.8,0.3,2.6  c0,2.2-1.2,3.5-3.3,3.9c-2.1,0.4-4-0.9-4.5-3.2c-0.9-4.5-1.6-9.1-2.5-13.6c-0.6-3.1-1-6,1.3-8.6c0.3-0.3,0.3-1,0.3-1.5  C73.9,106.6,72,96,70,85.4c0-0.2-0.2-0.3-0.5-1c-3,0-6.3,0.3-9.5-0.1c-9.9-1.1-17.2-9.3-17.4-19.1c-0.2-5.6,3.7-9.8,9.3-9.8  c16.1-0.1,32.2-0.1,48.3,0c10.6,0.1,18.9,8.8,19.2,19.4c0.2,5.5-3.8,9.7-9.7,9.8c-4.7,0.1-9.4,0-14.1,0c-1,0-1.9,0-3.2,0  c1,5.9,2,11.4,3,17c0.6,3.6,1.3,7.2,1.9,10.8c0.5,2.6,0.8,5.1,2.9,7.2c1.2,1.2,1.4,3.5,1.8,5.4c1,5.1,1.9,10.3,2.8,15.7  c1,0,1.9,0,2.7,0c11.2,0,22.4,0,33.6,0c1.8,0,3.1-0.6,4.4-1.9c8.6-8.7,17.3-17.4,26-26c1.3-1.3,1.7-2.4,1.4-4.2  c-1.4-7.4-2.7-14.9-4-22.3c-0.5-2.7-0.7-5.3,1.3-7.6c0.4-0.5,0.5-1.5,0.4-2.2c-1.1-6.4-2.3-12.8-3.4-19.2c-0.2-1.3-0.6-2-2-2.3  c-4.2-0.9-6.6-3.7-7.3-7.9c-0.9-5.3-2-10.7-2.8-16c-0.8-5.3,3.1-10.4,8.4-10.5c7.6-0.2,15.1-0.1,22.7,0c3.4,0,5.9,1.8,7.5,4.8  c0.7,1.3,1.4,1.8,2.8,1.8c10.9-0.1,21.7,0,32.6-0.1c1,0,2.2-0.6,3-1.3c3-2.9,5.9-5.9,8.9-8.8c5-4.9,12.1-5,16.7-0.4  c4.6,4.6,4.4,11.5-0.4,16.5c-4.4,4.5-8.8,8.8-13.2,13.2c-2.6,2.6-5.7,3.9-9.4,3.8c-2.9-0.1-5.9,0-8.8,0c-2.7-0.1-4.4-1.7-4.4-4  c0-2.3,1.7-3.9,4.4-4c2.8-0.1,5.5,0.2,8.3-0.1c1.5-0.2,3.3-0.7,4.4-1.8c4.3-4,8.4-8.2,12.5-12.4c2.1-2.1,2.3-4,0.8-5.6  c-1.5-1.6-3.6-1.3-5.8,0.8c-3.2,3.1-6.3,6.2-9.4,9.4c-1.8,1.9-3.8,2.7-6.4,2.7c-10.7-0.1-21.4,0-32,0c-1,0-1.9,0-3.1,0  c0,2.3,0,4.5,0,6.9c3.6,0,7.1,0,10.5,0c3.3,0,5.2,1.6,5.1,4.1c-0.1,2.4-1.9,3.8-5.1,3.9c-1.5,0-3,0-4.5,0c-6.9,0-6.9,0-11.5,4.5  c-0.4,0.4-0.4,1.3-0.3,1.9c1.1,6.6,2.3,13.1,3.4,19.7c0.1,0.5,0.2,1.2,0.6,1.4c2.9,2,3.1,5.2,3.6,8.3c3.2,18.3,6.5,36.6,9.7,54.9  c3.7,0.6,7.3,0.9,10.8,1.7c23.9,5.2,41,24.9,43.4,50c2.2,22.5-11.6,45.4-32.9,54.7c-2,0.9-2.4,1.8-1.9,3.8c0.6,2,0.8,4.2,1.2,6.4  c1.5,0,2.8,0,4.1,0c14.5,0,29,0.1,43.5-0.1c5.8-0.1,9.8,1.9,11.7,7.5c0,5,0,10,0,14.9c-1.4,3.2-3.8,5.5-6.9,6.9  C193.3,286.7,106.8,286.7,20.3,286.7z M125.4,257.3c5.2,0,10,0,14.9,0c4,0,6,1.3,6,4c0,2.7-1.9,4-6,4c-38.2,0-76.3,0-114.5,0  c-0.7,0-1.4,0-2.1,0c-1.6-0.1-2.3,0.6-2.2,2.2c0.1,2.4,0,4.8,0,7.2c0,3.9,0,3.9,4,3.9c83.1,0,166.2,0,249.3,0c0.4,0,0.9,0,1.3,0  c2.2,0.3,2.8-0.8,2.7-2.8c-0.1-2.2,0-4.4,0-6.7c0-3.8,0-3.8-3.8-3.8c-37.3,0-74.6,0-111.8,0c-0.9,0-1.8,0.1-2.7-0.1  c-2-0.3-3.2-1.6-3.4-3.6c-0.2-2,0.8-3.5,2.7-4.1c0.9-0.3,1.9-0.3,2.9-0.3c9.9,0,19.8,0,29.6,0c2.2,0,4.4,0,6.8,0  c-0.2-1.4-0.4-2.5-0.5-3.6c-0.1-1.7-0.9-2.4-2.6-2.7c-14.7-2.6-26.4-10.1-35.2-22.1c-0.9-1.2-1.6-1.5-3.1-1.1  c-7,1.9-14.1,3.7-21.1,5.6c-4.9,1.3-9.7,2.6-14.7,4C123,244.1,124.2,250.6,125.4,257.3z M168.3,225.1c9,13.6,30.9,23.9,53.2,16.1  c21.5-7.6,34.8-30,31-52.4c-3.9-22.8-24-39.9-46.8-39.7c-19.8,0.2-41.5,15.3-44,30.8c1.4,0,2.7-0.2,4,0c2.7,0.4,4.1-0.7,5.5-3.1  c8.7-14.5,21.7-21.4,38.5-19.7c16.2,1.6,27.3,10.7,33.3,25.8c0.5,1.2,0.9,2.5,1.1,3.8c0.3,2.2-0.8,3.7-2.8,4.2  c-2,0.5-3.7-0.2-4.6-2.2c-0.5-1-0.7-2-1.1-3c-4.5-11.7-13-18.8-25.4-20.6c-12-1.7-22,2.5-29.7,12c-0.6,0.8-1.1,1.6-1.9,2.8  c8.7,0,16.8-0.2,24.9,0.1c2.9,0.1,5.9,0.7,8.5,1.8c6.7,3,10.4,9.9,9.7,17.4c-0.7,7.3-5.8,13.2-13.3,15.2c-7.6,2.1-15.2,4-22.9,6  c0.2,0.4,0.2,0.5,0.3,0.7c0.2,0.3,0.5,0.5,0.8,0.7c7.5,5.5,15.9,7.6,25,5.8c12.3-2.5,20.5-10,24.5-22c1-3,2.9-4.3,5.2-3.6  c2.5,0.8,3.4,2.9,2.3,6.1c-0.6,1.9-1.3,3.9-2.2,5.7c-12.1,24.5-44.1,30.1-63.7,11c-0.7-0.7-1.8-1.6-2.5-1.5  C172.9,223.7,170.6,224.5,168.3,225.1z M88.6,224.8c3.4,3.4,7,5.5,11.3,6.4c5.7,1.2,11.4,0.5,16.9-0.9c16.9-4.3,33.8-8.9,50.8-13.3  c12.9-3.4,25.8-6.8,38.6-10.2c4.1-1.1,6.8-3.5,7.4-7.8c1-6.3-3.4-11-10.2-11c-22.4,0-44.8,0-67.3,0c-10.6,0-21.2-0.2-31.8,0.1  c-9.2,0.2-15.9,4.7-19.8,13c-2.5,5.4-2.6,11.1-0.4,16.8c3.8-1.9,7-3.3,6.6-8.8c-0.6-7.1,6-13.2,13.1-13.6c7.6-0.4,14,4.6,15.3,12  c1.3,7.2-3.2,14.3-10.2,16.3c-5.1,1.4-9.6,0.1-13.8-3.1C93.1,222,91,223.3,88.6,224.8z M178.2,138.8c-1,0.9-1.6,1.5-2.3,2.1  c-6.1,6.1-12.3,12.1-18.3,18.3c-3.1,3.2-6.6,4.5-10.9,4.5c-11.6-0.1-23.1,0-34.7,0c-1,0-2.1,0-3.3,0c1,5.7,1.9,10.9,2.9,16.1  c0.5,0.1,0.9,0.1,1.2,0.1c12.7,0,25.4,0,38.1,0.1c1.6,0,2.1-0.8,2.5-2.1c3.9-10.9,10.7-19.8,20.1-26.5c2-1.5,5-2.6,5.7-4.6  C180.1,144.7,178.7,141.8,178.2,138.8z M76.9,63.4C76.9,63.4,76.9,63.4,76.9,63.4c-7.9,0-15.8,0-23.8,0c-2.2,0-2.8,0.8-2.5,2.9  c0.7,5.7,5.4,10.3,11.7,10.4c15.6,0.2,31.1,0.1,46.7,0.1c1.9,0,2.5-0.8,2.3-2.7c-0.6-6-5.6-10.6-12-10.6  C91.9,63.4,84.4,63.4,76.9,63.4z M176.8,84.7c3.5,20,7,39.6,10.5,59.3c4-0.9,7.6-1.8,11.4-2.7c-0.4-2.3-0.7-4.3-1.1-6.4  c-2.8-16.1-5.7-32.2-8.6-48.3c-0.1-0.7-0.9-1.8-1.4-1.8C184.1,84.7,180.6,84.7,176.8,84.7z M174.7,121c-8.1,8.1-16.1,15.9-23.9,24  c-2.6,2.7-5.4,3.9-9.2,3.9c-10.9-0.2-21.7-0.1-32.6-0.1c-0.9,0-1.9,0.1-3,0.1c0.5,2.4,0.8,4.5,1.2,6.5c0.6,0.1,0.9,0.2,1.3,0.2  c13,0,26,0.1,39-0.1c1.4,0,3.1-0.9,4.1-1.9c6.8-6.6,13.1-13.6,20.2-19.8c4.3-3.7,4.9-7.5,3.2-12.3C175.1,121.5,175,121.4,174.7,121  z M175.1,28.7c-3.3,0-6.6,0-9.8,0c-1.7,0-2.4,0.5-2.1,2.4c0.9,4.7,1.7,9.4,2.4,14.1c0.3,1.7,1.2,2.3,2.9,2.3c5.3-0.1,10.6-0.1,16,0  c2.2,0,2.8-0.9,2.7-2.9c-0.2-4.5-0.2-9-0.2-13.6c0-1.9-0.8-2.5-2.6-2.4C181.3,28.7,178.2,28.7,175.1,28.7z M64.4,228.4  c-9.4,0-18.7,0-27.9,0c0,3,0,5.7,0,8.4c9.4,0,18.6,0,27.9,0C64.4,233.9,64.4,231.2,64.4,228.4z M102.3,239.9c1,5.8,2,11.5,3,17.2  c4,0,7.8,0,11.9,0c-1.1-6.1-2.1-12-3.2-17.9C110,239.5,106.3,239.7,102.3,239.9z M89.7,116.6c-0.1-0.9-0.2-1.6-0.3-2.2  c-1.5-8.3-3-16.6-4.4-24.9c-0.9-5-0.8-5-5.9-4.7c-0.2,0-0.5,0.2-0.8,0.4c1.9,10.5,3.7,21,5.6,31.5  C85.9,116.6,87.7,116.6,89.7,116.6z M104.9,216.2c3.5,0.1,6.5-2.8,6.6-6.3c0.1-3.5-2.8-6.5-6.3-6.5c-3.6-0.1-6.4,2.7-6.5,6.3  C98.6,213.3,101.3,216.2,104.9,216.2z M175.1,55.5c1,5.6,1.9,10.9,2.8,16.2c0.9,5.3,0.9,5.3,6.3,4.9c0.1,0,0.3-0.2,0.6-0.4  c-1.2-6.8-2.5-13.8-3.7-20.7C179,55.5,177.2,55.5,175.1,55.5z M207.3,257.2c4,0,7.8,0,11.8,0c-0.4-2.3-0.8-4.4-1.1-6.5  c-4.1,0.5-7.7,1-11.5,1.4C206.7,253.9,207,255.4,207.3,257.2z"></path></g><g class="st0">	<path class="st1" d="M13.3,269.6c1.5-4.9,5-7.9,9.5-10.2c9.6-5,19.1-10.4,28.6-15.5c9-4.9,17.9-1.8,21.9,7.6c0.9,2,1.7,4.1,2.8,6.5  c4.8-1.2,9.5-2.6,14.3-3.7c7.4-1.6,14.7-3.4,22.2-4.5c3.7-0.6,7.6,0.2,11.4,0.4c0.9,0,1.9,0.2,3.1,0.4c-0.6-5.8-1.3-11.4-1.8-16.9  c-1.1-10.3-2.8-20.5-1.9-30.8c0.3-3.5,0.8-7.1,1.4-10.6c0.3-1.8,0-3-1.2-4.3c-3-3.4-5.9-6.9-8.7-10.4c-2-2.5-1.9-4.8,0.1-6.3  c2-1.5,4-0.9,6.2,1.4c7.5,8.2,15.1,16.3,22.7,24.4c0.7,0.7,1.5,1.3,2.6,2.3c1.2-1.3,2.2-2.6,3.4-3.8c4.2-4.4,8.1-9,12.6-13  c4.9-4.4,5.4-9.8,4.3-15.6c-1.5-8.2-8.4-13.9-17.2-14.6c-0.7-0.1-1.4-0.1-2.1-0.1c-3.3,0-5.7-1.3-7.8-4.1  c-7.6-9.8-17.3-16.8-28.7-21.5c-4.6-1.9-7.4-5-8.8-9.6c-1.3-4.2-2.9-8.4-4.4-12.6c-1-2.7-0.2-4.9,2-5.8c2.2-0.9,4.4,0.2,5.4,2.9  c1.7,4.4,3,8.9,4.8,13.3c0.7,1.6,2.1,3.5,3.7,4.1c12.7,5.4,23.5,13.2,32.3,23.9c0.7,0.9,2.4,1.3,3.7,1.4c13,1,22.9,9.3,25.1,21.9  c0.7,3.8,0.1,7.9,0.1,12.3c7.5,3.3,15.6,5.6,24.3,5.1c8.2-0.5,16.4-0.2,24.4,1.9c4,1.1,7.8,2.8,11.9,4.4c0.2-0.4,0.6-1.4,1.1-2.4  c4.6-9.1,11.5-15.1,21.8-16.5c3.2-0.4,5.1,0.9,5.3,3.4c0.3,2.4-1.4,4-4.5,4.5c-7.3,1.1-14.2,6.9-15.5,13.3  c3.6,0.6,7.2,0.5,10.4-1.2c7.8-4,15.3-3.2,22.6,1.1c0.2,0.1,0.5,0.2,1.4-0.2c-1.5-2.3-2.9-4.6-4.5-6.9c-1.5-2.3-1.5-4.3,0.3-5.7  c1.8-1.5,4.2-1.2,6,0.7c0.2,0.3,0.5,0.5,0.7,0.8c8,9.7,8.6,22.5,1,33.1c-3.4,4.7-7.6,8.9-12.1,12.7c-6.6,5.5-13.5,5.4-20.7,0.6  c-2-1.3-3.8-2.9-5.6-4.5c-1.7-1.6-3.2-3.3-5-5.2c-2.9,5.1-6.4,9.4-11.1,12.9c-0.5,0.3-0.6,1.2-0.7,1.9c-0.2,1.1-0.3,2.3-0.4,3.5  c-0.5,7-1,14-1.5,21.3c1,0.1,2,0.1,2.9,0.2c9.6,0.2,19.2,0.3,28.8,0.7c10,0.4,16.4,9.5,12.9,18.4c-2.1,5.4-6.2,8.6-12,8.6  c-15.4,0.2-30.8,0.1-46.2,0c-7.3-0.1-13.4-5.7-13.9-13c-0.7-10.5-0.9-21-1.2-31.5c-0.1-2.2-0.9-2.9-3-3.7  c-6.6-2.5-13.1-5.4-19.6-8.2c-1.6-0.7-3.1-1.7-5-2.7c-0.5,4-1,7.7-1.5,11.3c-0.4,3.3-0.8,6.5-1.2,9.8c-0.4,2.9-2,4.5-4.4,4.3  c-2.4-0.2-3.8-2-3.5-5c0.9-7.8,1.9-15.5,2.7-23.3c0.1-0.8-0.1-2.1-0.7-2.5c-9.1-7.5-18.3-15-27.6-22.5c-0.2,1.4-0.4,3.1-0.6,4.7  c-1,10.3,0.8,20.4,1.8,30.6c0.7,7.1,1.6,14.1,2.4,21.2c0.5,4.7-1.7,6.6-6.2,5.3c-11-3.1-21.8-2-32.6,1.3c-5.7,1.7-5.7,1.6-5.7,7.6  c0,2.6,0,5.3,0,8.1c1.1,0.1,1.8,0.2,2.6,0.2c15.4,0,30.8,0,46.2,0c7.8,0,12.8-3.8,15.1-11.3c0.8-2.8,2.8-4.1,5.1-3.5  c2.3,0.6,3.3,2.7,2.7,5.6c-2,9.2-10.8,16.8-20.4,17.3c-3.2,0.1-6.4,0.1-9.6,0.1c-34.7,0-69.4,0-104.1,0c-9,0-11.9-1.9-15.4-10.2  C13.3,272.8,13.3,271.2,13.3,269.6z M194.9,228.9c0-3.7,0-7,0-10.3c0.1-8.6,6.7-15.5,15.2-15.9c8.6-0.5,15.8,5.5,16.9,14.1  c0.1,0.5,0.3,1.1,0.4,1.6c0.3,0.1,0.5,0.1,0.8,0.2c1.4-2.9,3.1-5.7,4.1-8.8c2.8-8.1-0.9-14.9-9.3-16.4c-6.8-1.3-13.7-2.2-20.6-2  c-9.3,0.2-18.3-0.7-26.9-4.3c-3.6-1.6-5.9-1.1-8.6,1.9c-4.5,5.3-9.6,10.2-14.7,15.4C165.2,215.2,178.9,224,194.9,228.9z   M230.4,276.6c0-3.1,0-6,0-8.9c0-0.8-0.1-1.6-0.2-2.8c-3.2,0-6.3,0-9.4,0c-3.4-0.1-4.9-1.5-4.7-4.9c0.2-4.1,0.6-8.2,0.9-12.2  c0.7-9.4,1.5-18.8,2.1-28.2c0.4-5.7-4.3-9.7-9.8-8.6c-3.9,0.8-6.5,4.2-6.3,8.7c0.4,11.9,0.8,23.8,1.3,35.7  c0.2,5.1,0.3,10.1,0.6,15.2c0.2,3.3,2.4,5.9,5.4,6C216.8,276.7,223.5,276.6,230.4,276.6z M241.4,199.9c-0.1,0.7-0.1,1.1-0.2,1.4  c-0.3,9.3,5.6,14.7,12.4,19.5c3.5,2.4,7.3,2.5,10.3-0.4c4.2-4,8.3-8.2,11.8-12.9c3-4.1,2.5-4.9-1.8-7.7c-4.4-2.9-9.1-4.9-14.3-2.6  C253.9,199.8,248,201,241.4,199.9z M66.2,256.2c-1.1-5.6-5.5-8.2-10.3-5.7c-10.7,5.7-21.3,11.6-32,17.5c-2,1.1-3,2.8-2.5,5.1  c0.6,2.3,2.2,3.5,4.7,3.5c6,0,11.9,0,17.9,0c0.7,0,1.4-0.1,2-0.2C49.1,262.3,54.1,257.4,66.2,256.2z M82.8,264.6  c-1.1,0.3-1.9,0.6-2.6,0.6c-4.1,0-8.4,0.6-12.4-0.2c-7.1-1.4-13.9,4-13.3,11.5c9.4,0,18.8,0,28.3,0  C82.8,272.6,82.8,268.8,82.8,264.6z M238.6,265.6c0,3.7,0,7.3,0,11c5.9,0,11.7,0,17.5,0c3.3,0,5.7-2.3,5.8-5.4  c0.1-2.9-2.1-5.5-5.3-5.6C250.7,265.5,244.8,265.6,238.6,265.6z"></path>	<path class="st1" d="M13.3,25c0.6-1.3,1.1-2.6,1.8-3.8c3.8-6.4,12.3-8,18.5-3c5.5,4.4,11.1,8.3,18.3,9.3c2.7,0.4,5.5,0.8,8.2,1.2  c6.9,1.1,11.9,4.8,14.2,11.4c2.3,6.4,1,12.3-3.4,17.4c-0.9,1-1.8,2-2.7,3.1c5.7,4.8,11.3,9.5,16.8,14.3c2.8,2.5,5.5,5,8.1,7.7  c2.6,2.7,2.8,5.2,0.8,6.9c-1.9,1.7-4.1,1.1-6.7-1.4c-4.8-4.6-9.8-9-14.7-13.5c-3.8,2.7-7.2,5.2-10.9,7.9c0.5,0.9,1,1.7,1.5,2.5  c15.2,23.4,30.5,46.8,45.7,70.2c0.3,0.4,0.6,0.9,0.9,1.3c1.4,2.3,1,4.6-0.9,5.9c-1.9,1.3-4.2,0.8-5.8-1.5  c-4-5.9-7.9-11.8-11.8-17.8C78,122.7,65,102.1,51.5,82c-5.2-7.8-11.2-15.2-17.6-22c-7.4-8-13.5-16.7-18.9-26  c-0.7-1.1-1.1-2.4-1.7-3.5C13.3,28.6,13.3,26.8,13.3,25z M29.8,42.8C43.7,36,52.2,39,62.7,54.1C66.5,51,68,48,67.2,44  c-0.7-3.5-2.9-5.9-6.3-7c-1.5-0.5-3.1-0.6-4.7-0.8c-9.1-1.2-17.8-3.3-24.9-9.8c-1-1-2.2-1.8-3.4-2.5c-1.8-1-3.6-0.9-5.2,0.5  c-1.5,1.4-2,3.2-0.9,5.1C24.4,34,27.1,38.4,29.8,42.8z M35.5,49.2c7.3,8.7,14.6,17.5,22,26.3c2.6-1.9,5.4-4,8.6-6.3  c-6.3-4.3-9.9-10.4-13.9-16.3C48.5,47.1,40.7,45.8,35.5,49.2z"></path></g><g>	<path d="M13.3,196.2c1.9-3.8,5.1-4.9,9.2-4.8c10.4,0.2,20.8,0.1,31.2,0.1c1,0,1.9,0,3.3,0c0-2.6-0.3-5,0.1-7.3  c0.3-1.9,1.4-3.7,2.1-5.5c0.3-0.8,0.9-1.7,0.7-2.5c-2.4-11.4-4.8-22.8-7.3-34.2c-0.2-1.1-0.9-2.1-1.6-3  c-8.2-10.2-12.3-21.7-12.2-34.8c0-8.5-0.1-17.1,0.1-25.6c0.1-7.4,2.1-14.3,6.9-20c3-3.6,6.8-6.2,11.5-7.2  c27.4-5.8,54.9-11.2,82.1-17.7c9.4-2.2,17.9-0.5,26.7,1.4c9,2,18.1,3.9,27.1,5.8c0.6,0.1,1.2,0.3,1.8,0.4c2.4,0.7,3.5,2.6,3,4.9  c-0.5,2.1-2.4,3.3-4.7,2.8c-6.4-1.3-12.9-2.7-19.3-4.1c-6.8-1.5-13.5-3.2-20.3-4.5c-2.4-0.5-5-0.5-7.4,0  c-28.2,6-56.3,12.1-84.5,18.1c-8.5,1.8-13.1,6.7-14.5,15.2c-0.3,2.2-0.5,4.4-0.5,6.6c-0.1,8-0.1,16,0,24  c0.1,24.7,17.1,43.3,41.7,45.8c2.9,0.3,4.5,1.9,4.4,4.3c-0.1,2.5-2,3.9-5.1,3.7c-8.2-0.6-15.8-3.1-22.9-7.3  c-0.6-0.4-1.2-0.7-1.8-1.1c-0.1,0-0.2,0-0.6,0.1c1.1,5.1,2.1,10.2,3.2,15.2c0.8,3.9,1.6,7.9,2.6,11.7c0.4,1.4,1.3,2.9,2.4,3.8  c8.1,6.2,16.2,12.2,24.4,18.2c5.3,4,5.3,8.6-0.1,12.6c-5,3.7-10,7.5-15,11.2c-1.2,0.9-1.6,1.7-1.3,3.3c2,8.7,3.7,17.4,5.6,26.1  c1.1,5,4.1,7.5,9.3,7.5c6.2,0.1,12.4,0,18.7,0c-4.8-13.3-4-18.6,4.3-26.8c-5-4.4-7.8-9.8-7.4-16.6c0.4-6.7,3.8-11.7,9.9-15.9  c-0.8-0.5-1.6-0.7-2.1-1.2c-6.5-6.1-8.5-13.8-7.8-22.3c0.2-2.1,1.5-3.4,3.7-3.5c2.2-0.1,3.6,1,4,3.1c0.3,1.6,0.2,3.2,0.2,4.8  c0.2,9.5,7.4,16.6,16.9,16.8c3.8,0.1,7.6,0,11.8,0c0-1.3,0-2.3,0-3.3c0-9.3,0-18.7,0-28c0-1,0-2,0.2-2.9c0.4-2,1.8-3.1,3.8-3.1  c2,0,3.4,1,3.8,3c0.2,0.9,0.2,1.9,0.2,2.9c0,9.3,0,18.7,0,28c0,1,0,2.1,0,3.1c5.2,0,10.3,0.6,15.1-0.1c8-1.3,13.3-8.2,13.5-16.3  c0-1.3-0.1-2.7,0.1-4c0.2-2.5,1.8-4,4.1-4c2.3,0,3.7,1.6,3.9,4.2c0.6,8.9-1.9,16.5-8.7,22.5c-0.2,0.2-0.3,0.4-0.5,0.8  c5.4,3.8,8.9,8.9,9.2,15.7c0.3,6.7-2.4,12.1-7.4,16.4c8.3,8.3,9.3,14.4,4.2,26.8c3.9,0,7.7,0,11.5,0c2.7,0,5.3,0.1,8,0  c4.3-0.2,7.3-2.5,8.3-6.6c2.1-9.2,4.1-18.4,5.9-27.6c0.1-0.7-0.6-1.9-1.3-2.4c-5.1-3.9-10.2-7.7-15.4-11.5c-4.8-3.6-4.9-8.4,0-12.1  c8.3-6.2,16.6-12.3,24.8-18.5c0.9-0.7,1.9-1.8,2.1-2.8c2.1-9.3,4.1-18.6,6.1-28.2c-0.8,0.4-1.4,0.6-2,1c-8.2,5-17.1,7.8-26.8,7.9  c-9.3,0.1-18.7,0.1-28,0c-7.4-0.1-13.9-2.6-19.8-7c-3.7-2.8-7.2-5.7-11-8.7c-2.8,2.3-5.7,4.4-8.3,6.7c-7.4,6.4-15.9,9.5-25.7,9.2  c-2.6-0.1-5.2,0-7.7,0c-2.7-0.1-4.2-1.5-4.3-3.8c-0.1-2.4,1.5-4,4.2-4.2c3-0.1,6.1-0.1,9.1,0c6.9,0.1,12.9-2.1,18.2-6.4  c2.9-2.4,5.8-4.8,8.8-7c1.4-1.1,1.9-2.3,1.9-4.1c-0.1-11.6,0-23.1,0-34.7c0-1.1,0-2.2,0.2-3.2c0.5-2,2-3.3,3.8-2.9  c1.4,0.3,2.7,1.6,3.6,2.9c0.5,0.7,0.3,2.1,0.3,3.1c0,11.6,0,23.1,0,34.7c0,1.9,0.5,3.1,2,4.3c3.2,2.4,6.2,5,9.4,7.5  c4.6,3.6,9.8,5.8,15.7,5.7c10.6-0.1,21.3,0.4,31.7-0.8c24.6-2.9,40.2-21.3,40.3-46.2c0-8.2,0.3-16.4-0.1-24.6  c-0.2-4.1-1.3-8.3-2.8-12.1c-1.8-4.4-5.6-6.9-10.4-7.9c-9.1-1.8-18.1-3.8-27.1-5.8c-3.1-0.7-4.4-2.5-3.9-5c0.5-2.4,2.6-3.4,5.7-2.8  c9,1.9,17.9,3.8,26.9,5.7c10.5,2.2,16,9.2,18.7,19c0.4,1.5,0.8,3,0.8,4.5c0.2,14.4,1.7,28.8-1.3,43.1c-1.6,7.8-5.3,14.7-10.3,20.9  c-0.8,1.1-1.6,2.4-1.9,3.7c-2.5,11.1-4.8,22.2-7.2,33.4c-0.3,1.4-0.2,2.3,0.9,3.5c1.1,1.2,1.7,3.1,1.9,4.7c0.3,2.4,0.1,4.9,0.1,7.7  c1.3,0,2.4,0,3.4,0c10.7,0,21.4,0,32,0c5.8,0,8.2,2.5,8.2,8.3c0,3.9,0,7.8,0,11.7c-0.1,4.5-2.7,7.1-7.2,7.2c-3.3,0-6.6,0-9.9,0  c-2.8,0-4.4-1.4-4.5-3.8c-0.1-2.4,1.6-4.1,4.5-4.2c2.9-0.1,5.8,0,8.9,0c0-3.8,0-7.3,0-11.2c-0.9,0-1.9,0-2.8,0  c-10.9,0-21.7,0-32.6,0c-5.7,0-8.1-2.4-8.2-8.1c0-1.5,0-3,0-5c-8.6,6.4-16.8,12.5-25.2,18.8c8.4,6.2,16.5,12.3,25.2,18.8  c0-2.4,0-4.1,0-5.8c0.1-4.6,2.7-7.2,7.4-7.4c2.6-0.1,5.2-0.1,7.7,0c2.7,0.1,4.3,1.8,4.2,4.2c-0.1,2.3-1.7,3.7-4.3,3.8  c-2.2,0.1-4.4,0-7,0c0,2.6,0,4.9,0,7.3c0.1,2.9-1,5.2-3.7,6.6c-2.7,1.3-5.2,0.8-7.5-1c-1-0.8-2-1.4-3.3-2.3  c-1.7,7.9-3.4,15.5-4.9,23.2c-1.4,7.2-5.2,12.4-12.5,14.5c-1.7,0.5-3.5,0.6-5.3,0.6c-37.3,0-74.6,0-111.9,0  c-9.1,0-15.3-5-17.3-13.9c-1.8-8-3.5-16-5.3-24.3c-1.4,1-2.6,1.9-3.7,2.7c-2.2,1.6-4.6,1.8-7.1,0.6c-2.5-1.2-3.6-3.3-3.6-6.1  c0-2.5,0-4.9,0-7.7c-1.2,0-2.2,0-3.1,0c-10.7,0-21.4-0.1-32,0.1c-4.1,0.1-6.8-1.3-8.5-4.9C13.3,207.9,13.3,202,13.3,196.2z   M65,186.3c0,2.2,0,3.7,0,5.2c0,5.5-2.5,8-8,8c-10.8,0-21.7,0-32.5,0c-1,0-1.9,0-3,0c0,3.9,0,7.4,0,11.2c1.1,0,2.1,0,3.1,0  c10.8,0,21.5,0,32.3,0c5.6,0,8.2,2.6,8.2,8.1c0,1.5,0,3,0,5.1c8.7-6.5,16.9-12.6,25.2-18.8C81.7,198.8,73.6,192.7,65,186.3z   M145.8,206.1c-6.4,0-12.7-0.4-19,0.1c-5.8,0.5-9.6,5.5-9.5,11.3c0.1,5.6,4,10.5,9.7,10.9c6.2,0.5,12.4,0.1,18.8,0.1  C145.8,221,145.8,213.6,145.8,206.1z M154.2,206.1c0,7.5,0,14.9,0,22.3c6.5,0,12.9,0.5,19.2-0.1c5.7-0.5,9.3-5.6,9.3-11.3  c-0.1-5.5-3.8-10.4-9.4-10.8C167,205.7,160.7,206.1,154.2,206.1z M145.8,259.2c0-7.5,0-14.8,0-22.4c-6.3,0-12.4-0.2-18.5,0.1  c-5.3,0.3-9.7,5.1-9.9,10.5c-0.3,5.7,3.4,11.2,8.7,11.7C132.6,259.6,139.1,259.2,145.8,259.2z M154.1,259.4  c6.3,0,12.3,0.2,18.3-0.1c6.1-0.3,10.5-5.5,10.3-11.7c-0.2-5.9-5-10.7-11-10.8c-4.8-0.1-9.6,0-14.4,0c-1,0-2.1,0-3.2,0  C154.1,244.4,154.1,251.7,154.1,259.4z"></path>	<path d="M116.7,84.1c-6.1,0-12.3,0.4-18.4-0.1c-6.7-0.5-12-4-16.2-9.3c-1.9-2.4-1.8-4.6,0.1-6.1c1.9-1.6,4.2-1.3,6,1  c4,5,9.2,7,15.4,6.9c9-0.1,18,0,26.9,0c0.7,0,1.4,0,2.1,0c2.7,0.1,4.4,1.7,4.4,4c0,2.3-1.8,3.9-4.5,4c-5.3,0.1-10.7,0-16,0  C116.7,84.3,116.7,84.2,116.7,84.1z"></path>	<path d="M183.3,84.4c-5.3,0-10.7,0.1-16,0c-2.7,0-4.4-1.7-4.4-4c0-2.3,1.7-3.9,4.4-4c0.7,0,1.4,0,2.1,0c8.8,0,17.6-0.1,26.4,0  c6.5,0.1,12-1.9,16.2-7.1c1.7-2.2,4-2.3,5.8-0.8c1.8,1.5,1.9,3.7,0.2,5.9c-5.1,6.5-11.8,9.8-20.1,9.9  C193.1,84.5,188.2,84.4,183.3,84.4z"></path></g></svg>			</div>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-658c789 elementor-widget elementor-widget-heading" data-id="658c789" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Prioritize Posture</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-cd23e31 elementor-widget elementor-widget-text-editor" data-id="cd23e31" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Take a moment between each repetition to assess your posture. </span><span style="font-weight: 400;">Engage your core muscles and keep your shoulders pulled back.</span><span style="font-weight: 400;"> This posture supports the movement, enhances effectiveness, and minimizes the chance of injury.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-488403c animated-slow elementor-invisible" data-id="488403c" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-49dd6ad elementor-widget elementor-widget-image" data-id="49dd6ad" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/admin-panel.png" title="admin-panel" alt="admin-panel" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-d23af36 elementor-widget elementor-widget-heading" data-id="d23af36" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Maintain Control</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-54baa95 elementor-widget elementor-widget-text-editor" data-id="54baa95" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;"> Focus on maintaining control throughout each repetition. If you notice your form deteriorating or if momentum starts to take over, it&#8217;s time to stop. Maintaining control not only ensures safety but also maximizes the benefits of the exercise by targeting the intended muscle groups effectively.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-6ed887a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6ed887a" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f14fee2" data-id="f14fee2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-bcda73c animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="bcda73c" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">FREE WEIGHTS VS. WEIGHT MACHINES
+</h3>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4394d4a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4394d4a" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-beb0aa8" data-id="beb0aa8" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-3d967a1 elementor-widget elementor-widget-text-editor" data-id="3d967a1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Free weights offer numerous advantages over weight machines. Unlike weight machines, which typically target specific muscle groups, free weights provide greater flexibility, allowing for a wide variety of exercises targeting multiple muscle groups simultaneously. This versatility ensures a comprehensive, whole-body workout, catering to various fitness goals and preferences.</p><p>Additionally, free weights are accessible for home use, requiring minimal space and investment. Whether you&#8217;re unable to make it to the gym or prefer the convenience of home workouts, free weights offer a convenient solution.</p><p>They are cost-effective and space-efficient, making them suitable for individuals with limited resources or living space. With options ranging from dumbbells to resistance bands, incorporating free weights into your fitness routine ensures flexibility, affordability, and effectiveness in achieving your health and fitness goals.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-d9170e8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d9170e8" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f4fb31f" data-id="f4fb31f" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3dacaa2 elementor-widget elementor-widget-heading" data-id="3dacaa2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">From Dumbbells to Dreams !</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-4ca77d0 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="4ca77d0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">WHY CHOOSE US ?</h3>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-3ec8ae9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3ec8ae9" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e02c172 animated-slow elementor-invisible" data-id="e02c172" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-f7df2ff elementor-widget elementor-widget-image" data-id="f7df2ff" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/information.png" title="information" alt="information" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-872b619 elementor-widget elementor-widget-heading" data-id="872b619" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Expert Guidance</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ad55550 elementor-widget elementor-widget-text-editor" data-id="ad55550" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Our experienced trainers provide personalized guidance, ensuring proper form and technique to maximize the effectiveness of your free weight workouts and minimize the risk of injury.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bafed92 animated-slow elementor-invisible" data-id="bafed92" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-8401372 elementor-widget elementor-widget-image" data-id="8401372" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/gym-eumannts.svg" title="gym eumannts" alt="gym eumannts" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a306f42 elementor-widget elementor-widget-heading" data-id="a306f42" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Versatility of Equipment</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-83fc925 elementor-widget elementor-widget-text-editor" data-id="83fc925" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">We offer a wide range of free weights, including dumbbells, barbells, kettlebells, and more, allowing for endless exercise variations to target every muscle group and cater to all fitness levels.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3db8a83 animated-slow elementor-invisible" data-id="3db8a83" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-77c8dea elementor-widget elementor-widget-image" data-id="77c8dea" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/workout.png" title="workout" alt="workout" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-b75c865 elementor-widget elementor-widget-heading" data-id="b75c865" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Comprehensive Workouts</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-0df6583 elementor-widget elementor-widget-text-editor" data-id="0df6583" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Our programs are designed to provide full-body workouts, integrating free weight exercises that engage multiple muscle groups simultaneously, promoting balanced strength development and functional fitness.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-14f4cc2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="14f4cc2" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e25a0f7 animated-slow elementor-invisible" data-id="e25a0f7" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-5cd2de9 elementor-widget elementor-widget-image" data-id="5cd2de9" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/thumb-ups.png" title="thumb-ups" alt="thumb-ups" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-c5d44e6 elementor-widget elementor-widget-heading" data-id="c5d44e6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Convenience</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f19ccc6 elementor-widget elementor-widget-text-editor" data-id="f19ccc6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">With our well-equipped facility and flexible scheduling options, you can enjoy free weight workouts at a time that suits your schedule, whether it&#8217;s early morning, during lunch break, or after work.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a1988d1 animated-slow elementor-invisible" data-id="a1988d1" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-55344c7 elementor-widget elementor-widget-image" data-id="55344c7" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/clipboard.png" title="clipboard" alt="clipboard" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-01d6cfa elementor-widget elementor-widget-heading" data-id="01d6cfa" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Progress Tracking</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b8a6979 elementor-widget elementor-widget-text-editor" data-id="b8a6979" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">We offer tools and resources to help you track your progress, from personalized workout plans to performance assessments, empowering you to set and achieve your fitness goals effectively.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-439b75f animated-slow elementor-invisible" data-id="439b75f" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-8961d09 elementor-widget elementor-widget-image" data-id="8961d09" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="index.phpwp-content/uploads/2024/05/help.png" title="help" alt="help" loading="lazy" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-283b95f elementor-widget elementor-widget-heading" data-id="283b95f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<span class="elementor-heading-title elementor-size-default">Rescue Team</span>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9b10104 elementor-widget elementor-widget-text-editor" data-id="9b10104" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>We have the emergency service support for which we are going to provide emergency support for those who goy injured during exercise.</p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-ea093d2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ea093d2" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fb21445" data-id="fb21445" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2c1d4e7 elementor-widget elementor-widget-heading" data-id="2c1d4e7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Choose Us for FREE WEIGHT Victory!</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-c049b62 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="c049b62" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">OUR OTHER SERVICES</h3>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6ae3c30 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6ae3c30" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4139d9d animated-slow elementor-invisible" data-id="4139d9d" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-e1c0995 elementor-widget elementor-widget-image" data-id="e1c0995" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/02y.png" class="attachment-full size-full wp-image-2538" alt="" srcset="index.phpwp-content/uploads/2024/05/02y.png 512w, index.phpwp-content/uploads/2024/05/02y-300x300.png 300w, index.phpwp-content/uploads/2024/05/02y-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-cd625e6 elementor-widget elementor-widget-heading" data-id="cd625e6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="index.phpzumba/">Zumba</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d5c48d4 elementor-widget elementor-widget-text-editor" data-id="d5c48d4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Dance your way to fitness with our high-energy Zumba classes! Perfect for all fitness levels, our fun-filled sessions will leave you feeling energized and invigorated, while burning calories and toning muscles.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c5dccfb animated-slow elementor-invisible" data-id="c5dccfb" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-a79925f elementor-widget elementor-widget-image" data-id="a79925f" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/04copy.png" class="attachment-full size-full wp-image-2536" alt="" srcset="index.phpwp-content/uploads/2024/05/04copy.png 512w, index.phpwp-content/uploads/2024/05/04copy-300x300.png 300w, index.phpwp-content/uploads/2024/05/04copy-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-2d73db0 elementor-widget elementor-widget-heading" data-id="2d73db0" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="index.phpspa/">Spa</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-a187edc elementor-widget elementor-widget-text-editor" data-id="a187edc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Indulge in a sanctuary of relaxation and rejuvenation at our spa. From soothing massages to luxurious facials, our expert therapists will pamper you from head to toe, leaving you feeling refreshed and revitalized.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-5b2afda animated-slow elementor-invisible" data-id="5b2afda" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-283bf2a elementor-widget elementor-widget-image" data-id="283bf2a" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/06copy.png" class="attachment-full size-full wp-image-2534" alt="" srcset="index.phpwp-content/uploads/2024/05/06copy.png 512w, index.phpwp-content/uploads/2024/05/06copy-300x300.png 300w, index.phpwp-content/uploads/2024/05/06copy-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-fd284c1 elementor-widget elementor-widget-heading" data-id="fd284c1" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="cardio.php">Cardio</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-f27a854 elementor-widget elementor-widget-text-editor" data-id="f27a854" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Get your heart pumping and your sweat on with our dynamic cardio workouts. Whether you prefer running on the treadmill, cycling, or hitting the elliptical machine, we&#8217;ve got everything you need to elevate your cardio fitness levels.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-286cc44 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="286cc44" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4e54ed2 animated-slow elementor-invisible" data-id="4e54ed2" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-384977e elementor-widget elementor-widget-image" data-id="384977e" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/03copy.png" class="attachment-full size-full wp-image-2537" alt="" srcset="index.phpwp-content/uploads/2024/05/03copy.png 512w, index.phpwp-content/uploads/2024/05/03copy-300x300.png 300w, index.phpwp-content/uploads/2024/05/03copy-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-e1f7dda elementor-widget elementor-widget-heading" data-id="e1f7dda" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="index.phpsalon/">Salon</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3707635 elementor-widget elementor-widget-text-editor" data-id="3707635" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Treat yourself to a makeover at our salon! From haircuts and styling to manicures and pedicures, our skilled stylists will help you look and feel your best, inside and out.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-05ba81a animated-slow elementor-invisible" data-id="05ba81a" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-502ceb9 elementor-widget elementor-widget-image" data-id="502ceb9" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/09copy.png" class="attachment-full size-full wp-image-2531" alt="" srcset="index.phpwp-content/uploads/2024/05/09copy.png 512w, index.phpwp-content/uploads/2024/05/09copy-300x300.png 300w, index.phpwp-content/uploads/2024/05/09copy-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-a4e199a elementor-widget elementor-widget-heading" data-id="a4e199a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="yoga.php">Yoga</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5e7fb71 elementor-widget elementor-widget-text-editor" data-id="5e7fb71" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Find your inner zen and improve your flexibility, strength, and mindfulness with our yoga classes. Led by experienced instructors, our classes cater to all levels, from beginners to advanced practitioners.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8e4eb8e animated-slow elementor-invisible" data-id="8e4eb8e" data-element_type="column" data-e-type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeInDown&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+					<div class="elementor-background-overlay"></div>
+						<div class="elementor-element elementor-element-16cc121 elementor-widget elementor-widget-image" data-id="16cc121" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="512" height="512" src="index.phpwp-content/uploads/2024/05/07copy.png" class="attachment-full size-full wp-image-2533" alt="" srcset="index.phpwp-content/uploads/2024/05/07copy.png 512w, index.phpwp-content/uploads/2024/05/07copy-300x300.png 300w, index.phpwp-content/uploads/2024/05/07copy-150x150.png 150w" sizes="(max-width: 512px) 100vw, 512px" />															</div>
+				</div>
+				<div class="elementor-element elementor-element-0a078cf elementor-widget elementor-widget-heading" data-id="0a078cf" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="index.phpboxing/">Boxing</a></h5>				</div>
+				</div>
+				<div class="elementor-element elementor-element-aa2d5ab elementor-widget elementor-widget-text-editor" data-id="aa2d5ab" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p><span style="font-weight: 400;">Unleash your inner fighter and challenge yourself with our boxing classes. Learn proper techniques, improve your agility and coordination, and experience an empowering full-body workout that will leave you feeling strong and empowered.</span></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+		<div class="elementor-element elementor-element-f3da764 e-flex e-con-boxed e-con e-parent" data-id="f3da764" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-3bb8949 e-con-full e-flex e-con e-child" data-id="3bb8949" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-235001d elementor-widget elementor-widget-heading" data-id="235001d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">FAQ</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-220e0a7 animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="220e0a7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">Frequently asked Questions</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-9ca1df3 elementor-widget elementor-widget-accordion" data-id="9ca1df3" data-element_type="widget" data-e-type="widget" data-widget_type="accordion.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-accordion">
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1641" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1641" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">What is a free weight?</a>
+					</div>
+					<div id="elementor-tab-content-1641" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1641"><p>Free weights refer to exercise equipment that is not attached to a machine and allows for unrestricted movement. Examples include dumbbells, barbells, kettlebells, and weight plates. Unlike machines that provide guided movements, free weights require stabilization from muscles throughout the body, engaging more muscle groups and promoting functional strength. They are versatile and can be used for various exercises targeting different muscle groups, making them popular in strength training programs for both beginners and experienced athletes.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1642" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1642" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">What is free weight area in gym?</a>
+					</div>
+					<div id="elementor-tab-content-1642" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-1642"><p>The free weight area in a gym is a designated space equipped with various types of weightlifting equipment that are not attached to a machine. This includes dumbbells, barbells, kettlebells, weight plates, and benches. Unlike weight machines, free weights allow for unrestricted movement and engagement of stabilizing muscles, offering versatility in exercises targeting different muscle groups. The free weight area is where individuals can perform strength training exercises using these equipment to build muscle, improve strength, and enhance overall fitness.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1643" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-1643" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">What is the difference between free weight and weight ?</a>
+					</div>
+					<div id="elementor-tab-content-1643" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-1643"><p>Free weights and weight machines offer distinct approaches to strength training. Free weights, such as dumbbells and barbells, provide versatility, engaging stabilizing muscles for functional strength and allowing for a wide range of exercises targeting multiple muscle groups. In contrast, weight machines offer guided movements, isolating specific muscle groups with less emphasis on stabilizing muscles. While both are effective for building strength, free weights offer greater flexibility and functional benefits, while weight machines provide targeted muscle isolation and ease of use.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1644" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-1644" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0"> Is free weight better than machine?</a>
+					</div>
+					<div id="elementor-tab-content-1644" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-1644"><p>Both free weights and machines offer unique benefits, making neither inherently superior. Free weights provide greater versatility, engaging stabilizing muscles and allowing for functional movements. They&#8217;re also cost-effective and space-efficient. Machines, on the other hand, offer guided movements, making them suitable for beginners and isolating specific muscle groups effectively. Ultimately, the choice depends on individual goals, preferences, and fitness levels. Incorporating a combination of both into a workout routine can yield optimal results, balancing variety and effectiveness.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1645" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-1645" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Are dumbbells free weights?</a>
+					</div>
+					<div id="elementor-tab-content-1645" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-1645"><p>Yes, dumbbells are considered free weights. Free weights are any type of weightlifting equipment that is not attached to a machine and allows for unrestricted movement. Dumbbells consist of a handle and weights on either end, allowing users to perform a wide variety of exercises targeting different muscle groups. Their versatility and ability to engage stabilizing muscles make them an essential tool for strength training and overall fitness.</p></div>
+				</div>
+							<div class="elementor-accordion-item">
+					<div id="elementor-tab-title-1646" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-1646" aria-expanded="false">
+													<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+															<span class="elementor-accordion-icon-closed"><svg class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+								<span class="elementor-accordion-icon-opened"><svg class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg></span>
+														</span>
+												<a class="elementor-accordion-title" tabindex="0">Is free weight harder than machine?</a>
+					</div>
+					<div id="elementor-tab-content-1646" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-1646"><p>Yes, free weights are generally considered more challenging than machines. Unlike machines that provide stability and guide movement, free weights require greater stabilization from muscles throughout the body, engaging more muscle groups and promoting functional strength. This increased demand on stabilizing muscles can make free weight exercises more challenging, but also more effective for building overall strength, muscle mass, and improving coordination. Additionally, free weights allow for a wider range of motion, offering greater potential for muscle development and functional movement patterns.</p></div>
+				</div>
+								</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-3283b91 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="3283b91" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.4,&quot;sizes&quot;:[]},&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="793" height="796" src="index.phpwp-content/uploads/2024/04/bg-chakra.webp" class="attachment-full size-full wp-image-559" alt="" srcset="index.phpwp-content/uploads/2024/04/bg-chakra.webp 793w, index.phpwp-content/uploads/2024/04/bg-chakra-300x300.webp 300w, index.phpwp-content/uploads/2024/04/bg-chakra-150x150.webp 150w, index.phpwp-content/uploads/2024/04/bg-chakra-768x771.webp 768w" sizes="(max-width: 793px) 100vw, 793px" />															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-eff4ae8 e-con-full e-flex e-con e-child" data-id="eff4ae8" data-element_type="container" data-e-type="container">
+				<div class="elementor-element elementor-element-839286b elementor-widget elementor-widget-image" data-id="839286b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img loading="lazy" decoding="async" width="1024" height="917" src="index.phpwp-content/uploads/2024/04/h3-single-img.jpg" class="attachment-full size-full wp-image-946" alt="" srcset="index.phpwp-content/uploads/2024/04/h3-single-img.jpg 1024w, index.phpwp-content/uploads/2024/04/h3-single-img-300x269.jpg 300w, index.phpwp-content/uploads/2024/04/h3-single-img-768x688.jpg 768w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1ae3207 e-flex e-con-boxed e-con e-parent" data-id="1ae3207" data-element_type="container" data-e-type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-59bcadb elementor-widget elementor-widget-heading" data-id="59bcadb" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Gallery</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-1be77eb animated-slow elementor-invisible elementor-widget elementor-widget-heading" data-id="1be77eb" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">Gallery</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-92aec3a elementor-widget elementor-widget-qi_addons_for_elementor_image_gallery_masonry" data-id="92aec3a" data-element_type="widget" data-e-type="widget" data-widget_type="qi_addons_for_elementor_image_gallery_masonry.default">
+				<div class="elementor-widget-container">
+					<div class="qodef-shortcode qodef-m qodef-qi-image-gallery-masonry qodef-qi-fslightbox-popup qodef-popup-gallery qodef-image--hover-zoom qodef-qi-grid qodef-layout--qi-masonry qodef-items--fixed qodef-col-num--4 qodef-responsive--predefined">
+	<div class="qodef-grid-inner">
+			<div class="qodef-qi-grid-masonry-sizer"></div>
+<div class="qodef-e qodef-image-wrapper qodef-grid-item qodef-item--">
+	<div class="qodef-e-inner">
+					<a class="qodef-popup-item" itemprop="image" href="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_40_39_241Z.png" data-type="image" data-fslightbox="gallery-1">
+					<img loading="lazy" decoding="async" width="612" height="306" src="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_40_39_241Z.png" class="attachment- size-" alt="" srcset="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_40_39_241Z.png 612w, index.phpwp-content/uploads/2024/05/image_2024_05_14T08_40_39_241Z-300x150.png 300w" sizes="(max-width: 612px) 100vw, 612px" />					</a>
+			</div>
+</div>
+<div class="qodef-e qodef-image-wrapper qodef-grid-item qodef-item--">
+	<div class="qodef-e-inner">
+					<a class="qodef-popup-item" itemprop="image" href="index.phpwp-content/uploads/2024/05/deabdeebc69599ff403f448a0ed0b44d.jpg" data-type="image" data-fslightbox="gallery-1">
+					<img loading="lazy" decoding="async" width="800" height="533" src="index.phpwp-content/uploads/2024/05/deabdeebc69599ff403f448a0ed0b44d.jpg" class="attachment- size-" alt="" srcset="index.phpwp-content/uploads/2024/05/deabdeebc69599ff403f448a0ed0b44d.jpg 800w, index.phpwp-content/uploads/2024/05/deabdeebc69599ff403f448a0ed0b44d-300x200.jpg 300w, index.phpwp-content/uploads/2024/05/deabdeebc69599ff403f448a0ed0b44d-768x512.jpg 768w" sizes="(max-width: 800px) 100vw, 800px" />					</a>
+			</div>
+</div>
+<div class="qodef-e qodef-image-wrapper qodef-grid-item qodef-item--">
+	<div class="qodef-e-inner">
+					<a class="qodef-popup-item" itemprop="image" href="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z.png" data-type="image" data-fslightbox="gallery-1">
+					<img loading="lazy" decoding="async" width="1200" height="700" src="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z.png" class="attachment- size-" alt="" srcset="index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z.png 1200w, index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z-300x175.png 300w, index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z-1024x597.png 1024w, index.phpwp-content/uploads/2024/05/image_2024_05_14T08_43_14_157Z-768x448.png 768w" sizes="(max-width: 1200px) 100vw, 1200px" />					</a>
+			</div>
+</div>
+<div class="qodef-e qodef-image-wrapper qodef-grid-item qodef-item--">
+	<div class="qodef-e-inner">
+					<a class="qodef-popup-item" itemprop="image" href="index.phpwp-content/uploads/2024/05/caucasian-man-practicing-weightlifting-gym_489646-14166.jpg" data-type="image" data-fslightbox="gallery-1">
+					<img loading="lazy" decoding="async" width="360" height="240" src="index.phpwp-content/uploads/2024/05/caucasian-man-practicing-weightlifting-gym_489646-14166.jpg" class="attachment- size-" alt="" srcset="index.phpwp-content/uploads/2024/05/caucasian-man-practicing-weightlifting-gym_489646-14166.jpg 360w, index.phpwp-content/uploads/2024/05/caucasian-man-practicing-weightlifting-gym_489646-14166-300x200.jpg 300w" sizes="(max-width: 360px) 100vw, 360px" />					</a>
+			</div>
+</div>
+	</div>
+</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-bb2a7dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb2a7dd" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-99cd6fc" data-id="99cd6fc" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-417946c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="417946c" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-5c9fb30" data-id="5c9fb30" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3804744 elementor-widget elementor-widget-heading" data-id="3804744" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-heading-title elementor-size-default">Contact</div>				</div>
+				</div>
+				<div class="elementor-element elementor-element-399cc2b elementor-widget elementor-widget-heading" data-id="399cc2b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h6 class="elementor-heading-title elementor-size-default">Ready to Get Fit? Let's Connect!</h6>				</div>
+				</div>
+				<div class="elementor-element elementor-element-293cce4 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="293cce4" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-map-marker1"></i>						</span>
+										<span class="elementor-icon-list-text">E 2/19 in front of Rani Kamlapati Railway Station, Bhopal, Madhya Pradesh 462016</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-envelope1"></i>						</span>
+										<span class="elementor-icon-list-text"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1871767e77587e716c7a74716b6b7a616b73367b7775">info@fitblissbysk.com</a></span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-phone-handset"></i>						</span>
+										<span class="elementor-icon-list-text">+91 7470787012, +91 7470787014</span>
+									</li>
+								<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="icon icon-phone"></i>						</span>
+										<span class="elementor-icon-list-text">0755 - 3529183 / 3529156 / 3524020</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ba98674 elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="ba98674" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-animation-shrink elementor-repeater-item-7d58eb5" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-shrink elementor-repeater-item-c5f9414" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-shrink elementor-repeater-item-f0511d5" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-bd37364 elementor-widget__width-initial elementor-absolute elementor-widget elementor-widget-image" data-id="bd37364" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_effect&quot;:&quot;yes&quot;,&quot;motion_fx_rotateZ_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2.4,&quot;sizes&quot;:[]},&quot;motion_fx_rotateZ_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="793" height="796" src="index.phpwp-content/uploads/2024/04/bg-chakra.webp" class="attachment-full size-full wp-image-559" alt="" srcset="index.phpwp-content/uploads/2024/04/bg-chakra.webp 793w, index.phpwp-content/uploads/2024/04/bg-chakra-300x300.webp 300w, index.phpwp-content/uploads/2024/04/bg-chakra-150x150.webp 150w, index.phpwp-content/uploads/2024/04/bg-chakra-768x771.webp 768w" sizes="(max-width: 793px) 100vw, 793px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-855bfd0" data-id="855bfd0" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-19f6564 elementor-widget elementor-widget-heading" data-id="19f6564" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h3 class="elementor-heading-title elementor-size-default">Send Us a Message</h3>				</div>
+				</div>
+				<div class="elementor-element elementor-element-ccccc4a fluentform-widget-submit-button-full-width elementor-widget elementor-widget-fluent-form-widget" data-id="ccccc4a" data-element_type="widget" data-e-type="widget" data-widget_type="fluent-form-widget.default">
+				<div class="elementor-widget-container">
+					
+            <div class="fluentform-widget-wrapper fluentform-widget-align-default">
+
+            
+            <div class='fluentform ff-default fluentform_wrapper_1 ffs_default_wrap'><form data-form_id="1" id="fluentform_1" class="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading ffs_default" data-form_instance="ff_form_instance_1_1" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
+                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Contact Form</legend><input type='hidden' name='__fluent_form_embded_post_id' value='930' /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" value="270fabf283" /><input type="hidden" name="_wp_http_referer" value="/free-weight/" /><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label asterisk-right"><label for='ff_1_input_text' id='label_ff_1_input_text' aria-label="Name">Name</label></div><div class='ff-el-input--content'><input type="text" name="input_text" class="ff-el-form-control" placeholder="Name" data-name="input_text" id="ff_1_input_text"  aria-invalid="false" aria-required=false></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_email' id='label_ff_1_email' aria-label="Email">Email</label></div><div class='ff-el-input--content'><input type="email" name="email" id="ff_1_email" class="ff-el-form-control" placeholder="Email" data-name="email"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_subject' id='label_ff_1_subject' aria-label="Phone">Phone</label></div><div class='ff-el-input--content'><input type="text" name="subject" class="ff-el-form-control" placeholder="Phone" data-name="subject" id="ff_1_subject"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_message' id='label_ff_1_message' aria-label="Your Message">Your Message</label></div><div class='ff-el-input--content'><textarea aria-required="true" aria-labelledby="label_ff_1_message" name="message" id="ff_1_message" class="ff-el-form-control" placeholder="Your Message" rows="4" cols="2" data-name="message" ></textarea></div></div><input type="hidden" name="pagelink" value="free-weight.php" data-name="pagelink" ><div class='ff-el-group ff-el-form-hide_label' ><div class='ff-el-input--label'><label>Recaptcha</label></div><div class='ff-el-input--content'><div data-fluent_id='1' name='g-recaptcha-response'><div
+		data-sitekey='6LeMTm4tAAAAALKd5Ba14oC9Z011j7R1BY_M6Xm1'
+		id='fluentform-recaptcha-1-1'
+		class='ff-el-recaptcha g-recaptcha'
+		data-callback='fluentFormrecaptchaSuccessCallback'></div></div></div></div><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md ff_btn_style"  aria-label="Submit">Submit</button></div></fieldset></form><div id='fluentform_1_errors' class='ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors'></div></div>            <script type="text/javascript">
+                window.fluent_form_ff_form_instance_1_1 = {"id":"1","ajaxUrl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","settings":{"layout":{"labelPlacement":"top","helpMessagePlacement":"with_label","errorMessagePlacement":"inline","cssClassName":"","asteriskPlacement":"asterisk-right"},"restrictions":{"denyEmptySubmission":{"enabled":false}}},"form_instance":"ff_form_instance_1_1","form_id_selector":"fluentform_1","rules":{"input_text":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"email":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"},"email":{"value":true,"message":"This field must contain a valid email","global":false,"global_message":"This field must contain a valid email"}},"subject":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}},"message":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}},"g-recaptcha-response":[]},"debounce_time":300,"file_upload_settings":[]};
+                            </script>
+                        </div>
+
+            				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+		
+			</div>
+
+	
+</main>
+
+			<footer data-elementor-type="footer" data-elementor-id="29" class="elementor elementor-29 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-5f1f9a04 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f1f9a04" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78b1cb1" data-id="78b1cb1" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<section class="elementor-section elementor-inner-section elementor-element elementor-element-683a54a4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="683a54a4" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-18351091" data-id="18351091" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-305aeeba elementor-widget elementor-widget-image" data-id="305aeeba" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="1920" height="659" src="index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png" class="attachment-full size-full wp-image-3293" alt="" srcset="index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png 1920w, index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-300x103.png 300w, index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1024x351.png 1024w, index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-768x264.png 768w, index.phpwp-content/uploads/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1536x527.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-13f5cbe" data-id="13f5cbe" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-349b413 elementor-shape-circle e-grid-align-right elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="349b413" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-lc999d" href="https://www.facebook.com/fitblissbysk" target="_blank">
+						<span class="elementor-screen-only">Facebook</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-xj9pe7" href="https://twitter.com/fitblissbysk" target="_blank">
+						<span class="elementor-screen-only">Twitter</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-44x7qh" href="https://www.youtube.com/@fitblissbysk" target="_blank">
+						<span class="elementor-screen-only">Youtube</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
+				</span>
+							<span class="elementor-grid-item" role="listitem">
+					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-ea50edd" href="https://www.instagram.com/fitblissbysk/?hl=en" target="_blank">
+						<span class="elementor-screen-only">Instagram</span>
+						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
+				</span>
+					</div>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-2c382637 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2c382637" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-755565e8" data-id="755565e8" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-23064cda elementor-widget elementor-widget-heading" data-id="23064cda" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default">Central India's most luxurious  Wellness Destination</h5>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7ba74eb" data-id="7ba74eb" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-80c3e75 elementor-align-start elementor-tablet-align-start elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="80c3e75" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker-alt" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">E 2/19  in front of  Rani Kamlapati Railway Station, Bhopal, Madhya Pradesh 462016</span>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2eaea567" data-id="2eaea567" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-4538db7 elementor-align-start elementor-tablet-align-start elementor-mobile-align-start elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="4538db7" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items">
+							<li class="elementor-icon-list-item">
+											<a href="tel:+917470787012">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-square-alt" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z"></path></svg>						</span>
+										<span class="elementor-icon-list-text">7470787012</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="tel:+917470787014">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-square-alt" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h352a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48zm-16.39 307.37l-15 65A15 15 0 0 1 354 416C194 416 64 286.29 64 126a15.7 15.7 0 0 1 11.63-14.61l65-15A18.23 18.23 0 0 1 144 96a16.27 16.27 0 0 1 13.79 9.09l30 70A17.9 17.9 0 0 1 189 181a17 17 0 0 1-5.5 11.61l-37.89 31a231.91 231.91 0 0 0 110.78 110.78l31-37.89A17 17 0 0 1 299 291a17.85 17.85 0 0 1 5.91 1.21l70 30A16.25 16.25 0 0 1 384 336a17.41 17.41 0 0 1-.39 3.37z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"> 7470787014</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item">
+											<a href="mailto:info@fitblissbysk.com">
+
+												<span class="elementor-icon-list-icon">
+							<svg aria-hidden="true" class="e-font-icon-svg e-far-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>						</span>
+										<span class="elementor-icon-list-text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dcfaf5e8fef0f5efeffee5eff7b2fff3f1">info@fitblissbysk.com</span></span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-397b373d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="397b373d" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b93c5a2" data-id="b93c5a2" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7e957411 elementor-icon-list--layout-inline elementor-align-start elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7e957411" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="privacy-policy.php">
+
+											<span class="elementor-icon-list-text">PRIVACY POLICY</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="terms-conditions.php">
+
+											<span class="elementor-icon-list-text">TERMS &amp; CONDITIONS</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="terms-of-use.php">
+
+											<span class="elementor-icon-list-text">TERMS OF USE</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6b801d69" data-id="6b801d69" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-1b3f2a5f elementor-widget elementor-widget-heading" data-id="1b3f2a5f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-default"><a href="https://wecrescent.com/">Designed By Crescent Digital Solutions</a></h5>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</footer>
+		
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/hello-elementor/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+		<div data-elementor-type="popup" data-elementor-id="1638" class="elementor elementor-1638 elementor-location-popup" data-elementor-settings="{&quot;open_selector&quot;:&quot;.joinnow&quot;,&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-1b84ca40 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b84ca40" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5bd7ef6" data-id="5bd7ef6" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-d811c02 elementor-widget elementor-widget-heading" data-id="d811c02" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Join Now</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-89ab575 fluentform-widget-submit-button-center fluentform-widget-submit-button-custom elementor-widget elementor-widget-fluent-form-widget" data-id="89ab575" data-element_type="widget" data-e-type="widget" data-widget_type="fluent-form-widget.default">
+				<div class="elementor-widget-container">
+					
+            <div class="fluentform-widget-wrapper fluentform-widget-align-default">
+
+            
+            <div class='fluentform ff-default fluentform_wrapper_1 ffs_default_wrap'><form data-form_id="1" id="fluentform_1" class="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_2 ff-form-loading ffs_default" data-form_instance="ff_form_instance_1_2" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
+                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Contact Form</legend><input type='hidden' name='__fluent_form_embded_post_id' value='930' /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" value="270fabf283" /><input type="hidden" name="_wp_http_referer" value="/free-weight/" /><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label asterisk-right"><label for='ff_1_2_input_text' id='label_ff_1_2_input_text' aria-label="Name">Name</label></div><div class='ff-el-input--content'><input type="text" name="input_text" class="ff-el-form-control" placeholder="Name" data-name="input_text" id="ff_1_2_input_text"  aria-invalid="false" aria-required=false></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_2_email' id='label_ff_1_2_email' aria-label="Email">Email</label></div><div class='ff-el-input--content'><input type="email" name="email" id="ff_1_2_email" class="ff-el-form-control" placeholder="Email" data-name="email"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_2_subject' id='label_ff_1_2_subject' aria-label="Phone">Phone</label></div><div class='ff-el-input--content'><input type="text" name="subject" class="ff-el-form-control" placeholder="Phone" data-name="subject" id="ff_1_2_subject"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_2_message' id='label_ff_1_2_message' aria-label="Your Message">Your Message</label></div><div class='ff-el-input--content'><textarea aria-required="true" aria-labelledby="label_ff_1_2_message" name="message" id="ff_1_2_message" class="ff-el-form-control" placeholder="Your Message" rows="4" cols="2" data-name="message" ></textarea></div></div><input type="hidden" name="pagelink" value="free-weight.php" data-name="pagelink" ><div class='ff-el-group ff-el-form-hide_label' ><div class='ff-el-input--label'><label>Recaptcha</label></div><div class='ff-el-input--content'><div data-fluent_id='1' name='g-recaptcha-response'><div
+		data-sitekey='6LeMTm4tAAAAALKd5Ba14oC9Z011j7R1BY_M6Xm1'
+		id='fluentform-recaptcha-1-2'
+		class='ff-el-recaptcha g-recaptcha'
+		data-callback='fluentFormrecaptchaSuccessCallback'></div></div></div></div><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md ff_btn_style"  aria-label="Submit">Submit</button><style>form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) { background-color: var(--fluentform-primary); color: #ffffff; }</style></div></fieldset></form><div id='fluentform_1_errors' class='ff-errors-in-stack ff_form_instance_1_2 ff-form-loading_errors ff_form_instance_1_2_errors'></div></div>            <script type="text/javascript">
+                window.fluent_form_ff_form_instance_1_2 = {"id":"1","ajaxUrl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","settings":{"layout":{"labelPlacement":"top","helpMessagePlacement":"with_label","errorMessagePlacement":"inline","cssClassName":"","asteriskPlacement":"asterisk-right"},"restrictions":{"denyEmptySubmission":{"enabled":false}}},"form_instance":"ff_form_instance_1_2","form_id_selector":"fluentform_1","rules":{"input_text":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"email":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"},"email":{"value":true,"message":"This field must contain a valid email","global":false,"global_message":"This field must contain a valid email"}},"subject":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}},"message":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}},"g-recaptcha-response":[]},"debounce_time":300,"file_upload_settings":[]};
+                            </script>
+                        </div>
+
+            				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+					<script>
+				( () => {
+					const lazyloadRunObserver = () => {
+						const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+						const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+							entries.forEach( ( entry ) => {
+								if ( entry.isIntersecting ) {
+									let lazyloadBackground = entry.target;
+									if( lazyloadBackground ) {
+										lazyloadBackground.classList.add( 'e-lazyloaded' );
+									}
+									lazyloadBackgroundObserver.unobserve( entry.target );
+								}
+							});
+						}, { rootMargin: '200px 0px 200px 0px' } );
+						lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+							lazyloadBackgroundObserver.observe( lazyloadBackground );
+						} );
+					};
+					const events = [
+						'DOMContentLoaded',
+						'elementor/lazyload/observe',
+					];
+					events.forEach( ( event ) => {
+						document.addEventListener( event, lazyloadRunObserver );
+					} );
+				} )();
+			</script>
+			<style>form.fluent_form_1 .ff-btn-submit:not(.ff_btn_no_style) { background-color: var(--fluentform-primary); color: #ffffff; }</style><script id="fluentform-elementor-js-extra">
+var fluentformElementor = {"adminUrl":"index.phpwp-admin/admin.php"};
+//# sourceURL=fluentform-elementor-js-extra
+</script>
+<script id="fluentform-elementor-js" src="index.phpwp-content/plugins/fluentform/assets/js/fluent-forms-elementor-widget.js?ver=6.2.14"></script>
+<script id="jquery-ui-core-js-before">
+jQuery.uiBackCompat = true;
+//# sourceURL=jquery-ui-core-js-before
+</script>
+<script id="jquery-ui-core-js" src="index.phpwp-includes/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="qi-addons-for-elementor-script-js-extra">
+var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"\u003E\u003Cline x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"/\u003E\u003Cline x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"/\u003E\u003Cline x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"/\u003E\u003C/svg\u003E","iconArrowRight":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"\u003E\u003Cline x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"/\u003E\u003Cline x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"/\u003E\u003Cline x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"/\u003E\u003C/svg\u003E","iconClose":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"\u003E\u003Cg\u003E\u003Cpath d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"/\u003E\u003C/g\u003E\u003C/svg\u003E"}};
+//# sourceURL=qi-addons-for-elementor-script-js-extra
+</script>
+<script id="qi-addons-for-elementor-script-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.11.1"></script>
+<script id="hello-theme-frontend-js" src="index.phpwp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.5.1"></script>
+<script id="elementor-webpack-runtime-js" src="index.phpwp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.0"></script>
+<script id="elementor-frontend-modules-js" src="index.phpwp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.0"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.3.0","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/fitblissbysk.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f6a138672e","atomicFormsSendForm":"805ab1a743"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":930,"title":"Free%20weight%20%E2%80%93%20Fit%20Bliss","excerpt":"","featuredImage":false}};
+//# sourceURL=elementor-frontend-js-before
+</script>
+<script id="elementor-frontend-js" src="index.phpwp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.3.0"></script>
+<script id="smartmenus-js" src="index.phpwp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
+<script id="swiper-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js?ver=8.4.5"></script>
+<script id="fslightbox-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/assets/plugins/fslightbox/fslightbox.min.js?ver=7.1.2"></script>
+<script id="isotope-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js?ver=3.0.6"></script>
+<script id="packery-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=2.0.1"></script>
+<script id="chaty-front-end-js-extra">
+var chaty_settings = {"ajax_url":"index.phpwp-admin/admin-ajax.php","analytics":"0","capture_analytics":"0","token":"57745235eb","chaty_widgets":[{"id":0,"identifier":0,"settings":{"cta_type":"simple-view","cta_body":"","cta_head":"","cta_head_bg_color":"","cta_head_text_color":"","show_close_button":0,"position":"right","custom_position":1,"bottom_spacing":"25","side_spacing":"25","icon_view":"vertical","default_state":"click","cta_text":"","cta_text_color":"#333333","cta_bg_color":"#ffffff","show_cta":"first_click","is_pending_mesg_enabled":"off","pending_mesg_count":"1","pending_mesg_count_color":"#ffffff","pending_mesg_count_bgcolor":"#dd0000","widget_icon":"chat-base","widget_icon_url":"","font_family":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","widget_size":"54","custom_widget_size":"54","is_google_analytics_enabled":0,"close_text":"Hide","widget_color":"#000000","widget_icon_color":"#ffffff","widget_rgb_color":"0,0,0","has_custom_css":0,"custom_css":"","widget_token":"ebb702784c","widget_index":"","attention_effect":"shockwave"},"triggers":{"has_time_delay":1,"time_delay":"0","exit_intent":0,"has_display_after_page_scroll":0,"display_after_page_scroll":"0","auto_hide_widget":0,"hide_after":0,"show_on_pages_rules":[],"time_diff":0,"has_date_scheduling_rules":0,"date_scheduling_rules":{"start_date_time":"","end_date_time":""},"date_scheduling_rules_timezone":0,"day_hours_scheduling_rules_timezone":0,"has_day_hours_scheduling_rules":[],"day_hours_scheduling_rules":[],"day_time_diff":0,"show_on_direct_visit":0,"show_on_referrer_social_network":0,"show_on_referrer_search_engines":0,"show_on_referrer_google_ads":0,"show_on_referrer_urls":[],"has_show_on_specific_referrer_urls":0,"has_traffic_source":0,"has_countries":0,"countries":[],"has_target_rules":0},"channels":[{"channel":"Phone","value":"+917470787014","hover_text":"Phone","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#03E78B\"/\u003E\u003Cpath d=\"M19.3929 14.9176C17.752 14.7684 16.2602 14.3209 14.7684 13.7242C14.0226 13.4259 13.1275 13.7242 12.8292 14.4701L11.7849 16.2602C8.65222 14.6193 6.11623 11.9341 4.47529 8.95057L6.41458 7.90634C7.16046 7.60799 7.45881 6.71293 7.16046 5.96705C6.56375 4.47529 6.11623 2.83435 5.96705 1.34259C5.96705 0.596704 5.22117 0 4.47529 0H0.745882C0.298353 0 5.69062e-07 0.298352 5.69062e-07 0.745881C5.69062e-07 3.72941 0.596704 6.71293 1.93929 9.3981C3.87858 13.575 7.30964 16.8569 11.3374 18.7962C14.0226 20.1388 17.0061 20.7355 19.9896 20.7355C20.4371 20.7355 20.7355 20.4371 20.7355 19.9896V16.4094C20.7355 15.5143 20.1388 14.9176 19.3929 14.9176Z\" transform=\"translate(9.07179 9.07178)\" fill=\"white\"/\u003E\u003C/svg\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#03E78B","icon_rgb_color":"3,231,139","channel_type":"Phone","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"tel:+917470787014","mobile_target":"","desktop_target":"","target":"","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""},{"channel":"Whatsapp","value":"917470787014","hover_text":"WhatsApp","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"/\u003E\u003Cpath d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"/\u003E\u003Cpath d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"/\u003E\u003C/svg\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#49E670","icon_rgb_color":"73,230,112","channel_type":"Whatsapp","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"\u003Cp\u003EHow can I help you? :)\u003C/p\u003E","wp_popup_headline":"Let&#039;s chat on WhatsApp","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https://web.whatsapp.com/send?phone=917470787014","mobile_target":"","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""},{"channel":"Instagram","value":"fitblissbysk/?hl=en","hover_text":"Instagram Page","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.5\" cy=\"19.5\" r=\"19.5\" fill=\"url(#linear-gradient)\"/\u003E\u003Cpath id=\"Path_1923\" data-name=\"Path 1923\" d=\"M13.177,0H5.022A5.028,5.028,0,0,0,0,5.022v8.155A5.028,5.028,0,0,0,5.022,18.2h8.155A5.028,5.028,0,0,0,18.2,13.177V5.022A5.028,5.028,0,0,0,13.177,0Zm3.408,13.177a3.412,3.412,0,0,1-3.408,3.408H5.022a3.411,3.411,0,0,1-3.408-3.408V5.022A3.412,3.412,0,0,1,5.022,1.615h8.155a3.412,3.412,0,0,1,3.408,3.408v8.155Z\" transform=\"translate(10 10.4)\" fill=\"#fff\"/\u003E\u003Cpath id=\"Path_1924\" data-name=\"Path 1924\" d=\"M45.658,40.97a4.689,4.689,0,1,0,4.69,4.69A4.695,4.695,0,0,0,45.658,40.97Zm0,7.764a3.075,3.075,0,1,1,3.075-3.075A3.078,3.078,0,0,1,45.658,48.734Z\" transform=\"translate(-26.558 -26.159)\" fill=\"#fff\"/\u003E\u003C/svg\u003E\u003Cpath id=\"Path_1925\" data-name=\"Path 1925\" d=\"M120.105,28.251a1.183,1.183,0,1,0,.838.347A1.189,1.189,0,0,0,120.105,28.251Z\" transform=\"translate(-96.119 -14.809)\" fill=\"#fff\"/\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#ffffff","icon_rgb_color":"0,0,0","channel_type":"Instagram","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https://www.instagram.com/fitblissbysk/?hl=en","mobile_target":"_blank","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""}]}],"data_analytics_settings":"off","lang":{"whatsapp_label":"WhatsApp Message","hide_whatsapp_form":"Hide WhatsApp Form","emoji_picker":"Show Emojis"},"has_chatway":""};
+//# sourceURL=chaty-front-end-js-extra
+</script>
+<script defer id="chaty-front-end-js" src="index.phpwp-content/plugins/chaty/dist/js/script.js?ver=3.6.11785238286"></script>
+<script defer id="chaty-mail-check-js" src="index.phpwp-content/plugins/chaty/admin/assets/js/mailcheck.js?ver=3.6.1"></script>
+<script id="google-recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=6.2.14"></script>
+<script id="fluent-form-submission-js-extra">
+var fluentFormVars = {"ajaxUrl":"index.phpwp-admin/admin-ajax.php","forms":[],"step_text":"Step %activeStep% of %totalStep% - %stepTitle%","step_completed_text":"Completed","is_rtl":"","date_i18n":{"previousMonth":"Previous Month","nextMonth":"Next Month","months":{"shorthand":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"longhand":["January","February","March","April","May","June","July","August","September","October","November","December"]},"weekdays":{"longhand":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shorthand":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"daysInMonth":[31,28,31,30,31,30,31,31,30,31,30,31],"rangeSeparator":" to ","weekAbbreviation":"Wk","scrollTitle":"Scroll to increment","toggleTitle":"Click to toggle","amPM":["AM","PM"],"yearAriaLabel":"Year","firstDayOfWeek":1},"pro_version":"","fluentform_version":"6.2.14","force_init":"","stepAnimationDuration":"350","upload_completed_txt":"100% Completed","upload_start_txt":"0% Completed","uploading_txt":"Uploading","choice_js_vars":{"noResultsText":"No results found","loadingText":"Loading...","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","maxItemTextSingular":"Only %%maxItemCount%% option can be added","maxItemTextPlural":"Only %%maxItemCount%% options can be added"},"input_mask_vars":{"clearIfNotMatch":false},"nonce":"d501025a1f","file_delete_nonce":"9311d410a1","form_id":"1","step_change_focus":"1","has_cleantalk":"","pro_payment_script_compatible":""};
+var fluentform_submission_messages_1 = {"file_upload_in_progress":"File upload in progress. Please wait...","javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_payment_messages_1 = {"stock_out_message":"This Item is Stock Out","item_label":"Item","price_label":"Price","qty_label":"Qty","line_total_label":"Line Total","sub_total_label":"Sub Total","discount_label":"Discount","total_label":"Total","signup_fee_label":"Signup Fee","trial_label":"Trial","processing_text":"Processing...","confirming_text":"Confirming..."};
+var fluentform_save_progress_messages_1 = {"copy_button":"Copy","email_button":"Email","email_placeholder":"Your Email Here","copy_success":"Copied"};
+var fluentform_address_messages_1 = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+var fluentform_gateway_messages_1 = {"request_failed":"Request failed. Please try again","payment_failed":"Payment process failed!","no_method_found":"No method found","processing_text":"Processing..."};
+var fluentform_submission_messages_global = {"javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_address_messages_global = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+var fluentFormVars = {"ajaxUrl":"index.phpwp-admin/admin-ajax.php","forms":[],"step_text":"Step %activeStep% of %totalStep% - %stepTitle%","step_completed_text":"Completed","is_rtl":"","date_i18n":{"previousMonth":"Previous Month","nextMonth":"Next Month","months":{"shorthand":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"longhand":["January","February","March","April","May","June","July","August","September","October","November","December"]},"weekdays":{"longhand":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shorthand":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"daysInMonth":[31,28,31,30,31,30,31,31,30,31,30,31],"rangeSeparator":" to ","weekAbbreviation":"Wk","scrollTitle":"Scroll to increment","toggleTitle":"Click to toggle","amPM":["AM","PM"],"yearAriaLabel":"Year","firstDayOfWeek":1},"pro_version":"","fluentform_version":"6.2.14","force_init":"","stepAnimationDuration":"350","upload_completed_txt":"100% Completed","upload_start_txt":"0% Completed","uploading_txt":"Uploading","choice_js_vars":{"noResultsText":"No results found","loadingText":"Loading...","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","maxItemTextSingular":"Only %%maxItemCount%% option can be added","maxItemTextPlural":"Only %%maxItemCount%% options can be added"},"input_mask_vars":{"clearIfNotMatch":false},"nonce":"d501025a1f","file_delete_nonce":"9311d410a1","form_id":"1","step_change_focus":"1","has_cleantalk":"","pro_payment_script_compatible":""};
+var fluentform_submission_messages_1 = {"file_upload_in_progress":"File upload in progress. Please wait...","javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_payment_messages_1 = {"stock_out_message":"This Item is Stock Out","item_label":"Item","price_label":"Price","qty_label":"Qty","line_total_label":"Line Total","sub_total_label":"Sub Total","discount_label":"Discount","total_label":"Total","signup_fee_label":"Signup Fee","trial_label":"Trial","processing_text":"Processing...","confirming_text":"Confirming..."};
+var fluentform_save_progress_messages_1 = {"copy_button":"Copy","email_button":"Email","email_placeholder":"Your Email Here","copy_success":"Copied"};
+var fluentform_address_messages_1 = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+var fluentform_gateway_messages_1 = {"request_failed":"Request failed. Please try again","payment_failed":"Payment process failed!","no_method_found":"No method found","processing_text":"Processing..."};
+var fluentform_submission_messages_global = {"javascript_handler_failed":"Javascript handler could not be loaded. Form submission has been failed. Reload the page and try again"};
+var fluentform_address_messages_global = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
+//# sourceURL=fluent-form-submission-js-extra
+</script>
+<script id="fluent-form-submission-js" src="index.phpwp-content/plugins/fluentform/assets/js/form-submission.js?ver=6.2.14"></script>
+<script id="wp-hooks-js" src="index.phpwp-includes/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="index.phpwp-includes/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="qi-addons-for-elementor-elementor-js" src="index.phpwp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=7.1.2"></script>
+<script id="elementor-pro-webpack-runtime-js" src="index.phpwp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.1.1"></script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","nonce":"752167b2db","urls":{"assets":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/fitblissbysk.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+</script>
+<script id="elementor-pro-frontend-js" src="index.phpwp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.1"></script>
+<script id="pro-elements-handlers-js" src="index.phpwp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.1"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"index.phpwp-includes/js/wp-emoji-release.min.js?ver=7.1.2"}}
+</script>
+<script type="module">
+/*! This file is auto-generated */
+var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
+//# sourceURL=index.phpwp-includes/js/wp-emoji-loader.min.js
+</script>
+            <script type="text/javascript">
+                
+                window.addEventListener('elementor/popup/show', function (e) {
+                    var ffForms = jQuery('#elementor-popup-modal-' + e.detail.id).find('form.frm-fluent-form');
+
+                    /**
+                     * Support conversation form in elementor popup
+                     * No regular form found, check for conversational form
+                     */
+                    if (!ffForms.length) {
+                        const elements = document.getElementsByClassName('ffc_conv_form');
+                        if (elements.length) {
+                            let jsEvent = new CustomEvent('ff-elm-conv-form-event', {
+                                detail: elements
+                            });
+                            document.dispatchEvent(jsEvent);
+                        }
+                    }
+                    if (ffForms.length) {
+                        jQuery.each(ffForms, function(index, ffForm) {
+                            jQuery(ffForm).trigger('reInitExtras');
+                            jQuery(document).trigger('ff_reinit', [ffForm]);
+                        });
+                    }
+                });
+                            </script>
+            
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"9ed88eb36d1a43b89c3a6b15900f35ab","r":1,"spa":2}' crossorigin="anonymous"></script>
+<script id="fitbliss-custom-responsive-script">
+document.addEventListener('DOMContentLoaded', function() {
+    // 1. Mobile Menu Toggle Handler
+    var toggles = document.querySelectorAll('.elementor-menu-toggle');
+    toggles.forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            var parentNav = btn.closest('.elementor-widget-nav-menu');
+            if (parentNav) {
+                var dropdown = parentNav.querySelector('.elementor-nav-menu--dropdown');
+                if (dropdown) {
+                    var isOpen = dropdown.classList.contains('elementor-active');
+                    dropdown.classList.toggle('elementor-active');
+                    btn.setAttribute('aria-expanded', !isOpen);
+                    btn.classList.toggle('elementor-active');
+                }
+            }
+        });
+    });
+
+    // Close mobile dropdown when a link is clicked
+    var dropLinks = document.querySelectorAll('.elementor-nav-menu--dropdown a');
+    dropLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+            var dropdown = link.closest('.elementor-nav-menu--dropdown');
+            if (dropdown && link.getAttribute('href') !== '#') {
+                dropdown.classList.remove('elementor-active');
+                var btn = dropdown.closest('.elementor-widget-nav-menu').querySelector('.elementor-menu-toggle');
+                if (btn) btn.classList.remove('elementor-active');
+            }
+        });
+    });
+
+    // 2. Mobile Hero Touch Reveal
+    var hero = document.getElementById('home');
+    if (hero) {
+        hero.addEventListener('touchstart', function() {
+            hero.classList.add('show-text');
+        }, { passive: true });
+    }
+});
+</script>
+</body>
+</html>
+
+<!-- Page cached by LiteSpeed Cache 7.9.1 on 2026-09-23 10:14:47 -->
