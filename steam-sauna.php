@@ -1156,33 +1156,63 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const megaMenus = {
             "About Us": {
-                feature: { tag: "Our Story", title: "Where Wellness Meets Luxury", body: "Founded by Dr. Shruti Kapoor — a Radiologist turned wellness curator, inspired by her own transformation through Pilates in Mumbai.", img: "/fitbliss/wp-content/uploads/2026/06/DSC_2491-scaled.jpg", href: "/fitbliss/about/" },
+                feature: {
+                    tag: "Our Story",
+                    title: "Where Wellness Meets Luxury",
+                    body: "Founded by Dr. Shruti Kapoor — a Radiologist turned wellness curator, inspired by her own transformation through Pilates in Mumbai.",
+                    img: "/fitbliss/wp-content/uploads/2026/06/DSC_2491-scaled.jpg",
+                    href: "/fitbliss/about/"
+                },
                 cols: [
                     {
-                        heading: "About FitBliss", items: [
+                        heading: "About FitBliss",
+                        items: [
                             {
-                                label: "The Story", href: "/fitbliss/about/", hint: "Vision · Journey · Values",
-                                feature: { tag: "About FitBliss", title: "The Story", body: "A vision born from personal transformation — discover how FitBliss came to be the luxury wellness destination it is today.", img: "/fitbliss/wp-content/uploads/2024/06/2.jpg", href: "/fitbliss/about/" }
-                            },
-
+                                label: "The Story",
+                                href: "/fitbliss/about/",
+                                hint: "Vision · Journey · Values",
+                                feature: {
+                                    tag: "About FitBliss",
+                                    title: "The Story",
+                                    body: "A vision born from personal transformation — discover how FitBliss came to be the luxury wellness destination it is today.",
+                                    img: "/fitbliss/wp-content/uploads/2024/06/2.jpg",
+                                    href: "/fitbliss/about/"
+                                }
+                            }
                         ]
                     },
                     {
-                        heading: "Leadership", items: [
+                        heading: "Leadership",
+                        items: [
                             {
-                                label: "Meet the Founder", href: "/fitbliss/founder/", hint: "Dr. Shruti Kapoor",
-                                feature: { tag: "Leadership", title: "Meet the Founder", body: "Dr. Shruti Kapoor — Radiologist, wellness curator, and the visionary mind behind FitBliss.", img: "/fitbliss/wp-content/uploads/2026/07/IMG-20250804-WA0081.webp", position: "center 20%", href: "/fitbliss/founder/" }
-                            },
-
+                                label: "Meet the Founder",
+                                href: "/fitbliss/founder/",
+                                hint: "Dr. Shruti Kapoor",
+                                feature: {
+                                    tag: "Leadership",
+                                    title: "Meet the Founder",
+                                    body: "Dr. Shruti Kapoor — Radiologist, wellness curator, and the visionary mind behind FitBliss.",
+                                    img: "/fitbliss/wp-content/uploads/2026/07/IMG-20250804-WA0081.webp",
+                                    position: "center 20%",
+                                    href: "/fitbliss/founder/"
+                                }
+                            }
                         ]
                     }
                 ]
             },
             Services: {
-                feature: { tag: "Our Services", title: "Holistic Wellness", body: "Discover a comprehensive range of fitness, wellness, and lifestyle services.", img: "https://images.unsplash.com/photo-1540496905036-5937c10647cc?w=800", href: "#services" },
+                feature: {
+                    tag: "Our Services",
+                    title: "Holistic Wellness",
+                    body: "Discover a comprehensive range of fitness, wellness, and lifestyle services.",
+                    img: "/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg",
+                    href: "/fitbliss/gym/"
+                },
                 cols: [
                     {
-                        heading: "Gym & Fitness", items: [
+                        heading: "Gym & Fitness",
+                        items: [
                             { label: "Gym & Strength", href: "/fitbliss/gym/", hint: "Training", feature: { tag: "Fitness", title: "Gym & Strength", body: "State-of-the-art equipment.", img: "/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/gym/" } },
                             { label: "Personal Training", href: "/fitbliss/personal-training/", hint: "Coaching", feature: { tag: "Fitness", title: "Personal Training", body: "Expert guidance for your goals.", img: "/fitbliss/wp-content/uploads/2026/07/DSC_3593-scaled.jpg", href: "/fitbliss/personal-training/" } },
                             { label: "Functional Training", href: "/fitbliss/functional-training/", hint: "Agility", feature: { tag: "Fitness", title: "Functional Training", body: "Enhance daily movement and strength.", img: "/fitbliss/wp-content/uploads/2026/07/DSC_3557-scaled.jpg", href: "/fitbliss/functional-training/" } },
@@ -1190,7 +1220,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         ]
                     },
                     {
-                        heading: "Yoga & Pilates", items: [
+                        heading: "Yoga & Pilates",
+                        items: [
                             { label: "Pilates", href: "/fitbliss/pilates/", hint: '<img src="/fitbliss/wp-content/uploads/2026/07/YKBI.png" alt="YKBI" style="height:40px;width:auto;vertical-align:middle;display:inline-block;" />', feature: { tag: "Yoga", title: "Pilates", body: "Strengthen core and flexibility.", img: "/fitbliss/wp-content/uploads/2026/07/DSC04177_11zon-1.jpg", href: "/fitbliss/pilates/" } },
                             { label: "Traditional Yoga", href: "/fitbliss/traditional-yoga/", hint: "Mind & Body", feature: { tag: "Yoga", title: "Traditional Yoga", body: "Classic poses and breathwork.", img: "/fitbliss/wp-content/uploads/2026/07/0Z8_2468-scaled.jpg", href: "/fitbliss/traditional-yoga/" } },
                             { label: "Aerial Yoga", href: "/fitbliss/aerial-yoga/", hint: "Anti-gravity", feature: { tag: "Yoga", title: "Aerial Yoga", body: "Supported inversions and deep stretches.", img: "/fitbliss/wp-content/uploads/2026/07/0Z8_2468-scaled.jpg", href: "/fitbliss/aerial-yoga/" } },
@@ -1198,7 +1229,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         ]
                     },
                     {
-                        heading: "Sports & Dance", items: [
+                        heading: "Sports & Dance",
+                        items: [
                             { label: "Boxing", href: "/fitbliss/boxing/", hint: "Combat", feature: { tag: "Sports", title: "Boxing", body: "Build endurance and power.", img: "/fitbliss/wp-content/uploads/2026/07/IMG_3714-scaled.jpg", href: "/fitbliss/boxing/" } },
                             { label: "Zumba", href: "/fitbliss/zumba/", hint: "Dance Fitness", feature: { tag: "Sports", title: "Zumba", body: "Fun, dance-based cardio.", img: "/fitbliss/wp-content/uploads/2026/07/IMG_3730-scaled.jpg", href: "/fitbliss/zumba/" } },
                             { label: "Dance Classes", href: "/fitbliss/dance/", hint: "Choreography", feature: { tag: "Sports", title: "Dance Classes", body: "Learn routines and stay fit.", img: "/fitbliss/wp-content/uploads/2026/07/IMG_3730-scaled.jpg", href: "/fitbliss/dance/" } },
@@ -1206,7 +1238,8 @@ document.addEventListener('DOMContentLoaded', function() {
                         ]
                     },
                     {
-                        heading: "Wellness & Healing", items: [
+                        heading: "Wellness & Healing",
+                        items: [
                             { label: "Spa & Recovery", href: "/fitbliss/spa/", hint: "Relaxation", feature: { tag: "Wellness", title: "Spa & Recovery", body: "Full body relaxation.", img: "/fitbliss/wp-content/uploads/2026/07/Spa-Recovery.jpg", href: "/fitbliss/spa/" } },
                             { label: "Panchkarma", href: "/fitbliss/panchkarma/", hint: "Ayurvedic Detox", feature: { tag: "Wellness", title: "Panchkarma", body: "Traditional deep detox.", img: "/fitbliss/wp-content/uploads/2026/07/panchkarma.jpg", href: "/fitbliss/panchkarma/" } },
                             { label: "Physiotherapy", href: "/fitbliss/physiotherapy/", hint: "Rehab", feature: { tag: "Wellness", title: "Physiotherapy", body: "Expert injury recovery.", img: "/fitbliss/wp-content/uploads/2026/07/physiotherapy.webp", href: "/fitbliss/physiotherapy/" } },
@@ -1215,44 +1248,43 @@ document.addEventListener('DOMContentLoaded', function() {
                         ]
                     },
                     {
-                        heading: "Lifestyle", items: [
+                        heading: "Lifestyle",
+                        items: [
                             { label: "Nutrition & Diet", href: "/fitbliss/nutrition/", hint: "Consultation", feature: { tag: "Lifestyle", title: "Nutrition & Diet", body: "Personalized diet plans.", img: "/fitbliss/wp-content/uploads/2026/07/Nutrition-Diet.png", href: "/fitbliss/nutrition/" } },
                             { label: "Salon", href: "/fitbliss/salon/", hint: "Grooming", feature: { tag: "Lifestyle", title: "Salon", body: "Premium grooming services.", img: "/fitbliss/wp-content/uploads/2026/07/Salon.jpg", href: "/fitbliss/salon/" } },
                             { label: "EatBliss Café", href: "/fitbliss/cafe/", hint: "Healthy Food", feature: { tag: "Lifestyle", title: "EatBliss Café", body: "Nutritious and delicious meals.", img: "/fitbliss/wp-content/uploads/2026/07/IMG_0639-scaled.webp", href: "/fitbliss/cafe/" } }
                         ]
                     },
                     {
-                        heading: "Equipments", items: [
-                            { label: "Equipment", href: "/fitbliss/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/equipment/" } },
-
+                        heading: "Equipments",
+                        items: [
+                            { label: "Equipment", href: "/fitbliss/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/equipment/" } }
                         ]
                     }
                 ]
-            },
-
+            }
         };
-
 
         const linkHref = (nm) => {
             const customLinks = { "Home": "/fitbliss/", "About Us": "/fitbliss/about/", "Services": "/fitbliss/gym/", "Membership": "/fitbliss/membership/", "Gallery": "/fitbliss/gallery/", "Blog": "/fitbliss/blog/", "Trainers": "/fitbliss/trainers/", "Contact": "/fitbliss/contact/" };
-            return customLinks[nm] || "#" + nm.toLowerCase();
+            return customLinks[nm] || "/fitbliss/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
-        // Build left + right nav
-        function buildNav(el, names) {
-            names.forEach(nm => {
-                const div = document.createElement("div");
-                div.className = "item";
-                div.dataset.name = nm;
-                div.innerHTML = `<a class="link" href="${linkHref(nm)}">${nm}</a>`;
-                div.addEventListener("mouseenter", () => openMega(megaMenus[nm] ? nm : null));
-                el.appendChild(div);
+        // Attach event listeners to left & right nav
+        function setupNavEvents(el) {
+            if (!el) return;
+            const items = el.querySelectorAll('.item');
+            items.forEach(div => {
+                const nm = div.dataset.name;
+                if (nm) {
+                    div.addEventListener("mouseenter", () => openMega(megaMenus[nm] ? nm : null));
+                }
             });
         }
-        if (document.getElementById("leftNav") && document.getElementById("leftNav").children.length === 0) { buildNav(document.getElementById("leftNav"), nav.slice(0, 4)); } else if (document.getElementById("leftNav")) { setupNavEvents(document.getElementById("leftNav")); }
-        if (document.getElementById("rightNav") && document.getElementById("rightNav").children.length === 0) { buildNav(document.getElementById("rightNav"), nav.slice(4)); } else if (document.getElementById("rightNav")) { setupNavEvents(document.getElementById("rightNav")); }
+        setupNavEvents(document.getElementById("leftNav"));
+        setupNavEvents(document.getElementById("rightNav"));
 
-        // Mega menu
+        // Mega menu logic
         const mega = document.getElementById("mega");
         const megaInner = document.getElementById("megaInner");
         let currentMenu = null;
@@ -1260,222 +1292,148 @@ document.addEventListener('DOMContentLoaded', function() {
         function openMega(name) {
             currentMenu = name;
             document.querySelectorAll(".navlist .item").forEach(i => i.classList.toggle("open", i.dataset.name === name));
-            if (!name || !megaMenus[name]) { mega.classList.remove("show"); megaInner.innerHTML = ""; return; }
+            if (!name || !megaMenus[name]) {
+                if (mega) mega.classList.remove("show");
+                if (megaInner) megaInner.innerHTML = "";
+                return;
+            }
             const m = megaMenus[name];
 
-            const renderFeature = (f) => `
-        <div class="imgwrap">
-         <img
-    src="${f.img}"
-    alt="${f.title}"
-    style="object-position:${f.position || 'center'};"
-  />
-          <div class="cap">
-            <div class="t">${f.tag}</div>
-            <div class="h">${f.title}</div>
-          </div>
-        </div>
-        <p>${f.body}</p>
-        <span class="more">Explore →</span>
-    `;
+            const renderFeature = (f) => {
+                if (!f) return "";
+                const imgSrc = f.img || "/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg";
+                return `
+                <div class="imgwrap">
+                    <img src="${imgSrc}" alt="${f.title || 'FitBliss'}" 
+                         style="object-position:${f.position || 'center'}; width:100%; height:100%; object-fit:cover; display:block;"
+                         onerror="this.onerror=null; this.src='/fitbliss/wp-content/uploads/2026/07/DSC_3887-scaled.jpg';" />
+                    <div class="cap">
+                        <div class="t">${f.tag || ''}</div>
+                        <div class="h">${f.title || ''}</div>
+                    </div>
+                </div>
+                <p>${f.body || ''}</p>
+                <span class="more">Explore →</span>
+            `;};
 
-            megaInner.innerHTML = `
-      <a class="feature" id="megaFeature" href="${m.feature.href}">
-        ${renderFeature(m.feature)}
-      </a>
-      <div style="grid-column: 2 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px; align-items: start;">
-        ${m.cols.map((col, cIdx) => `
-          <div class="col">
-            <div class="heading">— ${col.heading}</div>
-            <ul>
-              ${col.items.map((it, iIdx) => `
-                <li><a href="${it.href}" class="mega-sub-item" data-col="${cIdx}" data-item="${iIdx}">
-                  <div class="row">
-                    <span class="label">${it.label}</span>
-                    <span class="arrow">→</span>
-                  </div>
-                  ${it.hint ? `<div class="hint">${it.hint}</div>` : ""}
-                </a></li>`).join("")}
-            </ul>
-          </div>`).join("")}
-      </div>
-    `;
-            mega.classList.add("show");
+            if (megaInner) {
+                megaInner.innerHTML = `
+                    <a class="feature" id="megaFeature" href="${m.feature.href}">
+                        ${renderFeature(m.feature)}
+                    </a>
+                    <div style="grid-column: 2 / -1; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 32px; align-items: start;">
+                        ${m.cols.map((col, cIdx) => `
+                            <div class="col">
+                                <div class="heading">— ${col.heading}</div>
+                                <ul>
+                                    ${col.items.map((it, iIdx) => `
+                                        <li><a href="${it.href}" class="mega-sub-item" data-col="${cIdx}" data-item="${iIdx}">
+                                            <div class="row">
+                                                <span class="label">${it.label}</span>
+                                                <span class="arrow">→</span>
+                                            </div>
+                                            ${it.hint ? `<div class="hint">${it.hint}</div>` : ""}
+                                        </a></li>`).join("")}
+                                </ul>
+                            </div>`).join("")}
+                    </div>
+                `;
 
-            // Dynamic hover effect
-            const featureEl = document.getElementById("megaFeature");
-            document.querySelectorAll(".mega-sub-item").forEach(el => {
-                el.addEventListener("mouseenter", () => {
-                    const c = el.dataset.col;
-                    const i = el.dataset.item;
-                    const item = m.cols[c].items[i];
-                    const f = item.feature || m.feature;
-                    featureEl.innerHTML = renderFeature(f);
-                    featureEl.href = f.href || item.href;
+                // Dynamic hover feature preview
+                const featureEl = document.getElementById("megaFeature");
+                document.querySelectorAll(".mega-sub-item").forEach(el => {
+                    el.addEventListener("mouseenter", () => {
+                        const c = el.dataset.col;
+                        const i = el.dataset.item;
+                        const item = m.cols[c].items[i];
+                        const f = item.feature || m.feature;
+                        if (featureEl) {
+                            featureEl.innerHTML = renderFeature(f);
+                            featureEl.href = f.href || item.href;
+                        }
+                    });
                 });
-            });
+            }
+
+            if (mega) mega.classList.add("show");
         }
 
         const headerEl = document.getElementById("header");
-        const megaInnerEl = document.getElementById("megaInner");
+        if (headerEl) {
+            headerEl.addEventListener("mouseleave", () => openMega(null));
+        }
 
-        // Close mega menu when leaving megaInner or header
-        megaInnerEl.addEventListener("mouseleave", () => openMega(null));
-        headerEl.addEventListener("mouseleave", () => openMega(null));
-
-        // Close mega menu when clicking a link inside mega menu
-        mega.addEventListener("click", (e) => {
-            if (e.target.closest("a")) {
-                openMega(null);
-            }
-        });
-
-        // Close mega menu when clicking or tapping anywhere outside header
         document.addEventListener("click", (e) => {
-            if (!e.target.closest("#header")) {
-                openMega(null);
-            }
+            if (!e.target.closest("#header")) openMega(null);
         });
 
-        // Close mega menu on page scroll
         window.addEventListener("scroll", () => {
             if (currentMenu) openMega(null);
         }, { passive: true });
 
-        // Close mega menu immediately when cursor moves outside navrow & megaInner bounds
-        document.addEventListener("mousemove", (e) => {
-            if (!currentMenu) return;
-            const navRow = document.querySelector(".navrow");
-            if (!navRow || !megaInnerEl) return;
-
-            const navRect = navRow.getBoundingClientRect();
-            const megaRect = megaInnerEl.getBoundingClientRect();
-
-            // Check if cursor is inside navrow or megaInner (with 8px seam buffer)
-            const inNav = e.clientX >= navRect.left && e.clientX <= navRect.right && e.clientY >= navRect.top && e.clientY <= navRect.bottom + 8;
-            const inMegaInner = mega.classList.contains("show") && e.clientX >= megaRect.left && e.clientX <= megaRect.right && e.clientY >= megaRect.top - 8 && e.clientY <= megaRect.bottom;
-
-            if (!inNav && !inMegaInner) {
-                openMega(null);
-            }
-        });
-
         // Mobile menu
-        const burger = document.getElementById("burger");
+        const burger = document.getElementById("burger") || document.getElementById("burgerBtn");
         const mobile = document.getElementById("mobile");
         const mobileNav = document.getElementById("mobileNav");
 
         const chevronSVG = `<svg viewBox="0 0 24 24"><polyline points="6 9 12 15 18 9"/></svg>`;
 
-        nav.forEach((nm, idx) => {
-            const mm = megaMenus[nm];
-            const div = document.createElement("div");
-            div.className = "m-item";
-            const numStr = String(idx + 1).padStart(2, "0");
-
-            if (mm) {
-                // Build columns HTML with section labels
-                const colsHTML = mm.cols.map(col => `
-        <div class="m-col-label">${col.heading}</div>
-        <div class="m-sub-list">
-          ${col.items.map(it => `
-            <a href="${it.href}">
-              <span>${it.label}${it.hint ? `<span class="m-sub-hint"> — ${it.hint}</span>` : ""}</span>
-              <span class="m-sub-arrow">→</span>
-            </a>`).join("")}
-        </div>`).join("");
-
-                div.innerHTML = `
-        <div class="m-trigger" role="button" aria-expanded="false">
-          <a class="m-link-plain" href="${linkHref(nm)}">
-            <span class="m-num">${numStr}</span>${nm}
-          </a>
-          <span class="m-chevron">${chevronSVG}</span>
-        </div>
-        <div class="m-body">
-          <div class="m-col-group">${colsHTML}</div>
-        </div>`;
-
-                // Accordion toggle — chevron click expands, link click navigates
-                div.querySelector(".m-chevron").addEventListener("click", (e) => {
-                    e.preventDefault();
-                    triggerHaptic(15);
-                    const isOpen = div.classList.toggle("open");
-                    div.querySelector(".m-trigger").setAttribute("aria-expanded", isOpen);
-                });
-            } else {
-                div.innerHTML = `
-        <a class="m-plain-link" href="${linkHref(nm)}">
-          <span style="display:flex;align-items:center;gap:12px"><span class="m-num">${numStr}</span>${nm}</span>
-          <span class="m-plain-arrow">→</span>
-        </a>`;
-            }
-            mobileNav.appendChild(div);
-        });
-
-        burger.addEventListener("click", () => {
-            triggerHaptic(20);
-            const on = mobile.classList.toggle("show");
-            burger.classList.toggle("active", on);
-            if (!on) {
-                // close all accordions when burger closes
-                document.querySelectorAll(".m-item.open").forEach(el => el.classList.remove("open"));
-            }
-        });
-        mobile.addEventListener("click", (e) => {
-            if (e.target.tagName === "A" && !e.target.classList.contains("m-link-plain")) {
-                mobile.classList.remove("show");
-                burger.classList.remove("active");
-                document.querySelectorAll(".m-item.open").forEach(el => el.classList.remove("open"));
-            }
-        });
-
-        // Click Sound (Glass_tap_01.wav) + Haptic Vibration Engine for Buttons & Anchor Tags
-        (function () {
-            const clickAudioUrl = "/fitbliss/wp-content/uploads/2026/07/Glass_tap_06.wav";
-            const clickAudio = new Audio(clickAudioUrl);
-            clickAudio.preload = "auto";
-
-            function playClickSound() {
-                try {
-                    // Clone audio node to allow fast/overlapping consecutive clicks
-                    const sound = clickAudio.cloneNode(true);
-                    sound.volume = 0.8;
-                    const playPromise = sound.play();
-                    if (playPromise !== undefined) {
-                        playPromise.catch(function () {
-                            clickAudio.currentTime = 0;
-                            clickAudio.play().catch(function () {});
-                        });
-                    }
-                } catch (e) {
-                    try {
-                        clickAudio.currentTime = 0;
-                        clickAudio.play().catch(function () {});
-                    } catch (err) {}
+        if (mobileNav && mobileNav.children.length === 0) {
+            nav.forEach((nm, idx) => {
+                const div = document.createElement("div");
+                div.className = "m-item";
+                const numStr = "0" + (idx + 1);
+                if (megaMenus[nm]) {
+                    const m = megaMenus[nm];
+                    div.innerHTML = `
+            <button class="m-trigger" aria-expanded="false">
+              <span style="display:flex;align-items:center;gap:12px"><span class="m-num">${numStr}</span>${nm}</span>
+              ${chevronSVG}
+            </button>
+            <div class="m-sub">
+              ${m.cols.map(c => `
+                <div class="m-col">
+                  <div class="m-subhead">— ${c.heading}</div>
+                  ${c.items.map(it => `
+                    <a class="m-link" href="${it.href}">
+                      <div>${it.label}${it.hint ? `<span class="hint">${it.hint}</span>` : ""}</div>
+                    </a>
+                  `).join("")}
+                </div>
+              `).join("")}
+            </div>
+          `;
+                    div.querySelector(".m-trigger").addEventListener("click", () => {
+                        const isOpen = div.classList.toggle("open");
+                        div.querySelector(".m-trigger").setAttribute("aria-expanded", isOpen);
+                    });
+                } else {
+                    div.innerHTML = `
+            <a class="m-plain-link" href="${linkHref(nm)}">
+              <span style="display:flex;align-items:center;gap:12px"><span class="m-num">${numStr}</span>${nm}</span>
+              <span class="m-plain-arrow">→</span>
+            </a>`;
                 }
-            }
+                mobileNav.appendChild(div);
+            });
+        }
 
-            window.triggerHaptic = function (duration = 20) {
-                // 1. Hardware Haptic Vibration (Android / Chrome / Mobile)
-                if ("vibrate" in navigator && typeof navigator.vibrate === "function") {
-                    try {
-                        navigator.vibrate(duration || 20);
-                    } catch (e) {}
+        if (burger && mobile) {
+            burger.addEventListener("click", () => {
+                const on = mobile.classList.toggle("show");
+                burger.classList.toggle("active", on);
+                if (!on) {
+                    document.querySelectorAll(".m-item.open").forEach(el => el.classList.remove("open"));
                 }
-                // 2. Audio Click Sound Playback
-                playClickSound();
-            };
-
-            // Global listener: Triggers Sound + Haptic Vibration when any button or anchor (link) tag is clicked
-            document.addEventListener("click", function (e) {
-                if (!e.target) return;
-                const clickable = e.target.closest("a, button, input[type='button'], input[type='submit'], [role='button'], .btn");
-                if (clickable) {
-                    window.triggerHaptic(20);
+            });
+            mobile.addEventListener("click", (e) => {
+                if (e.target.tagName === "A" && !e.target.classList.contains("m-link-plain")) {
+                    mobile.classList.remove("show");
+                    burger.classList.remove("active");
+                    document.querySelectorAll(".m-item.open").forEach(el => el.classList.remove("open"));
                 }
-            }, { capture: true });
-        })();
+            });
+        }
     </script>
 <main id="content" class="site-main post-19940 page type-page status-publish hentry">
 
