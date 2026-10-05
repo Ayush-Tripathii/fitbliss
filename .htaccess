@@ -1,8 +1,8 @@
 # ==============================================================================
-# FitBliss Enterprise Security Hardening & Firewall Configuration
+# FitBliss Standard Production Web Application Configuration (.htaccess)
 # ==============================================================================
 
-# 1. PREVENT DIRECTORY BROWSING
+# 1. PREVENT DIRECTORY BROWSING & DISABLE SCRIPT EXECUTION
 Options -Indexes -ExecCGI
 
 # 2. BLOCK ACCESS TO HIDDEN & SENSITIVE FILES
@@ -23,34 +23,102 @@ Options -Indexes -ExecCGI
     Header always set X-XSS-Protection "1; mode=block"
     Header always set Referrer-Policy "strict-origin-when-cross-origin"
     Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-    Header always set Content-Security-Policy "default-src 'self' https: data: blob: 'unsafe-inline' 'unsafe-eval'; img-src 'self' https: data: blob:; font-src 'self' https: data:; media-src 'self' https: data: blob:; frame-src 'self' https:;"
 </IfModule>
 
-# 4. WEB APPLICATION FIREWALL (WAF) REWRITE RULES
+# 4. ENABLE GZIP COMPRESSION (HIGH SPEED)
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/x-javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# 5. BROWSER CACHING (HIGH PERFORMANCE)
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType image/jpg "access plus 1 year"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# 6. ROUTING & WEB APPLICATION FIREWALL (WAF)
 <IfModule mod_rewrite.c>
     RewriteEngine On
     RewriteBase /fitbliss/
 
-    # Block SQL Injection Attempts
+    # Block Malicious Exploits
     RewriteCond %{QUERY_STRING} (union.*select|insert.*into|delete.*from|drop.*table|information_schema|benchmark\(|load_file\() [NC,OR]
-    
-    # Block PHP / Remote Code Execution Injections
     RewriteCond %{QUERY_STRING} (base64_decode|gzinflate|eval\(|passthru|shell_exec|system\(|assert\() [NC,OR]
-    
-    # Block Path Traversal / Local File Inclusion
     RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|etc/passwd|boot\.ini|win\.ini) [NC,OR]
-    
-    # Block XSS Script Injections
     RewriteCond %{QUERY_STRING} (<script|javascript:|vbscript:|onload=|onerror=) [NC,OR]
-    
-    # Block Spam Injection Signatures
     RewriteCond %{QUERY_STRING} (portbet|denemebonusu|slot-gacor|poker-online) [NC]
     RewriteRule ^.*$ - [F,L]
 
-    # Clean URL Routing for pages
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
+    # Don't rewrite real files or directories
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Legacy image and asset path compatibility
+    RewriteRule ^wp-content/uploads/(.*)$ assets/images/$1 [L]
+    RewriteRule ^wp-content/plugins/(.*)$ assets/plugins/$1 [L]
+    RewriteRule ^wp-content/themes/(.*)$ assets/theme/$1 [L]
+    RewriteRule ^wp-includes/(.*)$ assets/vendor/$1 [L]
+
+    # 1. Services - Fitness
+    RewriteRule ^gym/?$ services/fitness/gym.php [L]
+    RewriteRule ^personal-training/?$ services/fitness/personal-training.php [L]
+    RewriteRule ^functional-training/?$ services/fitness/functional-training.php [L]
+    RewriteRule ^spinning/?$ services/fitness/spinning.php [L]
+
+    # 2. Services - Yoga & Pilates
+    RewriteRule ^pilates/?$ services/yoga-pilates/pilates.php [L]
+    RewriteRule ^traditional-yoga/?$ services/yoga-pilates/traditional-yoga.php [L]
+    RewriteRule ^aerial-yoga/?$ services/yoga-pilates/aerial-yoga.php [L]
+    RewriteRule ^aquatic-wellness/?$ services/yoga-pilates/aquatic-wellness.php [L]
+
+    # 3. Services - Sports & Dance
+    RewriteRule ^boxing/?$ services/sports-dance/boxing.php [L]
+    RewriteRule ^zumba/?$ services/sports-dance/zumba.php [L]
+    RewriteRule ^dance/?$ services/sports-dance/dance.php [L]
+    RewriteRule ^squash/?$ services/sports-dance/squash.php [L]
+
+    # 4. Services - Wellness & Healing
+    RewriteRule ^spa/?$ services/wellness-healing/spa.php [L]
+    RewriteRule ^panchkarma/?$ services/wellness-healing/panchkarma.php [L]
+    RewriteRule ^physiotherapy/?$ services/wellness-healing/physiotherapy.php [L]
+    RewriteRule ^steam-sauna/?$ services/wellness-healing/steam-sauna.php [L]
+    RewriteRule ^iv-therapy/?$ services/wellness-healing/iv-therapy.php [L]
+
+    # 5. Services - Lifestyle
+    RewriteRule ^nutrition/?$ services/lifestyle/nutrition.php [L]
+    RewriteRule ^salon/?$ services/lifestyle/salon.php [L]
+    RewriteRule ^cafe/?$ services/lifestyle/cafe.php [L]
+    RewriteRule ^equipment/?$ services/lifestyle/equipment.php [L]
+
+    # 6. Blog Single Articles
+    RewriteRule ^10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/?$ blog/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine.php [L]
+    RewriteRule ^5-reasons-to-incorporate-crossfit-into-your-weekly-workout-routine/?$ blog/5-reasons-to-incorporate-crossfit-into-your-weekly-workout-routine.php [L]
+    RewriteRule ^a-beginners-guide-to-cardio-workouts-tips-and-tricks-for-lasting-results/?$ blog/a-beginners-guide-to-cardio-workouts-tips-and-tricks-for-lasting-results.php [L]
+
+    # 7. Legal Pages
+    RewriteRule ^privacy-policy/?$ legal/privacy-policy.php [L]
+    RewriteRule ^terms-conditions/?$ legal/terms-conditions.php [L]
+    RewriteRule ^terms-of-use/?$ legal/terms-of-use.php [L]
+
+    # 8. Root Level Pages (about, contact, gallery, trainers, membership, blog, founder)
+    RewriteRule ^about/?$ about.php [L]
+    RewriteRule ^contact/?$ contact.php [L]
+    RewriteRule ^gallery/?$ gallery.php [L]
+    RewriteRule ^trainers/?$ trainers.php [L]
+    RewriteRule ^membership/?$ membership.php [L]
+    RewriteRule ^blog/?$ blog.php [L]
+    RewriteRule ^founder/?$ founder.php [L]
+
+    # Generic fallback for any root .php file
     RewriteCond %{REQUEST_FILENAME}.php -f
     RewriteRule ^([^/]+)/?$ $1.php [L]
 </IfModule>
-

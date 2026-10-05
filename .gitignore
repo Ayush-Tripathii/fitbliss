@@ -8,8 +8,19 @@
 *.heic
 
 # Raw Uncompressed Uploads / Heavy Camera Originals (>2-3GB)
+assets/images/2026/
+assets/images/2024/
 wp-content/uploads/2026/
 wp-content/uploads/2024/
+
+# Legacy WordPress Server Plugins & Backups
+assets/plugins/wordfence/
+assets/plugins/wordpress-seo/
+assets/plugins/wpvivid-backuprestore/
+assets/plugins/All-In-One-WP-Migration-Pro-master/
+assets/plugins/fluentform/
+assets/plugins/litespeed-cache/
+assets/plugins/fluent-smtp/
 
 # WordPress Backups & Large Archives
 wp-content/ai1wm-backups/
@@ -28,8 +39,27 @@ analyze_git_size.php
 check_git_sizes.php
 check_stage_size.php
 
+# Environment & Sensitive Credentials
+.env
+.env.*
+!.env.example
+config.local.php
+credentials.json
+*.pem
+*.key
+*.cert
+*.crt
+
+# Logs & Debugging
+*.log
+error_log
+npm-debug.log*
+yarn-debug.log*
+
 # OS & Editor files
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+*.sublime-project
+*.sublime-workspace
