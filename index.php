@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/security_shield.php';
 ?>
@@ -366,7 +366,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 }
 </style>
 
-<link rel='stylesheet' id='fluentform-elementor-widget-css' href='/fitbliss/assets/plugins/fluentform/assets/css/fluent-forms-elementor-widget.css?ver=6.2.14' media='all' />
+<link rel='stylesheet' id='fluentform-elementor-widget-css' href='<?php echo $base_url; ?>/assets/plugins/fluentform/assets/css/fluent-forms-elementor-widget.css?ver=6.2.14' media='all' />
 <style id="wp-emoji-styles-inline-css">
 
 	img.wp-smiley, img.emoji {
@@ -458,7 +458,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-popup-builder-style-inline-css">
 .pbb-noscroll{overflow:hidden}.popupkit-campaigns-template-default{background-color:transparent}.popup-builder{position:relative;width:100%;z-index:1}.popup-builder-modal{align-items:center;display:none;justify-content:center;opacity:0;pointer-events:all;transition:opacity .15s linear}.popup-builder-container{animation-duration:1.2s;max-height:100%;max-width:100%;overflow:visible;pointer-events:all;position:relative}.popup-builder-container .popupkit-container-overlay{height:100%;left:0;opacity:.5;position:absolute;top:0;transition:.3s;width:100%}.popup-builder-content{background-color:#fff;border-radius:3px;box-sizing:border-box;line-height:1.5;max-height:100vh;max-width:100vw;overflow:auto;padding:0;position:relative;width:100%}.popup-builder-content-credit{background-color:#fff;border-radius:3px;bottom:-29px;cursor:pointer;display:flex;left:50%;position:absolute;transform:translate(-50%);z-index:9999}.popup-builder-content-credit a{color:#000;font-size:14px;font-weight:500;text-decoration:none}.popup-builder-content-credit a svg{position:relative;top:3px}.popup-builder-close{color:transparent;cursor:pointer;display:flex;font-size:14px;line-height:1;margin-top:0;opacity:1;pointer-events:all;position:absolute;right:20px;text-decoration:none;top:20px;transition:all .4s ease;z-index:9999}:root{--pbb-popup-animate-duration:1s}.popup_animated{animation-duration:1s;animation-duration:var(--pbb-popup-animate-duration);animation-fill-mode:both}.popup_animated.reverse{animation-direction:reverse;animation-fill-mode:forwards}@keyframes fadeIn{0%{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}@keyframes fadeInDown{0%{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}.fadeInDown{animation-name:fadeInDown}@keyframes fadeInLeft{0%{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}.fadeInLeft{animation-name:fadeInLeft}@keyframes fadeInRight{0%{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}.fadeInRight{animation-name:fadeInRight}@keyframes fadeInUp{0%{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}.fadeInUp{animation-name:fadeInUp}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/popup-builder/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/popup-builder/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -536,7 +536,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-button-style-inline-css">
 .pbb-btn{align-items:center;color:#fff;cursor:pointer;display:inline-flex!important;justify-content:center;text-decoration:none;transition:.3s}.pbb-btn .gkit-icon{transition:.3s;vertical-align:middle}.pbb-btn:hover{background-color:#666}.pbb-btn:hover:before{opacity:1}.pbb-btn:before{background-size:102% 102%;border-radius:inherit;content:"";height:100%;left:0;opacity:0;position:absolute;top:0;transition:all .4s ease;width:100%;z-index:-1}.pbb-btn span{transition:.3s}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/button/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/button/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -614,7 +614,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-form-style-inline-css">
 .pbb-form,.pbb-form__field{display:flex;flex-wrap:wrap}.pbb-form__field{align-items:center;position:relative;width:100%}.pbb-form__field-privacy-notice{display:block}.pbb-form__label{display:block;font-size:16px;margin-bottom:5px}.pbb-form__label.required:after{color:red;content:"*";margin-left:5px}.pbb-form__input-wrap{align-items:center;background-color:#fff;border:1px solid #ccc;border-radius:5px;display:flex;position:relative;transition:all .3s ease-in-out;width:100%}.pbb-form__input-wrap .pbb-form__input{border:none;border-radius:5px;font-size:16px;outline:none;padding:10px;transition:all .3s ease-in-out;width:100%}.pbb-form__input-wrap .pbb-form__input:focus-visible{outline:none}.pbb-form__input-wrap .pbb-form__input:focus{border:none;box-shadow:none;outline:none}.pbb-form__submit-btn{align-items:center;background:#fff;border:1px solid #ccc;border-radius:5px;color:#333;cursor:pointer;display:flex;flex-direction:row;font-size:16px;justify-content:center;padding:10px 20px;transition:all .3s;width:100%}.pbb-form__submit-btn .pbb-form-loader{display:inline-block;height:15px;left:45%;position:absolute;top:41%;transform:translate(-50%,-50%);width:auto}.pbb-form__submit-btn .pbb-form-loader:before{animation:ripple-scale 1s ease-out infinite;border:1px solid #fff;border-radius:50%;color:#5b8c51;content:"";height:20px;position:absolute;width:20px;z-index:-1}@keyframes ripple-scale{0%{opacity:1;transform:scale(0)}50%{opacity:.7;transform:scale(1.2)}to{opacity:0;transform:scale(1.5)}}.pbb-form__submit-btn .btn-text{line-height:1}.pbb-form__submit-btn .input-icon{display:flex}.pbb-form__submit-btn:hover{background:#333;color:#fff}.pbb-form__submit-btn[disabled]{pointer-events:none}.pbb-form-success{background-color:#fff;border-radius:4px;color:#000;font-size:16px;font-weight:500;margin-top:8px;text-align:center;width:100%}.pbb-form .error-message{color:red;font-size:12px}.pbb-form__field-checkbox,.pbb-form__field-radio{display:block}.pbb-form__options-wrap{display:inline-grid}.pbb-form__option .pbb-form__option-input{display:none}.pbb-form__option .pbb-form__option-label{cursor:pointer;padding-left:28px;position:relative}.pbb-form__option .pbb-form__option-label:before{background:#fff;border:1.5px solid #cbd5e1;border-radius:4px;content:"";height:14px;left:0;position:absolute;top:50%;transform:translateY(-50%);transition:all .2s ease;width:14px}.pbb-form__option .pbb-form__option-label:after{border-bottom:2px solid #fff;border-right:2px solid #fff;content:"";height:7px;left:6px;opacity:0;position:absolute;top:50%;transform:translateY(-60%) rotate(45deg);transition:opacity .2s ease;width:3px}.pbb-form__option .pbb-form__option-input[type=checkbox]:checked+.pbb-form__option-label:before{background:#2563eb;border-color:#2563eb}.pbb-form__option .pbb-form__option-input[type=checkbox]:checked+.pbb-form__option-label:after{opacity:1}.pbb-form__option .pbb-form__option-input[type=radio]+.pbb-form__option-label:before{border-radius:50%}.pbb-form__option .pbb-form__option-input[type=radio]+.pbb-form__option-label:after{background:#2563eb;border:none;border-radius:50%;height:8px;left:4px;top:50%;transform:translateY(-50%);width:8px}.pbb-form__option .pbb-form__option-input[type=radio]:checked+.pbb-form__option-label:before{background:#fff;border-color:#2563eb}.pbb-form__option .pbb-form__option-input[type=radio]:checked+.pbb-form__option-label:after{opacity:1}.pbb-form__option-label{font-size:16px}.popup-builder .pbb-form__submit-btn{display:inherit}.pbb-form .pbb-form__hp{height:1px!important;left:-9999px!important;opacity:0;overflow:hidden;pointer-events:none;position:absolute!important;top:auto!important;width:1px!important}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/form/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/form/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -692,7 +692,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-advanced-paragraph-style-inline-css">
 .popupkit-adv-paragraph .popupkit-adv-paragraph-text{margin-bottom:0;margin-top:0}.popupkit-adv-paragraph .popupkit-adv-paragraph-text a{display:inline-block;transition:.3s}.popupkit-adv-paragraph .popupkit-adv-paragraph-text strong{display:inline-block;font-weight:900;transition:.3s}.popupkit-adv-paragraph .popupkit-adv-paragraph-text strong a{display:inline-block;transition:.3s}.popupkit-adv-paragraph .popupkit-focused-text-fill strong{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.popupkit-adv-paragraph .popupkit-drop-cap-letter:first-letter{float:left;font-size:45px;line-height:50px}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/advanced-paragraph/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/advanced-paragraph/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -770,7 +770,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-advanced-image-style-inline-css">
 .wp-block-popup-builder-block-advanced-image img{border:none;border-radius:0;display:inline-block;height:auto;max-width:100%;vertical-align:middle}.wp-block-popup-builder-block-advanced-image.alignfull img,.wp-block-popup-builder-block-advanced-image.alignwide img{width:100%}.wp-block-popup-builder-block-advanced-image .popupkit-image-block{display:inline-block}.wp-block-popup-builder-block-advanced-image .popupkit-image-block a{text-decoration:none}.wp-block-popup-builder-block-advanced-image .popupkit-container-overlay:after,.wp-block-popup-builder-block-advanced-image .popupkit-container-overlay:before{content:"";height:100%;left:0;pointer-events:none;position:absolute;top:0;width:100%;z-index:1}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/advanced-image/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/advanced-image/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -848,7 +848,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-icon-style-inline-css">
 .wp-block-popup-builder-block-icon{display:flex}.wp-block-popup-builder-block-icon .popupkit-icons{display:inline-flex;transition:.3s}.wp-block-popup-builder-block-icon .popupkit-icons svg{display:block}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/icon/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/icon/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -926,7 +926,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-container-style-inline-css">
 .gkit-block__inner{margin-left:auto;margin-right:auto}.gkit-block-video-wrap{height:100%;overflow:hidden;position:absolute;width:100%}.gkit-block-video-wrap video{background-size:cover;height:100%;object-fit:cover;width:100%}.wp-block-popup-builder-block-container{margin-left:auto;margin-right:auto;position:relative;transition:background var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),border var(--gkit-bg-border-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),box-shadow var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease),border-radius var(--gkit-bg-hover-transition,var(--gutenkit-preset-global-transition_duration,.4s)) var(--gutenkit-preset-global-transition_timing_function,ease);z-index:1}.wp-block-popup-builder-block-container>.gkit-block__inner{display:flex}.wp-block-popup-builder-block-container .gkit-container-overlay{height:100%;left:0;position:absolute;top:0;width:100%}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container{flex-grow:0;flex-shrink:1;margin-left:unset;margin-right:unset}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container.alignfull{flex-shrink:1;width:100%}.wp-block-popup-builder-block-container .wp-block-popup-builder-block-container.alignwide{flex-shrink:1}.wp-block-popup-builder-block-container .gkit-image-scroll-container{height:100%;left:0;overflow:hidden;position:absolute;top:0;width:100%;z-index:-1}.wp-block-popup-builder-block-container .gkit-image-scroll-layer{height:100%;left:0;position:absolute;top:0;width:100%}.wp-block-popup-builder-block-container .is-style-wide{width:100%}.wp-site-blocks .wp-block-popup-builder-block-container .gkit-block-video-wrap{z-index:-1}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/container/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/container/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -1004,7 +1004,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 <style id="popup-builder-block-heading-style-inline-css">
 .wp-block-popup-builder-block-heading,.wp-block-popup-builder-block-heading.popupkit-heading-has-border .popupkit-heading-title{position:relative}.wp-block-popup-builder-block-heading.popupkit-heading-has-border .popupkit-heading-title:before{background:linear-gradient(180deg,#ff512f,#dd2476);content:"";display:block;height:100%;left:0;position:absolute;width:4px}.wp-block-popup-builder-block-heading.popupkit-heading-has-border.popupkit-heading-border-position-end .popupkit-heading-title:before{left:auto;right:0}.wp-block-popup-builder-block-heading .popupkit-heading-title{margin:0 0 20px;position:relative;transition:all .3s ease-in-out;z-index:1}.wp-block-popup-builder-block-heading .popupkit-heading-title strong{font-weight:900;transition:color .3s ease-in-out}.wp-block-popup-builder-block-heading .popupkit-heading-title strong a{transition:.3s}.wp-block-popup-builder-block-heading .popupkit-heading-title.popupkit-heading-title-text-fill strong{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle{margin:8px 0 16px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border{display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:after,.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:before{background-color:#d7d7d7;content:"";display:inline-block;height:3px;vertical-align:middle;width:40px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:before{margin-right:15px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-border:after{margin-left:15px}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-outline:not(.popupkit-heading-subtitle-has-border){border:2px solid #d7d7d7;display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-subtitle-has-text-fill{-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-image:-webkit-linear-gradient(-35deg,#2575fc,#6a11cb);color:#2575fc}.wp-block-popup-builder-block-heading .popupkit-heading-shadow-text{color:transparent;font-family:Archivo,sans-serif;font-size:90px;font-weight:700;letter-spacing:-6px;line-height:120px;position:absolute;white-space:nowrap;z-index:0;-webkit-text-fill-color:#fff;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:hsla(0,0%,6%,.1);transform:translate(-50%,-50%)}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-style-none{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-divider{background:currentColor;border-radius:2px;box-sizing:border-box;color:#2575fc;height:4px;margin-left:27px;position:relative;width:30px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor-divider:before{background-color:currentColor;border-radius:50%;box-shadow:9px 0 0 0 currentColor,18px 0 0 0 currentColor;content:"";display:inline-block;height:4px;left:-27px;position:absolute;top:0;width:4px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-dotted .popupkit-heading-separetor-divider{width:100px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid .popupkit-heading-separetor-divider{background:currentColor;border-radius:0;margin-left:0;width:150px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider{background:#2575fc;background:linear-gradient(90deg,currentColor,currentColor 38%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0) 62%,currentColor 0,currentColor);color:#2575fc;height:2px;margin-left:0;position:relative;width:135px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-star .popupkit-heading-separetor-divider:after{background-color:currentColor;content:"";height:14.3px;left:50%;position:absolute;top:0;top:-7.15px;transform:translateX(-50%) rotate(45deg);width:14.3px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider{background:#2575fc;background:linear-gradient(90deg,currentColor,currentColor 38%,hsla(0,0%,100%,0) 0,hsla(0,0%,100%,0) 62%,currentColor 0,currentColor);color:#2575fc;height:2px;margin-left:0;position:relative;width:100px}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider:before{display:none}.wp-block-popup-builder-block-heading .popupkit-heading-separetor.popupkit-heading-separetor-style-solid-bullet .popupkit-heading-separetor-divider:after{background-color:currentColor;border-radius:50%;content:"";height:14.3px;left:50%;position:absolute;top:0;top:-7.15px;transform:translateX(-50%);width:14.3px}.wp-block-popup-builder-block-heading .popupkit-heading-description{display:inline-block}.wp-block-popup-builder-block-heading .popupkit-heading-description p{margin:0}.wp-block-popup-builder-block-heading.has-text-align-center .popupkit-heading-separetor-divider{margin:0 auto!important}.wp-block-popup-builder-block-heading.has-text-align-right .popupkit-heading-separetor-divider{margin-left:auto!important}
 
-/*# sourceURL=/fitbliss/assets/plugins/popup-builder-block/build/blocks/heading/style-index.css */
+/*# sourceURL=<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/blocks/heading/style-index.css */
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -1158,35 +1158,35 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         }
     }
 </style>
-<link rel='stylesheet' id='gutenkit-third-party-editor-compatibility-css' href='/fitbliss/assets/plugins/popup-builder-block/build/compatibility/frontend.css?ver=fa9b2727afc9d74855b4' media='all' />
-<link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css' href='/fitbliss/assets/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.11.1' media='all' />
-<link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css' href='/fitbliss/assets/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.11.1' media='all' />
-<link rel='stylesheet' id='qi-addons-for-elementor-style-css' href='/fitbliss/assets/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.11.1' media='all' />
-<link rel='stylesheet' id='hello-elementor-css' href='/fitbliss/assets/theme/hello-elementor/assets/css/reset.css?ver=3.5.1' media='all' />
-<link rel='stylesheet' id='hello-elementor-theme-style-css' href='/fitbliss/assets/theme/hello-elementor/assets/css/theme.css?ver=3.5.1' media='all' />
-<link rel='stylesheet' id='hello-elementor-header-footer-css' href='/fitbliss/assets/theme/hello-elementor/assets/css/header-footer.css?ver=3.5.1' media='all' />
-<link rel='stylesheet' id='elementor-frontend-css' href='/fitbliss/assets/plugins/elementor/assets/css/frontend.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='elementor-post-21-css' href='/fitbliss/assets/images/elementor/css/post-21.css?ver=1790145411' media='all' />
-<link rel='stylesheet' id='widget-image-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-image.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='widget-nav-menu-css' href='/fitbliss/assets/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.1.1' media='all' />
-<link rel='stylesheet' id='swiper-css' href='/fitbliss/assets/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css?ver=8.4.5' media='all' />
-<link rel='stylesheet' id='e-swiper-css' href='/fitbliss/assets/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='widget-social-icons-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='e-apple-webkit-css' href='/fitbliss/assets/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='widget-heading-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='widget-icon-list-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='fluent-form-styles-css' href='/fitbliss/assets/plugins/fluentform/assets/css/fluent-forms-public.css?ver=6.2.14' media='all' />
-<link rel='stylesheet' id='fluentform-public-default-css' href='/fitbliss/assets/plugins/fluentform/assets/css/fluentform-public-default.css?ver=6.2.14' media='all' />
-<link rel='stylesheet' id='e-popup-css' href='/fitbliss/assets/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.1.1' media='all' />
-<link rel='stylesheet' id='elementor-post-17567-css' href='/fitbliss/assets/images/elementor/css/post-17567.css?ver=1790145708' media='all' />
-<link rel='stylesheet' id='elementor-post-27-css' href='/fitbliss/assets/images/elementor/css/post-27.css?ver=1790145411' media='all' />
-<link rel='stylesheet' id='elementor-post-29-css' href='/fitbliss/assets/images/elementor/css/post-29.css?ver=1790145411' media='all' />
-<link rel='stylesheet' id='elementor-post-1638-css' href='/fitbliss/assets/images/elementor/css/post-1638.css?ver=1790145411' media='all' />
-<link rel='stylesheet' id='chaty-front-css-css' href='/fitbliss/assets/plugins/chaty/dist/css/style.css?ver=3.6.11785238286' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-inter-css' href='/fitbliss/assets/images/elementor/google-fonts/css/inter.css?ver=1749298517' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='/fitbliss/assets/images/elementor/google-fonts/css/roboto.css?ver=1749298521' media='all' />
-<script id="jquery-core-js" src="/fitbliss/assets/vendor/js/jquery/jquery.min.js?ver=3.7.1"></script>
-<script id="jquery-migrate-js" src="/fitbliss/assets/vendor/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<link rel='stylesheet' id='gutenkit-third-party-editor-compatibility-css' href='<?php echo $base_url; ?>/assets/plugins/popup-builder-block/build/compatibility/frontend.css?ver=fa9b2727afc9d74855b4' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css' href='<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css' href='<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='qi-addons-for-elementor-style-css' href='<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.11.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='<?php echo $base_url; ?>/assets/theme/hello-elementor/assets/css/reset.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='<?php echo $base_url; ?>/assets/theme/hello-elementor/assets/css/theme.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='<?php echo $base_url; ?>/assets/theme/hello-elementor/assets/css/header-footer.css?ver=3.5.1' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/frontend.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='elementor-post-21-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-21.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-image.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='swiper-css' href='<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.css?ver=8.4.5' media='all' />
+<link rel='stylesheet' id='e-swiper-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-social-icons-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-social-icons.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='e-apple-webkit-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/conditionals/apple-webkit.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-heading.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-icon-list.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='fluent-form-styles-css' href='<?php echo $base_url; ?>/assets/plugins/fluentform/assets/css/fluent-forms-public.css?ver=6.2.14' media='all' />
+<link rel='stylesheet' id='fluentform-public-default-css' href='<?php echo $base_url; ?>/assets/plugins/fluentform/assets/css/fluentform-public-default.css?ver=6.2.14' media='all' />
+<link rel='stylesheet' id='e-popup-css' href='<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/css/conditionals/popup.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='elementor-post-17567-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-17567.css?ver=1790145708' media='all' />
+<link rel='stylesheet' id='elementor-post-27-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-27.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='elementor-post-29-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-29.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='elementor-post-1638-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-1638.css?ver=1790145411' media='all' />
+<link rel='stylesheet' id='chaty-front-css-css' href='<?php echo $base_url; ?>/assets/plugins/chaty/dist/css/style.css?ver=3.6.11785238286' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-inter-css' href='<?php echo $base_url; ?>/assets/images/elementor/google-fonts/css/inter.css?ver=1749298517' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-roboto-css' href='<?php echo $base_url; ?>/assets/images/elementor/google-fonts/css/roboto.css?ver=1749298521' media='all' />
+<script id="jquery-core-js" src="<?php echo $base_url; ?>/assets/vendor/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="<?php echo $base_url; ?>/assets/vendor/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
 <link rel="https://api.w.org/" href="https://fitblissbysk.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://fitblissbysk.com/wp-json/wp/v2/pages/17567" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://fitblissbysk.com/xmlrpc.php?rsd" />
 <meta name="generator" content="WordPress 7.1.2" />
 <link rel="canonical" href="index.php" />
@@ -1293,7 +1293,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     }
 </style>
 			<style class="wp-fonts-local">
-@font-face{font-family:"Bebas Neue";font-style:normal;font-weight:400;font-display:fallback;src:url('/fitbliss/assets/images/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2') format('woff2');}
+@font-face{font-family:"Bebas Neue";font-style:normal;font-weight:400;font-display:fallback;src:url('<?php echo $base_url; ?>/assets/images/fonts/JTUSjIg69CK48gW7PXooxWtrygbi49c.woff2') format('woff2');}
 
     /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
     #home {
@@ -1368,10 +1368,10 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         }
     }
 </style>
-<link rel="icon" href="/fitbliss/assets/images/2024/04/cropped-LOGO-copy-1-32x32.png" sizes="32x32" />
-<link rel="icon" href="/fitbliss/assets/images/2024/04/cropped-LOGO-copy-1-192x192.png" sizes="192x192" />
-<link rel="apple-touch-icon" href="/fitbliss/assets/images/2024/04/cropped-LOGO-copy-1-180x180.png" />
-<meta name="msapplication-TileImage" content="/fitbliss/assets/images/2024/04/cropped-LOGO-copy-1-270x270.png" />
+<link rel="icon" href="<?php echo $base_url; ?>/assets/images/2024/04/cropped-LOGO-copy-1-32x32.png" sizes="32x32" />
+<link rel="icon" href="<?php echo $base_url; ?>/assets/images/2024/04/cropped-LOGO-copy-1-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="<?php echo $base_url; ?>/assets/images/2024/04/cropped-LOGO-copy-1-180x180.png" />
+<meta name="msapplication-TileImage" content="<?php echo $base_url; ?>/assets/images/2024/04/cropped-LOGO-copy-1-270x270.png" />
 <style id="wp-custom-css">
 .chaty {
     fill: black !important;
@@ -2447,24 +2447,24 @@ img, video {
     <div class="navrow">
       <!-- LEFT NAV -->
       <nav class="navlist" id="leftNav">
-        <div class="item" data-name="Home"><a class="link" href="/fitbliss/">Home</a></div>
-        <div class="item" data-name="About Us"><a class="link" href="/fitbliss/about/">About Us</a></div>
-        <div class="item" data-name="Services"><a class="link" href="/fitbliss/gym/">Services</a></div>
-        <div class="item" data-name="Membership"><a class="link" href="/fitbliss/membership/">Membership</a></div>
+        <div class="item" data-name="Home"><a class="link" href="<?php echo $base_url; ?>/">Home</a></div>
+        <div class="item" data-name="About Us"><a class="link" href="<?php echo $base_url; ?>/about/">About Us</a></div>
+        <div class="item" data-name="Services"><a class="link" href="<?php echo $base_url; ?>/gym/">Services</a></div>
+        <div class="item" data-name="Membership"><a class="link" href="<?php echo $base_url; ?>/membership/">Membership</a></div>
       </nav>
 
       <!-- CENTER LOGO -->
-      <a class="logo" href="/fitbliss/">
-        <img src="/fitbliss/assets/images/2026/07/logo.png" alt="FitBliss by Shruti Kapoor" onerror="this.onerror=null; this.src='https://staging.fitblissbysk.com/assets/images/2026/07/logo.png';">
+      <a class="logo" href="<?php echo $base_url; ?>/">
+        <img src="<?php echo $base_url; ?>/assets/images/2026/07/logo.png" alt="FitBliss by Shruti Kapoor" onerror="this.onerror=null; this.src='https://staging.fitblissbysk.com/assets/images/2026/07/logo.png';">
       </a>
 
       <!-- RIGHT NAV -->
       <div class="right">
         <nav class="navlist" id="rightNav">
-          <div class="item" data-name="Gallery"><a class="link" href="/fitbliss/gallery/">Gallery</a></div>
-          <div class="item" data-name="Blog"><a class="link" href="/fitbliss/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="/fitbliss/trainers/">Trainers</a></div>
-          <div class="item" data-name="Contact"><a class="link" href="/fitbliss/contact/">Contact</a></div>
+          <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
+          <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
+          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
+          <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
         <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
         <button class="burger" id="burgerBtn" aria-label="Toggle menu">
@@ -3121,7 +3121,7 @@ img, video {
                                 <div class="fbs-card" data-idx="0"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg"
                             alt="Gym &amp; Strength" loading="eager"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3137,7 +3137,7 @@ img, video {
                                 <div class="fbs-card" data-idx="1"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/DSC_3593-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-scaled.jpg"
                             alt="Personal Training" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3152,7 +3152,7 @@ img, video {
                                 <div class="fbs-card" data-idx="2"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/DSC_3557-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3557-scaled.jpg"
                             alt="Functional Training" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3167,7 +3167,7 @@ img, video {
                                 <div class="fbs-card" data-idx="3"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_3724-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3724-scaled.jpg"
                             alt="Spinning Bike" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3182,7 +3182,7 @@ img, video {
                                 <div class="fbs-card" data-idx="4"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/DSC04177_11zon-1.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg"
                             alt="Pilates" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3197,7 +3197,7 @@ img, video {
                                 <div class="fbs-card" data-idx="5"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg"
                             alt="Traditional Yoga" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3212,7 +3212,7 @@ img, video {
                                 <div class="fbs-card" data-idx="6"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg"
                             alt="Aerial Yoga" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3227,7 +3227,7 @@ img, video {
                                 <div class="fbs-card" data-idx="7"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0567-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0567-scaled.jpg"
                             alt="Aquatic Wellness" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3242,7 +3242,7 @@ img, video {
                                 <div class="fbs-card" data-idx="8"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_3714-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3714-scaled.jpg"
                             alt="Boxing" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3257,7 +3257,7 @@ img, video {
                                 <div class="fbs-card" data-idx="9"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg"
                             alt="Zumba" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3272,7 +3272,7 @@ img, video {
                                 <div class="fbs-card" data-idx="10"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg"
                             alt="Dance Classes" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3287,7 +3287,7 @@ img, video {
                                 <div class="fbs-card" data-idx="11"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/Squash-Court.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/Squash-Court.jpg"
                             alt="Squash Court" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3302,7 +3302,7 @@ img, video {
                                 <div class="fbs-card" data-idx="12"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0617-1-scaled.webp"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0617-1-scaled.webp"
                             alt="Spa &amp; Recovery" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3317,7 +3317,7 @@ img, video {
                                 <div class="fbs-card" data-idx="13"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0621-1-scaled.webp"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0621-1-scaled.webp"
                             alt="Panchkarma" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3332,7 +3332,7 @@ img, video {
                                 <div class="fbs-card" data-idx="14"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0630-scaled.webp"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0630-scaled.webp"
                             alt="Physiotherapy" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3347,7 +3347,7 @@ img, video {
                                 <div class="fbs-card" data-idx="15"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IV-Therapy.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IV-Therapy.jpg"
                             alt="IV Therapy" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3362,7 +3362,7 @@ img, video {
                                 <div class="fbs-card" data-idx="16"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/steam-sauna.jpg"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/steam-sauna.jpg"
                             alt="Steam &amp; Sauna" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3377,7 +3377,7 @@ img, video {
                                 <div class="fbs-card" data-idx="17"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/Nutrition-Diet.png"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/Nutrition-Diet.png"
                             alt="Nutrition &amp; Diet" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3392,7 +3392,7 @@ img, video {
                                 <div class="fbs-card" data-idx="18"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0616-scaled.webp"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0616-scaled.webp"
                             alt="Salon" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3407,7 +3407,7 @@ img, video {
                                 <div class="fbs-card" data-idx="19"
                     style="flex:0 0 calc(100%/4 - 13px);width:calc(100%/4 - 13px);min-width:0;background:#0d1717;border:1px solid rgba(255,255,255,0.14);overflow:hidden;transition:border-color .3s;display:flex;flex-direction:column;">
                     <div style="position:relative;aspect-ratio:4/3;overflow:hidden;"><img decoding="async"
-                            src="/fitbliss/assets/images/2026/07/IMG_0632-scaled.webp"
+                            src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0632-scaled.webp"
                             alt="EatBliss Café" loading="lazy"
                             style="width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s;" />
                         <div style="position:absolute;inset:0;background:linear-gradient(to top,rgba(1,3,3,.75),transparent);"></div><span
@@ -3632,7 +3632,7 @@ img, video {
 </script>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-7b5f975f e-con-full e-flex e-con e-child" data-id="7b5f975f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:&quot;20286&quot;,&quot;url&quot;:&quot;\/fitbliss\/wp-content\/uploads\/2026\/07\/DSC_3558-scaled-1.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+		<div class="elementor-element elementor-element-7b5f975f e-con-full e-flex e-con e-child" data-id="7b5f975f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:&quot;20286&quot;,&quot;url&quot;:&quot;<?php echo $base_url; ?>/wp-content\/uploads\/2026\/07\/DSC_3558-scaled-1.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 		<div class="elementor-element elementor-element-47567139 e-con-full e-flex e-con e-child" data-id="47567139" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-340a478 elementor-widget elementor-widget-text-editor" data-id="340a478" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
@@ -3702,7 +3702,7 @@ img, video {
 				<div class="elementor-element elementor-element-7332b5eb elementor-widget elementor-widget-html" data-id="7332b5eb" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;max-width:440px;max-height:480px;aspect-ratio:4/4.8;overflow:hidden;border-radius:4px;margin:0 auto;box-shadow:0 15px 35px rgba(0,0,0,0.4);">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/IMG-20250804-WA0081.webp" alt="Dr. Shruti Kapoor" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp" alt="Dr. Shruti Kapoor" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;" />
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.95), rgba(1,3,3,0.2) 65%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">— Founder</div>
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Dr. Shruti Kapoor</div>
@@ -3797,7 +3797,7 @@ img, video {
 					<h3 class="elementor-heading-title elementor-size-default">Six reasons members stay.</h3>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-486ad734 e-con-full e-flex e-con e-child" data-id="486ad734" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;\/fitbliss\/wp-content\/uploads\/2026\/07\/IMG_3613-2.mp4&quot;}">
+		<div class="elementor-element elementor-element-486ad734 e-con-full e-flex e-con e-child" data-id="486ad734" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;<?php echo $base_url; ?>/wp-content\/uploads\/2026\/07\/IMG_3613-2.mp4&quot;}">
 		<div class="elementor-background-video-container elementor-hidden-mobile">
 							<video class="elementor-background-video-hosted" role="presentation" autoplay muted playsinline loop></video>
 					</div><div class="elementor-element elementor-element-746d5cb2 e-con-full e-flex e-con e-child" data-id="746d5cb2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -4495,8 +4495,8 @@ img, video {
       </div>
       <div style="flex:1.4;min-width:300px;">
         <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border:1px solid rgba(255,255,255,0.18);border-radius:4px;box-shadow:0 20px 50px rgba(0,0,0,0.5);background:#071010;">
-          <video id="storyVideo" controls poster="/fitbliss/assets/images/2026/07/truestory.png" preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block;">
-            <source src="/fitbliss/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
+          <video id="storyVideo" controls poster="<?php echo $base_url; ?>/assets/images/2026/07/truestory.png" preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block;">
+            <source src="<?php echo $base_url; ?>/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
           </video>
         </div>
       </div>
@@ -4533,7 +4533,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-70ca968d elementor-widget elementor-widget-html" data-id="70ca968d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" style="width:100%;height:100%;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" style="width:100%;height:100%;display:block;" />
  
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Aspire Treadmill</div>
@@ -4551,7 +4551,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-4d5a3ec9 elementor-widget elementor-widget-html" data-id="4d5a3ec9" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png"  style="width:100%;height:100%;display:block;"  />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png"  style="width:100%;height:100%;display:block;"  />
 
   
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
@@ -4571,7 +4571,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-7aa2f0ab elementor-widget elementor-widget-html" data-id="7aa2f0ab" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;display:block;" />
   
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">HD Air Bike</div>
@@ -4589,7 +4589,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-23207f2 elementor-widget elementor-widget-html" data-id="23207f2" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
  
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;"> IC5 Indoor Cycle</div>
@@ -4651,7 +4651,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-7f315b50 elementor-widget elementor-widget-html" data-id="7f315b50" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/Gurpreet-Singh.jpg" alt="Gurpreet Singh" style="width:100%;height:100%;object-fit:cover;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Gurpreet-Singh.jpg" alt="Gurpreet Singh" style="width:100%;height:100%;object-fit:cover;display:block;" />
   <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">15+ yrs</div>
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Gurpreet Singh</div>
@@ -4664,7 +4664,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-1bcbc947 elementor-widget elementor-widget-html" data-id="1bcbc947" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/Swapnil-Sharma.jpg" alt="Swapnil Sharma" style="width:100%;height:100%;object-fit:cover;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Swapnil-Sharma.jpg" alt="Swapnil Sharma" style="width:100%;height:100%;object-fit:cover;display:block;" />
   <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">10 yrs</div>
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Swapnil Sharma</div>
@@ -4677,7 +4677,7 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-61beee17 elementor-widget elementor-widget-html" data-id="61beee17" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="/fitbliss/assets/images/2026/07/Hitesh-Hooda.jpg" alt="Hitesh Hooda" style="width:100%;height:100%;object-fit:cover;display:block;" />
+  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Hitesh-Hooda.jpg" alt="Hitesh Hooda" style="width:100%;height:100%;object-fit:cover;display:block;" />
   <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">8+ yrs</div>
   <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
     <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Hitesh Hooda</div>
@@ -4881,7 +4881,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv0"
-                        src="/fitbliss/assets/images/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -4920,7 +4920,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv1"
-                        src="/fitbliss/assets/images/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -4957,7 +4957,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv2"
-                        src="/fitbliss/assets/images/2026/07/Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -4994,7 +4994,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv3"
-                        src="/fitbliss/assets/images/2026/07/At-Fitbliss-its-never-just-about-workouts-or-machines-—-its-about-people.-💫Every-transformat.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/At-Fitbliss-its-never-just-about-workouts-or-machines-—-its-about-people.-💫Every-transformat.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5031,7 +5031,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv4"
-                        src="/fitbliss/assets/images/2026/07/Harleens-journey-with-FITBLISS-by-Shruti-Kapoor-is-all-about-finding-joy-in-the-process-✨She-sh.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Harleens-journey-with-FITBLISS-by-Shruti-Kapoor-is-all-about-finding-joy-in-the-process-✨She-sh.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5068,7 +5068,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv5"
-                        src="/fitbliss/assets/images/2026/07/Kartikey-Singh-Chouhan-shares-his-journey-with-the-Fitbliss-by-Shruti-Kapoor✨—-from-structured-w.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Kartikey-Singh-Chouhan-shares-his-journey-with-the-Fitbliss-by-Shruti-Kapoor✨—-from-structured-w.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5105,7 +5105,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv6"
-                        src="/fitbliss/assets/images/2026/07/Real-people.-Real-struggles.-Real-transformation.Proud-to-be-part-of-your-journey.-💫–-FitBliss.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Real-people.-Real-struggles.-Real-transformation.Proud-to-be-part-of-your-journey.-💫–-FitBliss.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5142,7 +5142,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv7"
-                        src="/fitbliss/assets/images/2026/07/Real-stories.-Real-results.-💪Heres-what-our-Fitbliss-client-had-to-say-about-their-journey-🌟.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Real-stories.-Real-results.-💪Heres-what-our-Fitbliss-client-had-to-say-about-their-journey-🌟.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5179,7 +5179,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv8"
-                        src="/fitbliss/assets/images/2026/07/Results-dont-come-from-shortcuts.They-come-from-consistency-care-and-the-right-guidance.Arti_.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Results-dont-come-from-shortcuts.They-come-from-consistency-care-and-the-right-guidance.Arti_.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5216,7 +5216,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv9"
-                        src="/fitbliss/assets/images/2026/07/Amanat-Singh-Chouhan-shares-her-experience-with-Fitbliss-by-Shruti-Kapoor-—-a-journey-guided-by.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Amanat-Singh-Chouhan-shares-her-experience-with-Fitbliss-by-Shruti-Kapoor-—-a-journey-guided-by.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5253,7 +5253,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv10"
-                        src="/fitbliss/assets/images/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/1-Nothing-makes-us-happier-than-seeing-our-clients-transform-and-share-their-journey-with-us.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5290,7 +5290,7 @@ Precisely selected.</h2>				</div>
             overflow:hidden;display:flex;flex-direction:column;transition:border-color .3s;">
                 <div style="position:relative;width:100%;padding-top:177.78%;background:#000;overflow:hidden;">
                     <video id="fbv11"
-                        src="/fitbliss/assets/images/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4#t=0.001"
+                        src="<?php echo $base_url; ?>/assets/images/2026/07/Real-stories.-Real-results.-💥Hear-it-straight-from-Samved-—-how-Fitbliss-helped-him-push-limits-1.mp4#t=0.001"
                         preload="metadata" playsinline
                         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
                     </video>
@@ -5582,36 +5582,36 @@ Precisely selected.</h2>				</div>
 				<div class="elementor-element elementor-element-7dc5dba0 elementor-widget elementor-widget-gallery" data-id="7dc5dba0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;lazyload&quot;:&quot;yes&quot;,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns&quot;:4,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
 				<div class="elementor-widget-container">
 							<div class="elementor-gallery__container">
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQxNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/DSC04158_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQxNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/DSC_2025-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODgsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzIwMjUtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/DSC_2025-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODgsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzIwMjUtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/DSC_0058-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODksInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzAwNTgtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/DSC_0058-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODksInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzAwNTgtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/DSC_8892-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTAsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzg4OTItc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/DSC_8892-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTAsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzg4OTItc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQyNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/DSC04258_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQyNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/IMG_0642-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTIsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvSU1HXzA2NDItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/IMG_0642-scaled-1-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTIsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvSU1HXzA2NDItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/TZ3_0696-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTMsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA2OTYtc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/TZ3_0696-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTMsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA2OTYtc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="/fitbliss/assets/images/2026/07/TZ3_0772-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTQsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA3NzItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="/fitbliss/assets/images/2026/07/TZ3_0772-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
+							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTQsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA3NzItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
+					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
 											<div class="elementor-gallery-item__overlay"></div>
 														</a>
 					</div>
@@ -5750,7 +5750,7 @@ Precisely selected.</h2>				</div>
 			<div class="elementor-widget-wrap elementor-element-populated">
 						<div class="elementor-element elementor-element-305aeeba elementor-widget elementor-widget-image" data-id="305aeeba" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-															<img width="1920" height="659" src="/fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png" class="attachment-full size-full wp-image-3293" alt="" srcset="/fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png 1920w, /fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-300x103.png 300w, /fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1024x351.png 1024w, /fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-768x264.png 768w, /fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1536x527.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
+															<img width="1920" height="659" src="<?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png" class="attachment-full size-full wp-image-3293" alt="" srcset="<?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png 1920w, <?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-300x103.png 300w, <?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1024x351.png 1024w, <?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-768x264.png 768w, <?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970-1536x527.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />															</div>
 				</div>
 					</div>
 		</div>
@@ -6025,46 +6025,46 @@ Precisely selected.</h2>				</div>
 					} );
 				} )();
 			</script>
-			<link rel='stylesheet' id='elementor-post-20307-css' href='/fitbliss/assets/images/elementor/css/post-20307.css?ver=1790145709' media='all' />
-<link rel='stylesheet' id='widget-spacer-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='widget-gallery-css' href='/fitbliss/assets/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=4.1.1' media='all' />
-<link rel='stylesheet' id='elementor-gallery-css' href='/fitbliss/assets/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0' media='all' />
-<link rel='stylesheet' id='e-transitions-css' href='/fitbliss/assets/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=4.1.1' media='all' />
-<link rel='stylesheet' id='widget-divider-css' href='/fitbliss/assets/plugins/elementor/assets/css/widget-divider.min.css?ver=4.3.0' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-barlow-css' href='/fitbliss/assets/images/elementor/google-fonts/css/barlow.css?ver=1784191232' media='all' />
-<link rel='stylesheet' id='elementor-gf-local-bebasneue-css' href='/fitbliss/assets/images/elementor/google-fonts/css/bebasneue.css?ver=1749301349' media='all' />
+			<link rel='stylesheet' id='elementor-post-20307-css' href='<?php echo $base_url; ?>/assets/images/elementor/css/post-20307.css?ver=1790145709' media='all' />
+<link rel='stylesheet' id='widget-spacer-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-spacer.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='widget-gallery-css' href='<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/css/widget-gallery.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='elementor-gallery-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/lib/e-gallery/css/e-gallery.min.css?ver=1.2.0' media='all' />
+<link rel='stylesheet' id='e-transitions-css' href='<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/css/conditionals/transitions.min.css?ver=4.1.1' media='all' />
+<link rel='stylesheet' id='widget-divider-css' href='<?php echo $base_url; ?>/assets/plugins/elementor/assets/css/widget-divider.min.css?ver=4.3.0' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-barlow-css' href='<?php echo $base_url; ?>/assets/images/elementor/google-fonts/css/barlow.css?ver=1784191232' media='all' />
+<link rel='stylesheet' id='elementor-gf-local-bebasneue-css' href='<?php echo $base_url; ?>/assets/images/elementor/google-fonts/css/bebasneue.css?ver=1749301349' media='all' />
 <script id="fluentform-elementor-js-extra">
 var fluentformElementor = {"adminUrl":"https://fitblissbysk.com/wp-admin/admin.php"};
 //# sourceURL=fluentform-elementor-js-extra
 </script>
-<script id="fluentform-elementor-js" src="/fitbliss/assets/plugins/fluentform/assets/js/fluent-forms-elementor-widget.js?ver=6.2.14"></script>
+<script id="fluentform-elementor-js" src="<?php echo $base_url; ?>/assets/plugins/fluentform/assets/js/fluent-forms-elementor-widget.js?ver=6.2.14"></script>
 <script id="jquery-ui-core-js-before">
 jQuery.uiBackCompat = true;
 //# sourceURL=jquery-ui-core-js-before
 </script>
-<script id="jquery-ui-core-js" src="/fitbliss/assets/vendor/js/jquery/ui/core.min.js?ver=1.14.2"></script>
+<script id="jquery-ui-core-js" src="<?php echo $base_url; ?>/assets/vendor/js/jquery/ui/core.min.js?ver=1.14.2"></script>
 <script id="qi-addons-for-elementor-script-js-extra">
 var qodefQiAddonsGlobal = {"vars":{"adminBarHeight":0,"iconArrowLeft":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"\u003E\u003Cline x1=\"0.5\" y1=\"16\" x2=\"33.5\" y2=\"16\"/\u003E\u003Cline x1=\"0.3\" y1=\"16.5\" x2=\"16.2\" y2=\"0.7\"/\u003E\u003Cline x1=\"0\" y1=\"15.4\" x2=\"16.2\" y2=\"31.6\"/\u003E\u003C/svg\u003E","iconArrowRight":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 34.2 32.3\" xml:space=\"preserve\" style=\"stroke-width: 2;\"\u003E\u003Cline x1=\"0\" y1=\"16\" x2=\"33\" y2=\"16\"/\u003E\u003Cline x1=\"17.3\" y1=\"0.7\" x2=\"33.2\" y2=\"16.5\"/\u003E\u003Cline x1=\"17.3\" y1=\"31.6\" x2=\"33.5\" y2=\"15.4\"/\u003E\u003C/svg\u003E","iconClose":"\u003Csvg  xmlns=\"http://www.w3.org/2000/svg\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"\u003E\u003Cg\u003E\u003Cpath d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"/\u003E\u003C/g\u003E\u003C/svg\u003E"}};
 //# sourceURL=qi-addons-for-elementor-script-js-extra
 </script>
-<script id="qi-addons-for-elementor-script-js" src="/fitbliss/assets/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.11.1"></script>
-<script id="hello-theme-frontend-js" src="/fitbliss/assets/theme/hello-elementor/assets/js/hello-frontend.js?ver=3.5.1"></script>
-<script id="elementor-webpack-runtime-js" src="/fitbliss/assets/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.0"></script>
-<script id="elementor-frontend-modules-js" src="/fitbliss/assets/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.0"></script>
+<script id="qi-addons-for-elementor-script-js" src="<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=1.11.1"></script>
+<script id="hello-theme-frontend-js" src="<?php echo $base_url; ?>/assets/theme/hello-elementor/assets/js/hello-frontend.js?ver=3.5.1"></script>
+<script id="elementor-webpack-runtime-js" src="<?php echo $base_url; ?>/assets/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.3.0"></script>
+<script id="elementor-frontend-modules-js" src="<?php echo $base_url; ?>/assets/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.3.0"></script>
 <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnX":"Share on X","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.3.0","is_static":false,"experimentalFeatures":{"e_font_icon_svg":true,"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/fitblissbysk.com\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"f6a138672e","atomicFormsSendForm":"805ab1a743"},"swiperClass":"swiper","settings":{"page":[],"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"title","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":17567,"title":"Fit%20Bliss","excerpt":"","featuredImage":false}};
 //# sourceURL=elementor-frontend-js-before
 </script>
-<script id="elementor-frontend-js" src="/fitbliss/assets/plugins/elementor/assets/js/frontend.min.js?ver=4.3.0"></script>
-<script id="smartmenus-js" src="/fitbliss/assets/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
-<script id="swiper-js" src="/fitbliss/assets/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js?ver=8.4.5"></script>
+<script id="elementor-frontend-js" src="<?php echo $base_url; ?>/assets/plugins/elementor/assets/js/frontend.min.js?ver=4.3.0"></script>
+<script id="smartmenus-js" src="<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1"></script>
+<script id="swiper-js" src="<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/assets/plugins/swiper/8.4.5/swiper.min.js?ver=8.4.5"></script>
 <script id="chaty-front-end-js-extra">
 var chaty_settings = {"ajax_url":"https://fitblissbysk.com/wp-admin/admin-ajax.php","analytics":"0","capture_analytics":"0","token":"57745235eb","chaty_widgets":[{"id":0,"identifier":0,"settings":{"cta_type":"simple-view","cta_body":"","cta_head":"","cta_head_bg_color":"","cta_head_text_color":"","show_close_button":0,"position":"right","custom_position":1,"bottom_spacing":"25","side_spacing":"25","icon_view":"vertical","default_state":"click","cta_text":"","cta_text_color":"#333333","cta_bg_color":"#ffffff","show_cta":"first_click","is_pending_mesg_enabled":"off","pending_mesg_count":"1","pending_mesg_count_color":"#ffffff","pending_mesg_count_bgcolor":"#dd0000","widget_icon":"chat-base","widget_icon_url":"","font_family":"-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif","widget_size":"54","custom_widget_size":"54","is_google_analytics_enabled":0,"close_text":"Hide","widget_color":"#000000","widget_icon_color":"#ffffff","widget_rgb_color":"0,0,0","has_custom_css":0,"custom_css":"","widget_token":"ebb702784c","widget_index":"","attention_effect":"shockwave"},"triggers":{"has_time_delay":1,"time_delay":"0","exit_intent":0,"has_display_after_page_scroll":0,"display_after_page_scroll":"0","auto_hide_widget":0,"hide_after":0,"show_on_pages_rules":[],"time_diff":0,"has_date_scheduling_rules":0,"date_scheduling_rules":{"start_date_time":"","end_date_time":""},"date_scheduling_rules_timezone":0,"day_hours_scheduling_rules_timezone":0,"has_day_hours_scheduling_rules":[],"day_hours_scheduling_rules":[],"day_time_diff":0,"show_on_direct_visit":0,"show_on_referrer_social_network":0,"show_on_referrer_search_engines":0,"show_on_referrer_google_ads":0,"show_on_referrer_urls":[],"has_show_on_specific_referrer_urls":0,"has_traffic_source":0,"has_countries":0,"countries":[],"has_target_rules":0},"channels":[{"channel":"Phone","value":"+917470787014","hover_text":"Phone","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#03E78B\"/\u003E\u003Cpath d=\"M19.3929 14.9176C17.752 14.7684 16.2602 14.3209 14.7684 13.7242C14.0226 13.4259 13.1275 13.7242 12.8292 14.4701L11.7849 16.2602C8.65222 14.6193 6.11623 11.9341 4.47529 8.95057L6.41458 7.90634C7.16046 7.60799 7.45881 6.71293 7.16046 5.96705C6.56375 4.47529 6.11623 2.83435 5.96705 1.34259C5.96705 0.596704 5.22117 0 4.47529 0H0.745882C0.298353 0 5.69062e-07 0.298352 5.69062e-07 0.745881C5.69062e-07 3.72941 0.596704 6.71293 1.93929 9.3981C3.87858 13.575 7.30964 16.8569 11.3374 18.7962C14.0226 20.1388 17.0061 20.7355 19.9896 20.7355C20.4371 20.7355 20.7355 20.4371 20.7355 19.9896V16.4094C20.7355 15.5143 20.1388 14.9176 19.3929 14.9176Z\" transform=\"translate(9.07179 9.07178)\" fill=\"white\"/\u003E\u003C/svg\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#03E78B","icon_rgb_color":"3,231,139","channel_type":"Phone","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"tel:+917470787014","mobile_target":"","desktop_target":"","target":"","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""},{"channel":"Whatsapp","value":"917470787014","hover_text":"WhatsApp","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.4395\" cy=\"19.4395\" r=\"19.4395\" fill=\"#49E670\"/\u003E\u003Cpath d=\"M12.9821 10.1115C12.7029 10.7767 11.5862 11.442 10.7486 11.575C10.1902 11.7081 9.35269 11.8411 6.84003 10.7767C3.48981 9.44628 1.39593 6.25317 1.25634 6.12012C1.11674 5.85403 2.13001e-06 4.39053 2.13001e-06 2.92702C2.13001e-06 1.46351 0.83755 0.665231 1.11673 0.399139C1.39592 0.133046 1.8147 1.01506e-06 2.23348 1.01506e-06C2.37307 1.01506e-06 2.51267 1.01506e-06 2.65226 1.01506e-06C2.93144 1.01506e-06 3.21063 -2.02219e-06 3.35022 0.532183C3.62941 1.19741 4.32736 2.66092 4.32736 2.79397C4.46696 2.92702 4.46696 3.19311 4.32736 3.32616C4.18777 3.59225 4.18777 3.59224 3.90858 3.85834C3.76899 3.99138 3.6294 4.12443 3.48981 4.39052C3.35022 4.52357 3.21063 4.78966 3.35022 5.05576C3.48981 5.32185 4.18777 6.38622 5.16491 7.18449C6.42125 8.24886 7.39839 8.51496 7.81717 8.78105C8.09636 8.91409 8.37554 8.9141 8.65472 8.648C8.93391 8.38191 9.21309 7.98277 9.49228 7.58363C9.77146 7.31754 10.0507 7.1845 10.3298 7.31754C10.609 7.45059 12.2841 8.11582 12.5633 8.38191C12.8425 8.51496 13.1217 8.648 13.1217 8.78105C13.1217 8.78105 13.1217 9.44628 12.9821 10.1115Z\" transform=\"translate(12.9597 12.9597)\" fill=\"#FAFAFA\"/\u003E\u003Cpath d=\"M0.196998 23.295L0.131434 23.4862L0.323216 23.4223L5.52771 21.6875C7.4273 22.8471 9.47325 23.4274 11.6637 23.4274C18.134 23.4274 23.4274 18.134 23.4274 11.6637C23.4274 5.19344 18.134 -0.1 11.6637 -0.1C5.19344 -0.1 -0.1 5.19344 -0.1 11.6637C-0.1 13.9996 0.624492 16.3352 1.93021 18.2398L0.196998 23.295ZM5.87658 19.8847L5.84025 19.8665L5.80154 19.8788L2.78138 20.8398L3.73978 17.9646L3.75932 17.906L3.71562 17.8623L3.43104 17.5777C2.27704 15.8437 1.55796 13.8245 1.55796 11.6637C1.55796 6.03288 6.03288 1.55796 11.6637 1.55796C17.2945 1.55796 21.7695 6.03288 21.7695 11.6637C21.7695 17.2945 17.2945 21.7695 11.6637 21.7695C9.64222 21.7695 7.76778 21.1921 6.18227 20.039L6.17557 20.0342L6.16817 20.0305L5.87658 19.8847Z\" transform=\"translate(7.7758 7.77582)\" fill=\"white\" stroke=\"white\" stroke-width=\"0.2\"/\u003E\u003C/svg\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#49E670","icon_rgb_color":"73,230,112","channel_type":"Whatsapp","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"\u003Cp\u003EHow can I help you? :)\u003C/p\u003E","wp_popup_headline":"Let&#039;s chat on WhatsApp","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https://web.whatsapp.com/send?phone=917470787014","mobile_target":"","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""},{"channel":"Instagram","value":"fitblissbysk/?hl=en","hover_text":"Instagram Page","chatway_position":"","svg_icon":"\u003Csvg width=\"39\" height=\"39\" viewBox=\"0 0 39 39\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"\u003E\u003Ccircle class=\"color-element\" cx=\"19.5\" cy=\"19.5\" r=\"19.5\" fill=\"url(#linear-gradient)\"/\u003E\u003Cpath id=\"Path_1923\" data-name=\"Path 1923\" d=\"M13.177,0H5.022A5.028,5.028,0,0,0,0,5.022v8.155A5.028,5.028,0,0,0,5.022,18.2h8.155A5.028,5.028,0,0,0,18.2,13.177V5.022A5.028,5.028,0,0,0,13.177,0Zm3.408,13.177a3.412,3.412,0,0,1-3.408,3.408H5.022a3.411,3.411,0,0,1-3.408-3.408V5.022A3.412,3.412,0,0,1,5.022,1.615h8.155a3.412,3.412,0,0,1,3.408,3.408v8.155Z\" transform=\"translate(10 10.4)\" fill=\"#fff\"/\u003E\u003Cpath id=\"Path_1924\" data-name=\"Path 1924\" d=\"M45.658,40.97a4.689,4.689,0,1,0,4.69,4.69A4.695,4.695,0,0,0,45.658,40.97Zm0,7.764a3.075,3.075,0,1,1,3.075-3.075A3.078,3.078,0,0,1,45.658,48.734Z\" transform=\"translate(-26.558 -26.159)\" fill=\"#fff\"/\u003E\u003C/svg\u003E\u003Cpath id=\"Path_1925\" data-name=\"Path 1925\" d=\"M120.105,28.251a1.183,1.183,0,1,0,.838.347A1.189,1.189,0,0,0,120.105,28.251Z\" transform=\"translate(-96.119 -14.809)\" fill=\"#fff\"/\u003E","is_desktop":1,"is_mobile":1,"icon_color":"#ffffff","icon_rgb_color":"0,0,0","channel_type":"Instagram","custom_image_url":"","order":"","pre_set_message":"","is_use_web_version":"1","is_open_new_tab":"1","is_default_open":"0","has_welcome_message":"0","emoji_picker":"1","input_placeholder":"Write your message...","chat_welcome_message":"","wp_popup_headline":"","wp_popup_nickname":"","wp_popup_profile":"","wp_popup_head_bg_color":"#4AA485","qr_code_image_url":"","mail_subject":"","channel_account_type":"personal","contact_form_settings":[],"contact_fields":[],"url":"https://www.instagram.com/fitblissbysk/?hl=en","mobile_target":"_blank","desktop_target":"_blank","target":"_blank","is_agent":0,"agent_data":[],"header_text":"","header_sub_text":"","header_bg_color":"","header_text_color":"","widget_token":"ebb702784c","widget_index":"","click_event":"","viber_url":""}]}],"data_analytics_settings":"off","lang":{"whatsapp_label":"WhatsApp Message","hide_whatsapp_form":"Hide WhatsApp Form","emoji_picker":"Show Emojis"},"has_chatway":""};
 //# sourceURL=chaty-front-end-js-extra
 </script>
-<script defer id="chaty-front-end-js" src="/fitbliss/assets/plugins/chaty/dist/js/script.js?ver=3.6.11785238286"></script>
-<script defer id="chaty-mail-check-js" src="/fitbliss/assets/plugins/chaty/admin/assets/js/mailcheck.js?ver=3.6.1"></script>
-<script id="elementor-gallery-js" src="/fitbliss/assets/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"></script>
+<script defer id="chaty-front-end-js" src="<?php echo $base_url; ?>/assets/plugins/chaty/dist/js/script.js?ver=3.6.11785238286"></script>
+<script defer id="chaty-mail-check-js" src="<?php echo $base_url; ?>/assets/plugins/chaty/admin/assets/js/mailcheck.js?ver=3.6.1"></script>
+<script id="elementor-gallery-js" src="<?php echo $base_url; ?>/assets/plugins/elementor/assets/lib/e-gallery/js/e-gallery.min.js?ver=1.2.0"></script>
 <script id="google-recaptcha-js" src="https://www.google.com/recaptcha/api.js?render=explicit&#038;ver=6.2.14"></script>
 <script id="fluent-form-submission-js-extra">
 var fluentFormVars = {"ajaxUrl":"https://fitblissbysk.com/wp-admin/admin-ajax.php","forms":[],"step_text":"Step %activeStep% of %totalStep% - %stepTitle%","step_completed_text":"Completed","is_rtl":"","date_i18n":{"previousMonth":"Previous Month","nextMonth":"Next Month","months":{"shorthand":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"longhand":["January","February","March","April","May","June","July","August","September","October","November","December"]},"weekdays":{"longhand":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"shorthand":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]},"daysInMonth":[31,28,31,30,31,30,31,31,30,31,30,31],"rangeSeparator":" to ","weekAbbreviation":"Wk","scrollTitle":"Scroll to increment","toggleTitle":"Click to toggle","amPM":["AM","PM"],"yearAriaLabel":"Year","firstDayOfWeek":1},"pro_version":"","fluentform_version":"6.2.14","force_init":"","stepAnimationDuration":"350","upload_completed_txt":"100% Completed","upload_start_txt":"0% Completed","uploading_txt":"Uploading","choice_js_vars":{"noResultsText":"No results found","loadingText":"Loading...","noChoicesText":"No choices to choose from","itemSelectText":"Press to select","maxItemTextSingular":"Only %%maxItemCount%% option can be added","maxItemTextPlural":"Only %%maxItemCount%% options can be added"},"input_mask_vars":{"clearIfNotMatch":false},"nonce":"d501025a1f","file_delete_nonce":"9311d410a1","form_id":"1","step_change_focus":"1","has_cleantalk":"","pro_payment_script_compatible":""};
@@ -6077,28 +6077,28 @@ var fluentform_submission_messages_global = {"javascript_handler_failed":"Javasc
 var fluentform_address_messages_global = {"please_wait":"Please wait ...","location_not_determined":"Could not determine address from location.","address_fetch_failed":"Failed to fetch address from coordinates.","geolocation_failed":"Geolocation failed or was denied.","geolocation_not_supported":"Geolocation is not supported by this browser."};
 //# sourceURL=fluent-form-submission-js-extra
 </script>
-<script id="fluent-form-submission-js" src="/fitbliss/assets/plugins/fluentform/assets/js/form-submission.js?ver=6.2.14"></script>
-<script id="wp-hooks-js" src="/fitbliss/assets/vendor/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
-<script id="wp-i18n-js" src="/fitbliss/assets/vendor/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
+<script id="fluent-form-submission-js" src="<?php echo $base_url; ?>/assets/plugins/fluentform/assets/js/form-submission.js?ver=6.2.14"></script>
+<script id="wp-hooks-js" src="<?php echo $base_url; ?>/assets/vendor/js/dist/hooks.min.js?ver=f0f188028580e8dc1255"></script>
+<script id="wp-i18n-js" src="<?php echo $base_url; ?>/assets/vendor/js/dist/i18n.min.js?ver=1dfe7db3940c23ea9216"></script>
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 //# sourceURL=wp-i18n-js-after
 </script>
-<script id="qi-addons-for-elementor-elementor-js" src="/fitbliss/assets/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=7.1.2"></script>
-<script id="elementor-pro-webpack-runtime-js" src="/fitbliss/assets/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.1.1"></script>
+<script id="qi-addons-for-elementor-elementor-js" src="<?php echo $base_url; ?>/assets/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=7.1.2"></script>
+<script id="elementor-pro-webpack-runtime-js" src="<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.1.1"></script>
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/fitblissbysk.com\/wp-admin\/admin-ajax.php","nonce":"752167b2db","urls":{"assets":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/fitblissbysk.com\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/fitblissbysk.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 //# sourceURL=elementor-pro-frontend-js-before
 </script>
-<script id="elementor-pro-frontend-js" src="/fitbliss/assets/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.1"></script>
-<script id="pro-elements-handlers-js" src="/fitbliss/assets/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.1"></script>
+<script id="elementor-pro-frontend-js" src="<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.1.1"></script>
+<script id="pro-elements-handlers-js" src="<?php echo $base_url; ?>/assets/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.1.1"></script>
 <script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"/fitbliss/assets/vendor/js/wp-emoji-release.min.js?ver=7.1.2"}}
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"<?php echo $base_url; ?>/assets/vendor/js/wp-emoji-release.min.js?ver=7.1.2"}}
 </script>
 <script type="module">
 /*! This file is auto-generated */
 var e="script#wp-emoji-settings",t=document.querySelector(e);if(!(t instanceof HTMLScriptElement))throw new Error("Element missing: "+e);const r=JSON.parse(t.text),s=(window._wpemojiSettings=r,"wpEmojiSettingsSupports"),o=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(s,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const r=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===r[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,r){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!r(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,r){let a;const s=(a="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),o=(s.textBaseline="top",s.font="600 32px Arial",{});return e.forEach(e=>{o[e]=t(s,e,n,r)}),o}function a(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}r.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(s));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(o),u.toString(),c.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"});const a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=e=>{i(n=e.data),a.terminate(),t(n)})}catch(e){}i(n=f(o,u,c,p))}t(n)}).then(e=>{for(const n in e)r.supports[n]=e[n],r.supports.everything=r.supports.everything&&r.supports[n],"flag"!==n&&(r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&r.supports[n]);var t;r.supports.everythingExceptFlag=r.supports.everythingExceptFlag&&!r.supports.flag,r.supports.everything||((t=r.source||{}).concatemoji?a(t.concatemoji):t.wpemoji&&t.twemoji&&(a(t.twemoji),a(t.wpemoji)))});
-//# sourceURL=/fitbliss/assets/vendor/js/wp-emoji-loader.min.js
+//# sourceURL=<?php echo $base_url; ?>/assets/vendor/js/wp-emoji-loader.min.js
 </script>
             <script type="text/javascript">
                 
@@ -6180,8 +6180,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     tag: "Our Story",
                     title: "Where Wellness Meets Luxury",
                     body: "Founded by Dr. Shruti Kapoor — a Radiologist turned wellness curator, inspired by her own transformation through Pilates in Mumbai.",
-                    img: "/fitbliss/assets/images/2026/06/DSC_2491-scaled.jpg",
-                    href: "/fitbliss/about/"
+                    img: "<?php echo $base_url; ?>/assets/images/2026/06/DSC_2491-scaled.jpg",
+                    href: "<?php echo $base_url; ?>/about/"
                 },
                 cols: [
                     {
@@ -6189,14 +6189,14 @@ document.addEventListener('DOMContentLoaded', function() {
                         items: [
                             {
                                 label: "The Story",
-                                href: "/fitbliss/about/",
+                                href: "<?php echo $base_url; ?>/about/",
                                 hint: "Vision · Journey · Values",
                                 feature: {
                                     tag: "About FitBliss",
                                     title: "The Story",
                                     body: "A vision born from personal transformation — discover how FitBliss came to be the luxury wellness destination it is today.",
-                                    img: "/fitbliss/assets/images/2026/06/DSC_2491-scaled.jpg",
-                                    href: "/fitbliss/about/"
+                                    img: "<?php echo $base_url; ?>/assets/images/2026/06/DSC_2491-scaled.jpg",
+                                    href: "<?php echo $base_url; ?>/about/"
                                 }
                             }
                         ]
@@ -6206,15 +6206,15 @@ document.addEventListener('DOMContentLoaded', function() {
                         items: [
                             {
                                 label: "Meet the Founder",
-                                href: "/fitbliss/founder/",
+                                href: "<?php echo $base_url; ?>/founder/",
                                 hint: "Dr. Shruti Kapoor",
                                 feature: {
                                     tag: "Leadership",
                                     title: "Meet the Founder",
                                     body: "Dr. Shruti Kapoor — Radiologist, wellness curator, and the visionary mind behind FitBliss.",
-                                    img: "/fitbliss/assets/images/2026/07/IMG-20250804-WA0081.webp",
+                                    img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp",
                                     position: "center 20%",
-                                    href: "/fitbliss/founder/"
+                                    href: "<?php echo $base_url; ?>/founder/"
                                 }
                             }
                         ]
@@ -6226,59 +6226,59 @@ document.addEventListener('DOMContentLoaded', function() {
                     tag: "Our Services",
                     title: "Holistic Wellness",
                     body: "Discover a comprehensive range of fitness, wellness, and lifestyle services.",
-                    img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg",
-                    href: "/fitbliss/#services"
+                    img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg",
+                    href: "<?php echo $base_url; ?>/#services"
                 },
                 cols: [
                     {
                         heading: "Gym & Fitness",
                         items: [
-                            { label: "Gym & Strength", href: "/fitbliss/gym/", hint: "Training", feature: { tag: "Fitness", title: "Gym & Strength", body: "State-of-the-art equipment.", img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/gym/" } },
-                            { label: "Personal Training", href: "/fitbliss/personal-training/", hint: "Coaching", feature: { tag: "Fitness", title: "Personal Training", body: "Expert guidance for your goals.", img: "/fitbliss/assets/images/2026/07/DSC_3593-scaled.jpg", href: "/fitbliss/personal-training/" } },
-                            { label: "Functional Training", href: "/fitbliss/functional-training/", hint: "Agility", feature: { tag: "Fitness", title: "Functional Training", body: "Enhance daily movement and strength.", img: "/fitbliss/assets/images/2026/07/DSC_3557-scaled.jpg", href: "/fitbliss/functional-training/" } },
-                            { label: "Spinning Bike", href: "/fitbliss/spinning/", hint: "Cardio", feature: { tag: "Fitness", title: "Spinning Bike", body: "High-intensity cardio on bikes.", img: "/fitbliss/assets/images/2026/07/IMG_3724-scaled.jpg", href: "/fitbliss/spinning/" } }
+                            { label: "Gym & Strength", href: "<?php echo $base_url; ?>/gym/", hint: "Training", feature: { tag: "Fitness", title: "Gym & Strength", body: "State-of-the-art equipment.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg", href: "<?php echo $base_url; ?>/gym/" } },
+                            { label: "Personal Training", href: "<?php echo $base_url; ?>/personal-training/", hint: "Coaching", feature: { tag: "Fitness", title: "Personal Training", body: "Expert guidance for your goals.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-scaled.jpg", href: "<?php echo $base_url; ?>/personal-training/" } },
+                            { label: "Functional Training", href: "<?php echo $base_url; ?>/functional-training/", hint: "Agility", feature: { tag: "Fitness", title: "Functional Training", body: "Enhance daily movement and strength.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3557-scaled.jpg", href: "<?php echo $base_url; ?>/functional-training/" } },
+                            { label: "Spinning Bike", href: "<?php echo $base_url; ?>/spinning/", hint: "Cardio", feature: { tag: "Fitness", title: "Spinning Bike", body: "High-intensity cardio on bikes.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3724-scaled.jpg", href: "<?php echo $base_url; ?>/spinning/" } }
                         ]
                     },
                     {
                         heading: "Yoga & Pilates",
                         items: [
-                            { label: "Pilates", href: "/fitbliss/pilates/", hint: '<img src="/fitbliss/assets/images/2026/07/YKBI.png" alt="YKBI" style="height:40px;width:auto;vertical-align:middle;display:inline-block;" />', feature: { tag: "Yoga", title: "Pilates", body: "Strengthen core and flexibility.", img: "/fitbliss/assets/images/2026/07/DSC04177_11zon-1.jpg", href: "/fitbliss/pilates/" } },
-                            { label: "Traditional Yoga", href: "/fitbliss/traditional-yoga/", hint: "Mind & Body", feature: { tag: "Yoga", title: "Traditional Yoga", body: "Classic poses and breathwork.", img: "/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/fitbliss/traditional-yoga/" } },
-                            { label: "Aerial Yoga", href: "/fitbliss/aerial-yoga/", hint: "Anti-gravity", feature: { tag: "Yoga", title: "Aerial Yoga", body: "Supported inversions and deep stretches.", img: "/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/fitbliss/aerial-yoga/" } },
-                            { label: "Aquatic Wellness", href: "/fitbliss/aquatic-wellness/", hint: "Water Therapy", feature: { tag: "Yoga", title: "Aquatic Wellness", body: "Low impact water workouts.", img: "/fitbliss/assets/images/2026/07/IMG_0567-scaled.jpg", href: "/fitbliss/aquatic-wellness/" } }
+                            { label: "Pilates", href: "<?php echo $base_url; ?>/pilates/", hint: '<img src="<?php echo $base_url; ?>/assets/images/2026/07/YKBI.png" alt="YKBI" style="height:40px;width:auto;vertical-align:middle;display:inline-block;" />', feature: { tag: "Yoga", title: "Pilates", body: "Strengthen core and flexibility.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg", href: "<?php echo $base_url; ?>/pilates/" } },
+                            { label: "Traditional Yoga", href: "<?php echo $base_url; ?>/traditional-yoga/", hint: "Mind & Body", feature: { tag: "Yoga", title: "Traditional Yoga", body: "Classic poses and breathwork.", img: "<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "<?php echo $base_url; ?>/traditional-yoga/" } },
+                            { label: "Aerial Yoga", href: "<?php echo $base_url; ?>/aerial-yoga/", hint: "Anti-gravity", feature: { tag: "Yoga", title: "Aerial Yoga", body: "Supported inversions and deep stretches.", img: "<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "<?php echo $base_url; ?>/aerial-yoga/" } },
+                            { label: "Aquatic Wellness", href: "<?php echo $base_url; ?>/aquatic-wellness/", hint: "Water Therapy", feature: { tag: "Yoga", title: "Aquatic Wellness", body: "Low impact water workouts.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_0567-scaled.jpg", href: "<?php echo $base_url; ?>/aquatic-wellness/" } }
                         ]
                     },
                     {
                         heading: "Sports & Dance",
                         items: [
-                            { label: "Boxing", href: "/fitbliss/boxing/", hint: "Combat", feature: { tag: "Sports", title: "Boxing", body: "Build endurance and power.", img: "/fitbliss/assets/images/2026/07/IMG_3714-scaled.jpg", href: "/fitbliss/boxing/" } },
-                            { label: "Zumba", href: "/fitbliss/zumba/", hint: "Dance Fitness", feature: { tag: "Sports", title: "Zumba", body: "Fun, dance-based cardio.", img: "/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/fitbliss/zumba/" } },
-                            { label: "Dance Classes", href: "/fitbliss/dance/", hint: "Choreography", feature: { tag: "Sports", title: "Dance Classes", body: "Learn routines and stay fit.", img: "/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/fitbliss/dance/" } },
-                            { label: "Squash Court", href: "/fitbliss/squash/", hint: "Racquet Sport", feature: { tag: "Sports", title: "Squash Court", body: "Fast-paced competitive play.", img: "/fitbliss/assets/images/2026/07/Squash-Court.jpg", href: "/fitbliss/squash/" } }
+                            { label: "Boxing", href: "<?php echo $base_url; ?>/boxing/", hint: "Combat", feature: { tag: "Sports", title: "Boxing", body: "Build endurance and power.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3714-scaled.jpg", href: "<?php echo $base_url; ?>/boxing/" } },
+                            { label: "Zumba", href: "<?php echo $base_url; ?>/zumba/", hint: "Dance Fitness", feature: { tag: "Sports", title: "Zumba", body: "Fun, dance-based cardio.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg", href: "<?php echo $base_url; ?>/zumba/" } },
+                            { label: "Dance Classes", href: "<?php echo $base_url; ?>/dance/", hint: "Choreography", feature: { tag: "Sports", title: "Dance Classes", body: "Learn routines and stay fit.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg", href: "<?php echo $base_url; ?>/dance/" } },
+                            { label: "Squash Court", href: "<?php echo $base_url; ?>/squash/", hint: "Racquet Sport", feature: { tag: "Sports", title: "Squash Court", body: "Fast-paced competitive play.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Squash-Court.jpg", href: "<?php echo $base_url; ?>/squash/" } }
                         ]
                     },
                     {
                         heading: "Wellness & Healing",
                         items: [
-                            { label: "Spa & Recovery", href: "/fitbliss/spa/", hint: "Relaxation", feature: { tag: "Wellness", title: "Spa & Recovery", body: "Full body relaxation.", img: "/fitbliss/assets/images/2026/07/Spa-Recovery.jpg", href: "/fitbliss/spa/" } },
-                            { label: "Panchkarma", href: "/fitbliss/panchkarma/", hint: "Ayurvedic Detox", feature: { tag: "Wellness", title: "Panchkarma", body: "Traditional deep detox.", img: "/fitbliss/assets/images/2026/07/panchkarma.jpg", href: "/fitbliss/panchkarma/" } },
-                            { label: "Physiotherapy", href: "/fitbliss/physiotherapy/", hint: "Rehab", feature: { tag: "Wellness", title: "Physiotherapy", body: "Expert injury recovery.", img: "/fitbliss/assets/images/2026/07/physiotherapy.webp", href: "/fitbliss/physiotherapy/" } },
-                            { label: "IV Therapy", href: "/fitbliss/iv-therapy/", hint: "Vitamins", feature: { tag: "Wellness", title: "IV Therapy", body: "Direct hydration and vitamins.", img: "/fitbliss/assets/images/2026/07/IV-Therapy.jpg", href: "/fitbliss/iv-therapy/" } },
-                            { label: "Steam & Sauna", href: "/fitbliss/steam-sauna/", hint: "Heat Therapy", feature: { tag: "Wellness", title: "Steam & Sauna", body: "Detoxify and relax muscles.", img: "/fitbliss/assets/images/2026/07/steam-sauna.jpg", href: "/fitbliss/steam-sauna/" } }
+                            { label: "Spa & Recovery", href: "<?php echo $base_url; ?>/spa/", hint: "Relaxation", feature: { tag: "Wellness", title: "Spa & Recovery", body: "Full body relaxation.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Spa-Recovery.jpg", href: "<?php echo $base_url; ?>/spa/" } },
+                            { label: "Panchkarma", href: "<?php echo $base_url; ?>/panchkarma/", hint: "Ayurvedic Detox", feature: { tag: "Wellness", title: "Panchkarma", body: "Traditional deep detox.", img: "<?php echo $base_url; ?>/assets/images/2026/07/panchkarma.jpg", href: "<?php echo $base_url; ?>/panchkarma/" } },
+                            { label: "Physiotherapy", href: "<?php echo $base_url; ?>/physiotherapy/", hint: "Rehab", feature: { tag: "Wellness", title: "Physiotherapy", body: "Expert injury recovery.", img: "<?php echo $base_url; ?>/assets/images/2026/07/physiotherapy.webp", href: "<?php echo $base_url; ?>/physiotherapy/" } },
+                            { label: "IV Therapy", href: "<?php echo $base_url; ?>/iv-therapy/", hint: "Vitamins", feature: { tag: "Wellness", title: "IV Therapy", body: "Direct hydration and vitamins.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IV-Therapy.jpg", href: "<?php echo $base_url; ?>/iv-therapy/" } },
+                            { label: "Steam & Sauna", href: "<?php echo $base_url; ?>/steam-sauna/", hint: "Heat Therapy", feature: { tag: "Wellness", title: "Steam & Sauna", body: "Detoxify and relax muscles.", img: "<?php echo $base_url; ?>/assets/images/2026/07/steam-sauna.jpg", href: "<?php echo $base_url; ?>/steam-sauna/" } }
                         ]
                     },
                     {
                         heading: "Lifestyle",
                         items: [
-                            { label: "Nutrition & Diet", href: "/fitbliss/nutrition/", hint: "Consultation", feature: { tag: "Lifestyle", title: "Nutrition & Diet", body: "Personalized diet plans.", img: "/fitbliss/assets/images/2026/07/Nutrition-Diet.png", href: "/fitbliss/nutrition/" } },
-                            { label: "Salon", href: "/fitbliss/salon/", hint: "Grooming", feature: { tag: "Lifestyle", title: "Salon", body: "Premium grooming services.", img: "/fitbliss/assets/images/2026/07/Salon.jpg", href: "/fitbliss/salon/" } },
-                            { label: "EatBliss Café", href: "/fitbliss/cafe/", hint: "Healthy Food", feature: { tag: "Lifestyle", title: "EatBliss Café", body: "Nutritious and delicious meals.", img: "/fitbliss/assets/images/2026/07/IMG_0639-scaled.webp", href: "/fitbliss/cafe/" } }
+                            { label: "Nutrition & Diet", href: "<?php echo $base_url; ?>/nutrition/", hint: "Consultation", feature: { tag: "Lifestyle", title: "Nutrition & Diet", body: "Personalized diet plans.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Nutrition-Diet.png", href: "<?php echo $base_url; ?>/nutrition/" } },
+                            { label: "Salon", href: "<?php echo $base_url; ?>/salon/", hint: "Grooming", feature: { tag: "Lifestyle", title: "Salon", body: "Premium grooming services.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Salon.jpg", href: "<?php echo $base_url; ?>/salon/" } },
+                            { label: "EatBliss Café", href: "<?php echo $base_url; ?>/cafe/", hint: "Healthy Food", feature: { tag: "Lifestyle", title: "EatBliss Café", body: "Nutritious and delicious meals.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_0639-scaled.webp", href: "<?php echo $base_url; ?>/cafe/" } }
                         ]
                     },
                     {
                         heading: "Equipments",
                         items: [
-                            { label: "Equipment", href: "/fitbliss/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/equipment/" } }
+                            { label: "Equipment", href: "<?php echo $base_url; ?>/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg", href: "<?php echo $base_url; ?>/equipment/" } }
                         ]
                     }
                 ]
@@ -6286,8 +6286,8 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "/fitbliss/", "About Us": "/fitbliss/about/", "Services": "/fitbliss/gym/", "Membership": "/fitbliss/membership/", "Gallery": "/fitbliss/gallery/", "Blog": "/fitbliss/blog/", "Trainers": "/fitbliss/trainers/", "Contact": "/fitbliss/contact/" };
-            return customLinks[nm] || "/fitbliss/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
         // Attach event listeners to left & right nav
@@ -6321,12 +6321,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const renderFeature = (f) => {
                 if (!f) return "";
-                const imgSrc = f.img || "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg";
+                const imgSrc = f.img || "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg";
                 return `
                 <div class="imgwrap">
                     <img src="${imgSrc}" alt="${f.title || 'FitBliss'}" 
                          style="object-position:${f.position || 'center'}; width:100%; height:100%; object-fit:cover; display:block;"
-                         onerror="this.onerror=null; this.src='/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg';" />
+                         onerror="this.onerror=null; this.src='<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg';" />
                     <div class="cap">
                         <div class="t">${f.tag || ''}</div>
                         <div class="h">${f.title || ''}</div>

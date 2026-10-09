@@ -47,7 +47,14 @@ Options -Indexes -ExecCGI
 # 6. ROUTING & WEB APPLICATION FIREWALL (WAF)
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /fitbliss/
+
+    # Live hosting fallback: Automatically route any /fitbliss/ prefixed asset or page requests seamlessly on live domain
+    RewriteRule ^fitbliss/assets/(.*)$ assets/$1 [L]
+    RewriteRule ^fitbliss/wp-content/uploads/(.*)$ assets/images/$1 [L]
+    RewriteRule ^fitbliss/wp-content/plugins/(.*)$ assets/plugins/$1 [L]
+    RewriteRule ^fitbliss/wp-content/themes/(.*)$ assets/theme/$1 [L]
+    RewriteRule ^fitbliss/wp-includes/(.*)$ assets/vendor/$1 [L]
+    RewriteRule ^fitbliss/(.*)$ $1 [L]
 
     # Block Malicious Exploits
     RewriteCond %{QUERY_STRING} (union.*select|insert.*into|delete.*from|drop.*table|information_schema|benchmark\(|load_file\() [NC,OR]

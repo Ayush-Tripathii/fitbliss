@@ -1,3 +1,4 @@
+﻿<?php require_once dirname(__DIR__, 3) . '/includes/config.php'; ?>
 <?php
 /**
  * The template for displaying the header
@@ -762,8 +763,8 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
             <div class="container navrow">
                 <nav class="navlist" id="leftNav"></nav>
 
-                <a href="/fitbliss/" class="logo">
-                    <img src="/fitbliss/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png"
+                <a href="<?php echo $base_url; ?>/" class="logo">
+                    <img src="<?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png"
                         alt="FitBliss by Shruti Kapoor" />
                 </a>
 
@@ -797,13 +798,13 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
         const megaMenus = {
             "About Us": {
-                feature: { tag: "Our Story", title: "Where Wellness Meets Luxury", body: "Founded by Dr. Shruti Kapoor — a Radiologist turned wellness curator, inspired by her own transformation through Pilates in Mumbai.", img: "/fitbliss/assets/images/2026/06/DSC_2491-scaled.jpg", href: "/fitbliss/about/" },
+                feature: { tag: "Our Story", title: "Where Wellness Meets Luxury", body: "Founded by Dr. Shruti Kapoor — a Radiologist turned wellness curator, inspired by her own transformation through Pilates in Mumbai.", img: "<?php echo $base_url; ?>/assets/images/2026/06/DSC_2491-scaled.jpg", href: "<?php echo $base_url; ?>/about/" },
                 cols: [
                     {
                         heading: "About FitBliss", items: [
                             {
-                                label: "The Story", href: "/fitbliss/about/", hint: "Vision · Journey · Values",
-                                feature: { tag: "About FitBliss", title: "The Story", body: "A vision born from personal transformation — discover how FitBliss came to be the luxury wellness destination it is today.", img: "/fitbliss/assets/images/2024/06/2.jpg", href: "/fitbliss/about/" }
+                                label: "The Story", href: "<?php echo $base_url; ?>/about/", hint: "Vision · Journey · Values",
+                                feature: { tag: "About FitBliss", title: "The Story", body: "A vision born from personal transformation — discover how FitBliss came to be the luxury wellness destination it is today.", img: "<?php echo $base_url; ?>/assets/images/2024/06/2.jpg", href: "<?php echo $base_url; ?>/about/" }
                             },
 
                         ]
@@ -811,8 +812,8 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
                     {
                         heading: "Leadership", items: [
                             {
-                                label: "Meet the Founder", href: "/fitbliss/founder/", hint: "Dr. Shruti Kapoor",
-                                feature: { tag: "Leadership", title: "Meet the Founder", body: "Dr. Shruti Kapoor — Radiologist, wellness curator, and the visionary mind behind FitBliss.", img: "/fitbliss/assets/images/2026/07/IMG-20250804-WA0081.webp", position: "center 20%", href: "/fitbliss/founder/" }
+                                label: "Meet the Founder", href: "<?php echo $base_url; ?>/founder/", hint: "Dr. Shruti Kapoor",
+                                feature: { tag: "Leadership", title: "Meet the Founder", body: "Dr. Shruti Kapoor — Radiologist, wellness curator, and the visionary mind behind FitBliss.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp", position: "center 20%", href: "<?php echo $base_url; ?>/founder/" }
                             },
 
                         ]
@@ -820,51 +821,51 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
                 ]
             },
             Services: {
-                feature: { tag: "Our Services", title: "Holistic Wellness", body: "Discover a comprehensive range of fitness, wellness, and lifestyle services.", img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg", href: "#"  },
+                feature: { tag: "Our Services", title: "Holistic Wellness", body: "Discover a comprehensive range of fitness, wellness, and lifestyle services.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg", href: "#"  },
                 cols: [
                     {
                         heading: "Gym & Fitness", items: [
-                            { label: "Gym & Strength", href: "/fitbliss/gym/", hint: "Training", feature: { tag: "Fitness", title: "Gym & Strength", body: "State-of-the-art equipment.", img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/gym/" } },
-                            { label: "Personal Training", href: "/personal-training/", hint: "Coaching", feature: { tag: "Fitness", title: "Personal Training", body: "Expert guidance for your goals.", img: "/fitbliss/assets/images/2026/07/DSC_3593-scaled.jpg", href: "/personal-training/" } },
-                            { label: "Functional Training", href: "/functional-training/", hint: "Agility", feature: { tag: "Fitness", title: "Functional Training", body: "Enhance daily movement and strength.", img: "/fitbliss/assets/images/2026/07/DSC_3557-scaled.jpg", href: "/functional-training/" } },
-                            { label: "Spinning Bike", href: "/spinning/", hint: "Cardio", feature: { tag: "Fitness", title: "Spinning Bike", body: "High-intensity cardio on bikes.", img: "/fitbliss/assets/images/2026/07/IMG_3724-scaled.jpg", href: "/spinning/" } }
+                            { label: "Gym & Strength", href: "<?php echo $base_url; ?>/gym/", hint: "Training", feature: { tag: "Fitness", title: "Gym & Strength", body: "State-of-the-art equipment.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg", href: "<?php echo $base_url; ?>/gym/" } },
+                            { label: "Personal Training", href: "/personal-training/", hint: "Coaching", feature: { tag: "Fitness", title: "Personal Training", body: "Expert guidance for your goals.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-scaled.jpg", href: "/personal-training/" } },
+                            { label: "Functional Training", href: "/functional-training/", hint: "Agility", feature: { tag: "Fitness", title: "Functional Training", body: "Enhance daily movement and strength.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3557-scaled.jpg", href: "/functional-training/" } },
+                            { label: "Spinning Bike", href: "/spinning/", hint: "Cardio", feature: { tag: "Fitness", title: "Spinning Bike", body: "High-intensity cardio on bikes.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3724-scaled.jpg", href: "/spinning/" } }
                         ]
                     },
                     {
                         heading: "Yoga & Pilates", items: [
-                            { label: "Pilates", href: "/pilates/", hint: '<img src="/fitbliss/assets/images/2026/07/YKBI.png" alt="YKBI" style="height:40px;width:auto;vertical-align:middle;display:inline-block;" />', feature: { tag: "Yoga", title: "Pilates", body: "Strengthen core and flexibility.", img: "/fitbliss/assets/images/2026/07/DSC04177_11zon-1.jpg", href: "/pilates/" } },
-                            { label: "Traditional Yoga", href: "/traditional-yoga/", hint: "Mind & Body", feature: { tag: "Yoga", title: "Traditional Yoga", body: "Classic poses and breathwork.", img: "/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/traditional-yoga/" } },
-                            { label: "Aerial Yoga", href: "/aerial-yoga/", hint: "Anti-gravity", feature: { tag: "Yoga", title: "Aerial Yoga", body: "Supported inversions and deep stretches.", img: "/fitbliss/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/aerial-yoga/" } },
-                            { label: "Aquatic Wellness", href: "/aquatic-wellness/", hint: "Water Therapy", feature: { tag: "Yoga", title: "Aquatic Wellness", body: "Low impact water workouts.", img: "/fitbliss/assets/images/2026/07/IMG_0567-scaled.jpg", href: "/aquatic-wellness/" } }
+                            { label: "Pilates", href: "/pilates/", hint: '<img src="<?php echo $base_url; ?>/assets/images/2026/07/YKBI.png" alt="YKBI" style="height:40px;width:auto;vertical-align:middle;display:inline-block;" />', feature: { tag: "Yoga", title: "Pilates", body: "Strengthen core and flexibility.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg", href: "/pilates/" } },
+                            { label: "Traditional Yoga", href: "/traditional-yoga/", hint: "Mind & Body", feature: { tag: "Yoga", title: "Traditional Yoga", body: "Classic poses and breathwork.", img: "<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/traditional-yoga/" } },
+                            { label: "Aerial Yoga", href: "/aerial-yoga/", hint: "Anti-gravity", feature: { tag: "Yoga", title: "Aerial Yoga", body: "Supported inversions and deep stretches.", img: "<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-scaled.jpg", href: "/aerial-yoga/" } },
+                            { label: "Aquatic Wellness", href: "/aquatic-wellness/", hint: "Water Therapy", feature: { tag: "Yoga", title: "Aquatic Wellness", body: "Low impact water workouts.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_0567-scaled.jpg", href: "/aquatic-wellness/" } }
                         ]
                     },
                     {
                         heading: "Sports & Dance", items: [
-                            { label: "Boxing", href: "/boxing/", hint: "Combat", feature: { tag: "Sports", title: "Boxing", body: "Build endurance and power.", img: "/fitbliss/assets/images/2026/07/IMG_3714-scaled.jpg", href: "/boxing/" } },
-                            { label: "Zumba", href: "/zumba/", hint: "Dance Fitness", feature: { tag: "Sports", title: "Zumba", body: "Fun, dance-based cardio.", img: "/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/zumba/" } },
-                            { label: "Dance Classes", href: "/dance/", hint: "Choreography", feature: { tag: "Sports", title: "Dance Classes", body: "Learn routines and stay fit.", img: "/fitbliss/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/dance/" } },
-                            { label: "Squash Court", href: "/squash/", hint: "Racquet Sport", feature: { tag: "Sports", title: "Squash Court", body: "Fast-paced competitive play.", img: "/fitbliss/assets/images/2026/07/Squash-Court.jpg", href: "/squash/" } }
+                            { label: "Boxing", href: "/boxing/", hint: "Combat", feature: { tag: "Sports", title: "Boxing", body: "Build endurance and power.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3714-scaled.jpg", href: "/boxing/" } },
+                            { label: "Zumba", href: "/zumba/", hint: "Dance Fitness", feature: { tag: "Sports", title: "Zumba", body: "Fun, dance-based cardio.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/zumba/" } },
+                            { label: "Dance Classes", href: "/dance/", hint: "Choreography", feature: { tag: "Sports", title: "Dance Classes", body: "Learn routines and stay fit.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_3730-scaled.jpg", href: "/dance/" } },
+                            { label: "Squash Court", href: "/squash/", hint: "Racquet Sport", feature: { tag: "Sports", title: "Squash Court", body: "Fast-paced competitive play.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Squash-Court.jpg", href: "/squash/" } }
                         ]
                     },
                     {
                         heading: "Wellness & Healing", items: [
-                            { label: "Spa & Recovery", href: "/spa/", hint: "Relaxation", feature: { tag: "Wellness", title: "Spa & Recovery", body: "Full body relaxation.", img: "/fitbliss/assets/images/2026/07/Spa-Recovery.jpg", href: "/spa/" } },
-                            { label: "Panchkarma", href: "/panchkarma/", hint: "Ayurvedic Detox", feature: { tag: "Wellness", title: "Panchkarma", body: "Traditional deep detox.", img: "/fitbliss/assets/images/2026/07/panchkarma.jpg", href: "/panchkarma/" } },
-                            { label: "Physiotherapy", href: "/physiotherapy/", hint: "Rehab", feature: { tag: "Wellness", title: "Physiotherapy", body: "Expert injury recovery.", img: "/fitbliss/assets/images/2026/07/physiotherapy.webp", href: "/physiotherapy/" } },
-                            { label: "IV Therapy", href: "/iv-therapy/", hint: "Vitamins", feature: { tag: "Wellness", title: "IV Therapy", body: "Direct hydration and vitamins.", img: "/fitbliss/assets/images/2026/07/IV-Therapy.jpg", href: "/iv-therapy/" } },
-                            { label: "Steam & Sauna", href: "/steam-sauna/", hint: "Heat Therapy", feature: { tag: "Wellness", title: "Steam & Sauna", body: "Detoxify and relax muscles.", img: "/fitbliss/assets/images/2026/07/steam-sauna.jpg", href: "/steam-sauna/" } }
+                            { label: "Spa & Recovery", href: "/spa/", hint: "Relaxation", feature: { tag: "Wellness", title: "Spa & Recovery", body: "Full body relaxation.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Spa-Recovery.jpg", href: "/spa/" } },
+                            { label: "Panchkarma", href: "/panchkarma/", hint: "Ayurvedic Detox", feature: { tag: "Wellness", title: "Panchkarma", body: "Traditional deep detox.", img: "<?php echo $base_url; ?>/assets/images/2026/07/panchkarma.jpg", href: "/panchkarma/" } },
+                            { label: "Physiotherapy", href: "/physiotherapy/", hint: "Rehab", feature: { tag: "Wellness", title: "Physiotherapy", body: "Expert injury recovery.", img: "<?php echo $base_url; ?>/assets/images/2026/07/physiotherapy.webp", href: "/physiotherapy/" } },
+                            { label: "IV Therapy", href: "/iv-therapy/", hint: "Vitamins", feature: { tag: "Wellness", title: "IV Therapy", body: "Direct hydration and vitamins.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IV-Therapy.jpg", href: "/iv-therapy/" } },
+                            { label: "Steam & Sauna", href: "/steam-sauna/", hint: "Heat Therapy", feature: { tag: "Wellness", title: "Steam & Sauna", body: "Detoxify and relax muscles.", img: "<?php echo $base_url; ?>/assets/images/2026/07/steam-sauna.jpg", href: "/steam-sauna/" } }
                         ]
                     },
                     {
                         heading: "Lifestyle", items: [
-                            { label: "Nutrition & Diet", href: "/nutrition/", hint: "Consultation", feature: { tag: "Lifestyle", title: "Nutrition & Diet", body: "Personalized diet plans.", img: "/fitbliss/assets/images/2026/07/Nutrition-Diet.png", href: "/nutrition/" } },
-                            { label: "Salon", href: "/salon/", hint: "Grooming", feature: { tag: "Lifestyle", title: "Salon", body: "Premium grooming services.", img: "/fitbliss/assets/images/2026/07/Salon.jpg", href: "/salon/" } },
-                            { label: "EatBliss Café", href: "/cafe/", hint: "Healthy Food", feature: { tag: "Lifestyle", title: "EatBliss Café", body: "Nutritious and delicious meals.", img: "/fitbliss/assets/images/2026/07/IMG_0639-scaled.webp", href: "/cafe/" } }
+                            { label: "Nutrition & Diet", href: "/nutrition/", hint: "Consultation", feature: { tag: "Lifestyle", title: "Nutrition & Diet", body: "Personalized diet plans.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Nutrition-Diet.png", href: "/nutrition/" } },
+                            { label: "Salon", href: "/salon/", hint: "Grooming", feature: { tag: "Lifestyle", title: "Salon", body: "Premium grooming services.", img: "<?php echo $base_url; ?>/assets/images/2026/07/Salon.jpg", href: "/salon/" } },
+                            { label: "EatBliss Café", href: "/cafe/", hint: "Healthy Food", feature: { tag: "Lifestyle", title: "EatBliss Café", body: "Nutritious and delicious meals.", img: "<?php echo $base_url; ?>/assets/images/2026/07/IMG_0639-scaled.webp", href: "/cafe/" } }
                         ]
                     },
                     {
                         heading: "Equipments", items: [
-                            { label: "Equipment", href: "/fitbliss/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg", href: "/fitbliss/equipment/" } },
+                            { label: "Equipment", href: "<?php echo $base_url; ?>/equipment/", hint: "stack the equipment", feature: { tag: "Lifestyle", title: "Equipment", body: "We didn't stack the equipment and call it a gym.", img: "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg", href: "<?php echo $base_url; ?>/equipment/" } },
 
                         ]
                     }
@@ -876,16 +877,16 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
         const linkHref = (nm) => {
             const customLinks = {
-                "Home": "/fitbliss/",
-                "About Us": "/fitbliss/about/",
-                "Services": "/fitbliss/gym/",
-                "Membership": "/fitbliss/membership/",
-                "Gallery": "/fitbliss/gallery/",
-                "Blog": "/fitbliss/blog/",
-                "Trainers": "/fitbliss/trainers/",
-                "Contact": "/fitbliss/contact/"
+                "Home": "<?php echo $base_url; ?>/",
+                "About Us": "<?php echo $base_url; ?>/about/",
+                "Services": "<?php echo $base_url; ?>/gym/",
+                "Membership": "<?php echo $base_url; ?>/membership/",
+                "Gallery": "<?php echo $base_url; ?>/gallery/",
+                "Blog": "<?php echo $base_url; ?>/blog/",
+                "Trainers": "<?php echo $base_url; ?>/trainers/",
+                "Contact": "<?php echo $base_url; ?>/contact/"
             };
-            return customLinks[nm] || "/fitbliss/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
+            return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
         // Build left + right nav
@@ -915,13 +916,13 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
             const renderFeature = (f) => {
                 if (!f) return "";
-                const imgSrc = f.img || "/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg";
+                const imgSrc = f.img || "<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg";
                 return `
                 <div class="imgwrap">
                     <img src="${imgSrc}" alt="${f.title || 'FitBliss'}" 
                          loading="eager" decoding="async"
                          style="object-position:${f.position || 'center'}; width:100%; height:100%; object-fit:cover; display:block;"
-                         onerror="this.onerror=null; this.src='/fitbliss/assets/images/2026/07/DSC_3887-scaled.jpg';" />
+                         onerror="this.onerror=null; this.src='<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg';" />
                     <div class="cap">
                         <div class="t">${f.tag || ''}</div>
                         <div class="h">${f.title || ''}</div>
@@ -1084,7 +1085,7 @@ $skip_link_url = apply_filters( 'hello_elementor_skip_link_url', '#content' );
 
         // Click Sound (Glass_tap_01.wav) + Haptic Vibration Engine for Buttons & Anchor Tags
         (function () {
-            const clickAudioUrl = "/fitbliss/assets/images/2026/07/Glass_tap_06.wav";
+            const clickAudioUrl = "<?php echo $base_url; ?>/assets/images/2026/07/Glass_tap_06.wav";
             const clickAudio = new Audio(clickAudioUrl);
             clickAudio.preload = "auto";
 

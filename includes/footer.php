@@ -1,6 +1,5 @@
 <?php
-$base_url = '/fitbliss/php-site';
-$uploads_base = '/fitbliss/wp-content/uploads';
+require_once __DIR__ . '/config.php';
 ?>
 </main><!-- #content -->
 
@@ -9,8 +8,8 @@ $uploads_base = '/fitbliss/wp-content/uploads';
     <div class="footer-top">
         <div class="footer-top-inner">
             <div class="footer-logo-col">
-                <a href="<?php echo $base_url; ?>/index.php">
-                    <img src="<?php echo $uploads_base; ?>/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png" 
+                <a href="<?php echo $base_url; ?>/">
+                    <img src="<?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png" 
                          alt="Fit Bliss Logo" width="280" height="96">
                 </a>
             </div>
@@ -76,9 +75,9 @@ $uploads_base = '/fitbliss/wp-content/uploads';
     <div class="footer-bottom">
         <div class="footer-bottom-inner">
             <div class="footer-links">
-                <a href="<?php echo $base_url; ?>/pages/privacy-policy.php">PRIVACY POLICY</a>
-                <a href="<?php echo $base_url; ?>/pages/terms-conditions.php">TERMS &amp; CONDITIONS</a>
-                <a href="<?php echo $base_url; ?>/pages/terms-of-use.php">TERMS OF USE</a>
+                <a href="<?php echo $base_url; ?>/privacy-policy/">PRIVACY POLICY</a>
+                <a href="<?php echo $base_url; ?>/terms-conditions/">TERMS &amp; CONDITIONS</a>
+                <a href="<?php echo $base_url; ?>/terms-of-use/">TERMS OF USE</a>
             </div>
             <div class="footer-credit">
                 <h5><a href="https://wecrescent.com/" target="_blank">Designed By Crescent Digital Solutions</a></h5>
