@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/security_shield.php';
 ?>
@@ -3020,15 +3020,15 @@ img, video {
 
     .fbs-header-right p {
         margin: 0;
-        max-width: 340px;
-        text-align: right;
+        max-width: 380px;
+        text-align: left;
         font-family: 'Barlow', Inter, sans-serif;
         font-size: 15px;
         line-height: 1.65;
         color: #9b998b;
     }
 
-    .fbs-nav { display: flex; gap: 10px; }
+    .fbs-nav { display: flex; gap: 10px; align-self: flex-end; }
 
     /* ─── Dots row ─── */
     .fbs-footer {
@@ -3631,1062 +3631,2706 @@ img, video {
 </script>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-7b5f975f e-con-full e-flex e-con e-child" data-id="7b5f975f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:&quot;20286&quot;,&quot;url&quot;:&quot;<?php echo $base_url; ?>/wp-content\/uploads\/2026\/07\/DSC_3558-scaled-1.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
-		<div class="elementor-element elementor-element-47567139 e-con-full e-flex e-con e-child" data-id="47567139" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-340a478 elementor-widget elementor-widget-text-editor" data-id="340a478" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— The studio</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-9d4763d elementor-widget elementor-widget-heading" data-id="9d4763d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">A gym that refuses<br />to feel like a gym.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5b38cd74 e-con-full e-flex e-con e-child" data-id="5b38cd74" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-63f4d2d7 elementor-widget elementor-widget-text-editor" data-id="63f4d2d7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Fitbliss is Shruti Kapoor&#8217;s answer to the loud, mirrored, protein-shake box every Indian city keeps building. We took the equipment seriously and everything else slower — warm materials, honest lighting, coaches who remember your name and your last PR.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-2431ef38 elementor-widget elementor-widget-text-editor" data-id="2431ef38" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Whether you walked in for a wedding, for your first deadlift, or because your back finally stopped bluffing — this room is built to hold that. No judgment, no upsell.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-64b8459 e-con-full e-flex e-con e-child" data-id="64b8459" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-192653c5 e-con-full e-flex e-con e-child" data-id="192653c5" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-3d41d7a4 elementor-widget elementor-widget-heading" data-id="3d41d7a4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">3500+</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-100790c elementor-widget elementor-widget-text-editor" data-id="100790c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Members trained</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-46831fc3 e-con-full e-flex e-con e-child" data-id="46831fc3" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-2f26773f elementor-widget elementor-widget-heading" data-id="2f26773f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">30+</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4718a010 elementor-widget elementor-widget-text-editor" data-id="4718a010" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Certified coaches</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-629632de e-con-full e-flex e-con e-child" data-id="629632de" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-511919f3 elementor-widget elementor-widget-heading" data-id="511919f3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">2</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-11f499da elementor-widget elementor-widget-text-editor" data-id="11f499da" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Year in Bhopal</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-72b7768b e-con-full e-flex e-con e-child" data-id="72b7768b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-1adb7826 elementor-widget elementor-widget-heading" data-id="1adb7826" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">4.5</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-87fd419 elementor-widget elementor-widget-text-editor" data-id="87fd419" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Avg. Google Rating</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-511672fc e-con-full e-flex e-con e-child" data-id="511672fc" data-element_type="container" data-e-type="container" id="founder" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-5d995b68 e-con-full e-flex e-con e-child" data-id="5d995b68" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-9e52081 e-con-full e-flex e-con e-child" data-id="9e52081" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-7332b5eb elementor-widget elementor-widget-html" data-id="7332b5eb" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;max-width:440px;max-height:480px;aspect-ratio:4/4.8;overflow:hidden;border-radius:4px;margin:0 auto;box-shadow:0 15px 35px rgba(0,0,0,0.4);">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp" alt="Dr. Shruti Kapoor" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;display:block;" />
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.95), rgba(1,3,3,0.2) 65%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">— Founder</div>
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Dr. Shruti Kapoor</div>
-    <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">MD RADIOLOGIST · PILATES PRACTITIONER</div>
-  </div>
-</div>				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-abe202e e-con-full e-flex e-con e-child" data-id="abe202e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-14b4b158 elementor-widget elementor-widget-text-editor" data-id="14b4b158" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— Meet the Founder</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-430fc1b5 elementor-widget elementor-widget-heading" data-id="430fc1b5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">A doctor's answer to wellness in Central India.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-74fefa0f elementor-widget elementor-widget-text-editor" data-id="74fefa0f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Dr. Shruti Kapoor is a practicing MD Radiologist whose own transformation through Pilates in Mumbai — training under Yasmin Karachiwala — reshaped how she thought about strength, posture and long-term health.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-1b1f3b36 elementor-widget elementor-widget-text-editor" data-id="1b1f3b36" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Fitbliss is what happened when a clinician decided Bhopal deserved a wellness destination built on science, not slogans — a space where luxury meets longevity.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-6222ead1 e-con-full e-flex e-con e-child" data-id="6222ead1" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-7745fa48 e-con-full e-flex e-con e-child" data-id="7745fa48" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-5600a95b elementor-widget elementor-widget-heading" data-id="5600a95b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">10+</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-1f96b89a elementor-widget elementor-widget-text-editor" data-id="1f96b89a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Yrs Pilates</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4070d189 e-con-full e-flex e-con e-child" data-id="4070d189" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-1082c0b3 elementor-widget elementor-widget-heading" data-id="1082c0b3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">Mumbai</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-17067aa3 elementor-widget elementor-widget-text-editor" data-id="17067aa3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Trained</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-216ad80f e-con-full e-flex e-con e-child" data-id="216ad80f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7e08f29d elementor-widget elementor-widget-heading" data-id="7e08f29d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">1</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-71aa70d6 elementor-widget elementor-widget-text-editor" data-id="71aa70d6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Vision · Fitbliss</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5e4d53f9 e-con-full e-flex e-con e-child" data-id="5e4d53f9" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-75de1625 elementor-widget elementor-widget-button" data-id="75de1625" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="founder.php">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Read her story →</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-6a582cae elementor-widget elementor-widget-button" data-id="6a582cae" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="founder.php">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">About Fitbliss</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-7250979a e-con-full e-flex e-con e-child" data-id="7250979a" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-348b608 elementor-widget elementor-widget-text-editor" data-id="348b608" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 3px; color: #37c080;">— Why Fitbliss</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-2fadbf63 elementor-widget elementor-widget-heading" data-id="2fadbf63" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Six reasons members stay.</h3>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-486ad734 e-con-full e-flex e-con e-child" data-id="486ad734" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;<?php echo $base_url; ?>/wp-content\/uploads\/2026\/07\/IMG_3613-2.mp4&quot;}">
-		<div class="elementor-background-video-container elementor-hidden-mobile">
-							<video class="elementor-background-video-hosted" role="presentation" autoplay muted playsinline loop></video>
-					</div><div class="elementor-element elementor-element-746d5cb2 e-con-full e-flex e-con e-child" data-id="746d5cb2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-2fba2862 elementor-widget elementor-widget-heading" data-id="2fba2862" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">01</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-7b360680 elementor-widget elementor-widget-heading" data-id="7b360680" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Science-backed</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-fe71888 elementor-widget elementor-widget-text-editor" data-id="fe71888" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Every program designed by certified professionals using evidence-based methods from sports science and rehabilitation.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-2d63d11 e-con-full e-flex e-con e-child" data-id="2d63d11" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-66a605c2 elementor-widget elementor-widget-heading" data-id="66a605c2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">02</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-fb3bc12 elementor-widget elementor-widget-heading" data-id="fb3bc12" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Premium Equipment</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-1f50dd21 elementor-widget elementor-widget-text-editor" data-id="1f50dd21" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Imported, best-in-class equipment from the USA — Technogym, Rogue, Life Fitness. The same machines top facilities use.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-7d2a58bb e-con-full e-flex e-con e-child" data-id="7d2a58bb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-17916d2c elementor-widget elementor-widget-heading" data-id="17916d2c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">03</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-2ca620cb elementor-widget elementor-widget-heading" data-id="2ca620cb" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Expert Coaches</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4db64300 elementor-widget elementor-widget-text-editor" data-id="4db64300" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">14 certified, in-house coaches across strength, Pilates, boxing, yoga and more — each one answerable to you personally.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6e24d016 e-con-full e-flex e-con e-child" data-id="6e24d016" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-1f2201b6 elementor-widget elementor-widget-heading" data-id="1f2201b6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">04</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4145ea2a elementor-widget elementor-widget-heading" data-id="4145ea2a" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Luxury by Design</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-7fa628bc elementor-widget elementor-widget-text-editor" data-id="7fa628bc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Warm materials, considered lighting, genuine hospitality — a wellness center that feels like a destination, not a duty.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-54f49af e-con-full e-flex e-con e-child" data-id="54f49af" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-72569b30 elementor-widget elementor-widget-heading" data-id="72569b30" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">05</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-6c36b497 elementor-widget elementor-widget-heading" data-id="6c36b497" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Holistic Wellness</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-707c3dec elementor-widget elementor-widget-text-editor" data-id="707c3dec" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Gym, Pilates, spa, pool, café and squash under one roof. Come for the workout, stay for the whole experience.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-67cfe014 e-con-full e-flex e-con e-child" data-id="67cfe014" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7e43c330 elementor-widget elementor-widget-heading" data-id="7e43c330" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h4 class="elementor-heading-title elementor-size-default">06</h4>				</div>
-				</div>
-				<div class="elementor-element elementor-element-678e89f2 elementor-widget elementor-widget-heading" data-id="678e89f2" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">3,500+ Members</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-55c4d4a4 elementor-widget elementor-widget-text-editor" data-id="55c4d4a4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A community that has chosen Fitbliss. Rated by google 4.5/5, trusted since 2024, and growing every week.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-51c362cb e-con-full e-flex e-con e-child" data-id="51c362cb" data-element_type="container" data-e-type="container" id="membership" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-535908a7 e-con-full e-flex e-con e-child" data-id="535908a7" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-11bab8ac e-con-full e-flex e-con e-child" data-id="11bab8ac" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-3d5f9c5e elementor-widget elementor-widget-text-editor" data-id="3d5f9c5e" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— Membership</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-47dbe031 elementor-widget elementor-widget-heading" data-id="47dbe031" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Pick your</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-619e2c3e elementor-widget elementor-widget-heading" data-id="619e2c3e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">commitment.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-65391cba e-con-full e-flex e-con e-child" data-id="65391cba" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-799dfd00 elementor-widget elementor-widget-text-editor" data-id="799dfd00" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Every plan is all-inclusive — no add-ons, no surprise fees. Cancel any month, upgrade any time. GST included.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ebb8c39 e-con-full e-flex e-con e-child" data-id="ebb8c39" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-fb45007 elementor-widget elementor-widget-html" data-id="fb45007" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<style>
-    /* ─── Elite Club Section ─── */
-    .fbt-elite-section {
-        position: relative;
-        overflow: hidden;
-        background: #010303;
-    }
+<style>
+/* ==================== THE STUDIO REDESIGN ==================== */
+.fbs-studio-section {
+    position: relative !important;
+    padding: 100px 48px !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: flex-start !important;
+    gap: 48px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+    background-image: url('<?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-scaled-1.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
 
-    .fbt-elite-bg {
-        position: absolute;
-        inset: 0;
-        z-index: 0;
-    }
+.fbs-studio-section::before {
+    content: '' !important;
+    position: absolute !important;
+    inset: 0 !important;
+    background: linear-gradient(135deg, rgba(6, 14, 14, 0.93) 0%, rgba(9, 18, 18, 0.86) 50%, rgba(6, 14, 14, 0.95) 100%) !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
+}
 
-    .fbt-elite-bg img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.2;
-    }
+.fbs-studio-section > * {
+    position: relative !important;
+    z-index: 2 !important;
+}
 
-    .fbt-elite-overlay {
-        position: absolute;
-        inset: 0;
-        background: rgba(1, 3, 3, 0.88);
-    }
+/* Left Column */
+.fbs-studio-left {
+    flex: 0 0 38% !important;
+    max-width: 38% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+}
 
-    .fbt-elite-content {
-        position: relative;
-        z-index: 1;
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-    }
+.fbs-studio-tag {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
+    color: #37c080 !important;
+    margin-bottom: 20px !important;
+}
 
-    .fbt-elite-header {
-        max-width: 900px;
-        margin: 0 auto 40px;
-    }
+.fbs-tag-line {
+    display: inline-block !important;
+    width: 24px !important;
+    height: 2px !important;
+    background: #37c080 !important;
+}
 
-    .fbt-elite-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
+.fbs-studio-heading {
+    font-family: 'Bebas Neue', Impact, sans-serif !important;
+    font-size: clamp(2.8rem, 4.6vw, 4.4rem) !important;
+    line-height: 0.96 !important;
+    letter-spacing: 1.5px !important;
+    color: #f4ead5 !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+    font-weight: 400 !important;
+}
 
-    .fbt-elite-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
+.fbs-heading-green {
+    color: #37c080 !important;
+    text-shadow: 0 0 35px rgba(55, 192, 128, 0.35) !important;
+}
 
-    .fbt-elite-title span {
-        color: #37c080;
-        display: block;
-    }
+.fbs-heading-accent-line {
+    width: 56px !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, #37c080, transparent) !important;
+    margin-top: 24px !important;
+}
 
-    .fbt-elite-sub {
-        margin: 14px 0 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        line-height: 1.6;
-        color: #9b998b;
-    }
+/* Right Column */
+.fbs-studio-right {
+    flex: 0 0 58% !important;
+    max-width: 58% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 26px !important;
+}
 
-    /* 3 Cards Row */
-    .fbt-elite-cards-grid {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
+.fbs-studio-narrative-card {
+    background: rgba(13, 23, 23, 0.65) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-left: 3px solid #37c080 !important;
+    padding: 24px 28px !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+}
 
-    .fbt-elite-card {
-        flex: 1 1 260px;
-        min-width: 0;
-        background: rgba(13, 23, 23, 0.55);
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        padding: clamp(20px, 4vw, 30px);
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-    }
+.fbs-narrative-lead {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 15.5px !important;
+    line-height: 1.75 !important;
+    color: #e5e1d3 !important;
+    margin: 0 0 14px 0 !important;
+    font-weight: 400 !important;
+}
 
-    .fbt-elite-card-featured {
-        background: rgba(55, 192, 128, 0.06);
-        border-color: #37c080;
-    }
+.fbs-highlight-brand {
+    color: #37c080 !important;
+    font-weight: 600 !important;
+}
 
-    .fbt-elite-card-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-    }
+.fbs-narrative-sub {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 14.5px !important;
+    line-height: 1.7 !important;
+    color: #9b998b !important;
+    margin: 0 !important;
+}
 
-    .fbt-elite-card-name {
-        margin-top: 10px;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(24px, 5vw, 30px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
+.fbs-tag-punch {
+    color: #f4ead5 !important;
+    font-weight: 600 !important;
+}
 
-    .fbt-elite-card-desc {
-        margin: 14px 0 18px;
-        padding-top: 16px;
-        border-top: 1px solid rgba(255, 255, 255, 0.10);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 13px;
-        line-height: 1.5;
-        color: #9b998b;
-        flex-grow: 1;
-    }
+/* 4 Stat Cards Row */
+.fbs-stats-grid,
+.elementor-element.elementor-element-64b8459,
+div[data-id="64b8459"] {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr) !important;
+    gap: 14px !important;
+    width: 100% !important;
+}
 
-    .fbt-elite-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-        align-self: flex-start;
-    }
+.fbs-stat-box {
+    position: relative !important;
+    background: rgba(13, 23, 23, 0.75) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0px !important;
+    padding: 22px 14px 18px !important;
+    text-align: center !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4) !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    cursor: default !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
 
-    .fbt-elite-btn-secondary {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
+.fbs-stat-top-bar {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 2px !important;
+    background: transparent !important;
+    transition: background 0.35s ease !important;
+}
 
-    .fbt-elite-btn-secondary:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
+.fbs-stat-box:hover {
+    transform: translateY(-5px) !important;
+    border-color: #37c080 !important;
+    background: rgba(18, 32, 32, 0.92) !important;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(55, 192, 128, 0.22) !important;
+}
 
-    .fbt-elite-btn-primary {
-        background: #37c080;
-        color: #050a0b !important;
-        border: 1px solid #37c080;
-    }
+.fbs-stat-box:hover .fbs-stat-top-bar {
+    background: #37c080 !important;
+}
 
-    .fbt-elite-btn-primary:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
+.fbs-stat-num {
+    font-family: 'Bebas Neue', Impact, sans-serif !important;
+    font-size: clamp(34px, 3vw, 44px) !important;
+    line-height: 1 !important;
+    color: #37c080 !important;
+    letter-spacing: 1px !important;
+    text-shadow: 0 0 20px rgba(55, 192, 128, 0.25) !important;
+    transition: transform 0.3s ease, color 0.3s ease !important;
+}
 
-    /* What's Included Grid */
-    .fbt-included-wrap {
-        max-width: 1320px;
-        margin: 36px auto 0;
-    }
+.fbs-stat-box:hover .fbs-stat-num {
+    color: #5eeaa8 !important;
+    transform: scale(1.05) !important;
+}
 
-    .fbt-included-title {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        color: #37c080;
-        margin-bottom: 14px;
-    }
+.fbs-stat-star {
+    font-size: 20px !important;
+    vertical-align: top !important;
+    margin-left: 2px !important;
+    color: #ffb800 !important;
+}
 
-    .fbt-included-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0 20px;
-    }
+.fbs-stat-label {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    color: #a7a294 !important;
+    margin-top: 8px !important;
+    line-height: 1.3 !important;
+    transition: color 0.3s ease !important;
+}
 
-    .fbt-included-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 13px;
-        color: #f4f2ea;
-    }
+.fbs-stat-box:hover .fbs-stat-label {
+    color: #f4ead5 !important;
+}
 
-    .fbt-included-item span {
-        color: #37c080;
-        font-size: 10px;
+/* Tablet & Mobile Responsiveness */
+@media (max-width: 1024px) {
+    .fbs-studio-section {
+        flex-direction: column !important;
+        padding: 70px 30px !important;
+        gap: 36px !important;
     }
-
-    .fbt-footer-note {
-        max-width: 1320px;
-        margin: 20px auto 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #9b998b;
+    .fbs-studio-left {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
     }
-
-    /* Responsive Breakpoints */
-    @media (max-width: 799px) {
-        .fbt-included-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
+    .fbs-studio-right {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
     }
-
-    @media (max-width: 599px) {
-        .fbt-included-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .fbt-elite-btn {
-            width: 100%;
-        }
+    .fbs-stats-grid,
+    .elementor-element.elementor-element-64b8459,
+    div[data-id="64b8459"] {
+        grid-template-columns: repeat(4, 1fr) !important;
     }
+}
 
-    /* ─── FULL SCREEN HERO VIDEO SECTION ─── */
-    #home {
-        position: relative;
-        width: 100%;
-        min-height: 100vh;
-        height: 100vh;
-        overflow: hidden;
-        background: #010303;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+@media (max-width: 767px) {
+    .fbs-studio-section {
+        padding: 50px 20px !important;
+        gap: 28px !important;
     }
-
-    .hero-video-wrap {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        z-index: 1;
-        pointer-events: none;
+    .fbs-studio-narrative-card {
+        padding: 20px 18px !important;
     }
-
-    #ytHeroIframe {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        width: 100vw !important;
-        height: 56.25vw !important;
-        min-height: 100vh !important;
-        min-width: 177.78vh !important;
-        transform: translate(-50%, -50%) scale(1.02) !important;
-        border: none !important;
-        pointer-events: none !important;
+    .fbs-stats-grid,
+    .elementor-element.elementor-element-64b8459,
+    div[data-id="64b8459"] {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 12px !important;
     }
-
-    @media (max-aspect-ratio: 16/9) {
-        #ytHeroIframe { width: 177.78vh !important; height: 100vh !important; min-width: 177.78vh !important; min-height: 100vh !important; transform: translate(-50%, -50%) scale(1.02) !important; }
-    }
-
-    @media (min-aspect-ratio: 16/9) {
-        #ytHeroIframe { width: 100vw !important; height: 56.25vw !important; min-width: 100vw !important; min-height: 56.25vw !important; transform: translate(-50%, -50%) scale(1.02) !important; }
-    }
-
-    .hero-overlay {
-        position: absolute;
-        inset: 0;
-        background: linear-gradient(180deg, rgba(1,3,3,0.2) 0%, rgba(1,3,3,0.65) 100%);
-        pointer-events: none;
-        z-index: 2;
-    }
-
-    .hero-container {
-        position: relative;
-        z-index: 10;
-        width: 100%;
-        max-width: 1400px;
-        margin: 0 auto;
-        padding: 40px 40px 50px;
-        box-sizing: border-box;
-    }
-
-    @media (max-width: 768px) {
-        #home {
-            min-height: 100vh !important;
-            height: 100vh !important;
-        }
-        .hero-container {
-            padding: 30px 20px 40px !important;
-        }
-    }
+}
 </style>
 
-<div class="fbt-elite-section">
-    <div class="fbt-elite-bg">
-        <img decoding="async" src="https://natural-creations.lovable.app/assets/fac-gym-KKOxT9GI.jpg" alt="Gym" />
-        <div class="fbt-elite-overlay"></div>
-    </div>
-
-    <div class="fbt-elite-content">
-        
-
-        <!-- 3 Cards Grid -->
-        <div class="fbt-elite-cards-grid">
-            <!-- Individual -->
-            <div class="fbt-elite-card">
-                <div class="fbt-elite-card-tag">Annual</div>
-                <div class="fbt-elite-card-name">Individual</div>
-                <p class="fbt-elite-card-desc">Everything included — gym, pilates with PT &amp; every group activity.</p>
-                <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-elite-btn fbt-elite-btn-secondary">
-                    Enquire →
-                </a>
-            </div>
-
-            <!-- Couple (Featured) -->
-            <div class="fbt-elite-card fbt-elite-card-featured">
-                <div class="fbt-elite-card-tag">Annual</div>
-                <div class="fbt-elite-card-name">Couple</div>
-                <p class="fbt-elite-card-desc">Two members, one all-inclusive annual membership.</p>
-                <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-elite-btn fbt-elite-btn-primary">
-                    Enquire →
-                </a>
-            </div>
-
-            <!-- Family -->
-            <div class="fbt-elite-card">
-                <div class="fbt-elite-card-tag">Annual</div>
-                <div class="fbt-elite-card-name">Family (2 + 2)</div>
-                <p class="fbt-elite-card-desc">For direct family members only — two adults and two dependents.</p>
-                <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-elite-btn fbt-elite-btn-secondary">
-                    Enquire →
-                </a>
-            </div>
-        </div>
-
-        <!-- What's Included -->
-        <div class="fbt-included-wrap">
-            <div class="fbt-included-title">Everything included in Elite Club:</div>
-            <div class="fbt-included-grid">
-                <div class="fbt-included-item"><span>✦</span>Gym access</div>
-                <div class="fbt-included-item"><span>✦</span>Pilates PT</div>
-                <div class="fbt-included-item"><span>✦</span>Yoga</div>
-                <div class="fbt-included-item"><span>✦</span>Aerial Yoga</div>
-                <div class="fbt-included-item"><span>✦</span>Zumba</div>
-                <div class="fbt-included-item"><span>✦</span>Boxing</div>
-                <div class="fbt-included-item"><span>✦</span>Spinning</div>
-                <div class="fbt-included-item"><span>✦</span>Aerobics</div>
-                <div class="fbt-included-item"><span>✦</span>Squash (without PT)</div>
-            </div>
-        </div>
-
-        <!-- Note -->
-        <p class="fbt-footer-note">
-            Family (2 + 2) valid only for direct family members. · GST applicable on all plans.
-        </p>
-    </div>
-</div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-10822019 e-con-full e-grid elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-con e-child" data-id="10822019" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-17eb24c4 e-con-full e-flex e-con e-child" data-id="17eb24c4" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-646e244d elementor-widget elementor-widget-text-editor" data-id="646e244d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+		<div class="elementor-element elementor-element-7b5f975f e-con-full e-flex e-con e-child fbs-studio-section" data-id="7b5f975f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[{&quot;id&quot;:&quot;20286&quot;,&quot;url&quot;:&quot;<?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-scaled-1.jpg&quot;}],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+		
+		<!-- Left: Tag & Heading -->
+		<div class="elementor-element elementor-element-47567139 e-con-full e-flex e-con e-child fbs-studio-left" data-id="47567139" data-element_type="container" data-e-type="container">
+			<div class="elementor-element elementor-element-340a478 elementor-widget elementor-widget-text-editor" data-id="340a478" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#37c080;">01 · Strength Training</p>								</div>
+					<div class="fbs-studio-tag">
+						<span class="fbs-tag-line"></span>THE STUDIO
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-6c39203e elementor-widget elementor-widget-heading" data-id="6c39203e" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+			</div>
+			<div class="elementor-element elementor-element-9d4763d elementor-widget elementor-widget-heading" data-id="9d4763d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Strength</h3>				</div>
+					<h2 class="elementor-heading-title elementor-size-default fbs-studio-heading">
+						A gym that refuses<br /><span class="fbs-heading-green">to feel like a gym.</span>
+					</h2>
+					<div class="fbs-heading-accent-line"></div>
 				</div>
-				<div class="elementor-element elementor-element-65f44b32 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="65f44b32" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Full gym + all group classes</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Yoga, Zumba, Boxing, Spinning</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Squash (without PT) included</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">1 Month PT included</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-37d637fd elementor-widget elementor-widget-spacer" data-id="37d637fd" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
+			</div>
 		</div>
-						</div>
+
+		<!-- Right: Narrative & 4 Stat Cards -->
+		<div class="elementor-element elementor-element-5b38cd74 e-con-full e-flex e-con e-child fbs-studio-right" data-id="5b38cd74" data-element_type="container" data-e-type="container">
+			<div class="fbs-studio-narrative-card">
+				<p class="fbs-narrative-lead">
+					<strong class="fbs-highlight-brand">Fitbliss</strong> is Shruti Kapoor&#8217;s answer to the loud, mirrored, protein-shake box every Indian city keeps building. We took the equipment seriously and everything else slower — warm materials, honest lighting, coaches who remember your name and your last PR.
+				</p>
+				<p class="fbs-narrative-sub">
+					Whether you walked in for a wedding, for your first deadlift, or because your back finally stopped bluffing — this room is built to hold that. <span class="fbs-tag-punch">No judgment, no upsell.</span>
+				</p>
+			</div>
+
+			<!-- 4 Stat Cards Row -->
+			<div class="elementor-element elementor-element-64b8459 e-con-full e-flex e-con e-child fbs-stats-grid" data-id="64b8459" data-element_type="container" data-e-type="container">
+				
+				<!-- Stat 1 -->
+				<div class="elementor-element elementor-element-192653c5 fbs-stat-box" data-id="192653c5">
+					<div class="fbs-stat-top-bar"></div>
+					<div class="fbs-stat-num">3500+</div>
+					<div class="fbs-stat-label">Members Trained</div>
 				</div>
-				<div class="elementor-element elementor-element-3eee7485 elementor-align-justify elementor-widget elementor-widget-button" data-id="3eee7485" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
+
+				<!-- Stat 2 -->
+				<div class="elementor-element elementor-element-46831fc3 fbs-stat-box" data-id="46831fc3">
+					<div class="fbs-stat-top-bar"></div>
+					<div class="fbs-stat-num">30+</div>
+					<div class="fbs-stat-label">Certified Coaches</div>
+				</div>
+
+				<!-- Stat 3 -->
+				<div class="elementor-element elementor-element-629632de fbs-stat-box" data-id="629632de">
+					<div class="fbs-stat-top-bar"></div>
+					<div class="fbs-stat-num">2+</div>
+					<div class="fbs-stat-label">Years In Bhopal</div>
+				</div>
+
+				<!-- Stat 4 -->
+				<div class="elementor-element elementor-element-72b7768b fbs-stat-box" data-id="72b7768b">
+					<div class="fbs-stat-top-bar"></div>
+					<div class="fbs-stat-num">4.5<span class="fbs-stat-star">★</span></div>
+					<div class="fbs-stat-label">Avg. Google Rating</div>
+				</div>
+
+			</div>
+		</div>
+
+		</div>
+<style>
+/* ==================== MEET THE FOUNDER REDESIGN ==================== */
+.fbs-founder-section {
+    position: relative !important;
+    padding: 100px 48px !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    gap: 56px !important;
+    box-sizing: border-box !important;
+    background: radial-gradient(ellipse at 18% 50%, rgba(14, 28, 28, 0.55) 0%, rgba(6, 14, 14, 0.98) 70%), #060e0e !important;
+}
+
+/* Left: Founder Card */
+.fbs-founder-left {
+    flex: 0 0 42% !important;
+    max-width: 440px !important;
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+}
+
+.fbs-founder-frame {
+    position: relative !important;
+    width: 100% !important;
+    aspect-ratio: 4 / 4.9 !important;
+    background: #0d1717 !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    border-radius: 0px !important;
+    overflow: hidden !important;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.6) !important;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fbs-founder-frame:hover {
+    border-color: #37c080 !important;
+    box-shadow: 0 25px 55px rgba(0, 0, 0, 0.75), 0 0 30px rgba(55, 192, 128, 0.22) !important;
+    transform: translateY(-4px) !important;
+}
+
+.fbs-founder-img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center 15% !important;
+    display: block !important;
+    transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fbs-founder-frame:hover .fbs-founder-img {
+    transform: scale(1.04) !important;
+}
+
+.fbs-founder-badge {
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(to top, rgba(6, 14, 14, 0.98) 0%, rgba(6, 14, 14, 0.88) 65%, transparent 100%) !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+    border-top: 1px solid rgba(55, 192, 128, 0.25) !important;
+    padding: 22px 24px 18px !important;
+}
+
+.fbs-founder-badge-tag {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2.5px !important;
+    text-transform: uppercase !important;
+    color: #37c080 !important;
+    margin-bottom: 4px !important;
+}
+
+.fbs-founder-badge-name {
+    font-family: 'Bebas Neue', Impact, sans-serif !important;
+    font-size: 28px !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    color: #f4ead5 !important;
+    line-height: 1.05 !important;
+    margin: 0 0 4px 0 !important;
+}
+
+.fbs-founder-badge-sub {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 10.5px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.5px !important;
+    text-transform: uppercase !important;
+    color: #37c080 !important;
+}
+
+/* Right: Founder Details */
+.fbs-founder-right {
+    flex: 0 0 54% !important;
+    max-width: 54% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 22px !important;
+    width: 100% !important;
+}
+
+.fbs-founder-tag {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 10px !important;
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 3px !important;
+    color: #37c080 !important;
+    margin: 0 !important;
+}
+
+.fbs-founder-tag-line {
+    display: inline-block !important;
+    width: 24px !important;
+    height: 2px !important;
+    background: #37c080 !important;
+}
+
+.fbs-founder-heading {
+    font-family: 'Bebas Neue', Impact, sans-serif !important;
+    font-size: clamp(2.6rem, 4.2vw, 4.2rem) !important;
+    line-height: 0.98 !important;
+    letter-spacing: 1.5px !important;
+    color: #f4ead5 !important;
+    text-transform: uppercase !important;
+    margin: 0 !important;
+    font-weight: 400 !important;
+}
+
+.fbs-founder-green {
+    color: #37c080 !important;
+    text-shadow: 0 0 35px rgba(55, 192, 128, 0.35) !important;
+}
+
+.fbs-founder-accent-line {
+    width: 56px !important;
+    height: 2px !important;
+    background: linear-gradient(90deg, #37c080, transparent) !important;
+    margin-top: 18px !important;
+}
+
+.fbs-founder-narrative {
+    background: rgba(13, 23, 23, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-left: 3px solid #37c080 !important;
+    padding: 22px 26px !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3) !important;
+}
+
+.fbs-founder-p1 {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 15.5px !important;
+    line-height: 1.75 !important;
+    color: #e5e1d3 !important;
+    margin: 0 0 12px 0 !important;
+}
+
+.fbs-founder-p2 {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 14.5px !important;
+    line-height: 1.7 !important;
+    color: #9b998b !important;
+    margin: 0 !important;
+}
+
+/* 3 Stat Cards Row */
+.fbs-founder-stats,
+.elementor-element.elementor-element-6222ead1,
+div[data-id="6222ead1"] {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 14px !important;
+    width: 100% !important;
+    margin: 4px 0 !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+.fbs-founder-stat-box {
+    position: relative !important;
+    background: rgba(13, 23, 23, 0.72) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0px !important;
+    padding: 20px 16px 16px !important;
+    text-align: center !important;
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35) !important;
+    transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+    cursor: default !important;
+    overflow: hidden !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.fbs-founder-stat-bar {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    height: 2px !important;
+    background: transparent !important;
+    transition: background 0.35s ease !important;
+}
+
+.fbs-founder-stat-box:hover {
+    transform: translateY(-4px) !important;
+    border-color: #37c080 !important;
+    background: rgba(18, 32, 32, 0.9) !important;
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(55, 192, 128, 0.2) !important;
+}
+
+.fbs-founder-stat-box:hover .fbs-founder-stat-bar {
+    background: #37c080 !important;
+}
+
+.fbs-founder-stat-val {
+    font-family: 'Bebas Neue', Impact, sans-serif !important;
+    font-size: clamp(30px, 2.6vw, 38px) !important;
+    line-height: 1 !important;
+    color: #37c080 !important;
+    letter-spacing: 1px !important;
+    text-shadow: 0 0 20px rgba(55, 192, 128, 0.25) !important;
+    transition: transform 0.3s ease, color 0.3s ease !important;
+}
+
+.fbs-founder-stat-box:hover .fbs-founder-stat-val {
+    color: #5eeaa8 !important;
+    transform: scale(1.05) !important;
+}
+
+.fbs-founder-stat-lbl {
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 11px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1.5px !important;
+    color: #a7a294 !important;
+    margin-top: 6px !important;
+    line-height: 1.3 !important;
+    transition: color 0.3s ease !important;
+}
+
+.fbs-founder-stat-box:hover .fbs-founder-stat-lbl {
+    color: #f4ead5 !important;
+}
+
+/* Action Buttons */
+.fbs-founder-actions {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    gap: 16px !important;
+    margin-top: 6px !important;
+}
+
+.fbs-btn-primary {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: #37c080 !important;
+    color: #060e0e !important;
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    padding: 14px 28px !important;
+    border: 1px solid #37c080 !important;
+    border-radius: 0px !important;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fbs-btn-primary:hover {
+    background: #5eeaa8 !important;
+    border-color: #5eeaa8 !important;
+    color: #060e0e !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 25px rgba(55, 192, 128, 0.4) !important;
+}
+
+.fbs-btn-outline {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background: transparent !important;
+    color: #f4ead5 !important;
+    font-family: 'Barlow', Inter, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    padding: 14px 28px !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    border-radius: 0px !important;
+    text-decoration: none !important;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+.fbs-btn-outline:hover {
+    border-color: #37c080 !important;
+    color: #37c080 !important;
+    background: rgba(55, 192, 128, 0.08) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Tablet & Mobile */
+@media (max-width: 1024px) {
+    .fbs-founder-section {
+        flex-direction: column !important;
+        padding: 70px 30px !important;
+        gap: 40px !important;
+        align-items: stretch !important;
+    }
+    .fbs-founder-left {
+        flex: 0 0 100% !important;
+        max-width: 440px !important;
+        margin: 0 auto !important;
+    }
+    .fbs-founder-right {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .fbs-founder-section {
+        padding: 50px 20px !important;
+        gap: 32px !important;
+    }
+    .fbs-founder-narrative {
+        padding: 18px 16px !important;
+    }
+    .fbs-founder-stats,
+    .elementor-element.elementor-element-6222ead1,
+    div[data-id="6222ead1"] {
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 10px !important;
+    }
+    .fbs-founder-actions {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    .fbs-btn-primary, .fbs-btn-outline {
+        width: 100% !important;
+        text-align: center !important;
+    }
+}
+</style>
+
+		<div class="elementor-element elementor-element-511672fc e-con-full e-flex e-con e-child fbs-founder-section" data-id="511672fc" data-element_type="container" data-e-type="container" id="founder" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+		
+		<!-- Left: Founder Photo Card -->
+		<div class="elementor-element elementor-element-5d995b68 e-con-full e-flex e-con e-child fbs-founder-left" data-id="5d995b68" data-element_type="container" data-e-type="container">
+			<div class="elementor-element elementor-element-9e52081 e-con-full e-flex e-con e-child" data-id="9e52081" data-element_type="container" data-e-type="container" style="width:100%;">
+				<div class="fbs-founder-frame">
+					<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp" alt="Dr. Shruti Kapoor" class="fbs-founder-img" />
+					<div class="fbs-founder-badge">
+						<div class="fbs-founder-badge-tag">— Founder</div>
+						<div class="fbs-founder-badge-name">Dr. Shruti Kapoor</div>
+						<div class="fbs-founder-badge-sub">MD Radiologist · Pilates Practitioner</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Right: Details, Stats & Buttons -->
+		<div class="elementor-element elementor-element-abe202e e-con-full e-flex e-con e-child fbs-founder-right" data-id="abe202e" data-element_type="container" data-e-type="container">
+			
+			<!-- Tag & Headline -->
+			<div>
+				<div class="fbs-founder-tag">
+					<span class="fbs-founder-tag-line"></span>MEET THE FOUNDER
+				</div>
+				<h2 class="fbs-founder-heading" style="margin-top:14px;">
+					A doctor's answer to <br /><span class="fbs-founder-green">wellness in Central India.</span>
+				</h2>
+				<div class="fbs-founder-accent-line"></div>
+			</div>
+
+			<!-- Editorial Narrative -->
+			<div class="fbs-founder-narrative">
+				<p class="fbs-founder-p1">
+					Dr. Shruti Kapoor is a practicing MD Radiologist whose own transformation through Pilates in Mumbai — training under <strong style="color:#f4ead5;font-weight:600;">Yasmin Karachiwala</strong> — reshaped how she thought about strength, posture and long-term health.
+				</p>
+				<p class="fbs-founder-p2">
+					Fitbliss is what happened when a clinician decided Bhopal deserved a wellness destination built on <strong style="color:#37c080;font-weight:600;">science, not slogans</strong> — a space where luxury meets longevity.
+				</p>
+			</div>
+
+			<!-- 3 Sharp Stat Cards -->
+			<div class="elementor-element elementor-element-6222ead1 e-con-full e-flex e-con e-child fbs-founder-stats" data-id="6222ead1" data-element_type="container" data-e-type="container">
+				
+				<!-- Stat 1 -->
+				<div class="elementor-element elementor-element-7745fa48 fbs-founder-stat-box" data-id="7745fa48">
+					<div class="fbs-founder-stat-bar"></div>
+					<div class="fbs-founder-stat-val">10+</div>
+					<div class="fbs-founder-stat-lbl">Yrs Pilates Experience</div>
+				</div>
+
+				<!-- Stat 2 -->
+				<div class="elementor-element elementor-element-4070d189 fbs-founder-stat-box" data-id="4070d189">
+					<div class="fbs-founder-stat-bar"></div>
+					<div class="fbs-founder-stat-val">Mumbai</div>
+					<div class="fbs-founder-stat-lbl">Trained Under Karachiwala</div>
+				</div>
+
+				<!-- Stat 3 -->
+				<div class="elementor-element elementor-element-216ad80f fbs-founder-stat-box" data-id="216ad80f">
+					<div class="fbs-founder-stat-bar"></div>
+					<div class="fbs-founder-stat-val">1</div>
+					<div class="fbs-founder-stat-lbl">Vision · Science + Luxury</div>
+				</div>
+
+			</div>
+
+			<!-- Sharp Action Buttons -->
+			<div class="elementor-element elementor-element-5e4d53f9 e-con-full e-flex e-con e-child fbs-founder-actions" data-id="5e4d53f9" data-element_type="container" data-e-type="container">
+				<a class="fbs-btn-primary" href="<?php echo $base_url; ?>/founder/">
+					Read her story →
+				</a>
+				<a class="fbs-btn-outline" href="<?php echo $base_url; ?>/about/">
+					About Fitbliss
+				</a>
+			</div>
+
+		</div>
+
+		</div>
+		<!-- ─── WHY FITBLISS: SIX REASONS SECTION REDESIGN ─── -->
+		<style>
+		.fbs-reasons-wrap {
+			background: #010303 !important;
+			position: relative !important;
+			width: 100% !important;
+			box-sizing: border-box !important;
+		}
+
+		.fbs-reasons-header {
+			background: #010303 !important;
+			padding: 70px 40px 30px !important;
+			width: 100% !important;
+			max-width: 1300px !important;
+			margin: 0 auto !important;
+			box-sizing: border-box !important;
+		}
+
+		.fbs-reasons-tag {
+			display: inline-flex !important;
+			align-items: center !important;
+			gap: 10px !important;
+			font-family: 'Barlow', Inter, sans-serif !important;
+			font-size: 12px !important;
+			font-weight: 700 !important;
+			letter-spacing: 3px !important;
+			text-transform: uppercase !important;
+			color: #37c080 !important;
+			margin-bottom: 12px !important;
+		}
+
+		.fbs-reasons-tag-line {
+			display: inline-block !important;
+			width: 18px !important;
+			height: 2px !important;
+			background: #37c080 !important;
+		}
+
+		.fbs-reasons-heading {
+			font-family: 'Bebas Neue', Impact, sans-serif !important;
+			font-size: clamp(38px, 4vw, 56px) !important;
+			font-weight: 400 !important;
+			text-transform: uppercase !important;
+			line-height: 0.95 !important;
+			letter-spacing: 1.5px !important;
+			color: #f4ead5 !important;
+			margin: 0 !important;
+		}
+
+		.fbs-reasons-green {
+			color: #37c080 !important;
+		}
+
+		.fbs-reasons-accent-line {
+			width: 48px !important;
+			height: 2px !important;
+			background: #37c080 !important;
+			margin-top: 14px !important;
+		}
+
+		.fbs-reasons-section {
+			position: relative !important;
+			padding: 30px 40px 90px !important;
+			width: 100% !important;
+			box-sizing: border-box !important;
+			overflow: hidden !important;
+			display: flex !important;
+			flex-direction: column !important;
+			align-items: center !important;
+			background: #050a0a !important;
+		}
+
+		.fbs-reasons-bg-wrap {
+			position: absolute !important;
+			inset: 0 !important;
+			width: 100% !important;
+			height: 100% !important;
+			z-index: 0 !important;
+			overflow: hidden !important;
+			pointer-events: none !important;
+		}
+
+		.fbs-reasons-bg-img {
+			width: 100% !important;
+			height: 100% !important;
+			object-fit: cover !important;
+			object-position: center center !important;
+			display: block !important;
+			filter: brightness(0.9) contrast(1.05) !important;
+		}
+
+		.fbs-reasons-overlay {
+			position: absolute !important;
+			inset: 0 !important;
+			background: linear-gradient(180deg, rgba(1, 3, 3, 0.75) 0%, rgba(5, 12, 12, 0.58) 50%, rgba(1, 3, 3, 0.8) 100%) !important;
+			z-index: 1 !important;
+			pointer-events: none !important;
+		}
+
+		.fbs-reasons-grid {
+			position: relative !important;
+			z-index: 2 !important;
+			display: grid !important;
+			grid-template-columns: repeat(3, 1fr) !important;
+			gap: 24px !important;
+			width: 100% !important;
+			max-width: 1300px !important;
+			margin: 0 auto !important;
+			box-sizing: border-box !important;
+			align-items: stretch !important;
+		}
+
+		.fbs-reasons-grid > div,
+		.fbs-reasons-grid > .fbs-reason-card,
+		.fbs-reason-card,
+		.elementor-element.fbs-reason-card {
+			--width: 100% !important;
+			--container-widget-width: 100% !important;
+			width: 100% !important;
+			max-width: 100% !important;
+			min-width: 0 !important;
+			flex: 1 1 100% !important;
+			align-self: stretch !important;
+			position: relative !important;
+			background: rgba(10, 18, 18, 0.82) !important;
+			backdrop-filter: blur(12px) !important;
+			-webkit-backdrop-filter: blur(12px) !important;
+			border: 1px solid rgba(255, 255, 255, 0.14) !important;
+			border-radius: 0px !important;
+			padding: 34px 28px !important;
+			display: flex !important;
+			flex-direction: column !important;
+			justify-content: flex-start !important;
+			box-shadow: 0 14px 35px rgba(0, 0, 0, 0.5) !important;
+			overflow: hidden !important;
+			transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1) !important;
+			cursor: default !important;
+			box-sizing: border-box !important;
+		}
+
+		.fbs-reason-top-bar {
+			position: absolute !important;
+			top: 0 !important;
+			left: 0 !important;
+			right: 0 !important;
+			height: 3px !important;
+			background: transparent !important;
+			transition: all 0.35s ease !important;
+		}
+
+		.fbs-reason-card:hover {
+			transform: translateY(-6px) !important;
+			border-color: #37c080 !important;
+			background: rgba(14, 28, 28, 0.94) !important;
+			box-shadow: 0 20px 45px rgba(0, 0, 0, 0.75), 0 0 25px rgba(55, 192, 128, 0.22) !important;
+		}
+
+		.fbs-reason-card:hover .fbs-reason-top-bar {
+			background: #37c080 !important;
+			box-shadow: 0 0 15px rgba(55, 192, 128, 0.8) !important;
+		}
+
+		.fbs-reason-num-row {
+			display: flex !important;
+			align-items: center !important;
+			justify-content: space-between !important;
+			width: 100% !important;
+			margin-bottom: 14px !important;
+		}
+
+		.fbs-reason-num {
+			font-family: 'Bebas Neue', Impact, sans-serif !important;
+			font-size: clamp(34px, 2.5vw, 42px) !important;
+			line-height: 1 !important;
+			color: #37c080 !important;
+			letter-spacing: 1.5px !important;
+			text-shadow: 0 0 18px rgba(55, 192, 128, 0.3) !important;
+			transition: transform 0.3s ease, color 0.3s ease !important;
+		}
+
+		.fbs-reason-card:hover .fbs-reason-num {
+			color: #5eeaa8 !important;
+			transform: scale(1.06) !important;
+		}
+
+		.fbs-reason-badge-dot {
+			width: 7px !important;
+			height: 7px !important;
+			border: 1px solid rgba(55, 192, 128, 0.45) !important;
+			background: rgba(55, 192, 128, 0.15) !important;
+			border-radius: 0px !important;
+			transition: all 0.3s ease !important;
+		}
+
+		.fbs-reason-card:hover .fbs-reason-badge-dot {
+			background: #37c080 !important;
+			border-color: #37c080 !important;
+			box-shadow: 0 0 10px #37c080 !important;
+		}
+
+		.fbs-reason-title {
+			font-family: 'Bebas Neue', Impact, sans-serif !important;
+			font-size: 26px !important;
+			letter-spacing: 1.2px !important;
+			text-transform: uppercase !important;
+			color: #f4ead5 !important;
+			margin: 0 0 12px 0 !important;
+			line-height: 1.15 !important;
+			width: 100% !important;
+			transition: color 0.3s ease !important;
+		}
+
+		.fbs-reason-card:hover .fbs-reason-title {
+			color: #ffffff !important;
+		}
+
+		.fbs-reason-desc {
+			font-family: 'Barlow', Inter, sans-serif !important;
+			font-size: 15px !important;
+			line-height: 1.65 !important;
+			color: #a5a297 !important;
+			margin: 0 !important;
+			width: 100% !important;
+			transition: color 0.3s ease !important;
+		}
+
+		.fbs-reason-card:hover .fbs-reason-desc {
+			color: #eae5d8 !important;
+		}
+
+		/* Responsive queries */
+		@media (max-width: 1024px) {
+			.fbs-reasons-header {
+				padding: 50px 30px 24px !important;
+			}
+			.fbs-reasons-section {
+				padding: 10px 30px 60px !important;
+			}
+			.fbs-reasons-grid {
+				grid-template-columns: repeat(2, 1fr) !important;
+				gap: 18px !important;
+			}
+		}
+
+		@media (max-width: 767px) {
+			.fbs-reasons-header {
+				padding: 40px 20px 20px !important;
+			}
+			.fbs-reasons-section {
+				padding: 10px 20px 50px !important;
+			}
+			.fbs-reasons-grid {
+				grid-template-columns: repeat(1, 1fr) !important;
+				gap: 14px !important;
+			}
+			.fbs-reason-card {
+				padding: 26px 20px !important;
+			}
+		}
+		</style>
+
+		<!-- Section Header -->
+		<div class="elementor-element elementor-element-7250979a e-con-full e-flex e-con e-child fbs-reasons-header" data-id="7250979a" data-element_type="container" data-e-type="container">
+			<div class="elementor-element elementor-element-348b608 elementor-widget elementor-widget-text-editor" data-id="348b608" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.php#membership">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">View Plan →</span>
-					</span>
+					<div class="fbs-reasons-tag">
+						<span class="fbs-reasons-tag-line"></span>WHY FITBLISS
+					</div>
+				</div>
+			</div>
+			<div class="elementor-element elementor-element-2fadbf63 elementor-widget elementor-widget-heading" data-id="2fadbf63" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="fbs-reasons-heading">
+						Six reasons <span class="fbs-reasons-green">members stay.</span>
+					</h2>
+					<div class="fbs-reasons-accent-line"></div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 6 Cards with Studio Background Image -->
+		<div class="elementor-element elementor-element-486ad734 e-con-full e-flex e-con e-child fbs-reasons-section" data-id="486ad734" data-element_type="container" data-e-type="container">
+			<div class="fbs-reasons-bg-wrap">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3612-scaled.jpg" alt="FitBliss Pilates Studio" class="fbs-reasons-bg-img" />
+			</div>
+			<div class="fbs-reasons-overlay"></div>
+			
+			<div class="fbs-reasons-grid">
+
+				<!-- Card 01 -->
+				<div class="elementor-element elementor-element-746d5cb2 e-con-full e-flex e-con e-child fbs-reason-card" data-id="746d5cb2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">01</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">Science-backed</h3>
+					<p class="fbs-reason-desc">Every program designed by certified professionals using evidence-based methods from sports science and rehabilitation.</p>
+				</div>
+
+				<!-- Card 02 -->
+				<div class="elementor-element elementor-element-2d63d11 e-con-full e-flex e-con e-child fbs-reason-card" data-id="2d63d11" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">02</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">Premium Equipment</h3>
+					<p class="fbs-reason-desc">Imported, best-in-class equipment from the USA — Technogym, Rogue, Life Fitness. The same machines top facilities use.</p>
+				</div>
+
+				<!-- Card 03 -->
+				<div class="elementor-element elementor-element-7d2a58bb e-con-full e-flex e-con e-child fbs-reason-card" data-id="7d2a58bb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">03</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">Expert Coaches</h3>
+					<p class="fbs-reason-desc">14 certified, in-house coaches across strength, Pilates, boxing, yoga and more — each one answerable to you personally.</p>
+				</div>
+
+				<!-- Card 04 -->
+				<div class="elementor-element elementor-element-6e24d016 e-con-full e-flex e-con e-child fbs-reason-card" data-id="6e24d016" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">04</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">Luxury by Design</h3>
+					<p class="fbs-reason-desc">Warm materials, considered lighting, genuine hospitality — a wellness center that feels like a destination, not a duty.</p>
+				</div>
+
+				<!-- Card 05 -->
+				<div class="elementor-element elementor-element-54f49af e-con-full e-flex e-con e-child fbs-reason-card" data-id="54f49af" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">05</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">Holistic Wellness</h3>
+					<p class="fbs-reason-desc">Gym, Pilates, spa, pool, café and squash under one roof. Come for the workout, stay for the whole experience.</p>
+				</div>
+
+				<!-- Card 06 -->
+				<div class="elementor-element elementor-element-67cfe014 e-con-full e-flex e-con e-child fbs-reason-card" data-id="67cfe014" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="fbs-reason-top-bar"></div>
+					<div class="fbs-reason-num-row">
+						<span class="fbs-reason-num">06</span>
+						<span class="fbs-reason-badge-dot"></span>
+					</div>
+					<h3 class="fbs-reason-title">3,500+ Members</h3>
+					<p class="fbs-reason-desc">A community that has chosen Fitbliss. Rated by google 4.5/5, trusted since 2024, and growing every week.</p>
+				</div>
+
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-51c362cb e-con-full e-flex e-con e-child" data-id="51c362cb" data-element_type="container" data-e-type="container" id="membership" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS MEMBERSHIP LUXURY SHARP-EDGE REDESIGN ─── */
+				#membership.elementor-element-51c362cb {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #020505 !important;
+					padding: clamp(60px, 7vw, 100px) clamp(20px, 4vw, 40px) 70px !important;
+					box-sizing: border-box !important;
+					overflow: hidden !important;
+					display: block !important;
+				}
+
+				/* Atmospheric Background & Ambient Glows */
+				.fbr-bg-wrap {
+					position: absolute;
+					inset: 0;
+					z-index: 0;
+					pointer-events: none;
+					overflow: hidden;
+				}
+
+				.fbr-bg-img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+					opacity: 0.16;
+					filter: saturate(1.1) brightness(0.85);
+					transform: scale(1.02);
+				}
+
+				.fbr-bg-overlay {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 70% 55% at 50% 40%, rgba(55, 192, 128, 0.11) 0%, rgba(2, 5, 5, 0.8) 55%, #020505 100%),
+						linear-gradient(180deg, rgba(2, 5, 5, 0.7) 0%, rgba(2, 5, 5, 0.95) 75%, #020505 100%);
+					pointer-events: none;
+				}
+
+				/* Inner Container */
+				.fbr-inner {
+					position: relative;
+					z-index: 2;
+					max-width: 1320px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+
+				/* ─── Header ─── */
+				.fbr-header {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-end;
+					gap: 36px;
+					margin-bottom: 50px;
+					flex-wrap: wrap;
+				}
+
+				.fbr-header-left {
+					flex: 1 1 520px;
+					min-width: 280px;
+				}
+
+				.fbr-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3.5px;
+					color: #37c080;
+					margin-bottom: 12px;
+				}
+
+				.fbr-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+
+				.fbr-title {
+					margin: 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(3rem, 6.2vw, 4.8rem);
+					line-height: 0.92;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					font-weight: 400;
+				}
+
+				.fbr-title-row {
+					display: block;
+				}
+
+				.fbr-title-white {
+					color: #f5f3ec;
+				}
+
+				.fbr-title-green {
+					color: #37c080;
+					text-shadow: 0 0 35px rgba(55, 192, 128, 0.38);
+				}
+
+				.fbr-header-right {
+					flex: 0 1 440px;
+					min-width: 280px;
+					margin-bottom: 4px;
+				}
+
+				.fbr-lead-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.65;
+					color: #9e9c8e;
+				}
+
+				/* ─── 3 Cards Grid (SHARP EDGES / THEME COMPLIANT) ─── */
+				.fbr-cards-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 24px;
+					align-items: stretch;
+					margin-bottom: 44px;
+				}
+
+				/* Card General - Strict Sharp Rectangular Architecture */
+				.fbr-card {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					background: rgba(12, 22, 22, 0.72);
+					border: 1px solid rgba(255, 255, 255, 0.10);
+					border-radius: 0px !important;
+					padding: 40px 32px 34px;
+					box-sizing: border-box;
+					backdrop-filter: blur(20px);
+					-webkit-backdrop-filter: blur(20px);
+					box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.75);
+					transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+				}
+
+				.fbr-card:hover {
+					transform: translateY(-8px);
+					border-color: rgba(55, 192, 128, 0.5);
+					box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.15);
+				}
+
+				/* Highlighted Center Card (COUPLE) - Sharp Edge Hero */
+				.fbr-card-featured {
+					background: rgba(15, 32, 27, 0.82);
+					border: 1.5px solid #37c080 !important;
+					border-radius: 0px !important;
+					box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.8), 0 0 35px rgba(55, 192, 128, 0.22);
+				}
+
+				.fbr-card-featured::before {
+					content: '';
+					position: absolute;
+					top: -1px;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 16px #3ee69a;
+				}
+
+				.fbr-card-featured:hover {
+					transform: translateY(-10px);
+					border-color: #3ee69a !important;
+					box-shadow: 0 35px 75px -15px rgba(0, 0, 0, 0.9), 0 0 50px rgba(55, 192, 128, 0.4);
+				}
+
+				/* Card Top Content */
+				.fbr-card-top {
+					margin-bottom: 28px;
+				}
+
+				.fbr-card-tag {
+					display: inline-block;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 14px;
+				}
+
+				.fbr-card-title {
+					margin: 0 0 18px 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(2.2rem, 3.2vw, 2.85rem);
+					line-height: 1;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					color: #f5f3ec;
+					font-weight: 400;
+				}
+
+				.fbr-card-divider {
+					height: 1px;
+					background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
+					margin-bottom: 18px;
+				}
+
+				.fbr-card-featured .fbr-card-divider {
+					background: linear-gradient(90deg, rgba(55, 192, 128, 0.35) 0%, rgba(55, 192, 128, 0.05) 100%);
+				}
+
+				.fbr-card-desc {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14px;
+					line-height: 1.65;
+					color: #9e9c8e;
+					min-height: 48px;
+				}
+
+				/* Card Action / Buttons (SHARP RECTANGLES) */
+				.fbr-card-action {
+					margin-top: auto;
+				}
+
+				.fbr-btn {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 10px;
+					width: 100%;
+					padding: 15px 24px;
+					box-sizing: border-box;
+					border-radius: 0px !important;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2.5px;
+					text-decoration: none;
+					transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+					cursor: pointer;
+				}
+
+				.fbr-btn-arrow {
+					display: inline-block;
+					font-size: 14px;
+					line-height: 1;
+					transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+				}
+
+				.fbr-btn:hover .fbr-btn-arrow {
+					transform: translateX(5px);
+				}
+
+				/* Outline Button (Individual & Family) */
+				.fbr-btn-outline {
+					background: transparent;
+					border: 1px solid rgba(55, 192, 128, 0.45);
+					color: #37c080 !important;
+				}
+
+				.fbr-btn-outline:hover {
+					background: #37c080;
+					color: #020505 !important;
+					border-color: #37c080;
+					box-shadow: 0 8px 25px rgba(55, 192, 128, 0.35);
+					transform: translateY(-2px);
+				}
+
+				/* Solid Button (Couple / Featured) */
+				.fbr-btn-solid {
+					background: #37c080;
+					border: 1px solid #37c080;
+					color: #020605 !important;
+					font-weight: 800;
+					box-shadow: 0 10px 28px rgba(55, 192, 128, 0.35);
+				}
+
+				.fbr-btn-solid:hover {
+					background: #46d892;
+					border-color: #46d892;
+					box-shadow: 0 14px 35px rgba(55, 192, 128, 0.55);
+					transform: translateY(-2px);
+				}
+
+				/* ─── What's Included Luxury Strip (Redesigned & Sharp) ─── */
+				.fbr-included-section {
+					margin-top: 50px;
+					padding-top: 36px;
+					border-top: 1px solid rgba(255, 255, 255, 0.08);
+				}
+
+				.fbr-included-heading {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2.5px;
+					color: #37c080;
+					margin-bottom: 26px;
+				}
+
+				.fbr-included-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 0;
+					border-top: 1px solid rgba(255, 255, 255, 0.08);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					margin-bottom: 30px;
+				}
+
+				.fbr-included-item {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					padding: 18px 20px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14px;
+					color: #e4e2d8;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+					transition: all 0.25s ease;
+					box-sizing: border-box;
+				}
+
+				.fbr-included-item:hover {
+					background: rgba(55, 192, 128, 0.04);
+					color: #ffffff;
+					padding-left: 24px;
+				}
+
+				.fbr-included-sparkle {
+					color: #37c080;
+					font-size: 12px;
+					line-height: 1;
+					display: inline-block;
+					text-shadow: 0 0 10px rgba(55, 192, 128, 0.5);
+					flex-shrink: 0;
+				}
+
+				/* Footnote */
+				.fbr-footnote {
+					margin: 0 0 46px 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: #858376;
+				}
+
+				/* ─── Bottom Actions / Links ─── */
+				.fbr-bottom-bar {
+					text-align: center;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					gap: 14px;
+					padding-top: 10px;
+				}
+
+				.fbr-bottom-corp {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: 2.5px;
+					color: #9b998b;
+				}
+
+				.fbr-bottom-phone-link {
+					color: #37c080 !important;
+					text-decoration: none !important;
+					transition: all 0.25s ease;
+					font-weight: 700;
+				}
+
+				.fbr-bottom-phone-link:hover {
+					color: #46d892 !important;
+					text-shadow: 0 0 12px rgba(55, 192, 128, 0.5);
+				}
+
+				.fbr-bottom-view-link {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: #37c080 !important;
+					text-decoration: none !important;
+					transition: all 0.25s ease;
+					padding: 6px 12px;
+				}
+
+				.fbr-bottom-view-link:hover {
+					color: #46d892 !important;
+					text-shadow: 0 0 12px rgba(55, 192, 128, 0.5);
+				}
+
+				.fbr-bottom-view-link:hover .fbr-link-arrow {
+					transform: translateX(4px);
+				}
+
+				.fbr-link-arrow {
+					display: inline-block;
+					transition: transform 0.25s ease;
+				}
+
+				/* Responsive */
+				@media (max-width: 1024px) {
+					.fbr-cards-grid {
+						gap: 16px;
+					}
+					.fbr-card {
+						padding: 32px 24px 28px;
+					}
+					.fbr-card-desc {
+						min-height: 60px;
+					}
+					.fbr-included-grid {
+						grid-template-columns: repeat(2, 1fr);
+					}
+				}
+
+				@media (max-width: 860px) {
+					.fbr-header {
+						margin-bottom: 38px;
+					}
+					.fbr-cards-grid {
+						grid-template-columns: 1fr;
+						max-width: 500px;
+						margin: 0 auto 40px;
+						gap: 22px;
+					}
+					.fbr-card {
+						padding: 36px 28px 30px;
+					}
+					.fbr-card-desc {
+						min-height: auto;
+						margin-bottom: 24px;
+					}
+					.fbr-included-grid {
+						grid-template-columns: 1fr;
+					}
+					.fbr-included-item {
+						padding: 14px 16px;
+					}
+				}
+			</style>
+
+			<!-- Dark Luxury Gym Ambient Background -->
+			<div class="fbr-bg-wrap">
+				<img decoding="async" src="<?php echo $uploads_base; ?>/2026/07/fac-gym-KKOxT9GI.webp" alt="FitBliss Luxury Gym" class="fbr-bg-img" loading="lazy" />
+				<div class="fbr-bg-overlay"></div>
+			</div>
+
+			<div class="fbr-inner">
+				<!-- Header Row -->
+				<div class="fbr-header">
+					<div class="fbr-header-left">
+						<div class="fbr-eyebrow">
+							<span class="fbr-eyebrow-line"></span>
+							MEMBERSHIP
+						</div>
+						<h2 class="fbr-title">
+							<span class="fbr-title-row fbr-title-white">PICK YOUR</span>
+							<span class="fbr-title-row fbr-title-green">COMMITMENT.</span>
+						</h2>
+					</div>
+					<div class="fbr-header-right">
+						<p class="fbr-lead-text">
+							Every plan is all-inclusive — no add-ons, no surprise fees. Cancel any month, upgrade any time. GST included.
+						</p>
+					</div>
+				</div>
+
+				<!-- 3 Membership Cards Grid (SHARP RECTANGLES) -->
+				<div class="fbr-cards-grid">
+					<!-- Card 1: INDIVIDUAL -->
+					<div class="fbr-card">
+						<div class="fbr-card-top">
+							<div class="fbr-card-tag">ANNUAL</div>
+							<h3 class="fbr-card-title">INDIVIDUAL</h3>
+							<div class="fbr-card-divider"></div>
+							<p class="fbr-card-desc">Everything included — gym, pilates with PT &amp; every group activity.</p>
+						</div>
+						<div class="fbr-card-action">
+							<a href="https://wa.me/917470787014?text=Hi%2C%20I%20am%20interested%20in%20the%20Fitbliss%20Individual%20Annual%20Membership." target="_blank" rel="noopener noreferrer" class="fbr-btn fbr-btn-outline">
+								<span>ENQUIRE</span>
+								<span class="fbr-btn-arrow">→</span>
+							</a>
+						</div>
+					</div>
+
+					<!-- Card 2: COUPLE (Featured) -->
+					<div class="fbr-card fbr-card-featured">
+						<div class="fbr-card-top">
+							<div class="fbr-card-tag">ANNUAL</div>
+							<h3 class="fbr-card-title">COUPLE</h3>
+							<div class="fbr-card-divider"></div>
+							<p class="fbr-card-desc">Two members, one all-inclusive annual membership.</p>
+						</div>
+						<div class="fbr-card-action">
+							<a href="https://wa.me/917470787014?text=Hi%2C%20I%20am%20interested%20in%20the%20Fitbliss%20Couple%20Annual%20Membership." target="_blank" rel="noopener noreferrer" class="fbr-btn fbr-btn-solid">
+								<span>ENQUIRE</span>
+								<span class="fbr-btn-arrow">→</span>
+							</a>
+						</div>
+					</div>
+
+					<!-- Card 3: FAMILY (2 + 2) -->
+					<div class="fbr-card">
+						<div class="fbr-card-top">
+							<div class="fbr-card-tag">ANNUAL</div>
+							<h3 class="fbr-card-title">FAMILY (2 + 2)</h3>
+							<div class="fbr-card-divider"></div>
+							<p class="fbr-card-desc">For direct family members only — two adults and two dependents.</p>
+						</div>
+						<div class="fbr-card-action">
+							<a href="https://wa.me/917470787014?text=Hi%2C%20I%20am%20interested%20in%20the%20Fitbliss%20Family%20Annual%20Membership." target="_blank" rel="noopener noreferrer" class="fbr-btn fbr-btn-outline">
+								<span>ENQUIRE</span>
+								<span class="fbr-btn-arrow">→</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- What's Included Luxury Strip -->
+				<div class="fbr-included-section">
+					<div class="fbr-included-heading">EVERYTHING INCLUDED IN ELITE CLUB:</div>
+					<div class="fbr-included-grid">
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Gym access</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Pilates PT</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Yoga</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Aerial Yoga</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Zumba</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Boxing</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Spinning</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Aerobics</div>
+						<div class="fbr-included-item"><span class="fbr-included-sparkle">✦</span>Squash (without PT)</div>
+					</div>
+
+					<!-- Footnote -->
+					<p class="fbr-footnote">
+						FAMILY (2 + 2) VALID ONLY FOR DIRECT FAMILY MEMBERS. · GST APPLICABLE ON ALL PLANS.
+					</p>
+
+					<!-- Bottom Callout & Links -->
+					<div class="fbr-bottom-bar">
+						<p class="fbr-bottom-corp">
+							CORPORATE &amp; FAMILY PLANS AVAILABLE · <a href="tel:+917470787014" class="fbr-bottom-phone-link">CALL +91 74707 87014</a>
+						</p>
+						<a href="index.php#membership" class="fbr-bottom-view-link">
+							<span>VIEW FULL MEMBERSHIP DETAILS</span>
+							<span class="fbr-link-arrow">→</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-2b31cb74 e-con-full e-flex e-con e-child" data-id="2b31cb74" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "THE SPACE SHE BUILT" LUXURY REDESIGN ─── */
+				.elementor-element.elementor-element-2b31cb74 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #020505 !important;
+					padding: clamp(60px, 8vw, 100px) clamp(20px, 4vw, 40px) !important;
+					box-sizing: border-box !important;
+					overflow: hidden !important;
+					display: block !important;
+				}
+
+				/* Atmospheric Backing */
+				.fbs-story-ambient {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 65% 55% at 75% 50%, rgba(55, 192, 128, 0.09) 0%, rgba(2, 5, 5, 0.75) 55%, #020505 100%),
+						linear-gradient(180deg, rgba(2, 5, 5, 0.95) 0%, rgba(2, 5, 5, 0.8) 50%, #020505 100%);
+					pointer-events: none;
+					z-index: 0;
+				}
+
+				/* Layout Wrap */
+				.fbs-story-container {
+					position: relative;
+					z-index: 2;
+					max-width: 1320px;
+					margin: 0 auto;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: clamp(40px, 5vw, 68px);
+					flex-wrap: wrap;
+					box-sizing: border-box;
+				}
+
+				/* Left Content Column */
+				.fbs-story-content {
+					flex: 1 1 440px;
+					min-width: 290px;
+					box-sizing: border-box;
+				}
+
+				.fbs-story-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3.5px;
+					color: #37c080;
+					margin-bottom: 14px;
+				}
+
+				.fbs-story-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+
+				.fbs-story-title {
+					margin: 0 0 26px 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(2.8rem, 5.5vw, 4.4rem);
+					line-height: 0.92;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					font-weight: 400;
+				}
+
+				.fbs-story-title-white {
+					display: block;
+					color: #f5f3ec;
+				}
+
+				.fbs-story-title-green {
+					display: block;
+					color: #37c080;
+					text-shadow: 0 0 35px rgba(55, 192, 128, 0.38);
+				}
+
+				.fbs-story-desc-wrap {
+					border-left: 2px solid rgba(55, 192, 128, 0.45);
+					padding-left: 20px;
+					max-width: 520px;
+				}
+
+				.fbs-story-desc {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 15px;
+					line-height: 1.75;
+					color: #a19f90;
+				}
+
+				/* Right Video Column (Sharp Architectural Frame) */
+				.fbs-story-video-col {
+					flex: 1.3 1 480px;
+					min-width: 300px;
+					box-sizing: border-box;
+				}
+
+				.fbs-story-video-card {
+					position: relative;
+					width: 100%;
+					padding-top: 56.25%; /* 16:9 Aspect Ratio */
+					overflow: hidden;
+					background: #060d0d;
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					border-radius: 0px !important; /* Strict Sharp Corners */
+					box-shadow: 0 25px 65px -15px rgba(0, 0, 0, 0.85), 0 0 40px rgba(55, 192, 128, 0.12);
+					transition: border-color 0.35s ease, box-shadow 0.35s ease;
+				}
+
+				.fbs-story-video-card:hover {
+					border-color: rgba(55, 192, 128, 0.4);
+					box-shadow: 0 30px 75px -15px rgba(0, 0, 0, 0.9), 0 0 50px rgba(55, 192, 128, 0.22);
+				}
+
+				/* Top Neon Accent Ribbon */
+				.fbs-story-video-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 15%;
+					right: 15%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 16px #3ee69a;
+					z-index: 5;
+					pointer-events: none;
+				}
+
+				.fbs-story-video-el {
+					position: absolute;
+					inset: 0;
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					z-index: 2;
+					display: block;
+					border-radius: 0px !important;
+				}
+
+				/* Custom Play Overlay */
+				.fbs-video-play-overlay {
+					position: absolute;
+					inset: 0;
+					z-index: 4;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					background: rgba(2, 5, 5, 0.25);
+					cursor: pointer;
+					transition: opacity 0.3s ease, visibility 0.3s ease;
+				}
+
+				.fbs-video-play-overlay.is-hidden {
+					opacity: 0;
+					visibility: hidden;
+					pointer-events: none;
+				}
+
+				.fbs-play-btn-circle {
+					position: relative;
+					width: 72px;
+					height: 72px;
+					background: rgba(3, 8, 8, 0.72);
+					backdrop-filter: blur(12px);
+					-webkit-backdrop-filter: blur(12px);
+					border: 1.5px solid #37c080;
+					border-radius: 50%;
+					box-shadow: 0 0 30px rgba(55, 192, 128, 0.35);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+				}
+
+				.fbs-play-btn-circle:hover {
+					transform: scale(1.1);
+					border-color: #3ee69a;
+					background: rgba(4, 12, 11, 0.85);
+					box-shadow: 0 0 45px rgba(55, 192, 128, 0.55);
+				}
+
+				.fbs-play-icon {
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 10px 0 10px 18px;
+					border-color: transparent transparent transparent #37c080;
+					margin-left: 4px;
+					transition: border-color 0.25s ease;
+				}
+
+				.fbs-play-btn-circle:hover .fbs-play-icon {
+					border-color: transparent transparent transparent #3ee69a;
+				}
+
+				/* Responsive */
+				@media (max-width: 860px) {
+					.fbs-story-container {
+						gap: 36px;
+					}
+					.fbs-story-desc-wrap {
+						max-width: 100%;
+					}
+					.fbs-play-btn-circle {
+						width: 60px;
+						height: 60px;
+					}
+					.fbs-play-icon {
+						border-width: 8px 0 8px 14px;
+						margin-left: 3px;
+					}
+				}
+			</style>
+
+			<!-- Atmospheric Ambient Glow -->
+			<div class="fbs-story-ambient"></div>
+
+			<div class="fbs-story-container">
+				<!-- Left Content -->
+				<div class="fbs-story-content">
+					<div class="fbs-story-eyebrow">
+						<span class="fbs-story-eyebrow-line"></span>
+						THE SPACE SHE BUILT
+					</div>
+					<h2 class="fbs-story-title">
+						<span class="fbs-story-title-white">EVERY DETAIL,</span>
+						<span class="fbs-story-title-green">INTENTIONAL.</span>
+					</h2>
+					<div class="fbs-story-desc-wrap">
+						<p class="fbs-story-desc">
+							From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.
+						</p>
+					</div>
+				</div>
+
+				<!-- Right Cinematic Video (Sharp Frame) -->
+				<div class="fbs-story-video-col">
+					<div class="fbs-story-video-card" id="storyVideoCard">
+						<video id="storyVideo" class="fbs-story-video-el" controls poster="<?php echo $base_url; ?>/assets/images/2026/07/truestory.png" preload="metadata" playsinline>
+							<source src="<?php echo $base_url; ?>/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
+						</video>
+						<div class="fbs-video-play-overlay" id="storyPlayOverlay" title="Play Video">
+							<div class="fbs-play-btn-circle">
+								<div class="fbs-play-icon"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<script>
+				(function() {
+					var video = document.getElementById('storyVideo');
+					var overlay = document.getElementById('storyPlayOverlay');
+					if (video && overlay) {
+						overlay.addEventListener('click', function() {
+							video.play();
+							overlay.classList.add('is-hidden');
+						});
+						video.addEventListener('play', function() {
+							overlay.classList.add('is-hidden');
+						});
+						video.addEventListener('pause', function() {
+							overlay.classList.remove('is-hidden');
+						});
+						video.addEventListener('ended', function() {
+							overlay.classList.remove('is-hidden');
+						});
+					}
+				})();
+			</script>
+		</div>
+				<div class="elementor-element elementor-element-7ff37714 e-con-full e-flex e-con e-child" data-id="7ff37714" data-element_type="container" data-e-type="container" id="trainers" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "EQUIPMENT & TOOLS" LUXURY REDESIGN ─── */
+				#trainers.elementor-element-7ff37714 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #020505 !important;
+					padding: clamp(70px, 8vw, 110px) clamp(20px, 4vw, 40px) 80px !important;
+					box-sizing: border-box !important;
+					overflow: hidden !important;
+					display: block !important;
+				}
+
+				/* Atmospheric Lighting */
+				.fbe-ambient-glow {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 70% 50% at 50% 45%, rgba(55, 192, 128, 0.08) 0%, rgba(2, 5, 5, 0.75) 55%, #020505 100%),
+						linear-gradient(180deg, rgba(2, 5, 5, 0.95) 0%, rgba(2, 5, 5, 0.8) 50%, #020505 100%);
+					pointer-events: none;
+					z-index: 0;
+				}
+
+				/* Inner Wrapper */
+				.fbe-inner {
+					position: relative;
+					z-index: 2;
+					max-width: 1320px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+
+				/* Header Row */
+				.fbe-header {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-end;
+					gap: 36px;
+					margin-bottom: 50px;
+					flex-wrap: wrap;
+				}
+
+				.fbe-header-left {
+					flex: 1 1 520px;
+					min-width: 280px;
+				}
+
+				.fbe-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3.5px;
+					color: #37c080;
+					margin-bottom: 14px;
+				}
+
+				.fbe-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+
+				.fbe-title {
+					margin: 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(2.8rem, 5.5vw, 4.4rem);
+					line-height: 0.92;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					font-weight: 400;
+				}
+
+				.fbe-title-white {
+					display: block;
+					color: #f5f3ec;
+				}
+
+				.fbe-title-green {
+					display: block;
+					color: #37c080;
+					text-shadow: 0 0 35px rgba(55, 192, 128, 0.38);
+				}
+
+				.fbe-header-right {
+					flex: 0 1 480px;
+					min-width: 280px;
+					margin-bottom: 4px;
+				}
+
+				.fbe-lead-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.65;
+					color: #9e9c8e;
+				}
+
+				/* 4 Cards Grid */
+				.fbe-cards-grid {
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					gap: 22px;
+					align-items: stretch;
+					margin-bottom: 48px;
+				}
+
+				/* Card Container - Strict Sharp Rectangular Architecture */
+				.fbe-card {
+					position: relative;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					background: rgba(12, 22, 22, 0.72);
+					border: 1px solid rgba(255, 255, 255, 0.10);
+					border-radius: 0px !important; /* Sharp corners */
+					box-sizing: border-box;
+					backdrop-filter: blur(20px);
+					-webkit-backdrop-filter: blur(20px);
+					box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.75);
+					transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+					overflow: hidden;
+				}
+
+				.fbe-card:hover {
+					transform: translateY(-8px);
+					border-color: rgba(55, 192, 128, 0.5);
+					box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.15);
+				}
+
+				/* Top Neon Accent Ribbon on Card Hover */
+				.fbe-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 14px #3ee69a;
+					opacity: 0;
+					transition: opacity 0.35s ease;
+					z-index: 5;
+					pointer-events: none;
+				}
+
+				.fbe-card:hover::before {
+					opacity: 1;
+				}
+
+				/* Card Image Stage */
+				.fbe-card-media {
+					position: relative;
+					height: 240px;
+					background: radial-gradient(circle at 50% 55%, rgba(20, 36, 36, 0.5) 0%, rgba(6, 12, 12, 0.95) 100%);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					padding: 22px 18px 10px;
+					box-sizing: border-box;
+					overflow: hidden;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+				}
+
+				.fbe-card-img {
+					max-width: 100%;
+					max-height: 100%;
+					object-fit: contain;
+					filter: drop-shadow(0 14px 20px rgba(0, 0, 0, 0.65));
+					transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+				}
+
+				.fbe-card:hover .fbe-card-img {
+					transform: scale(1.07);
+					filter: drop-shadow(0 18px 25px rgba(55, 192, 128, 0.25));
+				}
+
+				/* Card Bottom Body */
+				.fbe-card-body {
+					padding: 22px 22px 26px;
+					display: flex;
+					flex-direction: column;
+					flex-grow: 1;
+					box-sizing: border-box;
+				}
+
+				.fbe-card-title {
+					margin: 0 0 12px 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: 23px;
+					line-height: 1.1;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					color: #f5f3ec;
+					font-weight: 400;
+				}
+
+				.fbe-card-divider {
+					height: 1px;
+					background: linear-gradient(90deg, rgba(55, 192, 128, 0.4) 0%, rgba(255, 255, 255, 0.04) 100%);
+					margin-bottom: 14px;
+				}
+
+				.fbe-card-desc {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px;
+					line-height: 1.6;
+					color: #9e9c8e;
+				}
+
+				/* Bottom CTA Button (Sharp Edge) */
+				.fbe-bottom-action {
+					text-align: center;
+					display: flex;
+					justify-content: center;
+				}
+
+				.fbe-btn {
+					display: inline-flex;
+					align-items: center;
+					gap: 10px;
+					padding: 14px 32px;
+					background: transparent;
+					border: 1px solid rgba(55, 192, 128, 0.45);
+					border-radius: 0px !important; /* Sharp corners */
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2.5px;
+					color: #37c080 !important;
+					text-decoration: none !important;
+					transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+					box-sizing: border-box;
+				}
+
+				.fbe-btn:hover {
+					background: #37c080;
+					color: #020505 !important;
+					border-color: #37c080;
+					box-shadow: 0 8px 25px rgba(55, 192, 128, 0.35);
+					transform: translateY(-2px);
+				}
+
+				.fbe-btn-arrow {
+					display: inline-block;
+					transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+				}
+
+				.fbe-btn:hover .fbe-btn-arrow {
+					transform: translateX(5px);
+				}
+
+				/* Responsive */
+				@media (max-width: 1100px) {
+					.fbe-cards-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 20px;
+					}
+					.fbe-card-media {
+						height: 220px;
+					}
+				}
+
+				@media (max-width: 640px) {
+					.fbe-header {
+						margin-bottom: 36px;
+					}
+					.fbe-cards-grid {
+						grid-template-columns: 1fr;
+						max-width: 440px;
+						margin: 0 auto 36px;
+					}
+					.fbe-card-media {
+						height: 230px;
+					}
+				}
+			</style>
+
+			<!-- Atmospheric Ambient Glow -->
+			<div class="fbe-ambient-glow"></div>
+
+			<div class="fbe-inner">
+				<!-- Header Row -->
+				<div class="fbe-header">
+					<div class="fbe-header-left">
+						<div class="fbe-eyebrow">
+							<span class="fbe-eyebrow-line"></span>
+							Equipment &amp; tools
+						</div>
+						<h2 class="fbe-title">
+							<span class="fbe-title-white">GLOBALLY ENGINEERED.</span>
+							<span class="fbe-title-green">PRECISELY SELECTED.</span>
+						</h2>
+					</div>
+					<div class="fbe-header-right">
+						<p class="fbe-lead-text">
+							Every machine, bar and platform on our floor is chosen from the world&#8217;s most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. No compromises on the equipment your training deserves.
+						</p>
+					</div>
+				</div>
+
+				<!-- 4 Equipment Cards Grid -->
+				<div class="fbe-cards-grid">
+					<!-- Card 1: ASPIRE TREADMILL -->
+					<div class="fbe-card">
+						<div class="fbe-card-media">
+							<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" alt="Aspire Treadmill" class="fbe-card-img" loading="lazy" />
+						</div>
+						<div class="fbe-card-body">
+							<h3 class="fbe-card-title">Aspire Treadmill</h3>
+							<div class="fbe-card-divider"></div>
+							<p class="fbe-card-desc">
+								A versatile treadmill with advanced biomechanics, touchscreen console options and Flex Deck shock absorption, reducing knee and joint stress by up to 30%.
+							</p>
+						</div>
+					</div>
+
+					<!-- Card 2: ASPIRE ELLIPTICAL -->
+					<div class="fbe-card">
+						<div class="fbe-card-media">
+							<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png" alt="Aspire Elliptical" class="fbe-card-img" loading="lazy" />
+						</div>
+						<div class="fbe-card-body">
+							<h3 class="fbe-card-title">Aspire Elliptical</h3>
+							<div class="fbe-card-divider"></div>
+							<p class="fbe-card-desc">
+								A smooth, durable elliptical for all fitness levels, featuring 25 resistance levels and smart console options for effective, low-impact cardio training.
+							</p>
+						</div>
+					</div>
+
+					<!-- Card 3: HD AIR BIKE -->
+					<div class="fbe-card">
+						<div class="fbe-card-media">
+							<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="HD Air Bike" class="fbe-card-img" loading="lazy" />
+						</div>
+						<div class="fbe-card-body">
+							<h3 class="fbe-card-title">HD Air Bike</h3>
+							<div class="fbe-card-divider"></div>
+							<p class="fbe-card-desc">
+								A rugged, high-performance air bike built for intense workouts, delivering full-body conditioning, powerful resistance and long-lasting durability for demanding training sessions.
+							</p>
+						</div>
+					</div>
+
+					<!-- Card 4: IC5 INDOOR CYCLE -->
+					<div class="fbe-card">
+						<div class="fbe-card-media">
+							<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="IC5 Indoor Cycle" class="fbe-card-img" loading="lazy" />
+						</div>
+						<div class="fbe-card-body">
+							<h3 class="fbe-card-title">IC5 Indoor Cycle</h3>
+							<div class="fbe-card-divider"></div>
+							<p class="fbe-card-desc">
+								An advanced indoor cycle with magnetic resistance, Bluetooth and ANT+ connectivity, plus Coach By Color guidance for engaging, data-driven workouts.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Bottom Action -->
+				<div class="fbe-bottom-action">
+					<a href="index.php#trainers" class="fbe-btn">
+						<span>View Equipment</span>
+						<span class="fbe-btn-arrow">→</span>
 					</a>
 				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-17eb10d0 elementor-widget elementor-widget-text-editor" data-id="17eb10d0" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="text-align: center; margin: 0;"><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="https://wa.me/917470787014">Enquire on WhatsApp</a></p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3919ba89 e-con-full e-flex e-con e-child" data-id="3919ba89" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-1648a147 elementor-widget elementor-widget-text-editor" data-id="1648a147" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:2.5px;color:#37c080;">02 · Gym Only</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-559a5916 elementor-widget elementor-widget-heading" data-id="559a5916" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Gym Only</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-10826d68 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="10826d68" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Unlimited gym floor access</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Locker &amp; towel service</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">1 Month PT included</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Add-on PT available</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-5f60187e elementor-widget elementor-widget-spacer" data-id="5f60187e" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
+			</div>
 		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-2d91e20a elementor-align-justify elementor-widget elementor-widget-button" data-id="2d91e20a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.php#membership">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">View Plan →</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-63516166 elementor-widget elementor-widget-text-editor" data-id="63516166" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="text-align: center; margin: 0;"><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="https://wa.me/917470787014">Enquire on WhatsApp</a></p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-397b0321 e-con-full e-flex e-con e-child" data-id="397b0321" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-5539c4ab elementor-widget elementor-widget-text-editor" data-id="5539c4ab" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0; font-size: 10px; font-weight: bold; text-transform: uppercase; letter-spacing: 2.5px; color: #37c080;">03 · Pilates PT</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-3b39d43d elementor-widget elementor-widget-heading" data-id="3b39d43d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Pilates</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-5e90d4f1 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="5e90d4f1" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">One-on-one reformer coaching</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Duet &amp; Solo options</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Happy Hour rates 12–4 PM</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Structured 12-week arcs</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-5a753622 elementor-widget elementor-widget-spacer" data-id="5a753622" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-31827968 elementor-align-justify elementor-widget elementor-widget-button" data-id="31827968" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.php#membership">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">View Plan →</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-4e06f4b3 elementor-widget elementor-widget-text-editor" data-id="4e06f4b3" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="text-align: center; margin: 0;"><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="https://wa.me/917470787014">Enquire on WhatsApp</a></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-66e193a2 elementor-widget elementor-widget-spacer" data-id="66e193a2" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6be28a5c e-con-full e-flex e-con e-child" data-id="6be28a5c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-510d0036 elementor-widget elementor-widget-text-editor" data-id="510d0036" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="text-align:center;margin:0;font-size:11px;text-transform:uppercase;letter-spacing:2.5px;color:#9b998b;">Corporate &amp; family plans available · <a href="tel:+917470787014" style="color:#37c080;text-decoration:none;">Call +91 74707 87014</a></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-3fd57e96 elementor-widget elementor-widget-text-editor" data-id="3fd57e96" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="text-align: center; margin: 0;"><span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="index.php#membership">View full membership details →</a></p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-2b31cb74 e-con-full e-flex e-con e-child" data-id="2b31cb74" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-6b6cd147 elementor-widget elementor-widget-html" data-id="6b6cd147" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="max-width:1400px;margin:0 auto;">
-  
-  <div id="fbvs">
-    <div class="fbv" data-v="0" style="display:flex;gap:52px;align-items:center;flex-wrap:wrap;">
-      <div style="flex:1;min-width:260px;">
-          <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;
-               letter-spacing:3px;color:#37c080;">— The space she built</span>
-  <h2 style="margin:14px 0 40px;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,4.5vw,4rem);
-             text-transform:uppercase;line-height:.93;color:#f4f2ea;font-weight:400;">
-    Every detail,<br /><span style="color:#37c080;">intentional.</span></h2>
-        <p
-          style="font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.7;color:#9b998b;margin-bottom:26px;">
-          From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss
-          reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa
-          treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.</p>
-      </div>
-      <div style="flex:1.4;min-width:300px;">
-        <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border:1px solid rgba(255,255,255,0.18);border-radius:4px;box-shadow:0 20px 50px rgba(0,0,0,0.5);background:#071010;">
-          <video id="storyVideo" controls poster="<?php echo $base_url; ?>/assets/images/2026/07/truestory.png" preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block;">
-            <source src="<?php echo $base_url; ?>/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-7ff37714 e-con-full e-flex e-con e-child" data-id="7ff37714" data-element_type="container" data-e-type="container" id="trainers" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-42e2df98 e-con-full e-flex e-con e-child" data-id="42e2df98" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-fee23f4 e-grid e-con-full e-con e-child" data-id="fee23f4" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-407911df e-con-full e-flex e-con e-child" data-id="407911df" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-358d6a8 elementor-widget elementor-widget-text-editor" data-id="358d6a8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Equipment &amp; tools</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-14ce9a4 elementor-widget elementor-widget-heading" data-id="14ce9a4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Globally engineered.
-Precisely selected.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-36ededa e-con-full e-flex e-con e-child" data-id="36ededa" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-49994ae8 elementor-widget elementor-widget-text-editor" data-id="49994ae8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Every machine, bar and platform on our floor is chosen from the world&#8217;s most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. No compromises on the equipment your training deserves.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3ced122c e-grid e-con-full e-con e-child" data-id="3ced122c" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-2752573f e-con-full e-flex e-con e-child" data-id="2752573f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-70ca968d elementor-widget elementor-widget-html" data-id="70ca968d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" style="width:100%;height:100%;display:block;" />
- 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Aspire Treadmill</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-4bbe9108 e-con-full e-flex e-con e-child" data-id="4bbe9108" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-20e070fa elementor-widget elementor-widget-text-editor" data-id="20e070fa" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A versatile treadmill with advanced biomechanics, touchscreen console options and Flex Deck shock absorption, reducing knee and joint stress by up to 30%. </p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4dcb285d e-con-full e-flex e-con e-child" data-id="4dcb285d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-4d5a3ec9 elementor-widget elementor-widget-html" data-id="4d5a3ec9" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png"  style="width:100%;height:100%;display:block;"  />
+				<div class="elementor-element elementor-element-33f097b7 e-con-full e-flex e-con e-child" data-id="33f097b7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "THE COACHES" LUXURY REDESIGN ─── */
+				.elementor-element.elementor-element-33f097b7 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #020505 !important;
+					padding: clamp(70px, 8vw, 110px) clamp(20px, 4vw, 40px) !important;
+					box-sizing: border-box !important;
+					overflow: hidden !important;
+					display: block !important;
+				}
 
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Aspire Elliptical</div>
-    
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-5a7043c1 e-con-full e-flex e-con e-child" data-id="5a7043c1" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-32631325 elementor-widget elementor-widget-text-editor" data-id="32631325" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A smooth, durable elliptical for all fitness levels, featuring 25 resistance levels and smart console options for effective, low-impact cardio training.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-737885ce e-con-full e-flex e-con e-child" data-id="737885ce" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7aa2f0ab elementor-widget elementor-widget-html" data-id="7aa2f0ab" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;display:block;" />
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">HD Air Bike</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-243d5d80 e-con-full e-flex e-con e-child" data-id="243d5d80" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-58f8fa58 elementor-widget elementor-widget-text-editor" data-id="58f8fa58" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A rugged, high-performance air bike built for intense workouts, delivering full-body conditioning, powerful resistance and long-lasting durability for demanding training sessions.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4a70fe75 e-con-full e-flex e-con e-child" data-id="4a70fe75" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-23207f2 elementor-widget elementor-widget-html" data-id="23207f2" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
- 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;"> IC5 Indoor Cycle</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-308d7b73 e-con-full e-flex e-con e-child" data-id="308d7b73" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2cda3295 elementor-widget elementor-widget-text-editor" data-id="2cda3295" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">An advanced indoor cycle with magnetic resistance, Bluetooth and ANT+ connectivity, plus Coach By Color guidance for engaging, data-driven workouts.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-8a3eb15 elementor-align-center elementor-widget elementor-widget-button" data-id="8a3eb15" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="index.php#trainers">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">View Equipment</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-33f097b7 e-con-full e-flex e-con e-child" data-id="33f097b7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-272bed62 e-con-full e-flex e-con e-child" data-id="272bed62" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-6b084960 e-con-full e-flex e-con e-child" data-id="6b084960" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-534b6af8 elementor-widget elementor-widget-text-editor" data-id="534b6af8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— The coaches</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-59764f66 elementor-widget elementor-widget-heading" data-id="59764f66" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">People,<br />not personalities.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5105ba03 e-con-full e-flex e-con e-child" data-id="5105ba03" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4fa146b7 elementor-widget elementor-widget-text-editor" data-id="4fa146b7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Every FitBliss coach is certified, in-house trained, and answerable to you. You&#8217;ll know their name before your first set.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-3a099d33 elementor-widget elementor-widget-spacer" data-id="3a099d33" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+				/* Atmospheric Glow */
+				.fbc-ambient-glow {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 70% 50% at 50% 50%, rgba(55, 192, 128, 0.08) 0%, rgba(2, 5, 5, 0.75) 55%, #020505 100%),
+						linear-gradient(180deg, rgba(2, 5, 5, 0.95) 0%, rgba(2, 5, 5, 0.8) 50%, #020505 100%);
+					pointer-events: none;
+					z-index: 0;
+				}
+
+				/* Inner Container */
+				.fbc-inner {
+					position: relative;
+					z-index: 2;
+					max-width: 1320px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+
+				/* Header Row */
+				.fbc-header {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-end;
+					gap: 36px;
+					margin-bottom: 50px;
+					flex-wrap: wrap;
+				}
+
+				.fbc-header-left {
+					flex: 1 1 540px;
+					min-width: 290px;
+				}
+
+				.fbc-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3.5px;
+					color: #37c080;
+					margin-bottom: 14px;
+				}
+
+				.fbc-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+
+				/* Single Line Heading */
+				.fbc-title {
+					margin: 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(2.2rem, 4.2vw, 3.8rem);
+					line-height: 1;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					font-weight: 400;
+					display: inline-flex;
+					align-items: baseline;
+					gap: 10px;
+					white-space: nowrap;
+				}
+
+				.fbc-title-white {
+					color: #f5f3ec;
+				}
+
+				.fbc-title-green {
+					color: #37c080;
+					text-shadow: 0 0 35px rgba(55, 192, 128, 0.38);
+				}
+
+				.fbc-header-right {
+					flex: 0 1 480px;
+					min-width: 280px;
+					margin-bottom: 4px;
+				}
+
+				.fbc-lead-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.65;
+					color: #9e9c8e;
+				}
+
+				/* 3 Coaches Grid (SHARP RECTANGLES) */
+				.fbc-cards-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 26px;
+					align-items: stretch;
+				}
+
+				/* Coach Card */
+				.fbc-card {
+					position: relative;
+					background: rgba(12, 22, 22, 0.72);
+					border: 1px solid rgba(255, 255, 255, 0.10);
+					border-radius: 0px !important; /* Sharp corners */
+					box-sizing: border-box;
+					overflow: hidden;
+					box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.75);
+					transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+					height: 480px;
+					display: flex;
+					flex-direction: column;
+					justify-content: flex-end;
+				}
+
+				.fbc-card:hover {
+					transform: translateY(-8px);
+					border-color: rgba(55, 192, 128, 0.5);
+					box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.15);
+				}
+
+				/* Top Neon Accent Ribbon on Hover */
+				.fbc-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 14px #3ee69a;
+					opacity: 0;
+					transition: opacity 0.35s ease;
+					z-index: 5;
+					pointer-events: none;
+				}
+
+				.fbc-card:hover::before {
+					opacity: 1;
+				}
+
+				/* Coach Image */
+				.fbc-card-img {
+					position: absolute;
+					inset: 0;
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center top;
+					z-index: 1;
+					transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+				}
+
+				.fbc-card:hover .fbc-card-img {
+					transform: scale(1.05);
+				}
+
+				/* Experience Badge (Top Right) */
+				.fbc-card-badge {
+					position: absolute;
+					top: 18px;
+					right: 18px;
+					z-index: 3;
+					background: rgba(2, 6, 6, 0.85);
+					backdrop-filter: blur(8px);
+					-webkit-backdrop-filter: blur(8px);
+					border: 1px solid rgba(55, 192, 128, 0.65);
+					border-radius: 0px !important;
+					padding: 6px 12px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					color: #37c080;
+					box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+					transition: border-color 0.3s ease, background 0.3s ease;
+				}
+
+				.fbc-card:hover .fbc-card-badge {
+					border-color: #3ee69a;
+					background: rgba(4, 12, 10, 0.95);
+					box-shadow: 0 0 15px rgba(55, 192, 128, 0.3);
+				}
+
+				/* Dark Gradient Shade Overlay */
+				.fbc-card-overlay {
+					position: absolute;
+					inset: 0;
+					background: linear-gradient(to top, rgba(2, 6, 6, 0.95) 0%, rgba(2, 6, 6, 0.65) 35%, rgba(2, 6, 6, 0.1) 65%, transparent 100%);
+					z-index: 2;
+					pointer-events: none;
+				}
+
+				/* Coach Info Panel (Bottom) */
+				.fbc-card-info {
+					position: relative;
+					z-index: 3;
+					padding: 24px 24px 26px;
+					box-sizing: border-box;
+				}
+
+				.fbc-card-name {
+					margin: 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: 26px;
+					line-height: 1.1;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					color: #f5f3ec;
+					font-weight: 400;
+				}
+
+				.fbc-card-divider {
+					height: 2px;
+					width: 36px;
+					background: #37c080;
+					margin: 8px 0 10px;
+					transition: width 0.3s ease;
+				}
+
+				.fbc-card:hover .fbc-card-divider {
+					width: 55px;
+				}
+
+				.fbc-card-role {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					color: #37c080;
+				}
+
+				/* Responsive */
+				@media (max-width: 960px) {
+					.fbc-cards-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 20px;
+					}
+					.fbc-card {
+						height: 440px;
+					}
+				}
+
+				@media (max-width: 640px) {
+					.fbc-header {
+						margin-bottom: 36px;
+					}
+					.fbc-title {
+						flex-direction: column;
+						align-items: flex-start;
+						gap: 4px;
+					}
+					.fbc-cards-grid {
+						grid-template-columns: 1fr;
+						max-width: 440px;
+						margin: 0 auto;
+					}
+					.fbc-card {
+						height: 420px;
+					}
+				}
+			</style>
+
+			<!-- Atmospheric Ambient Glow -->
+			<div class="fbc-ambient-glow"></div>
+
+			<div class="fbc-inner">
+				<!-- Header Row -->
+				<div class="fbc-header">
+					<div class="fbc-header-left">
+						<div class="fbc-eyebrow">
+							<span class="fbc-eyebrow-line"></span>
+							THE COACHES
 						</div>
+						<h2 class="fbc-title">
+							<span class="fbc-title-white">PEOPLE,</span>
+							<span class="fbc-title-green">NOT PERSONALITIES.</span>
+						</h2>
+					</div>
+					<div class="fbc-header-right">
+						<p class="fbc-lead-text">
+							Every FitBliss coach is certified, in-house trained, and answerable to you. You&#8217;ll know their name before your first set.
+						</p>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-7a29dec5 elementor-widget elementor-widget-text-editor" data-id="7a29dec5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="display:none;"><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="trainers.php">View full profiles →</a></p>								</div>
+
+				<!-- 3 Coaches Grid (Sharp Edge Theme) -->
+				<div class="fbc-cards-grid">
+					<!-- Coach 1: GURPREET SINGH -->
+					<div class="fbc-card">
+						<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Gurpreet-Singh.jpg" alt="Gurpreet Singh" class="fbc-card-img" loading="lazy" />
+						<div class="fbc-card-badge">15+ YRS</div>
+						<div class="fbc-card-overlay"></div>
+						<div class="fbc-card-info">
+							<h3 class="fbc-card-name">GURPREET SINGH</h3>
+							<div class="fbc-card-divider"></div>
+							<p class="fbc-card-role">STRENGTH COACH &amp; FLOOR MANAGER</p>
+						</div>
+					</div>
+
+					<!-- Coach 2: SWAPNIL SHARMA -->
+					<div class="fbc-card">
+						<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Swapnil-Sharma.jpg" alt="Swapnil Sharma" class="fbc-card-img" loading="lazy" />
+						<div class="fbc-card-badge">10 YRS</div>
+						<div class="fbc-card-overlay"></div>
+						<div class="fbc-card-info">
+							<h3 class="fbc-card-name">SWAPNIL SHARMA</h3>
+							<div class="fbc-card-divider"></div>
+							<p class="fbc-card-role">PILATES INSTRUCTOR &amp; MARTIAL ARTS COACH</p>
+						</div>
+					</div>
+
+					<!-- Coach 3: HITESH HOODA -->
+					<div class="fbc-card">
+						<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Hitesh-Hooda.jpg" alt="Hitesh Hooda" class="fbc-card-img" loading="lazy" />
+						<div class="fbc-card-badge">8+ YRS</div>
+						<div class="fbc-card-overlay"></div>
+						<div class="fbc-card-info">
+							<h3 class="fbc-card-name">HITESH HOODA</h3>
+							<div class="fbc-card-divider"></div>
+							<p class="fbc-card-role">PROFESSIONAL BOXING COACH</p>
+						</div>
+					</div>
 				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5a41c4bb e-con-full e-flex e-con e-child" data-id="5a41c4bb" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-15ab7fd1 e-con-full e-flex e-con e-child" data-id="15ab7fd1" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-7f315b50 elementor-widget elementor-widget-html" data-id="7f315b50" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Gurpreet-Singh.jpg" alt="Gurpreet Singh" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">15+ yrs</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Gurpreet Singh</div>
-    <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">Strength Coach & Floor Manager</div>
-  </div>
-</div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6cf11232 e-con-full e-flex e-con e-child" data-id="6cf11232" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-1bcbc947 elementor-widget elementor-widget-html" data-id="1bcbc947" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Swapnil-Sharma.jpg" alt="Swapnil Sharma" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">10 yrs</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Swapnil Sharma</div>
-    <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">Pilates Instructor & Martial Arts Coach</div>
-  </div>
-</div>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-55527f95 e-con-full e-flex e-con e-child" data-id="55527f95" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-61beee17 elementor-widget elementor-widget-html" data-id="61beee17" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:440px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Hitesh-Hooda.jpg" alt="Hitesh Hooda" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">8+ yrs</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Hitesh Hooda</div>
-    <div style="font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;margin-top:3px;">Professional Boxing Coach</div>
-  </div>
-</div>				</div>
-				</div>
-				</div>
-				</div>
-				</div>
+			</div>
+		</div>
 		<div class="elementor-element elementor-element-26d78446 e-con-full e-flex e-con e-child" data-id="26d78446" data-element_type="container" data-e-type="container" id="testimonials" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 		<div class="elementor-element elementor-element-187b241e e-con-full e-flex e-con e-child" data-id="187b241e" data-element_type="container" data-e-type="container">
 				<div class="elementor-element elementor-element-6d06e060 elementor-widget elementor-widget-text-editor" data-id="6d06e060" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
