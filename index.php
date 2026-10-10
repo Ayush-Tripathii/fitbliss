@@ -2463,7 +2463,6 @@ img, video {
         <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
         <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
@@ -4642,7 +4641,7 @@ Precisely selected.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-7a29dec5 elementor-widget elementor-widget-text-editor" data-id="7a29dec5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-									<p><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="trainers.php">View full profiles →</a></p>								</div>
+									<p style="display:none;"><a style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: #37c080; text-decoration: none;" href="trainers.php">View full profiles →</a></p>								</div>
 				</div>
 				</div>
 				</div>
@@ -6172,7 +6171,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </script>
 <script>
     (function() {
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -6286,7 +6285,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 

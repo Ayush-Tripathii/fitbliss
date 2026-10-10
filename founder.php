@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/security_shield.php';
 ?>
@@ -993,7 +993,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
                     <a href="tel:+917470787014" class="cta">Call Us</a>
@@ -1020,7 +1019,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     </header>
 
     <script>
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -1134,7 +1133,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
@@ -1409,7 +1408,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         max-height: 620px;
         object-fit: cover;
         display: block;
-        border-radius: 2px;
+        border-radius: 0 !important;
     }
 
     .fbt-founder-overlay-card {
@@ -1486,39 +1485,331 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-5cf5541f e-con-full e-flex e-con e-child" data-id="5cf5541f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-6d7d735c e-con-full e-flex e-con e-child" data-id="6d7d735c" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-75a6bd09 e-con-full e-flex e-con e-child" data-id="75a6bd09" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-74c0f51b e-con-full e-flex e-con e-child" data-id="74c0f51b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-58a158ef elementor-widget elementor-widget-image" data-id="58a158ef" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img fetchpriority="high" decoding="async" width="650" height="1300" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3800-scaled-1-650x1300.jpg" class="attachment-qi_addons_for_elementor_image_size_portrait size-qi_addons_for_elementor_image_size_portrait wp-image-20347" alt="" />															</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5b79601a e-con-full e-flex e-con e-child" data-id="5b79601a" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-17225b7d elementor-widget elementor-widget-text-editor" data-id="17225b7d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— The Story</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-2e1b40c elementor-widget elementor-widget-heading" data-id="2e1b40c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">From obesity<br />to powerlifter —<br />her transformation.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-3aaf7ab2 elementor-widget elementor-widget-text-editor" data-id="3aaf7ab2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p class="isSelectedEnd">Every transformation begins with a challenge. Years ago, Dr. Shruti Kapoor turned her personal struggles with obesity and hurtful judgment into motivation, rebuilding her physical and emotional health through small, consistent steps like Pilates and strength training. This personal evolution soon blossomed into a professional mission. She became a Pilates expert trained under renowned educator Yasmin Karachiwala, embraced powerlifting, and explored global wellness destinations to master world-class fitness, recovery, and health practices. Recognizing that Bhopal lacked a premium, all-in-one health facility, she channeled her expertise into creating FitBliss by Dr. Shruti Kapoor. FitBliss is a luxury wellness destination where fitness, recovery, and nutrition seamlessly converge under one roof. Built on the core belief that everyone deserves a supportive space to transform their health, FitBliss goes beyond being a standard gym—it is a supportive community dedicated to lasting change. Today, Dr. Shruti continues to inspire and empower thousands through FitBliss to build confidence, discover their true strength, and embrace healthier lifestyles.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-c17af82 elementor-widget elementor-widget-spacer" data-id="c17af82" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+		<!-- REDESIGNED THE STORY SECTION -->
+		<div class="fbt-story-wrapper">
+			<style>
+				.fbt-story-wrapper {
+					width: 100%;
+					background: linear-gradient(180deg, #070e0e 0%, #030607 100%);
+					padding: clamp(50px, 7vw, 90px) clamp(20px, 4vw, 50px);
+					position: relative;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					box-sizing: border-box;
+					overflow: hidden;
+				}
+				.fbt-story-wrapper::before {
+					content: '';
+					position: absolute;
+					top: 20%;
+					left: -10%;
+					width: 450px;
+					height: 450px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.08) 0%, transparent 70%);
+					pointer-events: none;
+					filter: blur(50px);
+				}
+				.fbt-story-container {
+					max-width: 1320px;
+					margin: 0 auto;
+					display: grid;
+					grid-template-columns: 0.95fr 1.05fr;
+					gap: clamp(30px, 5vw, 65px);
+					align-items: center;
+					position: relative;
+					z-index: 2;
+				}
+				@media (max-width: 991px) {
+					.fbt-story-container {
+						grid-template-columns: 1fr;
+						gap: 40px;
+					}
+				}
+				
+				/* Left Column: Image Card */
+				.fbt-story-media {
+					position: relative;
+				}
+				.fbt-story-img-card {
+					border-radius: 0 !important;
+					overflow: hidden;
+					background: #081112;
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 40px rgba(55, 192, 128, 0.12);
+					transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+					max-width: 480px;
+					margin: 0 auto;
+				}
+				.fbt-story-img-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.45);
+					box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9), 0 0 50px rgba(55, 192, 128, 0.2);
+				}
+				.fbt-story-img-wrapper {
+					width: 100%;
+					background: #040809;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					overflow: hidden;
+				}
+				.fbt-story-img-wrapper img {
+					width: 100%;
+					height: auto;
+					max-height: 600px;
+					display: block;
+					object-fit: contain;
+					transition: transform 0.6s ease;
+				}
+				.fbt-story-img-card:hover .fbt-story-img-wrapper img {
+					transform: scale(1.02);
+				}
+				.fbt-story-img-badge {
+					background: rgba(10, 20, 20, 0.95);
+					border-top: 1px solid rgba(255, 255, 255, 0.1);
+					padding: 14px 18px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 12px;
+				}
+				.fbt-story-img-badge-text {
+					font-family: 'Barlow', Inter, sans-serif;
+				}
+				.fbt-story-img-badge-name {
+					font-size: 14px;
+					font-weight: 700;
+					color: #f4f2ea;
+					letter-spacing: 0.05em;
+				}
+				.fbt-story-img-badge-role {
+					font-size: 11px;
+					color: #37c080;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					font-weight: 600;
+					margin-top: 2px;
+				}
+				.fbt-story-pill-tag {
+					background: rgba(55, 192, 128, 0.15);
+					color: #37c080;
+					border: 1px solid rgba(55, 192, 128, 0.35);
+					padding: 5px 12px;
+					border-radius: 0 !important;
+					font-size: 10px;
+					font-weight: 700;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					white-space: nowrap;
+				}
+
+				/* Right Column: Story Content */
+				.fbt-story-content {
+					display: flex;
+					flex-direction: column;
+				}
+				.fbt-story-tagline {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 12px;
+				}
+				.fbt-story-tagline::before {
+					content: '';
+					display: inline-block;
+					width: 20px;
+					height: 2px;
+					background: #37c080;
+				}
+				.fbt-story-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.2rem, 4vw, 3.4rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 20px 0;
+					font-weight: 400;
+				}
+				.fbt-story-title span.accent {
+					color: #37c080;
+				}
+				
+				.fbt-story-paragraphs {
+					display: flex;
+					flex-direction: column;
+					gap: 14px;
+					margin-bottom: 24px;
+				}
+				.fbt-story-p {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: clamp(14px, 1.05vw, 15px);
+					line-height: 1.7;
+					color: #b5b0a3;
+					margin: 0;
+				}
+				.fbt-story-p strong {
+					color: #f4f2ea;
+					font-weight: 600;
+				}
+				.fbt-story-p.lead {
+					font-size: clamp(15px, 1.15vw, 16.5px);
+					color: #e5e0d4;
+					line-height: 1.65;
+					border-left: 3px solid #37c080;
+					padding-left: 16px;
+				}
+
+				/* 3 Milestone Feature Cards */
+				.fbt-story-highlights {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 12px;
+					margin-bottom: 24px;
+				}
+				@media (max-width: 640px) {
+					.fbt-story-highlights {
+						grid-template-columns: 1fr;
+						gap: 10px;
+					}
+				}
+				.fbt-highlight-card {
+					background: rgba(255, 255, 255, 0.03);
+					border: 1px solid rgba(255, 255, 255, 0.08);
+					border-radius: 0 !important;
+					padding: 14px 12px;
+					transition: all 0.3s ease;
+				}
+				.fbt-highlight-card:hover {
+					background: rgba(55, 192, 128, 0.05);
+					border-color: rgba(55, 192, 128, 0.3);
+					transform: translateY(-2px);
+				}
+				.fbt-highlight-icon {
+					font-size: 18px;
+					color: #37c080;
+					margin-bottom: 8px;
+					display: flex;
+					align-items: center;
+				}
+				.fbt-highlight-title {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12.5px;
+					font-weight: 700;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.06em;
+					margin-bottom: 4px;
+				}
+				.fbt-highlight-desc {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					color: #949084;
+					line-height: 1.45;
+					margin: 0;
+				}
+
+				/* Founder Ethos Quote Strip */
+				.fbt-story-ethos {
+					display: flex;
+					align-items: center;
+					gap: 14px;
+					padding: 14px 18px;
+					border-radius: 0 !important;
+					background: rgba(55, 192, 128, 0.07);
+					border-left: 3px solid #37c080;
+					border-top: 1px solid rgba(55, 192, 128, 0.15);
+					border-right: 1px solid rgba(55, 192, 128, 0.15);
+					border-bottom: 1px solid rgba(55, 192, 128, 0.15);
+				}
+				.fbt-story-ethos-text {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13px;
+					font-style: italic;
+					color: #ded9cd;
+					line-height: 1.5;
+					margin: 0;
+				}
+			</style>
+
+			<div class="fbt-story-container">
+				<!-- LEFT: Visual Photo Frame -->
+				<div class="fbt-story-media">
+					<div class="fbt-story-img-card">
+						<div class="fbt-story-img-wrapper">
+							<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3800-scaled-1-650x1300.jpg" alt="Dr. Shruti Kapoor Transformation Journey — FitBliss" loading="lazy" />
 						</div>
+						<div class="fbt-story-img-badge">
+							<div class="fbt-story-img-badge-text">
+								<div class="fbt-story-img-badge-name">Dr. Shruti Kapoor</div>
+								<div class="fbt-story-img-badge-role">Radiologist &amp; Wellness Founder</div>
+							</div>
+							<span class="fbt-story-pill-tag">Powerlifter</span>
+						</div>
+					</div>
 				</div>
+
+				<!-- RIGHT: Editorial Story Content -->
+				<div class="fbt-story-content">
+					<div class="fbt-story-tagline">The Story &amp; Vision</div>
+					<h2 class="fbt-story-title">
+						From Obesity to Powerlifter —<br/>
+						<span class="accent">Her Transformation</span>
+					</h2>
+
+					<div class="fbt-story-paragraphs">
+						<p class="fbt-story-p lead">
+							Every transformation begins with a challenge. Years ago, <strong>Dr. Shruti Kapoor</strong> turned her personal struggles with obesity and hurtful judgment into fuel for an unstoppable journey of self-reinvention.
+						</p>
+						<p class="fbt-story-p">
+							Rebuilding her physical and emotional vitality step by step through Pilates and structured strength training, her personal evolution quickly grew into a lifelong mission. She became a certified <strong>Pilates specialist trained under master educator Yasmin Karachiwala</strong>, embraced the discipline of competitive powerlifting, and studied leading global wellness destinations to master world-class fitness, recovery, and holistic health practices.
+						</p>
+						<p class="fbt-story-p">
+							Recognizing that Bhopal lacked a true, all-in-one luxury health sanctuary, she channeled her deep medical expertise and passion into founding <strong>FitBliss by Dr. Shruti Kapoor</strong> — where elite fitness, advanced recovery, and nutrition seamlessly converge under one roof.
+						</p>
+					</div>
+
+					<!-- Milestone Highlights -->
+					<div class="fbt-story-highlights">
+						<div class="fbt-highlight-card">
+							<div class="fbt-highlight-icon">
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37c080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.45 1-1 1H8c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1h8c.55 0 1-.45 1-1v-1c0-.55-.45-1-1-1h-1c-.55 0-1-.45-1-1v-2.34"></path><path d="M18 4H6v7a6 6 0 0 0 12 0V4Z"></path></svg>
+							</div>
+							<div class="fbt-highlight-title">Strength &amp; Grit</div>
+							<p class="fbt-highlight-desc">Turned personal adversity into powerlifting strength and resilience.</p>
+						</div>
+
+						<div class="fbt-highlight-card">
+							<div class="fbt-highlight-icon">
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37c080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m9 12 2 2 4-4"></path></svg>
+							</div>
+							<div class="fbt-highlight-title">Yasmin Trained</div>
+							<p class="fbt-highlight-desc">Mastered biomechanics &amp; Pilates directly under Yasmin Karachiwala.</p>
+						</div>
+
+						<div class="fbt-highlight-card">
+							<div class="fbt-highlight-icon">
+								<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#37c080" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"></path><path d="M5 21V7l8-4v18"></path><path d="M19 21V11l-6-4"></path><path d="M9 9h1"></path><path d="M9 13h1"></path><path d="M9 17h1"></path></svg>
+							</div>
+							<div class="fbt-highlight-title">FitBliss Sanctuary</div>
+							<p class="fbt-highlight-desc">Central India’s premier luxury wellness destination for total health.</p>
+						</div>
+					</div>
+
+					<!-- Founder Ethos Quote Strip -->
+					<div class="fbt-story-ethos">
+						<p class="fbt-story-ethos-text">
+							&ldquo;FitBliss goes beyond being a standard gym — it is a supportive community built to inspire thousands to discover their true strength and build lifelong confidence.&rdquo;
+						</p>
+					</div>
 				</div>
-				</div>
-				</div>
+			</div>
+		</div>
 		<div class="elementor-element elementor-element-250673d2 e-con-full e-flex e-con e-child" data-id="250673d2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-361a1e1e elementor-widget elementor-widget-html" data-id="361a1e1e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
@@ -1586,7 +1877,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         grid-template-columns: 1fr 1fr;
         gap: 1px;
         border: 1px solid rgba(255, 255, 255, 0.08);
-        border-radius: 2px;
+        border-radius: 0 !important;
         overflow: hidden;
         background: rgba(255, 255, 255, 0.08);
     }
@@ -1620,7 +1911,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         <div class="fbt-transform-heading">
             <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— The Transformation</span>
             <h2 style="margin:14px 0 0;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,4.5vw,4rem);line-height:0.93;color:#f4f2ea;font-weight:400;text-transform:uppercase;">
-                Her journey.<br /><span style="color:#37c080;">Visible proof.</span>
+                Her journey. <span style="color:#37c080;">Visible proof.</span>
             </h2>
         </div>
 
@@ -1654,7 +1945,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             <!-- Text content -->
             <div style="display:flex;flex-direction:column;gap:20px;">
                 <h3 style="font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(1.8rem,3vw,3rem);text-transform:uppercase;line-height:0.95;color:#f4f2ea;font-weight:400;margin:0;">
-                    Not a shortcut.<br /><span style="color:#37c080;">A lifestyle.</span>
+                    Not a shortcut. <span style="color:#37c080;">A lifestyle.</span>
                 </h3>
                 <p style="font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.7;color:rgba(244,242,234,0.88);margin:0;">
                     Dr. Shruti Kapoor's transformation was not the result of a crash diet or extreme measure.
@@ -1702,368 +1993,1166 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-44cf682d e-con-full e-flex e-con e-child" data-id="44cf682d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-5516e1f6 e-con-full e-flex e-con e-child" data-id="5516e1f6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4e6bf93 elementor-widget elementor-widget-text-editor" data-id="4e6bf93" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 3px; color: #37c080;">— THE FOUNDER’S JOURNEY</p>								</div>
+		<!-- MOMENTS THAT SHAPED THE VISION GALLERY WITH LIGHTBOX -->
+		<div class="fbt-moments-wrapper">
+			<style>
+				.fbt-moments-wrapper {
+					width: 100%;
+					background: #020506;
+					padding: clamp(40px, 6vw, 70px) clamp(20px, 4vw, 50px);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					box-sizing: border-box;
+				}
+				.fbt-moments-container {
+					max-width: 1320px;
+					margin: 0 auto;
+				}
+				.fbt-moments-header {
+					margin-bottom: clamp(24px, 4vw, 36px);
+				}
+				.fbt-moments-tagline {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					display: inline-block;
+					margin-bottom: 8px;
+				}
+				.fbt-moments-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.2rem, 4vw, 3.4rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0;
+					font-weight: 400;
+				}
+				.fbt-moments-title span.accent {
+					color: #37c080;
+				}
+				.fbt-moments-grid {
+					display: grid;
+					grid-template-columns: repeat(5, 1fr);
+					gap: 14px;
+				}
+				@media (max-width: 1024px) {
+					.fbt-moments-grid {
+						grid-template-columns: repeat(3, 1fr);
+						gap: 12px;
+					}
+				}
+				@media (max-width: 640px) {
+					.fbt-moments-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 10px;
+					}
+				}
+				.fbt-moment-item {
+					position: relative;
+					border-radius: 0 !important;
+					overflow: hidden;
+					background: #091213;
+					border: 1px solid rgba(255, 255, 255, 0.1);
+					aspect-ratio: 4 / 3;
+					display: block;
+					cursor: pointer;
+					box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+					transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+				}
+				.fbt-moment-item:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.5);
+					box-shadow: 0 16px 36px rgba(0, 0, 0, 0.8), 0 0 20px rgba(55, 192, 128, 0.25);
+				}
+				.fbt-moment-item img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+					transition: transform 0.6s ease;
+				}
+				.fbt-moment-item:hover img {
+					transform: scale(1.08);
+				}
+				.fbt-moment-overlay {
+					position: absolute;
+					inset: 0;
+					background: linear-gradient(180deg, rgba(5,10,11,0.2) 0%, rgba(5,10,11,0.75) 100%);
+					opacity: 0;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: opacity 0.3s ease;
+				}
+				.fbt-moment-item:hover .fbt-moment-overlay {
+					opacity: 1;
+				}
+				.fbt-moment-zoom-icon {
+					width: 38px;
+					height: 38px;
+					border-radius: 50%;
+					background: #37c080;
+					color: #050a0b;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transform: scale(0.85);
+					transition: transform 0.25s ease;
+					box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+				}
+				.fbt-moment-item:hover .fbt-moment-zoom-icon {
+					transform: scale(1);
+				}
+
+				/* ================= MOMENTS LIGHTBOX MODAL ================= */
+				.fbt-lightbox-modal {
+					position: fixed;
+					inset: 0;
+					background: rgba(5, 10, 11, 0.96);
+					backdrop-filter: blur(20px);
+					-webkit-backdrop-filter: blur(20px);
+					z-index: 999999;
+					display: none;
+					align-items: center;
+					justify-content: center;
+					padding: 30px;
+					opacity: 0;
+					transition: opacity 0.3s ease;
+				}
+				.fbt-lightbox-modal.active {
+					display: flex;
+					opacity: 1;
+				}
+				.fbt-lightbox-content {
+					position: relative;
+					max-width: 90vw;
+					max-height: 85vh;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+				.fbt-lightbox-img {
+					max-width: 100%;
+					max-height: 80vh;
+					object-fit: contain;
+					border-radius: 0 !important;
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+					border: 1px solid rgba(255, 255, 255, 0.12);
+				}
+				.fbt-lightbox-caption {
+					margin-top: 14px;
+					color: #f2ece0;
+					font-size: 14px;
+					letter-spacing: 0.15em;
+					text-transform: uppercase;
+					font-weight: 600;
+					text-align: center;
+				}
+				.fbt-lightbox-close {
+					position: absolute !important;
+					top: 24px !important;
+					right: 28px !important;
+					background: rgba(13, 23, 23, 0.92) !important;
+					border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+					color: #ffffff !important;
+					width: 52px !important;
+					height: 52px !important;
+					border-radius: 50% !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					cursor: pointer !important;
+					transition: all 0.25s ease !important;
+					z-index: 1000001 !important;
+					padding: 0 !important;
+					outline: none !important;
+					box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6) !important;
+				}
+				.fbt-lightbox-close:hover {
+					background: #e53e3e !important;
+					color: #ffffff !important;
+					border-color: #e53e3e !important;
+					transform: scale(1.1) !important;
+					box-shadow: 0 0 22px rgba(229, 62, 62, 0.7) !important;
+				}
+				.fbt-lightbox-nav {
+					position: absolute !important;
+					top: 50% !important;
+					transform: translateY(-50%) !important;
+					background: rgba(13, 23, 23, 0.92) !important;
+					border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+					color: #ffffff !important;
+					width: 58px !important;
+					height: 58px !important;
+					border-radius: 50% !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					cursor: pointer !important;
+					transition: all 0.25s ease !important;
+					user-select: none !important;
+					z-index: 1000000 !important;
+					padding: 0 !important;
+					outline: none !important;
+					box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+				}
+				.fbt-lightbox-nav:hover {
+					background: #37c080 !important;
+					color: #050a0b !important;
+					border-color: #37c080 !important;
+					transform: translateY(-50%) scale(1.12) !important;
+					box-shadow: 0 0 28px rgba(55, 192, 128, 0.65) !important;
+				}
+				.fbt-lightbox-nav:hover .fbt-btn-icon {
+					color: #050a0b !important;
+				}
+				.fbt-lightbox-prev { left: 24px !important; }
+				.fbt-lightbox-next { right: 24px !important; }
+
+				.fbt-btn-icon {
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					font-family: Arial, "Helvetica Neue", sans-serif !important;
+					font-size: 26px !important;
+					font-weight: 900 !important;
+					line-height: 1 !important;
+					color: #ffffff !important;
+					pointer-events: none !important;
+					text-shadow: 0 2px 4px rgba(0,0,0,0.5) !important;
+					margin: 0 !important;
+					padding: 0 !important;
+				}
+				.fbt-icon-prev {
+					padding-right: 3px !important;
+				}
+				.fbt-icon-next {
+					padding-left: 3px !important;
+				}
+				.fbt-icon-close {
+					font-size: 22px !important;
+				}
+
+				.fbt-lightbox-counter {
+					position: absolute;
+					bottom: 24px;
+					left: 50%;
+					transform: translateX(-50%);
+					font-size: 13px;
+					letter-spacing: 0.25em;
+					color: #a7a294;
+					text-transform: uppercase;
+					font-weight: 600;
+					background: rgba(13, 23, 23, 0.85);
+					padding: 6px 18px;
+					border-radius: 0 !important;
+					border: 1px solid rgba(255, 255, 255, 0.15);
+				}
+				@media (max-width: 768px) {
+					.fbt-lightbox-nav {
+						width: 46px !important;
+						height: 46px !important;
+					}
+					.fbt-lightbox-prev { left: 12px !important; }
+					.fbt-lightbox-next { right: 12px !important; }
+					.fbt-lightbox-close {
+						top: 14px !important;
+						right: 14px !important;
+						width: 44px !important;
+						height: 44px !important;
+					}
+					.fbt-btn-icon {
+						font-size: 22px !important;
+					}
+					.fbt-icon-close {
+						font-size: 18px !important;
+					}
+				}
+			</style>
+
+			<div class="fbt-moments-container">
+				<div class="fbt-moments-header">
+					<span class="fbt-moments-tagline">— THE FOUNDER&rsquo;S JOURNEY</span>
+					<h2 class="fbt-moments-title">MOMENTS THAT, <span class="accent">SHAPED THE VISION.</span></h2>
 				</div>
-				<div class="elementor-element elementor-element-e7d482c elementor-widget elementor-widget-heading" data-id="e7d482c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">MOMENTS THAT,<br>
-SHAPED THE VISION.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-791e44e7 elementor-widget elementor-widget-gallery" data-id="791e44e7" data-element_type="widget" data-e-type="widget" data-settings="{&quot;gallery_layout&quot;:&quot;justified&quot;,&quot;lazyload&quot;:&quot;yes&quot;,&quot;ideal_row_height&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:200,&quot;sizes&quot;:[]},&quot;ideal_row_height_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;ideal_row_height_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:150,&quot;sizes&quot;:[]},&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-gallery__container">
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC06216_11zon-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNDgsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNjIxNl8xMXpvbi0xLndlYnAiLCJzbGlkZXNob3ciOiI3OTFlNDRlNyJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC06216_11zon-1.webp" data-width="1867" data-height="1244" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDI1OF8xMXpvbi0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-width="1310" data-height="873" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkyMzMsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE3N18xMXpvbi0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg" data-width="1734" data-height="1155" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNDksInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNjMwNC1zY2FsZWQtMS5qcGciLCJzbGlkZXNob3ciOiI3OTFlNDRlNyJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-scaled-1.jpg" data-width="2560" data-height="1707" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE1OF8xMXpvbi0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-width="1598" data-height="1065" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNTAsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE1MV8xMXpvbi0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon-1.jpg" data-width="1382" data-height="920" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/C2721.MP4.11_10_41_22.Still001-Copy-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNTEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9DMjcyMS5NUDQuMTFfMTBfNDFfMjIuU3RpbGwwMDEtQ29weS0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/C2721.MP4.11_10_41_22.Still001-Copy-1.jpg" data-width="1080" data-height="1920" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04295-Copy-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNTIsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDI5NS1Db3B5LXNjYWxlZC0xLmpwZyIsInNsaWRlc2hvdyI6Ijc5MWU0NGU3In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04295-Copy-scaled-1.jpg" data-width="2560" data-height="1707" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04273-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNTMsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDI3My1zY2FsZWQtMS5qcGciLCJzbGlkZXNob3ciOiI3OTFlNDRlNyJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04273-scaled-1.jpg" data-width="2560" data-height="1707" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="791e44e7" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAzNTQsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDI1OC1zY2FsZWQtMS5qcGciLCJzbGlkZXNob3ciOiI3OTFlNDRlNyJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258-scaled-1.jpg" data-width="2560" data-height="1707" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
+				<div class="fbt-moments-grid" id="fbtMomentsGrid">
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06216_11zon-1.webp" data-title="Founder Journey — Yasmin Karachiwala Studio">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06216_11zon-1.webp" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
 					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-title="Founder Journey — Pilates Reformer Training">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg" data-title="Founder Journey — Master Educator Yasmin Karachiwala &amp; Dr. Shruti Kapoor">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-scaled-1.jpg" data-title="Founder Journey — Group Movement &amp; Training Camp">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-scaled-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-title="Founder Journey — Advanced Pilates Mat Session">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon-1.jpg" data-title="Founder Journey — Cadillac Pilates Movement">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/C2721.MP4.11_10_41_22.Still001-Copy-1.jpg" data-title="Founder Journey — Celebration &amp; Transformation Milestone">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/C2721.MP4.11_10_41_22.Still001-Copy-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04295-Copy-scaled-1.jpg" data-title="Founder Journey — Core Alignment on Reformer">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04295-Copy-scaled-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04273-scaled-1.jpg" data-title="Founder Journey — Studio Studio Flow &amp; Posture">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04273-scaled-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
+					</div>
+					<div class="fbt-moment-item" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258-scaled-1.jpg" data-title="Founder Journey — Reformer Movement Practice">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258-scaled-1.jpg" alt="Founder Journey Moment - FitBliss" loading="lazy" />
+						<div class="fbt-moment-overlay">
+							<div class="fbt-moment-zoom-icon">
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+
+			<!-- Moments Lightbox Modal -->
+			<div class="fbt-lightbox-modal" id="fbtMomentsModal" role="dialog" aria-modal="true">
+				<button class="fbt-lightbox-close" id="fbtMomentsClose" aria-label="Close Lightbox" title="Close (Esc)">
+					<span class="fbt-btn-icon fbt-icon-close">&#10005;</span>
+				</button>
+				<div class="fbt-lightbox-content">
+					<img class="fbt-lightbox-img" id="fbtMomentsImg" src="" alt="FitBliss Moments Preview" />
+					<div class="fbt-lightbox-caption" id="fbtMomentsCaption"></div>
 				</div>
-				<div class="elementor-element elementor-element-dc13d50 elementor-widget elementor-widget-html" data-id="dc13d50" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="max-width:1400px;margin:0 auto;padding:10px 0;">
-  <div id="fbvs">
-    <div class="fbv" data-v="0" style="display:flex;gap:52px;align-items:center;flex-wrap:wrap;">
-      <div style="flex:1;min-width:280px;">
-        <span style="font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;display:inline-block;margin-bottom:12px;">— The space she built</span>
-        <h2 style="margin:0 0 24px 0;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,4.5vw,4rem);text-transform:uppercase;line-height:0.95;color:#f4f2ea;font-weight:400;letter-spacing:1px;">
-          Every detail,<br /><span style="color:#37c080;">intentional.</span>
-        </h2>
-        <p style="font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.75;color:#9b998b;margin:0;max-width:540px;">
-          From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.
-        </p>
-      </div>
-      <div style="flex:1.4;min-width:300px;">
-        <div style="position:relative;width:100%;padding-top:56.25%;overflow:hidden;border:1px solid rgba(255,255,255,0.18);border-radius:6px;box-shadow:0 20px 50px rgba(0,0,0,0.5);background:#071010;">
-          <video controls poster="<?php echo $base_url; ?>/assets/images/2026/07/truestory.png" preload="metadata" playsinline style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block;">
-            <source src="<?php echo $base_url; ?>/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-76337fcb e-con-full e-flex e-con e-child" data-id="76337fcb" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-29666e8b e-con-full e-flex e-con e-child" data-id="29666e8b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-1729b646 elementor-widget elementor-widget-text-editor" data-id="1729b646" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— The journey</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-305222e7 elementor-widget elementor-widget-heading" data-id="305222e7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">From struggle<br />to destination.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-b004cbe e-con-full e-flex e-con e-child" data-id="b004cbe" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-652e226e e-con-full e-flex e-con e-child" data-id="652e226e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-7d813fc9 e-con-full e-flex e-con e-child" data-id="7d813fc9" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-7bca0545 elementor-widget elementor-widget-heading" data-id="7bca0545" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">01</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-2642c1fe elementor-widget elementor-widget-text-editor" data-id="2642c1fe" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#37c080;">01</p>								</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-2e69cdb6 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="2e69cdb6" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+				<button class="fbt-lightbox-nav fbt-lightbox-prev" id="fbtMomentsPrev" aria-label="Previous Image" title="Previous Image (&larr;)">
+					<span class="fbt-btn-icon fbt-icon-prev">&#10094;</span>
+				</button>
+				<button class="fbt-lightbox-nav fbt-lightbox-next" id="fbtMomentsNext" aria-label="Next Image" title="Next Image (&rarr;)">
+					<span class="fbt-btn-icon fbt-icon-next">&#10095;</span>
+				</button>
+				<div class="fbt-lightbox-counter" id="fbtMomentsCounter"></div>
+			</div>
+
+			<script>
+				(function() {
+					const momentsModal = document.getElementById('fbtMomentsModal');
+					const momentsImg = document.getElementById('fbtMomentsImg');
+					const momentsCaption = document.getElementById('fbtMomentsCaption');
+					const momentsCounter = document.getElementById('fbtMomentsCounter');
+					const closeBtn = document.getElementById('fbtMomentsClose');
+					const prevBtn = document.getElementById('fbtMomentsPrev');
+					const nextBtn = document.getElementById('fbtMomentsNext');
+					const items = document.querySelectorAll('.fbt-moment-item');
+
+					let currentIndex = 0;
+
+					function openModal(idx) {
+						if (idx < 0) idx = items.length - 1;
+						if (idx >= items.length) idx = 0;
+						currentIndex = idx;
+
+						const activeItem = items[currentIndex];
+						const src = activeItem.getAttribute('data-src');
+						const title = activeItem.getAttribute('data-title') || '';
+
+						momentsImg.src = src;
+						momentsCaption.textContent = title;
+						momentsCounter.textContent = `${currentIndex + 1} / ${items.length}`;
+
+						momentsModal.classList.add('active');
+						document.body.style.overflow = 'hidden';
+					}
+
+					function closeModal() {
+						momentsModal.classList.remove('active');
+						momentsImg.src = '';
+						document.body.style.overflow = '';
+					}
+
+					items.forEach((item, idx) => {
+						item.addEventListener('click', (e) => {
+							e.preventDefault();
+							openModal(idx);
+						});
+					});
+
+					closeBtn.addEventListener('click', closeModal);
+
+					momentsModal.addEventListener('click', (e) => {
+						if (e.target === momentsModal) {
+							closeModal();
+						}
+					});
+
+					prevBtn.addEventListener('click', (e) => {
+						e.stopPropagation();
+						openModal(currentIndex - 1);
+					});
+
+					nextBtn.addEventListener('click', (e) => {
+						e.stopPropagation();
+						openModal(currentIndex + 1);
+					});
+
+					document.addEventListener('keydown', (e) => {
+						if (!momentsModal.classList.contains('active')) return;
+						if (e.key === 'Escape') closeModal();
+						if (e.key === 'ArrowLeft') openModal(currentIndex - 1);
+						if (e.key === 'ArrowRight') openModal(currentIndex + 1);
+					});
+				})();
+			</script>
 		</div>
+		<!-- THE SPACE SHE BUILT - CINEMATIC VIDEO SECTION -->
+		<div class="fbt-space-wrapper">
+			<style>
+				.fbt-space-wrapper {
+					width: 100%;
+					background: linear-gradient(180deg, #020506 0%, #070f10 50%, #020506 100%);
+					padding: clamp(60px, 8vw, 100px) clamp(20px, 4vw, 50px);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					position: relative;
+					box-sizing: border-box;
+					overflow: hidden;
+				}
+				.fbt-space-wrapper::before {
+					content: '';
+					position: absolute;
+					top: 30%;
+					right: -10%;
+					width: 480px;
+					height: 480px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.08) 0%, transparent 70%);
+					pointer-events: none;
+					filter: blur(60px);
+				}
+				.fbt-space-container {
+					max-width: 1320px;
+					margin: 0 auto;
+					display: grid;
+					grid-template-columns: 1fr 1.35fr;
+					gap: clamp(35px, 6vw, 70px);
+					align-items: center;
+					position: relative;
+					z-index: 2;
+				}
+				@media (max-width: 991px) {
+					.fbt-space-container {
+						grid-template-columns: 1fr;
+						gap: 40px;
+					}
+				}
+				.fbt-space-content {
+					display: flex;
+					flex-direction: column;
+				}
+				.fbt-space-tagline {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 12px;
+					display: inline-block;
+				}
+				.fbt-space-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.4rem, 4.5vw, 4rem);
+					line-height: 1.0;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 24px 0;
+					font-weight: 400;
+				}
+				.fbt-space-title span.accent {
+					color: #37c080;
+				}
+				.fbt-space-desc {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: clamp(15px, 1.1vw, 16.5px);
+					line-height: 1.8;
+					color: #b5b0a3;
+					margin: 0;
+				}
+
+				/* Cinematic Video Card */
+				.fbt-space-video-card {
+					position: relative;
+					width: 100%;
+					border-radius: 0 !important;
+					overflow: hidden;
+					background: #040809;
+					border: 1px solid rgba(255, 255, 255, 0.15);
+					box-shadow: 0 30px 80px rgba(0, 0, 0, 0.85), 0 0 45px rgba(55, 192, 128, 0.15);
+					transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+				}
+				.fbt-space-video-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.45);
+					box-shadow: 0 35px 90px rgba(0, 0, 0, 0.95), 0 0 55px rgba(55, 192, 128, 0.25);
+				}
+				.fbt-space-video-ratio {
+					position: relative;
+					width: 100%;
+					padding-top: 56.25%; /* 16:9 Aspect Ratio */
+					background: #071010;
+				}
+				.fbt-space-video {
+					position: absolute;
+					inset: 0;
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+					z-index: 1;
+				}
+			</style>
+
+			<div class="fbt-space-container">
+				<div class="fbt-space-content">
+					<div class="fbt-space-tagline">— THE SPACE SHE BUILT</div>
+					<h2 class="fbt-space-title">
+						EVERY DETAIL,<br/>
+						<span class="accent">INTENTIONAL.</span>
+					</h2>
+					<p class="fbt-space-desc">
+						From the serene ambience to the state-of-the-art facilities, each aspect of FitBliss reflects Dr. Kapoor's unwavering commitment to excellence. Pilates, yoga, Zumba, spa treatments, boxing, physiotherapy — every offering was chosen, trained and staffed personally.
+					</p>
+				</div>
+				<div class="fbt-space-media">
+					<div class="fbt-space-video-card">
+						<div class="fbt-space-video-ratio">
+							<video controls poster="<?php echo $base_url; ?>/assets/images/2026/07/truestory.png" preload="metadata" playsinline class="fbt-space-video">
+								<source src="<?php echo $base_url; ?>/assets/images/2026/07/Journey-from-120-kgs-to-70-kgs-I-m-still-working-in-my-roar-because-my-best-version-is-yet-to.mp4#t=0.001" type="video/mp4">
+							</video>
 						</div>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-3bbe86b8 elementor-widget elementor-widget-heading" data-id="3bbe86b8" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">The Struggle</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-363e9aa6 elementor-widget elementor-widget-text-editor" data-id="363e9aa6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Faced obesity and the emotional weight of body shaming. Chose transformation over defeat — starting with walking, Pilates and small sustainable changes.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4b59e52a e-con-full e-flex e-con e-child" data-id="4b59e52a" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-5430c7e3 e-con-full e-flex e-con e-child" data-id="5430c7e3" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-227fc028 elementor-widget elementor-widget-heading" data-id="227fc028" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">02</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-34e95904 elementor-widget elementor-widget-text-editor" data-id="34e95904" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#37c080;">02</p>								</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-5c9b48b4 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5c9b48b4" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+			</div>
 		</div>
-						</div>
+				<!-- THE JOURNEY - FROM STRUGGLE TO DESTINATION -->
+		<div class="fbt-journey-wrapper">
+			<style>
+				.fbt-journey-wrapper {
+					width: 100%;
+					background: #040809;
+					padding: clamp(60px, 8vw, 90px) clamp(20px, 4vw, 50px);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					position: relative;
+					box-sizing: border-box;
+				}
+				.fbt-journey-container {
+					max-width: 1320px;
+					margin: 0 auto;
+				}
+				.fbt-journey-header {
+					margin-bottom: clamp(30px, 5vw, 45px);
+				}
+				.fbt-journey-tagline {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 12px;
+					display: inline-block;
+				}
+				.fbt-journey-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.2rem, 4vw, 3.4rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0;
+					font-weight: 400;
+				}
+				.fbt-journey-grid {
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					gap: 20px;
+				}
+				@media (max-width: 1024px) {
+					.fbt-journey-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 16px;
+					}
+				}
+				@media (max-width: 600px) {
+					.fbt-journey-grid {
+						grid-template-columns: 1fr;
+						gap: 14px;
+					}
+				}
+				.fbt-journey-card {
+					background: #081112;
+					border: 1px solid rgba(255, 255, 255, 0.1);
+					border-top: 2px solid rgba(55, 192, 128, 0.4);
+					border-radius: 0 !important;
+					padding: clamp(24px, 3vw, 32px) clamp(20px, 2.5vw, 26px);
+					display: flex;
+					flex-direction: column;
+					transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+					box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+				}
+				.fbt-journey-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.6);
+					border-top-color: #37c080;
+					box-shadow: 0 16px 40px rgba(0, 0, 0, 0.8), 0 0 25px rgba(55, 192, 128, 0.15);
+				}
+				.fbt-journey-number {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.4rem, 3.5vw, 3rem);
+					line-height: 1;
+					color: #37c080;
+					margin-bottom: 16px;
+					letter-spacing: 1px;
+				}
+				.fbt-journey-divider {
+					width: 100%;
+					height: 1px;
+					background: rgba(255, 255, 255, 0.08);
+					margin-bottom: 20px;
+				}
+				.fbt-journey-card-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(1.4rem, 2vw, 1.7rem);
+					line-height: 1.1;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.04em;
+					margin: 0 0 14px 0;
+					font-weight: 400;
+				}
+				.fbt-journey-card-desc {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14px;
+					line-height: 1.7;
+					color: #9b998b;
+					margin: 0;
+				}
+			</style>
+
+			<div class="fbt-journey-container">
+				<div class="fbt-journey-header">
+					<div class="fbt-journey-tagline">— THE JOURNEY</div>
+					<h2 class="fbt-journey-title">FROM STRUGGLE TO <span style="color:#37c080;">DESTINATION.</span></h2>
 				</div>
-				<div class="elementor-element elementor-element-2dbcde33 elementor-widget elementor-widget-heading" data-id="2dbcde33" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Mumbai Training</h3>				</div>
+				<div class="fbt-journey-grid">
+					<!-- Step 01 -->
+					<div class="fbt-journey-card">
+						<div class="fbt-journey-number">01</div>
+						<div class="fbt-journey-divider"></div>
+						<h3 class="fbt-journey-card-title">The Struggle</h3>
+						<p class="fbt-journey-card-desc">Faced obesity and the emotional weight of body shaming. Chose transformation over defeat — starting with walking, Pilates and small sustainable changes.</p>
+					</div>
+					<!-- Step 02 -->
+					<div class="fbt-journey-card">
+						<div class="fbt-journey-number">02</div>
+						<div class="fbt-journey-divider"></div>
+						<h3 class="fbt-journey-card-title">Mumbai Training</h3>
+						<p class="fbt-journey-card-desc">Trained under Yasmin Karachiwala, one of India&#8217;s most renowned Pilates educators. The experience reshaped her understanding of movement, posture and long-term health.</p>
+					</div>
+					<!-- Step 03 -->
+					<div class="fbt-journey-card">
+						<div class="fbt-journey-number">03</div>
+						<div class="fbt-journey-divider"></div>
+						<h3 class="fbt-journey-card-title">FitBliss is Born</h3>
+						<p class="fbt-journey-card-desc">Saw that Bhopal lacked a premium, multi-discipline wellness space. Built FitBliss from the ground up — equipping it with Life Fitness, Hammer Strength and world-class infrastructure.</p>
+					</div>
+					<!-- Step 04 -->
+					<div class="fbt-journey-card">
+						<div class="fbt-journey-number">04</div>
+						<div class="fbt-journey-divider"></div>
+						<h3 class="fbt-journey-card-title">A Community Thrives</h3>
+						<p class="fbt-journey-card-desc">Today, FitBliss has one of the largest collections of world-class strength and cardio equipment in Madhya Pradesh — serving hundreds of members across every fitness level.</p>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-1634b916 elementor-widget elementor-widget-text-editor" data-id="1634b916" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Trained under Yasmin Karachiwala, one of India&#8217;s most renowned Pilates educators. The experience reshaped her understanding of movement, posture and long-term health.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-619a0f5e e-con-full e-flex e-con e-child" data-id="619a0f5e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-55b9d440 e-con-full e-flex e-con e-child" data-id="55b9d440" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-213f437f elementor-widget elementor-widget-heading" data-id="213f437f" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">03</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-8db5184 elementor-widget elementor-widget-text-editor" data-id="8db5184" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#37c080;">03</p>								</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-7bbeec50 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="7bbeec50" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+			</div>
 		</div>
+				<!-- A COMPREHENSIVE WELLNESS ECOSYSTEM SECTION -->
+		<div class="fbt-ecosystem-wrapper">
+			<style>
+				.fbt-ecosystem-wrapper {
+					width: 100%;
+					background: linear-gradient(180deg, #020506 0%, #070e0e 50%, #020506 100%);
+					padding: clamp(60px, 8vw, 100px) clamp(20px, 4vw, 50px);
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+					position: relative;
+					box-sizing: border-box;
+					overflow: hidden;
+				}
+				.fbt-ecosystem-wrapper::before {
+					content: '';
+					position: absolute;
+					top: 20%;
+					left: -10%;
+					width: 480px;
+					height: 480px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.08) 0%, transparent 70%);
+					pointer-events: none;
+					filter: blur(60px);
+				}
+				.fbt-ecosystem-container {
+					max-width: 1320px;
+					margin: 0 auto;
+					display: grid;
+					grid-template-columns: 1.1fr 0.9fr;
+					gap: clamp(35px, 6vw, 70px);
+					align-items: center;
+					position: relative;
+					z-index: 2;
+				}
+				@media (max-width: 991px) {
+					.fbt-ecosystem-container {
+						grid-template-columns: 1fr;
+						gap: 40px;
+					}
+				}
+				.fbt-ecosystem-content {
+					display: flex;
+					flex-direction: column;
+				}
+				.fbt-ecosystem-tagline {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 12px;
+					display: inline-block;
+				}
+				.fbt-ecosystem-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.2rem, 3.8vw, 3.4rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 20px 0;
+					font-weight: 400;
+				}
+				.fbt-ecosystem-desc {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: clamp(14.5px, 1.1vw, 15.5px);
+					line-height: 1.75;
+					color: #b5b0a3;
+					margin: 0 0 28px 0;
+				}
+				.fbt-offerings-grid {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					gap: 10px 18px;
+				}
+				@media (max-width: 600px) {
+					.fbt-offerings-grid {
+						grid-template-columns: 1fr;
+						gap: 10px;
+					}
+				}
+				.fbt-offering-item {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					padding: 10px 14px;
+					background: rgba(255, 255, 255, 0.025);
+					border: 1px solid rgba(255, 255, 255, 0.07);
+					border-left: 2px solid #37c080;
+					border-radius: 0 !important;
+					transition: all 0.3s ease;
+				}
+				.fbt-offering-item:hover {
+					background: rgba(55, 192, 128, 0.06);
+					border-color: rgba(55, 192, 128, 0.35);
+					border-left-color: #37c080;
+					transform: translateX(4px);
+				}
+				.fbt-offering-bullet {
+					width: 6px;
+					height: 6px;
+					background: #37c080;
+					flex-shrink: 0;
+					border-radius: 0 !important;
+				}
+				.fbt-offering-text {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px;
+					font-weight: 600;
+					color: #f4f2ea;
+					letter-spacing: 0.02em;
+					line-height: 1.35;
+				}
+
+				/* Right Column: Visual Photo Stack */
+				.fbt-ecosystem-visuals {
+					display: flex;
+					flex-direction: column;
+					gap: 18px;
+				}
+				.fbt-ecosystem-img-card {
+					position: relative;
+					border-radius: 0 !important;
+					overflow: hidden;
+					background: #081112;
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					box-shadow: 0 20px 50px rgba(0, 0, 0, 0.7), 0 0 30px rgba(55, 192, 128, 0.08);
+					transition: transform 0.4s ease, border-color 0.4s ease, box-shadow 0.4s ease;
+				}
+				.fbt-ecosystem-img-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.45);
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 40px rgba(55, 192, 128, 0.18);
+				}
+				.fbt-ecosystem-img-card img {
+					width: 100%;
+					height: auto;
+					max-height: 270px;
+					object-fit: cover;
+					display: block;
+					transition: transform 0.6s ease;
+					border-radius: 0 !important;
+				}
+				.fbt-ecosystem-img-card:hover img {
+					transform: scale(1.03);
+				}
+			</style>
+
+			<div class="fbt-ecosystem-container">
+				<!-- Left Column: Content & Offerings -->
+				<div class="fbt-ecosystem-content">
+					<div class="fbt-ecosystem-tagline">— FitBliss offers</div>
+					<h2 class="fbt-ecosystem-title">A COMPREHENSIVE <span style="color:#37c080;">WELLNESS ECOSYSTEM.</span></h2>
+					<p class="fbt-ecosystem-desc">
+						With one of the largest collections of world-class strength and cardio equipment in Madhya Pradesh, spacious workout zones, and a highly qualified coaching team, FitBliss has been designed to make fitness enjoyable, accessible, and sustainable for everyone.
+					</p>
+
+					<div class="fbt-offerings-grid">
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Pilates — Reformer &amp; MAT</span>
 						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Strength &amp; Functional Training</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Boxing, MMA &amp; Kickboxing</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Yoga &amp; Aerial Yoga</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Zumba &amp; Dance Fitness</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Indoor Cycling / Spinning</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">CrossFit</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Spa &amp; Recovery</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Salon</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Nutrition &amp; Lifestyle Coaching</span>
+						</div>
+						<div class="fbt-offering-item">
+							<span class="fbt-offering-bullet"></span>
+							<span class="fbt-offering-text">Premium Wellness Experiences</span>
+						</div>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-1ae62761 elementor-widget elementor-widget-heading" data-id="1ae62761" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">FitBliss is Born</h3>				</div>
+
+				<!-- Right Column: Dual Photo Showcase -->
+				<div class="fbt-ecosystem-visuals">
+					<div class="fbt-ecosystem-img-card">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-1024x683.jpg" alt="FitBliss Strength and Functional Training" loading="lazy" />
+					</div>
+					<div class="fbt-ecosystem-img-card">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-1024x683.jpg" alt="FitBliss Community and Group Wellness" loading="lazy" />
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-36dd86ff elementor-widget elementor-widget-text-editor" data-id="36dd86ff" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Saw that Bhopal lacked a premium, multi-discipline wellness space. Built FitBliss from the ground up — equipping it with Life Fitness, Hammer Strength and world-class infrastructure.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5ec4ff52 e-con-full e-flex e-con e-child" data-id="5ec4ff52" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-188f044f e-con-full e-flex e-con e-child" data-id="188f044f" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-42a1df8d elementor-widget elementor-widget-heading" data-id="42a1df8d" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">04</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-41af0ba1 elementor-widget elementor-widget-text-editor" data-id="41af0ba1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;color:#37c080;">04</p>								</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-125e0bf9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="125e0bf9" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
+			</div>
 		</div>
+		<!-- SECTION: HER PHILOSOPHY, IN FOUR WORDS (Interactive Hover Cards) -->
+		<div class="fbt-philosophy-section">
+			<style>
+				.fbt-philosophy-section {
+					position: relative;
+					background: #020506;
+					padding: 90px 24px;
+					border-top: 1px solid rgba(255, 255, 255, 0.05);
+					overflow: hidden;
+				}
+				.fbt-philosophy-glow {
+					position: absolute;
+					top: 20%;
+					right: 10%;
+					width: 450px;
+					height: 450px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.07) 0%, rgba(0, 0, 0, 0) 70%);
+					pointer-events: none;
+					z-index: 1;
+				}
+				.fbt-philosophy-container {
+					max-width: 1240px;
+					margin: 0 auto;
+					position: relative;
+					z-index: 2;
+					display: grid;
+					grid-template-columns: 1fr 1.15fr;
+					gap: 60px;
+					align-items: start;
+				}
+				@media (max-width: 991px) {
+					.fbt-philosophy-container {
+						grid-template-columns: 1fr;
+						gap: 40px;
+					}
+					.fbt-philosophy-section {
+						padding: 60px 20px;
+					}
+				}
+
+				/* Left Info Column */
+				.fbt-philosophy-info {
+					position: sticky;
+					top: 100px;
+				}
+				.fbt-philosophy-tag {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080;
+					margin-bottom: 16px;
+					display: inline-block;
+				}
+				.fbt-philosophy-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(2.3rem, 4vw, 3.6rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 20px 0;
+					font-weight: 400;
+					white-space: normal;
+				}
+				.fbt-philosophy-desc {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: clamp(15px, 1.15vw, 16.5px);
+					line-height: 1.8;
+					color: #b5b0a3;
+					margin: 0;
+					max-width: 520px;
+				}
+
+				/* Right Cards Column */
+				.fbt-philosophy-cards {
+					display: flex;
+					flex-direction: column;
+					gap: 16px;
+				}
+				.fbt-phil-card {
+					position: relative;
+					background: rgba(255, 255, 255, 0.02);
+					border: 1px solid rgba(255, 255, 255, 0.07);
+					border-left: 3px solid rgba(55, 192, 128, 0.4);
+					border-radius: 0 !important;
+					padding: 24px 28px;
+					display: flex;
+					align-items: flex-start;
+					gap: 20px;
+					transition: all 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+					cursor: pointer;
+					overflow: hidden;
+				}
+				.fbt-phil-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 0%;
+					height: 100%;
+					background: linear-gradient(90deg, rgba(55, 192, 128, 0.08) 0%, rgba(55, 192, 128, 0.01) 100%);
+					transition: width 0.35s cubic-bezier(0.25, 1, 0.5, 1);
+					z-index: 1;
+					pointer-events: none;
+				}
+				.fbt-phil-card:hover {
+					background: rgba(255, 255, 255, 0.035);
+					border-color: rgba(55, 192, 128, 0.35);
+					border-left: 4px solid #37c080;
+					transform: translateX(8px);
+					box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5), 0 0 25px rgba(55, 192, 128, 0.12);
+				}
+				.fbt-phil-card:hover::before {
+					width: 100%;
+				}
+				.fbt-phil-num {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: 18px;
+					color: #37c080;
+					opacity: 0.7;
+					letter-spacing: 0.05em;
+					flex-shrink: 0;
+					padding-top: 3px;
+					transition: opacity 0.35s ease, transform 0.35s ease;
+					position: relative;
+					z-index: 2;
+				}
+				.fbt-phil-card:hover .fbt-phil-num {
+					opacity: 1;
+					transform: scale(1.1);
+				}
+				.fbt-phil-body {
+					position: relative;
+					z-index: 2;
+					flex: 1;
+				}
+				.fbt-phil-heading {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: 24px;
+					line-height: 1.1;
+					text-transform: uppercase;
+					color: #f4f2ea;
+					font-weight: 400;
+					letter-spacing: 0.04em;
+					margin: 0 0 8px 0;
+					transition: color 0.35s ease, transform 0.35s ease;
+				}
+				.fbt-phil-card:hover .fbt-phil-heading {
+					color: #37c080;
+					transform: translateX(2px);
+				}
+				.fbt-phil-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.7;
+					color: #9b998b;
+					transition: color 0.35s ease;
+				}
+				.fbt-phil-card:hover .fbt-phil-text {
+					color: #dcd8cc;
+				}
+			</style>
+
+			<div class="fbt-philosophy-glow"></div>
+
+			<div class="fbt-philosophy-container">
+				<!-- Left Info Column -->
+				<div class="fbt-philosophy-info">
+					<div class="fbt-philosophy-tag">— Philosophy</div>
+					<h2 class="fbt-philosophy-title">HER PHILOSOPHY, <span style="color:#37c080;">IN FOUR WORDS.</span></h2>
+					<p class="fbt-philosophy-desc">Dr. Shruti Kapoor's approach to wellness is grounded in four principles — practised daily at FitBliss and lived personally.</p>
+				</div>
+
+				<!-- Right Philosophy Cards (Interactive Hover Effects) -->
+				<div class="fbt-philosophy-cards">
+					<!-- Card 1: Balance -->
+					<div class="fbt-phil-card">
+						<div class="fbt-phil-num">01</div>
+						<div class="fbt-phil-body">
+							<h3 class="fbt-phil-heading">Balance</h3>
+							<p class="fbt-phil-text">Movement and stillness, strength and softness — every program is designed for both.</p>
 						</div>
+					</div>
+
+					<!-- Card 2: Science -->
+					<div class="fbt-phil-card">
+						<div class="fbt-phil-num">02</div>
+						<div class="fbt-phil-body">
+							<h3 class="fbt-phil-heading">Science</h3>
+							<p class="fbt-phil-text">Radiology roots and evidence-based coaching. No trends, no shortcuts — only what works.</p>
+						</div>
+					</div>
+
+					<!-- Card 3: Community -->
+					<div class="fbt-phil-card">
+						<div class="fbt-phil-num">03</div>
+						<div class="fbt-phil-body">
+							<h3 class="fbt-phil-heading">Community</h3>
+							<p class="fbt-phil-text">Every individual deserves a supportive environment and the confidence to become their best self.</p>
+						</div>
+					</div>
+
+					<!-- Card 4: Longevity -->
+					<div class="fbt-phil-card">
+						<div class="fbt-phil-num">04</div>
+						<div class="fbt-phil-body">
+							<h3 class="fbt-phil-heading">Longevity</h3>
+							<p class="fbt-phil-text">Start small. Stay consistent. Trust the process. Sustainability always wins.</p>
+						</div>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-49976a4b elementor-widget elementor-widget-heading" data-id="49976a4b" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">A Community Thrives</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-36540e8 elementor-widget elementor-widget-text-editor" data-id="36540e8" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Today, FitBliss has one of the largest collections of world-class strength and cardio equipment in Madhya Pradesh — serving hundreds of members across every fitness level.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-7f12e1e6 e-con-full e-flex e-con e-child" data-id="7f12e1e6" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-efc458d e-con-full e-flex e-con e-child" data-id="efc458d" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-6f1df31 e-con-full e-flex e-con e-child" data-id="6f1df31" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-5d59aa3f elementor-widget elementor-widget-text-editor" data-id="5d59aa3f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— FitBliss offers</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-661bcba7 elementor-widget elementor-widget-heading" data-id="661bcba7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">A comprehensive<br />wellness ecosystem.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-3cefab7c elementor-widget elementor-widget-spacer" data-id="3cefab7c" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
+			</div>
 		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-505169c7 elementor-widget elementor-widget-text-editor" data-id="505169c7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>With one of the largest collections of world-class strength and cardio equipment in Madhya Pradesh, spacious workout zones, and a highly qualified coaching team, FitBliss has been designed to make fitness enjoyable, accessible, and sustainable for everyone.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-62c6b481 elementor-widget elementor-widget-spacer" data-id="62c6b481" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-3ade1665 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3ade1665" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Pilates — Reformer &amp; MAT</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Strength &amp; Functional Training</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Boxing, MMA &amp; Kickboxing</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Yoga &amp; Aerial Yoga</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Zumba &amp; Dance Fitness</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Indoor Cycling / Spinning</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">CrossFit</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Spa &amp; Recovery</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Salon</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Nutrition &amp; Lifestyle Coaching</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Premium Wellness Experiences</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-265bc8c5 e-con-full e-flex e-con e-child" data-id="265bc8c5" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-f1f6bce e-con-full e-flex e-con e-child" data-id="f1f6bce" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-56454d72 elementor-widget elementor-widget-image" data-id="56454d72" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="534" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-1024x683.jpg" class="attachment-large size-large wp-image-20355" alt="" srcset="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-1024x683.jpg 1024w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-300x200.jpg 300w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-768x512.jpg 768w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-1536x1024.jpg 1536w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-2048x1366.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-				<div class="elementor-element elementor-element-64444602 elementor-widget elementor-widget-spacer" data-id="64444602" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-		<div class="elementor-element elementor-element-7cb777b3 e-con-full e-flex e-con e-child" data-id="7cb777b3" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-179ccedb elementor-widget elementor-widget-image" data-id="179ccedb" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="534" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-1024x683.jpg" class="attachment-large size-large wp-image-20356" alt="" srcset="<?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-1024x683.jpg 1024w, <?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-300x200.jpg 300w, <?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-768x512.jpg 768w, <?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-1536x1024.jpg 1536w, <?php echo $base_url; ?>/assets/images/2026/07/DSC06304-1-scaled-1-2048x1366.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-9839454 e-con-full e-flex e-con e-child" data-id="9839454" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-60a2f686 e-con-full e-flex e-con e-child" data-id="60a2f686" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-7e4212b e-con-full e-flex e-con e-child" data-id="7e4212b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4c356817 elementor-widget elementor-widget-text-editor" data-id="4c356817" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— Philosophy</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-4bbc88cd elementor-widget elementor-widget-heading" data-id="4bbc88cd" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Her philosophy,<br />in four words.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-ef322e1 elementor-widget elementor-widget-spacer" data-id="ef322e1" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-3ab810df elementor-widget elementor-widget-text-editor" data-id="3ab810df" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Dr. Shruti Kapoor&#8217;s approach to wellness is grounded in four principles — practised daily at FitBliss and lived personally.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-78ffd75e e-con-full e-flex e-con e-child" data-id="78ffd75e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ef9de54 elementor-widget elementor-widget-html" data-id="ef9de54" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="border-left:2px solid rgba(55,192,128,0.5);padding-left:20px;margin-bottom:28px;"><div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:22px;text-transform:uppercase;color:#f4f2ea;font-weight:400;margin-bottom:8px;">Balance</div><p style="margin:0;font-family:'Barlow', Inter, sans-serif;font-size:14px;line-height:1.7;color:#9b998b;">Movement and stillness, strength and softness — every program is designed for both.</p></div><div style="border-left:2px solid rgba(55,192,128,0.5);padding-left:20px;margin-bottom:28px;"><div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:22px;text-transform:uppercase;color:#f4f2ea;font-weight:400;margin-bottom:8px;">Science</div><p style="margin:0;font-family:'Barlow', Inter, sans-serif;font-size:14px;line-height:1.7;color:#9b998b;">Radiology roots and evidence-based coaching. No trends, no shortcuts — only what works.</p></div><div style="border-left:2px solid rgba(55,192,128,0.5);padding-left:20px;margin-bottom:28px;"><div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:22px;text-transform:uppercase;color:#f4f2ea;font-weight:400;margin-bottom:8px;">Community</div><p style="margin:0;font-family:'Barlow', Inter, sans-serif;font-size:14px;line-height:1.7;color:#9b998b;">Every individual deserves a supportive environment and the confidence to become their best self.</p></div><div style="border-left:2px solid rgba(55,192,128,0.5);padding-left:20px;margin-bottom:28px;"><div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:22px;text-transform:uppercase;color:#f4f2ea;font-weight:400;margin-bottom:8px;">Longevity</div><p style="margin:0;font-family:'Barlow', Inter, sans-serif;font-size:14px;line-height:1.7;color:#9b998b;">Start small. Stay consistent. Trust the process. Sustainability always wins.</p></div>				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		</div>
-						</div>
-				</div>
-				</div>
-				</div>
 		
 		
 			</div>

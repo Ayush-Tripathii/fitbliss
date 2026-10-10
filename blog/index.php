@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/../includes/config.php';
 require_once __DIR__ . '/../includes/security_shield.php';
 ?>
@@ -990,7 +990,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
                     <a href="tel:+917470787014" class="cta">Call Us</a>
@@ -1017,7 +1016,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     </header>
 
     <script>
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -1131,7 +1130,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
@@ -1299,105 +1298,689 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                 }
             });
         }
-    </script>		<div data-elementor-type="archive" data-elementor-id="1465" class="elementor elementor-1465 elementor-location-archive" data-elementor-post-type="elementor_library">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-1370069 elementor-section-height-min-height elementor-section-items-stretch elementor-section-boxed elementor-section-height-default" data-id="1370069" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-25e6c2cf" data-id="25e6c2cf" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-3d9b3318 elementor-widget elementor-widget-text-editor" data-id="3d9b3318" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><a href="#">Home</a> &#8211; Archives</p>								</div>
+    </script>		<!-- REDESIGNED FITBLISS BLOG JOURNAL -->
+		<main id="content" class="fbt-blog-main">
+			<style>
+				.fbt-blog-main {
+					background: #020506;
+					color: #f4f2ea;
+					min-height: 80vh;
+					position: relative;
+					overflow: hidden;
+				}
+
+				/* Background Glow Accents */
+				.fbt-blog-glow-1 {
+					position: absolute;
+					top: 0;
+					left: 15%;
+					width: 600px;
+					height: 600px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.07) 0%, transparent 70%);
+					pointer-events: none;
+					z-index: 1;
+				}
+				.fbt-blog-glow-2 {
+					position: absolute;
+					bottom: 10%;
+					right: 5%;
+					width: 500px;
+					height: 500px;
+					background: radial-gradient(circle, rgba(55, 192, 128, 0.05) 0%, transparent 70%);
+					pointer-events: none;
+					z-index: 1;
+				}
+
+				.fbt-blog-container {
+					max-width: 1240px;
+					margin: 0 auto;
+					padding: clamp(35px, 5vw, 55px) clamp(18px, 3vw, 30px);
+					position: relative;
+					z-index: 2;
+				}
+
+				/* Hero Header */
+				.fbt-blog-hero {
+					text-align: center;
+					max-width: 700px;
+					margin: 0 auto 32px auto;
+				}
+				.fbt-blog-tagline {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2.5px;
+					color: #37c080;
+					margin-bottom: 10px;
+					display: inline-block;
+				}
+				.fbt-blog-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(1.9rem, 3.2vw, 2.75rem);
+					line-height: 1.05;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 12px 0;
+					font-weight: 400;
+				}
+				.fbt-blog-subtitle {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.65;
+					color: #b5b0a3;
+					margin: 0 auto;
+					max-width: 580px;
+				}
+
+				/* Filter & Search Bar */
+				.fbt-blog-controls {
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: space-between;
+					gap: 16px;
+					margin-bottom: 32px;
+					padding-bottom: 18px;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+				}
+				.fbt-filter-tabs {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 8px;
+				}
+				.fbt-filter-btn {
+					background: rgba(255, 255, 255, 0.025);
+					border: 1px solid rgba(255, 255, 255, 0.1);
+					color: #b5b0a3;
+					padding: 7px 16px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					cursor: pointer;
+					border-radius: 0 !important;
+					transition: all 0.25s ease;
+				}
+				.fbt-filter-btn:hover {
+					color: #f4f2ea;
+					border-color: rgba(55, 192, 128, 0.4);
+					background: rgba(55, 192, 128, 0.06);
+				}
+				.fbt-filter-btn.active {
+					background: #37c080;
+					color: #030808;
+					border-color: #37c080;
+					box-shadow: 0 0 16px rgba(55, 192, 128, 0.3);
+					font-weight: 700;
+				}
+				.fbt-search-box {
+					position: relative;
+					min-width: 240px;
+				}
+				.fbt-search-input {
+					width: 100%;
+					background: rgba(255, 255, 255, 0.03);
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					color: #f4f2ea;
+					padding: 8px 36px 8px 14px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13px;
+					border-radius: 0 !important;
+					outline: none;
+					transition: all 0.25s ease;
+					box-sizing: border-box;
+				}
+				.fbt-search-input:focus {
+					border-color: #37c080;
+					box-shadow: 0 0 12px rgba(55, 192, 128, 0.2);
+					background: rgba(255, 255, 255, 0.05);
+				}
+				.fbt-search-icon {
+					position: absolute;
+					right: 12px;
+					top: 50%;
+					transform: translateY(-50%);
+					color: #37c080;
+					pointer-events: none;
+					display: flex;
+					align-items: center;
+				}
+
+				/* Featured Article Spotlight */
+				.fbt-featured-card {
+					display: grid;
+					grid-template-columns: 1fr 1.15fr;
+					gap: 28px;
+					background: #081112;
+					border: 1px solid rgba(255, 255, 255, 0.09);
+					border-left: 3px solid #37c080;
+					border-radius: 0 !important;
+					margin-bottom: 36px;
+					overflow: hidden;
+					box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+					transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+				}
+				.fbt-featured-card:hover {
+					transform: translateY(-3px);
+					border-color: rgba(55, 192, 128, 0.45);
+					border-left-color: #37c080;
+					box-shadow: 0 20px 45px rgba(0, 0, 0, 0.7), 0 0 25px rgba(55, 192, 128, 0.12);
+				}
+				@media (max-width: 860px) {
+					.fbt-featured-card {
+						grid-template-columns: 1fr;
+						gap: 0;
+					}
+				}
+				.fbt-featured-img-wrap {
+					position: relative;
+					overflow: hidden;
+					min-height: 240px;
+					background: #040809;
+				}
+				.fbt-featured-img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+					transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+					border-radius: 0 !important;
+				}
+				.fbt-featured-card:hover .fbt-featured-img {
+					transform: scale(1.04);
+				}
+				.fbt-featured-badge {
+					position: absolute;
+					top: 14px;
+					left: 14px;
+					background: #37c080;
+					color: #030808;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					padding: 4px 10px;
+					border-radius: 0 !important;
+					z-index: 2;
+				}
+				.fbt-featured-content {
+					padding: 24px 26px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+				}
+				.fbt-post-meta {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					color: #8c897c;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					margin-bottom: 10px;
+				}
+				.fbt-post-meta span.cat {
+					color: #37c080;
+					font-weight: 600;
+				}
+				.fbt-post-meta span.dot {
+					opacity: 0.4;
+				}
+				.fbt-featured-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(1.4rem, 2.2vw, 1.85rem);
+					line-height: 1.15;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 10px 0;
+					font-weight: 400;
+					transition: color 0.3s ease;
+				}
+				.fbt-featured-card:hover .fbt-featured-title {
+					color: #37c080;
+				}
+				.fbt-featured-excerpt {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px;
+					line-height: 1.65;
+					color: #a3a193;
+					margin: 0 0 16px 0;
+				}
+				.fbt-btn-read {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: #37c080;
+					transition: all 0.25s ease;
+					text-decoration: none;
+					width: fit-content;
+				}
+				.fbt-btn-read span.arrow {
+					transition: transform 0.25s ease;
+					font-size: 14px;
+				}
+				.fbt-featured-card:hover .fbt-btn-read span.arrow,
+				.fbt-blog-card:hover .fbt-btn-read span.arrow {
+					transform: translateX(4px);
+				}
+
+				/* Blog Grid (3 Columns) */
+				.fbt-blog-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 20px;
+					margin-bottom: 45px;
+				}
+				@media (max-width: 991px) {
+					.fbt-blog-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 16px;
+					}
+				}
+				@media (max-width: 600px) {
+					.fbt-blog-grid {
+						grid-template-columns: 1fr;
+						gap: 16px;
+					}
+				}
+
+				/* Single Blog Card */
+				.fbt-blog-card {
+					background: #081112;
+					border: 1px solid rgba(255, 255, 255, 0.08);
+					border-radius: 0 !important;
+					display: flex;
+					flex-direction: column;
+					overflow: hidden;
+					transition: transform 0.35s ease, border-color 0.35s ease, box-shadow 0.35s ease;
+					box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+					text-decoration: none;
+					color: inherit;
+					position: relative;
+				}
+				.fbt-blog-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.45);
+					box-shadow: 0 16px 36px rgba(0, 0, 0, 0.7), 0 0 25px rgba(55, 192, 128, 0.12);
+				}
+				.fbt-card-img-wrap {
+					position: relative;
+					aspect-ratio: 16 / 10;
+					overflow: hidden;
+					background: #040809;
+				}
+				.fbt-card-img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+					transition: transform 0.5s ease;
+					border-radius: 0 !important;
+				}
+				.fbt-blog-card:hover .fbt-card-img {
+					transform: scale(1.05);
+				}
+				.fbt-card-tag {
+					position: absolute;
+					bottom: 10px;
+					left: 10px;
+					background: rgba(3, 8, 8, 0.88);
+					border: 1px solid rgba(55, 192, 128, 0.35);
+					color: #37c080;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					padding: 3px 8px;
+					backdrop-filter: blur(6px);
+					border-radius: 0 !important;
+				}
+				.fbt-card-body {
+					padding: 18px 18px;
+					display: flex;
+					flex-direction: column;
+					flex: 1;
+				}
+				.fbt-card-date {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					color: #8c897c;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					margin-bottom: 8px;
+					display: flex;
+					align-items: center;
+					gap: 6px;
+				}
+				.fbt-card-date::before {
+					content: '';
+					display: inline-block;
+					width: 5px;
+					height: 5px;
+					background: #37c080;
+					border-radius: 0 !important;
+				}
+				.fbt-card-title {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: 19px;
+					line-height: 1.2;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 8px 0;
+					font-weight: 400;
+					transition: color 0.3s ease;
+				}
+				.fbt-blog-card:hover .fbt-card-title {
+					color: #37c080;
+				}
+				.fbt-card-excerpt {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13px;
+					line-height: 1.6;
+					color: #9b998b;
+					margin: 0 0 14px 0;
+					flex: 1;
+				}
+				.fbt-card-footer {
+					padding-top: 12px;
+					border-top: 1px solid rgba(255, 255, 255, 0.06);
+					margin-top: auto;
+				}
+
+				/* Bottom CTA Box */
+				.fbt-blog-cta-box {
+					background: linear-gradient(135deg, #071011 0%, #0c1b1c 100%);
+					border: 1px solid rgba(55, 192, 128, 0.22);
+					border-radius: 0 !important;
+					padding: 24px 30px;
+					display: flex;
+					flex-wrap: wrap;
+					align-items: center;
+					justify-content: space-between;
+					gap: 20px;
+					box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+				}
+				.fbt-cta-text h3 {
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(1.4rem, 2.2vw, 1.8rem);
+					line-height: 1.1;
+					color: #f4f2ea;
+					text-transform: uppercase;
+					letter-spacing: 0.02em;
+					margin: 0 0 4px 0;
+				}
+				.fbt-cta-text p {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px;
+					color: #b5b0a3;
+					margin: 0;
+				}
+				.fbt-cta-action {
+					display: flex;
+					gap: 10px;
+					flex-wrap: wrap;
+				}
+				.fbt-btn-primary {
+					background: #37c080;
+					color: #020506 !important;
+					padding: 10px 20px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					border-radius: 0 !important;
+					text-decoration: none;
+					transition: all 0.25s ease;
+					display: inline-flex;
+					align-items: center;
+					gap: 6px;
+				}
+				.fbt-btn-primary:hover {
+					background: #4de099;
+					box-shadow: 0 0 20px rgba(55, 192, 128, 0.4);
+					transform: translateY(-2px);
+				}
+				.fbt-btn-outline {
+					background: transparent;
+					color: #f4f2ea !important;
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					padding: 10px 20px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					border-radius: 0 !important;
+					text-decoration: none;
+					transition: all 0.25s ease;
+					display: inline-flex;
+					align-items: center;
+					gap: 6px;
+				}
+				.fbt-btn-outline:hover {
+					border-color: #37c080;
+					color: #37c080 !important;
+					background: rgba(55, 192, 128, 0.05);
+				}
+				.fbt-no-results {
+					display: none;
+					text-align: center;
+					padding: 40px 20px;
+					color: #9b998b;
+					font-size: 14px;
+					grid-column: 1 / -1;
+				}
+			</style>
+
+			<div class="fbt-blog-glow-1"></div>
+			<div class="fbt-blog-glow-2"></div>
+
+			<div class="fbt-blog-container">
+				<!-- Hero Header -->
+				<div class="fbt-blog-hero">
+					<span class="fbt-blog-tagline">— FitBliss Journal</span>
+					<h1 class="fbt-blog-title">INSIGHTS, FITNESS & <span style="color:#37c080;">WELLNESS WISDOM.</span></h1>
+					<p class="fbt-blog-subtitle">
+						Expert guides, workout routines, and evidence-based wellness advice curated by Dr. Shruti Kapoor and the FitBliss coaching team.
+					</p>
 				</div>
-				<div class="elementor-element elementor-element-70f8b43a elementor-widget elementor-widget-spacer" data-id="70f8b43a" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+
+				<!-- Filter & Search Controls Bar -->
+				<div class="fbt-blog-controls">
+					<div class="fbt-filter-tabs">
+						<button type="button" class="fbt-filter-btn active" data-filter="all">All Articles</button>
+						<button type="button" class="fbt-filter-btn" data-filter="cardio">Cardio</button>
+						<button type="button" class="fbt-filter-btn" data-filter="crossfit">CrossFit</button>
+						<button type="button" class="fbt-filter-btn" data-filter="yoga">Yoga &amp; Pilates</button>
+					</div>
+					<div class="fbt-search-box">
+						<input type="text" id="fbtBlogSearch" class="fbt-search-input" placeholder="Search articles..." />
+						<div class="fbt-search-icon">
+							<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
 						</div>
-				</div>
 					</div>
-		</div>
+				</div>
+
+				<!-- Featured Article Spotlight -->
+				<article class="fbt-featured-card fbt-article-item" data-category="yoga" data-keywords="yoga pilates workout routine balance strength mental wellness">
+					<div class="fbt-featured-img-wrap">
+						<span class="fbt-featured-badge">Featured Story</span>
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" alt="10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine" class="fbt-featured-img" loading="lazy" />
 					</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-5a93a029 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a93a029" data-element_type="section" data-e-type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2af2d805" data-id="2af2d805" data-element_type="column" data-e-type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-						<div class="elementor-element elementor-element-49cc6251 elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts" data-id="49cc6251" data-element_type="widget" data-e-type="widget" data-settings="{&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:40,&quot;sizes&quot;:[]},&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
-				<div class="elementor-widget-container">
-							<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid" role="list">
-				<article class="elementor-post elementor-grid-item post-2928 post type-post status-publish format-standard hentry category-uncategorized" role="listitem">
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="<?php echo $base_url; ?>/a-beginners-guide-to-cardio-workouts-tips-and-tricks-for-lasting-results/" >
-				A Beginner’s Guide to Cardio Workouts: Tips and Tricks for Lasting Results			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			June 5, 2024		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-				<div class="elementor-post__excerpt">
-			<p>Why Cardio is Important for Overall Health Cardio workouts are essential for maintaining overall health and well-being. They not only improve heart health but also</p>
-		</div>
-		
-		<a class="elementor-post__read-more" href="<?php echo $base_url; ?>/a-beginners-guide-to-cardio-workouts-tips-and-tricks-for-lasting-results/" aria-label="Read more about A Beginner’s Guide to Cardio Workouts: Tips and Tricks for Lasting Results" tabindex="-1" >
-			Read More +		</a>
-
-				</div>
-				</article>
-				<article class="elementor-post elementor-grid-item post-2926 post type-post status-publish format-standard hentry category-uncategorized" role="listitem">
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="<?php echo $base_url; ?>/5-reasons-to-incorporate-crossfit-into-your-weekly-workout-routine/" >
-				5 Reasons to Incorporate Crossfit into Your Weekly Workout Routine			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			June 5, 2024		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-				<div class="elementor-post__excerpt">
-			<p>Crossfit has become a buzzword in the fitness world, known for its intense, varied, and highly effective workouts. As a unique blend of aerobic exercise,</p>
-		</div>
-		
-		<a class="elementor-post__read-more" href="<?php echo $base_url; ?>/5-reasons-to-incorporate-crossfit-into-your-weekly-workout-routine/" aria-label="Read more about 5 Reasons to Incorporate Crossfit into Your Weekly Workout Routine" tabindex="-1" >
-			Read More +		</a>
-
-				</div>
-				</article>
-				<article class="elementor-post elementor-grid-item post-2917 post type-post status-publish format-standard hentry category-uncategorized" role="listitem">
-				<div class="elementor-post__text">
-				<h3 class="elementor-post__title">
-			<a href="<?php echo $base_url; ?>/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/" >
-				10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine			</a>
-		</h3>
-				<div class="elementor-post__meta-data">
-					<span class="elementor-post-date">
-			June 5, 2024		</span>
-				<span class="elementor-post-avatar">
-			No Comments		</span>
-				</div>
-				<div class="elementor-post__excerpt">
-			<p>In today&#8217;s fast-paced world, maintaining a balanced workout routine that caters to both physical and mental well-being is essential. At our premium wellness center, we</p>
-		</div>
-		
-		<a class="elementor-post__read-more" href="<?php echo $base_url; ?>/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/" aria-label="Read more about 10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine" tabindex="-1" >
-			Read More +		</a>
-
-				</div>
-				</article>
-				</div>
-		
+					<div class="fbt-featured-content">
+						<div class="fbt-post-meta">
+							<span class="cat">Yoga &amp; Pilates</span>
+							<span class="dot">•</span>
+							<span>June 5, 2024</span>
+							<span class="dot">•</span>
+							<span>5 Min Read</span>
 						</div>
-				</div>
+						<h2 class="fbt-featured-title">
+							<a href="<?php echo $base_url; ?>/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/" style="color:inherit;text-decoration:none;">
+								10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine
+							</a>
+						</h2>
+						<p class="fbt-featured-excerpt">
+							In today&#8217;s fast-paced world, maintaining a balanced workout routine that caters to both physical and mental well-being is essential. At our premium wellness center, we combine mindful flow with core precision.
+						</p>
+						<a href="<?php echo $base_url; ?>/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/" class="fbt-btn-read">
+							Read Full Article <span class="arrow">→</span>
+						</a>
 					</div>
-		</div>
+				</article>
+
+				<!-- 3-Column Articles Grid -->
+				<div class="fbt-blog-grid" id="fbtBlogGrid">
+					<!-- Post 1: Cardio -->
+					<article class="fbt-blog-card fbt-article-item" data-category="cardio" data-keywords="cardio workouts tips tricks lasting results beginner health heart stamina">
+						<a href="<?php echo $base_url; ?>/a-beginners-guide-to-cardio-workouts-tips-and-tricks-for-lasting-results/" style="color:inherit;text-decoration:none;display:flex;flex-direction:column;height:100%;">
+							<div class="fbt-card-img-wrap">
+								<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3590-1024x683.jpg" alt="A Beginner’s Guide to Cardio Workouts: Tips and Tricks for Lasting Results" class="fbt-card-img" loading="lazy" />
+								<span class="fbt-card-tag">Cardio</span>
+							</div>
+							<div class="fbt-card-body">
+								<div class="fbt-card-date">June 5, 2024 · 4 Min Read</div>
+								<h3 class="fbt-card-title">
+									A Beginner’s Guide to Cardio Workouts: Tips and Tricks for Lasting Results
+								</h3>
+								<p class="fbt-card-excerpt">
+									Why Cardio is Important for Overall Health Cardio workouts are essential for maintaining overall health and well-being. They not only improve heart health but also boost stamina and vitality.
+								</p>
+								<div class="fbt-card-footer">
+									<span class="fbt-btn-read">Read Article <span class="arrow">→</span></span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Post 2: Crossfit -->
+					<article class="fbt-blog-card fbt-article-item" data-category="crossfit" data-keywords="crossfit weekly workout routine strength conditioning fitness aerobic">
+						<a href="<?php echo $base_url; ?>/5-reasons-to-incorporate-crossfit-into-your-weekly-workout-routine/" style="color:inherit;text-decoration:none;display:flex;flex-direction:column;height:100%;">
+							<div class="fbt-card-img-wrap">
+								<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3608-scaled-1-1024x683.jpg" alt="5 Reasons to Incorporate Crossfit into Your Weekly Workout Routine" class="fbt-card-img" loading="lazy" />
+								<span class="fbt-card-tag">CrossFit</span>
+							</div>
+							<div class="fbt-card-body">
+								<div class="fbt-card-date">June 5, 2024 · 5 Min Read</div>
+								<h3 class="fbt-card-title">
+									5 Reasons to Incorporate Crossfit into Your Weekly Workout Routine
+								</h3>
+								<p class="fbt-card-excerpt">
+									Crossfit has become a buzzword in the fitness world, known for its intense, varied, and highly effective workouts. As a unique blend of aerobic exercise, gymnastics, and strength training.
+								</p>
+								<div class="fbt-card-footer">
+									<span class="fbt-btn-read">Read Article <span class="arrow">→</span></span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- Post 3: Yoga & Pilates -->
+					<article class="fbt-blog-card fbt-article-item" data-category="yoga" data-keywords="yoga pilates routine benefits flexibility core mindfulness">
+						<a href="<?php echo $base_url; ?>/10-benefits-of-combining-yoga-and-pilates-for-a-balanced-workout-routine/" style="color:inherit;text-decoration:none;display:flex;flex-direction:column;height:100%;">
+							<div class="fbt-card-img-wrap">
+								<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04273-1024x683.jpg" alt="10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine" class="fbt-card-img" loading="lazy" />
+								<span class="fbt-card-tag">Yoga &amp; Pilates</span>
+							</div>
+							<div class="fbt-card-body">
+								<div class="fbt-card-date">June 5, 2024 · 5 Min Read</div>
+								<h3 class="fbt-card-title">
+									10 Benefits of Combining Yoga and Pilates for a Balanced Workout Routine
+								</h3>
+								<p class="fbt-card-excerpt">
+									In today&#8217;s fast-paced world, maintaining a balanced workout routine that caters to both physical and mental well-being is essential. At our premium wellness center, we combine strength and stillness.
+								</p>
+								<div class="fbt-card-footer">
+									<span class="fbt-btn-read">Read Article <span class="arrow">→</span></span>
+								</div>
+							</div>
+						</a>
+					</article>
+
+					<!-- No Results Placeholder -->
+					<div class="fbt-no-results" id="fbtNoResults">
+						No articles found matching your search. Please try another keyword.
 					</div>
-		</section>
 				</div>
+
+				<!-- Newsletter & Class Consultation Banner -->
+				<div class="fbt-blog-cta-box">
+					<div class="fbt-cta-text">
+						<h3>Ready to Transform Your Fitness Journey?</h3>
+						<p>Experience personalized coaching, world-class equipment, and holistic wellness at FitBliss.</p>
+					</div>
+					<div class="fbt-cta-action">
+						<a href="<?php echo $base_url; ?>/membership/" class="fbt-btn-primary">Explore Memberships →</a>
+						<a href="<?php echo $base_url; ?>/contact/" class="fbt-btn-outline">Book a Tour</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- Live Filter & Search Logic -->
+			<script>
+				(function() {
+					const filterBtns = document.querySelectorAll('.fbt-filter-btn');
+					const searchInput = document.getElementById('fbtBlogSearch');
+					const articleItems = document.querySelectorAll('.fbt-article-item');
+					const noResults = document.getElementById('fbtNoResults');
+
+					let currentFilter = 'all';
+					let currentSearch = '';
+
+					function updateArticles() {
+						let visibleCount = 0;
+						articleItems.forEach(item => {
+							const category = item.getAttribute('data-category') || '';
+							const textContent = (item.textContent + ' ' + (item.getAttribute('data-keywords') || '')).toLowerCase();
+
+							const matchesFilter = (currentFilter === 'all' || category === currentFilter);
+							const matchesSearch = (!currentSearch || textContent.includes(currentSearch));
+
+							if (matchesFilter && matchesSearch) {
+								item.style.display = '';
+								visibleCount++;
+							} else {
+								item.style.display = 'none';
+							}
+						});
+
+						if (noResults) {
+							noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+						}
+					}
+
+					filterBtns.forEach(btn => {
+						btn.addEventListener('click', function() {
+							filterBtns.forEach(b => b.classList.remove('active'));
+							this.classList.add('active');
+							currentFilter = this.getAttribute('data-filter') || 'all';
+							updateArticles();
+						});
+					});
+
+					if (searchInput) {
+						searchInput.addEventListener('input', function() {
+							currentSearch = this.value.trim().toLowerCase();
+							updateArticles();
+						});
+					}
+				})();
+			</script>
+		</main>
 				<footer data-elementor-type="footer" data-elementor-id="29" class="elementor elementor-29 elementor-location-footer" data-elementor-post-type="elementor_library">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-5f1f9a04 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f1f9a04" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 							<div class="elementor-background-overlay"></div>

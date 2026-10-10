@@ -787,7 +787,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
         <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
@@ -835,7 +834,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
         <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
         <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
@@ -849,7 +847,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 
 <script>
     (function() {
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -969,8 +967,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                 "Services": "<?php echo $base_url; ?>/#services",
                 "Membership": "<?php echo $base_url; ?>/membership/",
                 "Gallery": "<?php echo $base_url; ?>/gallery/",
-                "Blog": "<?php echo $base_url; ?>/blog/",
-                "Trainers": "<?php echo $base_url; ?>/trainers/",
+                "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/",
                 "Contact": "<?php echo $base_url; ?>/contact/"
             };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";

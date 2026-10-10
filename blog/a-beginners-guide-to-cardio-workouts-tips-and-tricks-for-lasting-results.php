@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/../includes/config.php';
 require_once __DIR__ . '/../includes/security_shield.php';
 ?>
@@ -792,6 +792,70 @@ require_once __DIR__ . '/../includes/security_shield.php';
     margin: 0 !important;
     pointer-events: none !important;
 }
+
+/* ============ STICKY SIDEBAR SECTION (LATEST NEWS + CARDS) ============ */
+@media (min-width: 768px) {
+    .elementor-element.elementor-element-465774a7 > .elementor-container {
+        display: flex !important;
+        align-items: flex-start !important;
+    }
+    .elementor-element.elementor-element-734f5d49 {
+        position: -webkit-sticky !important;
+        position: sticky !important;
+        top: 100px !important;
+        align-self: flex-start !important;
+        z-index: 99 !important;
+        height: -moz-fit-content !important;
+        height: fit-content !important;
+    }
+    .elementor-element.elementor-element-734f5d49 > .elementor-widget-wrap {
+        position: -webkit-sticky !important;
+        position: sticky !important;
+        top: 100px !important;
+        align-self: flex-start !important;
+        width: 100% !important;
+    }
+}
+
+/* Sidebar heading space */
+.elementor-element.elementor-element-28f03ad8 {
+    margin-bottom: 14px !important;
+}
+.elementor-element.elementor-element-28f03ad8 > .elementor-widget-container {
+    padding-bottom: 8px !important;
+}
+
+/* Sidebar cards container & items */
+.elementor-element.elementor-element-25fa6928 {
+    --grid-row-gap: 14px !important;
+}
+.elementor-element.elementor-element-25fa6928 .elementor-posts-container {
+    gap: 14px !important;
+    row-gap: 14px !important;
+}
+.elementor-element.elementor-element-25fa6928 .elementor-post {
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 0px !important;
+    background-color: #081112 !important;
+    transition: all 0.3s ease !important;
+    margin-bottom: 0px !important;
+}
+
+.elementor-element.elementor-element-25fa6928 .elementor-post:hover {
+    border-color: #37c080 !important;
+    transform: translateX(4px) !important;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6), 0 0 20px rgba(55, 192, 128, 0.15) !important;
+}
+
+.elementor-element.elementor-element-25fa6928 .elementor-post__title,
+.elementor-element.elementor-element-25fa6928 .elementor-post__title a {
+    transition: color 0.3s ease !important;
+}
+
+.elementor-element.elementor-element-25fa6928 .elementor-post:hover .elementor-post__title,
+.elementor-element.elementor-element-25fa6928 .elementor-post:hover .elementor-post__title a {
+    color: #37c080 !important;
+}
 </style>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
@@ -1374,7 +1438,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
         <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
@@ -1403,7 +1466,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
 <script>
     (function() {
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -1517,7 +1580,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
@@ -1899,7 +1962,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-widget-container">
 					<h3 class="elementor-heading-title elementor-size-default">Latest News</h3>				</div>
 				</div>
-				<div class="elementor-element elementor-element-25fa6928 elementor-grid-1 elementor-posts--thumbnail-none elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="25fa6928" data-element_type="widget" data-e-type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:30,&quot;sizes&quot;:[]},&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}" data-widget_type="posts.classic">
+				<div class="elementor-element elementor-element-25fa6928 elementor-grid-1 elementor-posts--thumbnail-none elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-posts" data-id="25fa6928" data-element_type="widget" data-e-type="widget" data-settings="{&quot;classic_columns&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:30,&quot;sizes&quot;:[]},&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="posts.classic">
 				<div class="elementor-widget-container">
 							<div class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid" role="list">
 				<article class="elementor-post elementor-grid-item post-2928 post type-post status-publish format-standard hentry category-uncategorized" role="listitem">

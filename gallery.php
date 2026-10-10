@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/security_shield.php';
 ?>
@@ -575,7 +575,7 @@ require_once __DIR__ . '/includes/security_shield.php';
             width: 28px;
             height: 28px;
             border: 1px solid var(--border);
-            border-radius: 50%;
+            border-radius: 0 !important;
             color: var(--primary);
             transition: transform .3s, border-color .3s;
             flex-shrink: 0
@@ -999,7 +999,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Trainers"><a class="link" href="<?php echo $base_url; ?>/trainers/">Trainers</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
                     <a href="tel:+917470787014" class="cta">Call Us</a>
@@ -1026,7 +1025,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
     </header>
 
     <script>
-        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Trainers", "Contact"];
+        const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
 
         const megaMenus = {
             "About Us": {
@@ -1140,7 +1139,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
@@ -1349,117 +1348,807 @@ Certified to care.</h1>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-453d8b7 e-con-full e-flex e-con e-child" data-id="453d8b7" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-86c17a4 elementor-widget elementor-widget-gallery" data-id="86c17a4" data-element_type="widget" data-e-type="widget" data-settings="{&quot;columns&quot;:3,&quot;lazyload&quot;:&quot;yes&quot;,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-gallery__container">
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3632-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5NzksInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMzYzMi1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3632-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3610-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5ODAsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMzYxMC1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3610-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3736-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5ODEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMzczNi1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3736-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3703-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg5ODIsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMzcwMy1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3703-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4NDEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9TWU5SR1kzNjAtRnVuY3Rpb25hbC1SaWcuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig-300x253.jpg" data-width="300" data-height="253" aria-label="SYNRGY360 Functional Rig" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4NDAsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9MaWZlLUZpdG5lc3MtU2VsZWN0b3JpemVkLUxpbmUuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line-300x234.jpg" data-width="300" data-height="234" aria-label="Life Fitness Selectorized Line" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MjMsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE3N18xMXpvbi5qcGciLCJzbGlkZXNob3ciOiI4NmMxN2E0In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MzksInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9IYW1tZXItU3RyZW5ndGgtTWFjaGluZS1QbGF0ZWQtTG9hZGVkLUxhdGVyYWwtTGVnLUV4dGVuc2lvbi1NYWNoaW5lLmF2aWYiLCJzbGlkZXNob3ciOiI4NmMxN2E0In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine-300x300.avif" data-width="300" data-height="300" aria-label="Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MjIsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE1OF8xMXpvbi5qcGciLCJzbGlkZXNob3ciOiI4NmMxN2E0In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MjQsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDE1MV8xMXpvbi5qcGciLCJzbGlkZXNob3ciOiI4NmMxN2E0In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/A1-311-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxNDIsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9BMS0zMTEtc2NhbGVkLmpwZyIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/A1-311-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMzksInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfMjAyNS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/2ZG_9509-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMzEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC8yWkdfOTUwOS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/2ZG_9509-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMjYsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfMDA1OC1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_9849-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMjUsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfOTg0OS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_9849-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMjAsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfODg5Mi1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_7161-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxNDEsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfNzE2MS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_7161-200x300.jpg" data-width="200" data-height="300" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2009-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTkxMzcsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0NfMjAwOS1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2009-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTg4MjUsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9EU0MwNDI1OF8xMXpvbi5qcGciLCJzbGlkZXNob3ciOiI4NmMxN2E0In0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/salon-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk2MzQsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9zYWxvbi1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/salon-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk2MjcsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMDY0Mi1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0633-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk2MTQsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMDYzMy1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0633-225x300.webp" data-width="225" data-height="300" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0638-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTk2MTksInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA3XC9JTUdfMDYzOC1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0638-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0696-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTc1NTcsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA2XC9UWjNfMDY5Ni1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0696-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0772-scaled.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTc1NTgsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA2XC9UWjNfMDc3Mi1zY2FsZWQud2VicCIsInNsaWRlc2hvdyI6Ijg2YzE3YTQifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0772-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/06/2ZG_1043-scaled.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="86c17a4" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTA1MjYsInVybCI6Imh0dHBzOlwvXC9zdGFnaW5nLmZpdGJsaXNzYnlzay5jb21cL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjZcLzA2XC8yWkdfMTA0My1zY2FsZWQuanBnIiwic2xpZGVzaG93IjoiODZjMTdhNCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/06/2ZG_1043-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
+			<style>
+				/* ================= LUXURY GALLERY STYLES ================= */
+				.fb-gallery-wrapper {
+					width: 100%;
+					max-width: 1320px;
+					margin: 0 auto;
+					padding: 10px 0 60px;
+				}
+				.fb-gallery-filters {
+					display: flex;
+					flex-wrap: wrap;
+					gap: 12px;
+					margin-bottom: 36px;
+					justify-content: flex-start;
+				}
+				.fb-filter-btn {
+					background: rgba(255, 255, 255, 0.04);
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					color: var(--muted, #a7a294);
+					padding: 10px 22px;
+					border-radius: 0 !important;
+					font-size: 12px;
+					font-weight: 600;
+					text-transform: uppercase;
+					letter-spacing: 0.18em;
+					cursor: pointer;
+					transition: all 0.3s ease;
+					font-family: inherit;
+				}
+				.fb-filter-btn:hover,
+				.fb-filter-btn.active {
+					background: var(--primary, #3ec28b);
+					color: #050a0b;
+					border-color: var(--primary, #3ec28b);
+					box-shadow: 0 0 20px rgba(62, 194, 139, 0.35);
+				}
+				.fb-gallery-grid {
+					display: grid;
+					grid-template-columns: repeat(3, 1fr);
+					gap: 24px;
+					width: 100%;
+				}
+				@media (max-width: 1024px) {
+					.fb-gallery-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 18px;
+					}
+				}
+				@media (max-width: 640px) {
+					.fb-gallery-grid {
+						grid-template-columns: 1fr;
+						gap: 16px;
+					}
+				}
+				.fb-gallery-card {
+					position: relative;
+					border-radius: 0 !important;
+					overflow: hidden;
+					background: #0d1717;
+					border: 1px solid rgba(255, 255, 255, 0.08);
+					aspect-ratio: 4 / 3;
+					cursor: pointer;
+					display: block;
+					text-decoration: none;
+					transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+				}
+				.fb-gallery-card:hover {
+					transform: translateY(-5px);
+					border-color: rgba(62, 194, 139, 0.5);
+					box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6);
+				}
+				.fb-gallery-card img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					display: block;
+					transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+				}
+				.fb-gallery-card:hover img {
+					transform: scale(1.08);
+				}
+				.fb-card-overlay {
+					position: absolute;
+					inset: 0;
+					background: linear-gradient(180deg, rgba(5,10,11,0.1) 0%, rgba(5,10,11,0.85) 100%);
+					opacity: 0;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					padding: 20px;
+					transition: opacity 0.35s ease;
+					z-index: 2;
+				}
+				.fb-gallery-card:hover .fb-card-overlay {
+					opacity: 1;
+				}
+				.fb-card-tag {
+					align-self: flex-start;
+					font-size: 10px;
+					font-weight: 700;
+					letter-spacing: 0.2em;
+					text-transform: uppercase;
+					color: var(--primary, #3ec28b);
+					background: rgba(0, 0, 0, 0.6);
+					backdrop-filter: blur(8px);
+					padding: 6px 14px;
+					border-radius: 0 !important;
+					border: 1px solid rgba(62, 194, 139, 0.3);
+				}
+				.fb-card-footer {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+				}
+				.fb-card-title {
+					color: #f2ece0;
+					font-size: 15px;
+					font-weight: 600;
+					letter-spacing: 0.05em;
+				}
+				.fb-zoom-btn {
+					width: 36px;
+					height: 36px;
+					border-radius: 0 !important;
+					background: var(--primary, #3ec28b);
+					color: #050a0b;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: transform 0.2s ease;
+				}
+				.fb-gallery-card:hover .fb-zoom-btn {
+					transform: scale(1.1);
+				}
+				.fb-gallery-card.hidden {
+					display: none !important;
+				}
+
+				/* ================= LIGHTBOX MODAL ================= */
+				.fb-lightbox-modal {
+					position: fixed;
+					inset: 0;
+					background: rgba(5, 10, 11, 0.96);
+					backdrop-filter: blur(20px);
+					-webkit-backdrop-filter: blur(20px);
+					z-index: 999999;
+					display: none;
+					align-items: center;
+					justify-content: center;
+					padding: 30px;
+					opacity: 0;
+					transition: opacity 0.3s ease;
+				}
+				.fb-lightbox-modal.active {
+					display: flex;
+					opacity: 1;
+				}
+				.fb-lightbox-content {
+					position: relative;
+					max-width: 90vw;
+					max-height: 85vh;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+				.fb-lightbox-img {
+					max-width: 100%;
+					max-height: 80vh;
+					object-fit: contain;
+					border-radius: 0 !important;
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+					border: 1px solid rgba(255, 255, 255, 0.12);
+				}
+				.fb-lightbox-caption {
+					margin-top: 14px;
+					color: #f2ece0;
+					font-size: 14px;
+					letter-spacing: 0.15em;
+					text-transform: uppercase;
+					font-weight: 600;
+					text-align: center;
+				}
+				.fb-lightbox-close {
+					position: absolute !important;
+					top: 24px !important;
+					right: 28px !important;
+					background: rgba(13, 23, 23, 0.92) !important;
+					border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+					color: #ffffff !important;
+					width: 52px !important;
+					height: 52px !important;
+					border-radius: 50% !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					cursor: pointer !important;
+					transition: all 0.25s ease !important;
+					z-index: 1000001 !important;
+					padding: 0 !important;
+					outline: none !important;
+					box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6) !important;
+				}
+				.fb-lightbox-close:hover {
+					background: #e53e3e !important;
+					color: #ffffff !important;
+					border-color: #e53e3e !important;
+					transform: scale(1.1) !important;
+					box-shadow: 0 0 22px rgba(229, 62, 62, 0.7) !important;
+				}
+				.fb-lightbox-nav {
+					position: absolute !important;
+					top: 50% !important;
+					transform: translateY(-50%) !important;
+					background: rgba(13, 23, 23, 0.92) !important;
+					border: 1.5px solid rgba(255, 255, 255, 0.35) !important;
+					color: #ffffff !important;
+					width: 58px !important;
+					height: 58px !important;
+					border-radius: 50% !important;
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					cursor: pointer !important;
+					transition: all 0.25s ease !important;
+					user-select: none !important;
+					z-index: 1000000 !important;
+					padding: 0 !important;
+					outline: none !important;
+					box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6) !important;
+				}
+				.fb-lightbox-nav:hover {
+					background: var(--primary, #3ec28b) !important;
+					color: #050a0b !important;
+					border-color: var(--primary, #3ec28b) !important;
+					transform: translateY(-50%) scale(1.12) !important;
+					box-shadow: 0 0 28px rgba(62, 194, 139, 0.65) !important;
+				}
+				.fb-lightbox-nav:hover .fb-btn-icon {
+					color: #050a0b !important;
+				}
+				.fb-lightbox-prev { left: 24px !important; }
+				.fb-lightbox-next { right: 24px !important; }
+
+				.fb-btn-icon {
+					display: flex !important;
+					align-items: center !important;
+					justify-content: center !important;
+					font-family: Arial, "Helvetica Neue", sans-serif !important;
+					font-size: 26px !important;
+					font-weight: 900 !important;
+					line-height: 1 !important;
+					color: #ffffff !important;
+					pointer-events: none !important;
+					text-shadow: 0 2px 4px rgba(0,0,0,0.5) !important;
+					margin: 0 !important;
+					padding: 0 !important;
+				}
+				.fb-icon-prev {
+					padding-right: 3px !important;
+				}
+				.fb-icon-next {
+					padding-left: 3px !important;
+				}
+				.fb-icon-close {
+					font-size: 22px !important;
+				}
+
+				.fb-lightbox-counter {
+					position: absolute;
+					bottom: 24px;
+					left: 50%;
+					transform: translateX(-50%);
+					font-size: 13px;
+					letter-spacing: 0.25em;
+					color: var(--muted, #a7a294);
+					text-transform: uppercase;
+					font-weight: 600;
+					background: rgba(13, 23, 23, 0.85);
+					padding: 6px 18px;
+					border-radius: 0 !important;
+					border: 1px solid rgba(255, 255, 255, 0.15);
+				}
+				@media (max-width: 768px) {
+					.fb-lightbox-nav {
+						width: 46px !important;
+						height: 46px !important;
+					}
+					.fb-lightbox-prev { left: 12px !important; }
+					.fb-lightbox-next { right: 12px !important; }
+					.fb-lightbox-close {
+						top: 14px !important;
+						right: 14px !important;
+						width: 44px !important;
+						height: 44px !important;
+					}
+					.fb-btn-icon {
+						font-size: 22px !important;
+					}
+					.fb-icon-close {
+						font-size: 18px !important;
+					}
+				}
+			</style>
+
+			<div class="fb-gallery-wrapper">
+				<!-- Category Filter Tabs -->
+				<div class="fb-gallery-filters">
+					<button class="fb-filter-btn active" data-filter="all">All</button>
+					<button class="fb-filter-btn" data-filter="gym">Gym & Equipment</button>
+					<button class="fb-filter-btn" data-filter="pilates">Pilates & Yoga</button>
+					<button class="fb-filter-btn" data-filter="wellness">Wellness & Spa</button>
+					<button class="fb-filter-btn" data-filter="lifestyle">Salon & Café</button>
+				</div>
+
+				<!-- Gallery Grid Items -->
+				<div class="fb-gallery-grid" id="fbGalleryGrid">
+					<!-- Item 1 -->
+					<div class="fb-gallery-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3632-scaled.webp" data-title="Pilates Studio">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3632-scaled.webp" alt="Pilates Studio - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Pilates & Yoga</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Pilates Reformer Studio</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
 					</div>
+
+					<!-- Item 2 -->
+					<div class="fb-gallery-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3610-scaled.webp" data-title="Core Alignment Studio">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3610-scaled.webp" alt="Pilates Core Equipment - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Pilates & Yoga</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Core Alignment Studio</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 3 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3736-scaled.webp" data-title="Main Fitness Floor">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3736-scaled.webp" alt="Main Gym Floor - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Main Fitness Floor</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 4 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3703-scaled.webp" data-title="Strength Training Area">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_3703-scaled.webp" alt="Strength Training Area - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Strength Training Area</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 5 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" data-title="SYNRGY360 Functional Rig">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" alt="SYNRGY360 Functional Rig" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">SYNRGY360 Rig</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 6 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg" data-title="Life Fitness Selectorized Line">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg" alt="Life Fitness Selectorized Line" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Life Fitness Machines</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 7 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon.jpg" data-title="Advanced Training Rig">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04177_11zon.jpg" alt="Advanced Training Rig - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Advanced Training Rig</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 8 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" data-title="Hammer Strength Equipment">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" alt="Hammer Strength Line" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Hammer Strength</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 9 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon.jpg" data-title="Cardio & Conditioning Floor">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon.jpg" alt="Cardio and Conditioning Floor" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Cardio & Conditioning Floor</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 10 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon.jpg" data-title="Functional Training Zone">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04151_11zon.jpg" alt="Functional Training Zone" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Functional Training</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 11 -->
+					<div class="fb-gallery-card" data-category="wellness" data-src="<?php echo $base_url; ?>/assets/images/2026/07/A1-311-scaled.jpg" data-title="Luxury Wellness Lounge">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/A1-311-scaled.jpg" alt="Luxury Wellness Lounge" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Wellness & Spa</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Luxury Wellness Lounge</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 12 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled.jpg" data-title="Strength & Resistance Zone">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled.jpg" alt="Strength & Resistance Zone" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Strength & Resistance</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 13 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/2ZG_9509-scaled.jpg" data-title="Personal Training Hub">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/2ZG_9509-scaled.jpg" alt="Personal Training Hub" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Personal Training Hub</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 14 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled.jpg" data-title="Performance Floor">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled.jpg" alt="Performance Floor" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Performance Floor</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 15 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_9849-scaled.jpg" data-title="Free Weights & Dumbbells">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_9849-scaled.jpg" alt="Free Weights Area" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Free Weights & Dumbbells</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 16 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled.jpg" data-title="Cardio Suite">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled.jpg" alt="Cardio Suite - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Cardio Suite</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 17 -->
+					<div class="fb-gallery-card" data-category="wellness" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_7161-scaled.jpg" data-title="Luxury Changing & Shower Suite">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_7161-scaled.jpg" alt="Luxury Changing Suite" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Wellness & Spa</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Changing & Shower Suite</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 18 -->
+					<div class="fb-gallery-card" data-category="gym" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2009-scaled.jpg" data-title="Equipment Gallery">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2009-scaled.jpg" alt="Premium Equipment - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Gym & Equipment</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Equipment Gallery</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 19 -->
+					<div class="fb-gallery-card" data-category="wellness" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon.jpg" data-title="Recovery & Mobility Room">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon.jpg" alt="Recovery and Mobility - FitBliss" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Wellness & Spa</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Recovery & Mobility Room</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 20 -->
+					<div class="fb-gallery-card" data-category="lifestyle" data-src="<?php echo $base_url; ?>/assets/images/2026/07/salon-scaled.webp" data-title="FitBliss Luxury Salon">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/salon-scaled.webp" alt="FitBliss Luxury Salon" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Salon & Café</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">FitBliss Luxury Salon</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 21 -->
+					<div class="fb-gallery-card" data-category="lifestyle" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled.webp" data-title="EatBliss Healthy Café">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled.webp" alt="EatBliss Healthy Cafe" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Salon & Café</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">EatBliss Healthy Café</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 22 -->
+					<div class="fb-gallery-card" data-category="lifestyle" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0633-scaled.webp" data-title="EatBliss Gourmet Counter">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0633-scaled.webp" alt="EatBliss Gourmet Counter" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Salon & Café</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">EatBliss Gourmet Counter</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 23 -->
+					<div class="fb-gallery-card" data-category="lifestyle" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0638-scaled.webp" data-title="EatBliss Dining & Social Area">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0638-scaled.webp" alt="EatBliss Dining Lounge" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Salon & Café</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Dining & Social Lounge</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 24 -->
+					<div class="fb-gallery-card" data-category="wellness" data-src="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0696-scaled.webp" data-title="Hydrotherapy & Spa Suite">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0696-scaled.webp" alt="Hydrotherapy Spa Suite" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Wellness & Spa</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Hydrotherapy & Spa</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 25 -->
+					<div class="fb-gallery-card" data-category="wellness" data-src="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0772-scaled.webp" data-title="Steam & Sauna Sanctuary">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/06/TZ3_0772-scaled.webp" alt="Steam and Sauna Sanctuary" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Wellness & Spa</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Steam & Sauna Sanctuary</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Item 26 -->
+					<div class="fb-gallery-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/06/2ZG_1043-scaled.jpg" data-title="Mindfulness & Yoga Sanctuary">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/06/2ZG_1043-scaled.jpg" alt="Mindfulness and Yoga Sanctuary" loading="lazy" />
+						<div class="fb-card-overlay">
+							<span class="fb-card-tag">Pilates & Yoga</span>
+							<div class="fb-card-footer">
+								<span class="fb-card-title">Yoga Sanctuary</span>
+								<div class="fb-zoom-btn">
+									<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line><line x1="11" y1="8" x2="11" y2="14"></line><line x1="8" y1="11" x2="14" y2="11"></line></svg>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+
+			<!-- Built-in Pure JS Lightbox Modal -->
+			<div class="fb-lightbox-modal" id="fbLightboxModal" role="dialog" aria-modal="true">
+				<button class="fb-lightbox-close" id="fbLightboxClose" aria-label="Close Lightbox" title="Close (Esc)">
+					<span class="fb-btn-icon fb-icon-close">&#10005;</span>
+				</button>
+				<div class="fb-lightbox-content">
+					<img class="fb-lightbox-img" id="fbLightboxImg" src="" alt="FitBliss Gallery Preview" />
+					<div class="fb-lightbox-caption" id="fbLightboxCaption"></div>
 				</div>
+				<button class="fb-lightbox-nav fb-lightbox-prev" id="fbLightboxPrev" aria-label="Previous Image" title="Previous Image (&larr;)">
+					<span class="fb-btn-icon fb-icon-prev">&#10094;</span>
+				</button>
+				<button class="fb-lightbox-nav fb-lightbox-next" id="fbLightboxNext" aria-label="Next Image" title="Next Image (&rarr;)">
+					<span class="fb-btn-icon fb-icon-next">&#10095;</span>
+				</button>
+				<div class="fb-lightbox-counter" id="fbLightboxCounter"></div>
+			</div>
+
+			<script>
+				(function() {
+					// Filter functionality
+					const filterBtns = document.querySelectorAll('.fb-filter-btn');
+					const cards = document.querySelectorAll('.fb-gallery-card');
+
+					filterBtns.forEach(btn => {
+						btn.addEventListener('click', () => {
+							filterBtns.forEach(b => b.classList.remove('active'));
+							btn.classList.add('active');
+							const filterValue = btn.getAttribute('data-filter');
+
+							cards.forEach(card => {
+								const cardCat = card.getAttribute('data-category');
+								if (filterValue === 'all' || cardCat === filterValue) {
+									card.classList.remove('hidden');
+								} else {
+									card.classList.add('hidden');
+								}
+							});
+						});
+					});
+
+					// Lightbox functionality
+					const modal = document.getElementById('fbLightboxModal');
+					const modalImg = document.getElementById('fbLightboxImg');
+					const modalCaption = document.getElementById('fbLightboxCaption');
+					const modalCounter = document.getElementById('fbLightboxCounter');
+					const closeBtn = document.getElementById('fbLightboxClose');
+					const prevBtn = document.getElementById('fbLightboxPrev');
+					const nextBtn = document.getElementById('fbLightboxNext');
+
+					let currentList = [];
+					let currentIndex = 0;
+
+					function getVisibleCards() {
+						return Array.from(cards).filter(c => !c.classList.contains('hidden'));
+					}
+
+					function openLightbox(index) {
+						currentList = getVisibleCards();
+						if (index < 0) index = currentList.length - 1;
+						if (index >= currentList.length) index = 0;
+						currentIndex = index;
+
+						const activeCard = currentList[currentIndex];
+						const src = activeCard.getAttribute('data-src');
+						const title = activeCard.getAttribute('data-title');
+
+						modalImg.src = src;
+						modalCaption.textContent = title || '';
+						modalCounter.textContent = `${currentIndex + 1} / ${currentList.length}`;
+
+						modal.classList.add('active');
+						document.body.style.overflow = 'hidden';
+					}
+
+					function closeLightbox() {
+						modal.classList.remove('active');
+						modalImg.src = '';
+						document.body.style.overflow = '';
+					}
+
+					cards.forEach(card => {
+						card.addEventListener('click', (e) => {
+							e.preventDefault();
+							const visible = getVisibleCards();
+							const idx = visible.indexOf(card);
+							if (idx !== -1) {
+								openLightbox(idx);
+							}
+						});
+					});
+
+					closeBtn.addEventListener('click', closeLightbox);
+
+					modal.addEventListener('click', (e) => {
+						if (e.target === modal) {
+							closeLightbox();
+						}
+					});
+
+					prevBtn.addEventListener('click', (e) => {
+						e.stopPropagation();
+						openLightbox(currentIndex - 1);
+					});
+
+					nextBtn.addEventListener('click', (e) => {
+						e.stopPropagation();
+						openLightbox(currentIndex + 1);
+					});
+
+					document.addEventListener('keydown', (e) => {
+						if (!modal.classList.contains('active')) return;
+						if (e.key === 'Escape') closeLightbox();
+						if (e.key === 'ArrowLeft') openLightbox(currentIndex - 1);
+						if (e.key === 'ArrowRight') openLightbox(currentIndex + 1);
+					});
+				})();
+			</script>
+		</div>
 					</div>
 				</div>
 				</div>
