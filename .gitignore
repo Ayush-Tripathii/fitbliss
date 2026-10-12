@@ -1,26 +1,6 @@
-# Large Video and Media Files
-*.mp4
-*.mov
-*.avi
-*.wmv
-*.flv
-*.mkv
-*.heic
 
-# Raw Uncompressed Uploads / Heavy Camera Originals (>2-3GB)
-assets/images/2026/
-assets/images/2024/
-wp-content/uploads/2026/
-wp-content/uploads/2024/
-
-# Legacy WordPress Server Plugins & Backups
-assets/plugins/wordfence/
-assets/plugins/wordpress-seo/
-assets/plugins/wpvivid-backuprestore/
-assets/plugins/All-In-One-WP-Migration-Pro-master/
+# Keep FluentForm assets local
 assets/plugins/fluentform/
-assets/plugins/litespeed-cache/
-assets/plugins/fluent-smtp/
 
 # WordPress Backups & Large Archives
 wp-content/ai1wm-backups/
