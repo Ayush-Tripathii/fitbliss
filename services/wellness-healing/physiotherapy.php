@@ -53,8 +53,16 @@ require_once __DIR__ . '/../../includes/security_shield.php';
         }
 
         /*    main#content {margin-top: 105px;} */
-        /* ============ HEADER ============ */
-            .header {
+        /* ============ STICKY & TRANSLUCENT GLASSMORPHISM HEADER ============ */
+    html {
+        overflow-x: clip;
+    }
+
+    body {
+        overflow-x: clip;
+    }
+
+        .header {
         position: sticky !important;
         position: -webkit-sticky !important;
         top: 0 !important;
@@ -83,207 +91,224 @@ require_once __DIR__ . '/../../includes/security_shield.php';
         -webkit-backdrop-filter: none !important;
     }
 
-        .topstrip .navrow {
-            border-top: 1px solid #1d3529;
-        }
+    .topstrip .row {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        padding: 8px 0 !important;
+        box-sizing: border-box !important;
+    }
 
-        /*   .container.navrow{border-bottom:1px solid var(--border);background:rgba(10,20,20,.4);backdrop-filter:blur(10px)} */
-        @media(min-width:768px) {
-            .topstrip {
-                display: block
-            }
-        }
+    .topstrip .tag {
+        font-family: "Barlow", Inter, sans-serif !important;
+        font-size: 11px !important;
+        text-transform: uppercase !important;
+        letter-spacing: .3em !important;
+        color: rgba(242, 236, 224, .7) !important;
+        font-weight: 500 !important;
+        white-space: nowrap !important;
+    }
 
-        .container {
-            max-width: 1400px;
-            margin: 0 auto;
-            padding: 0 24px
-        }
+    .topstrip .links {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        gap: 24px !important;
+        margin-left: auto !important;
+        font-family: "Barlow", Inter, sans-serif !important;
+        font-size: 11px !important;
+        letter-spacing: .25em !important;
+        color: rgba(242, 236, 224, .7) !important;
+        white-space: nowrap !important;
+    }
 
-        @media(min-width:768px) {
-            .container {
-                padding: 0 40px
-            }
-        }
+    .topstrip .links a {
+        color: rgba(242, 236, 224, .7) !important;
+        text-decoration: none !important;
+        transition: color .2s ease !important;
+    }
 
+    .topstrip .links a:hover {
+        color: #3ec28b !important;
+    }
+
+    .topstrip .navrow {
+        border-top: 1px solid #1d3529 !important;
+    }
+
+    @media (max-width: 767px) {
         .topstrip .row {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 8px 0
+            display: none !important;
         }
-
-        .topstrip .tag {
-            font-size: 11px;
-            text-transform: uppercase;
-            letter-spacing: .3em;
-            color: rgba(242, 236, 224, .7)
+        .topstrip .navrow {
+            border-top: none !important;
+            padding: 8px 0 !important;
         }
+    }
 
-        .topstrip .links {
-            display: flex;
-            align-items: center;
-            gap: 24px;
-            font-size: 11px;
-            letter-spacing: .25em;
-            color: rgba(242, 236, 224, .7)
+    .header .container,
+    .topstrip .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 24px;
+        box-sizing: border-box;
+    }
+
+    @media(min-width:768px) {
+        .header .container,
+        .topstrip .container {
+            padding: 0 40px;
         }
+    }
 
-        .topstrip .links a:hover {
-            color: var(--primary)
-        }
+    .navrow {
+        display: grid !important;
+        grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+        align-items: center !important;
+        gap: 16px !important;
+        padding: 10px 0 !important;
+        width: 100% !important;
+    }
 
-        .lang .active {
-            color: rgba(242, 236, 224, .8)
-        }
-
-        .lang {
-            color: rgba(242, 236, 224, .4)
-        }
-
+    @media(min-width:768px) {
         .navrow {
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            align-items: center;
-            gap: 24px;
-            padding: 10px 0
+            padding: 0px 0 10px !important;
         }
+    }
 
-        @media(min-width:768px) {
-            .navrow {
-                padding: 0px 0 10px
-            }
-        }
+    .navlist {
+        display: none;
+        align-items: center;
+        gap: 26px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
 
+    #leftNav {
+        justify-self: start !important;
+    }
+
+    #rightNav {
+        justify-self: end !important;
+        gap: 22px !important;
+    }
+
+    @media(min-width:1024px) {
         .navlist {
-            display: none;
-            align-items: center;
-            gap: 32px
+            display: flex !important;
         }
+    }
 
-        @media(min-width:1024px) {
-            .navlist {
-                display: flex
-            }
-        }
+    .navlist .item {
+        position: relative;
+    }
 
-        .navlist .item {
-            position: relative
-        }
+    .navlist a.link {
+        font-family: "Barlow", Inter, sans-serif !important;
+        font-size: 12px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: .28em !important;
+        color: #f2ece0 !important;
+        transition: color .2s ease !important;
+        text-decoration: none !important;
+        display: inline-block !important;
+        padding: 8px 0 !important;
+        white-space: nowrap !important;
+    }
 
-        .navlist a.link {
-            font-size: 12px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: .28em;
-            color: var(--fg);
-            transition: color .2s
-        }
+    .navlist a.link:hover,
+    .navlist .item.open a.link {
+        color: #3ec28b !important;
+    }
 
-        .navlist a.link:hover,
-        .navlist .item.open a.link {
-            color: var(--primary)
-        }
+    .logo {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        justify-self: center !important;
+        text-align: center !important;
+        text-decoration: none !important;
+        margin: 0 auto !important;
+    }
 
-        .logo {
-            display: flex;
-            align-items: center;
-            justify-content: center
-        }
+    .logo img {
+        height: 48px;
+        width: auto;
+        display: block;
+    }
 
+    @media(min-width:768px) {
         .logo img {
-            height: 48px;
-            width: auto
+            height: 64px;
         }
+    }
 
-        @media(min-width:768px) {
-            .logo img {
-                height: 64px
-            }
-        }
+    .right {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: flex-end !important;
+        justify-self: end !important;
+        margin-left: auto !important;
+        gap: 20px !important;
+    }
 
-        .right {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            gap: 24px
-        }
+    .cta {
+        display: none;
+        align-items: center !important;
+        justify-content: center !important;
+        gap: 8px;
+        border-radius: 9999px !important;
+        background: #3ec28b !important;
+        color: #0a1414 !important;
+        padding: 10px 24px !important;
+        font-family: "Barlow", Inter, sans-serif !important;
+        font-size: 11px !important;
+        font-weight: 600 !important;
+        text-transform: uppercase !important;
+        letter-spacing: .3em !important;
+        transition: opacity .2s ease !important;
+        text-decoration: none !important;
+        white-space: nowrap !important;
+    }
 
+    .cta:hover {
+        opacity: .9 !important;
+    }
+
+    @media(min-width:1024px) {
         .cta {
-            display: none;
-            align-items: center;
-            gap: 8px;
-            border-radius: 9999px;
-            background: var(--primary);
-            color: var(--primary-fg) !important;
-            padding: 10px 24px;
-            font-size: 11px;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: .3em;
-            transition: opacity .2s
+            display: inline-flex !important;
         }
+    }
 
-        .cta:hover {
-            opacity: .9
-        }
+    .burger {
+        display: grid;
+        place-items: center;
+        height: 44px;
+        width: 44px;
+        border: 1px solid rgba(242, 236, 224, .25);
+        color: rgba(242, 236, 224, .8);
+        background: transparent;
+        cursor: pointer;
+        transition: all .2s;
+        border-radius: 2px;
+    }
 
-        @media(min-width:1024px) {
-            .cta {
-                display: inline-flex
-            }
-        }
+    .burger:hover {
+        border-color: #3ec28b;
+        color: #3ec28b;
+    }
 
+    @media(min-width:1024px) {
         .burger {
-            display: grid;
-            place-items: center;
-            height: 44px;
-            width: 44px;
-            border: 1px solid rgba(242, 236, 224, .25);
-            color: rgba(242, 236, 224, .8);
-            background: transparent;
-            cursor: pointer;
-            transition: all .2s
+            display: none;
         }
+    }
 
-        .burger:hover {
-            border-color: var(--primary);
-            color: var(--primary)
-        }
-
-        @media(min-width:1024px) {
-            .burger {
-                display: none
-            }
-        }
-
-        .burger .bars {
-            display: flex;
-            flex-direction: column;
-            gap: 5px
-        }
-
-        .burger .bars span {
-            display: block;
-            height: 2px;
-            width: 20px;
-            background: currentColor;
-            transition: transform .25s, opacity .25s
-        }
-
-        .burger.active .bars span:nth-child(1) {
-            transform: translateY(7px) rotate(45deg)
-        }
-
-        .burger.active .bars span:nth-child(2) {
-            opacity: 0
-        }
-
-        .burger.active .bars span:nth-child(3) {
-            transform: translateY(-7px) rotate(-45deg)
-        }
-
-        /* ============ MEGA MENU ============ */
+    /* ============ MEGA MENU ============ */
         .mega {
             position: absolute;
             left: 0;
@@ -1196,58 +1221,64 @@ document.addEventListener('DOMContentLoaded', function() {
         Skip to content    </a>
     
         <header class="header" id="header">
-        <!-- Top strip -->
-        <div class="topstrip">
-            <div class="container row">
-                <span class="tag">Luxury Wellness Destination · Bhopal</span>
-                <div class="links">
-                    <a href="mailto:info@fitblissbysk.com"><span class="__cf_email__" data-cfemail="0960676f66496f607d6b65607a7a6b707a62276a6664">info@fitblissbysk.com</span></a>
-                    <a href="tel:+917470787012">+91 74707 87012</a>
-                    <a href="tel:+917470787014">+91 74707 87014</a>
-                </div>
-            </div>
-            <!-- Main nav -->
-            <div class="container navrow">
-                <nav class="navlist" id="leftNav">
+  <div class="topstrip">
+    <div class="container">
+      <div class="row">
+        <div class="tag">Luxury Wellness Destination · Bhopal</div>
+        <div class="links">
+          <a href="mailto:info@fitblissbysk.com">info@fitblissbysk.com</a>
+          <a href="tel:+917470787012">+91 74707 87012</a>
+          <a href="tel:+917470787014">+91 74707 87014</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="navrow">
+      <!-- LEFT NAV -->
+      <nav class="navlist" id="leftNav">
         <div class="item" data-name="Home"><a class="link" href="<?php echo $base_url; ?>/">Home</a></div>
         <div class="item" data-name="About Us"><a class="link" href="<?php echo $base_url; ?>/about/">About Us</a></div>
         <div class="item" data-name="Services"><a class="link" href="<?php echo $base_url; ?>/gym/">Services</a></div>
         <div class="item" data-name="Membership"><a class="link" href="<?php echo $base_url; ?>/membership/">Membership</a></div>
       </nav>
 
-                <a href="<?php echo $base_url; ?>/" class="logo">
-                    <img src="<?php echo $base_url; ?>/assets/images/2024/04/New-LoGO-for-FitBliss1-copy-e1719230950970.png"
-                        alt="FitBliss by Shruti Kapoor" />
-                </a>
+      <!-- CENTER LOGO -->
+      <a class="logo" href="<?php echo $base_url; ?>/">
+        <img src="<?php echo $base_url; ?>/assets/images/2026/07/logo.png" alt="FitBliss by Shruti Kapoor" onerror="this.onerror=null; this.src='https://staging.fitblissbysk.com/assets/images/2026/07/logo.png';">
+      </a>
 
-                <div class="right">
-                    <nav class="navlist" id="rightNav">
+      <!-- RIGHT NAV -->
+      <div class="right">
+        <nav class="navlist" id="rightNav">
           <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
           <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
           <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
         </nav>
-                    <a href="tel:+917470787014" class="cta">Call Us</a>
-                    <button class="burger" id="burger" aria-label="Open menu">
-                        <div class="bars"><span></span><span></span><span></span></div>
-                    </button>
-                </div>
-            </div>
-        </div>
-        <!-- Mega Menu -->
-        <div class="mega" id="mega">
-            <div class="container">
-                <div class="mega-inner" id="megaInner"></div>
-            </div>
-        </div>
+        <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
+        <button class="burger" id="burgerBtn" aria-label="Toggle menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
 
-        <!-- Mobile Menu -->
-        <div class="mobile" id="mobile">
-            <div class="container mobile-inner">
-                <nav id="mobileNav"></nav>
-                <a href="#join" class="m-cta">Book a free trial →</a>
-            </div>
-        </div>
-    </header>
+  <!-- Mega Menu Dropdown -->
+  <div class="mega" id="mega">
+    <div class="container">
+      <div class="mega-inner" id="megaInner"></div>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile" id="mobile">
+    <div class="container mobile-inner">
+      <nav id="mobileNav"></nav>
+      <a href="tel:+917470787014" class="m-cta" style="margin-top:20px;display:flex;align-items:center;justify-content:center;gap:12px;background:#3ec28b;color:#0a1414;padding:15px 24px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.28em;border-radius:2px;text-decoration:none;">Book a free trial →</a>
+    </div>
+  </div>
+</header>
 
     <script>
         const nav = ["Home", "About Us", "Services", "Membership", "Gallery", "Blog", "Contact"];
