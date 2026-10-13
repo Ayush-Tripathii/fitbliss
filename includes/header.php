@@ -812,38 +812,6 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     </div>
   </div>
 </header>
-  </div>
-
-  <div class="container">
-    <div class="navrow">
-      <!-- LEFT NAV -->
-      <nav class="navlist" id="leftNav">
-        <div class="item" data-name="Home"><a class="link" href="<?php echo $base_url; ?>/">Home</a></div>
-        <div class="item" data-name="About Us"><a class="link" href="<?php echo $base_url; ?>/about/">About Us</a></div>
-        <div class="item" data-name="Services"><a class="link" href="<?php echo $base_url; ?>/#services">Services</a></div>
-        <div class="item" data-name="Membership"><a class="link" href="<?php echo $base_url; ?>/membership/">Membership</a></div>
-      </nav>
-
-      <!-- CENTER LOGO -->
-      <a class="logo" href="<?php echo $base_url; ?>/">
-        <img src="<?php echo $base_url; ?>/assets/images/2026/07/logo.png" alt="FitBliss by Shruti Kapoor" onerror="this.onerror=null; this.src='https://staging.fitblissbysk.com/assets/images/2026/07/logo.png';">
-      </a>
-
-      <!-- RIGHT NAV -->
-      <div class="right">
-        <nav class="navlist" id="rightNav">
-          <div class="item" data-name="Gallery"><a class="link" href="<?php echo $base_url; ?>/gallery/">Gallery</a></div>
-          <div class="item" data-name="Blog"><a class="link" href="<?php echo $base_url; ?>/blog/">Blog</a></div>
-          <div class="item" data-name="Contact"><a class="link" href="<?php echo $base_url; ?>/contact/">Contact</a></div>
-        </nav>
-        <a class="cta call-btn" href="tel:+917470787012">Call Us</a>
-        <button class="burger" id="burgerBtn" aria-label="Toggle menu">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <script>
     (function() {
@@ -967,7 +935,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                 "Services": "<?php echo $base_url; ?>/#services",
                 "Membership": "<?php echo $base_url; ?>/membership/",
                 "Gallery": "<?php echo $base_url; ?>/gallery/",
-                "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/",
+                "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/",
                 "Contact": "<?php echo $base_url; ?>/contact/"
             };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";

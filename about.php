@@ -1133,7 +1133,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
@@ -1349,146 +1349,266 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-4117b92d e-con-full e-flex e-con e-child" data-id="4117b92d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-717550aa elementor-widget elementor-widget-html" data-id="717550aa" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<style>
-    /* ─── The Story Section ─── */
-    .fbt-story-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+								<div class="elementor-element elementor-element-4117b92d e-con-full e-flex e-con e-child" data-id="4117b92d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "WHERE WELLNESS MEETS LUXURY" EDITORIAL REDESIGN ─── */
+				.elementor-element-4117b92d {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #020505 !important;
+					padding: clamp(60px, 7vw, 95px) clamp(20px, 4vw, 40px) !important;
+					box-sizing: border-box !important;
+					display: block !important;
+					overflow: hidden !important;
+				}
 
-    .fbt-story-container {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(28px, 5vw, 60px);
-        align-items: center;
-    }
+				/* Ambient Atmosphere */
+				.fba-story-ambient {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 60% 50% at 80% 45%, rgba(55, 192, 128, 0.06) 0%, transparent 65%),
+						radial-gradient(ellipse 50% 45% at 20% 55%, rgba(55, 192, 128, 0.04) 0%, transparent 60%);
+					pointer-events: none;
+					z-index: 0;
+				}
 
-    /* Left Image Column */
-    .fbt-story-img-col {
-        flex: 1 1 280px;
-        min-width: 0;
-        position: relative;
-    }
+				.fba-story-container {
+					position: relative;
+					z-index: 2;
+					max-width: 1260px;
+					margin: 0 auto;
+					display: grid;
+					grid-template-columns: 1fr 1.15fr;
+					gap: clamp(36px, 5vw, 68px);
+					align-items: center;
+					box-sizing: border-box;
+				}
 
-    .fbt-story-img {
-        width: 100%;
-        aspect-ratio: 4/5;
-        max-height: 520px;
-        object-fit: cover;
-        border-radius: 2px;
-        display: block;
-    }
+				/* ── Left Column: Elevated Architectural Imagery ── */
+				.fba-story-media-wrap {
+					display: flex;
+					flex-direction: column;
+					gap: 12px;
+					box-sizing: border-box;
+				}
 
-    .fbt-story-badge {
-        position: absolute;
-        bottom: clamp(14px, 4vw, 24px);
-        left: clamp(14px, 4vw, 24px);
-        background: rgba(1, 3, 3, 0.75);
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        padding: clamp(6px, 2vw, 10px) clamp(10px, 3vw, 16px);
-        backdrop-filter: blur(4px);
-    }
+				.fba-story-img-stage {
+					position: relative;
+					overflow: hidden;
+					background: #060e0e;
+					box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.9);
+				}
 
-    .fbt-story-badge span {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(9px, 2.5vw, 10px);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-    }
+				.fba-story-img {
+					width: 100%;
+					aspect-ratio: 4/4.8;
+					max-height: 510px;
+					object-fit: cover;
+					display: block;
+					filter: brightness(0.97) contrast(1.02);
+					transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+				}
 
-    /* Right Text Column */
-    .fbt-story-text-col {
-        flex: 1.1 1 300px;
-        min-width: 0;
-    }
+				.fba-story-img-stage:hover .fba-story-img {
+					transform: scale(1.025);
+					filter: brightness(1.02) contrast(1.04);
+				}
 
-    .fbt-story-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #37c080;
-    }
+				/* Minimalist Floating Badge */
+				.fba-story-badge {
+					position: absolute;
+					bottom: 18px;
+					left: 18px;
+					background: rgba(2, 6, 6, 0.88);
+					backdrop-filter: blur(10px);
+					-webkit-backdrop-filter: blur(10px);
+					padding: 6px 14px;
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					z-index: 3;
+				}
 
-    .fbt-story-title {
-        margin: 16px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+				.fba-story-badge-dot {
+					width: 6px;
+					height: 6px;
+					border-radius: 50%;
+					background: #3ee69a;
+					box-shadow: 0 0 8px #3ee69a;
+					animation: fbaPulse 2.2s infinite ease-in-out;
+				}
 
-    .fbt-story-title span {
-        color: #37c080;
-    }
+				@keyframes fbaPulse {
+					0%, 100% { opacity: 1; transform: scale(1); }
+					50% { opacity: 0.35; transform: scale(1.3); }
+				}
 
-    .fbt-story-paragraphs {
-        margin-top: 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
+				.fba-story-badge span {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: #3ee69a !important;
+				}
 
-    .fbt-story-paragraphs p {
-        margin: 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(14px, 2vw, 15px);
-        line-height: 1.7;
-        color: rgba(244, 242, 234, .85);
-    }
-</style>
+				/* Subtle Architectural Caption Below Image */
+				.fba-story-caption {
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 500;
+					color: #7d968b;
+					letter-spacing: 0.8px;
+					padding-left: 2px;
+				}
 
-<div class="fbt-story-section">
-    <div class="fbt-story-container">
-        <!-- Left Image Column -->
-        <div class="fbt-story-img-col">
-            <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/06/DSC06304-1-scaled.jpg"
-                alt="Meditation at FitBliss" class="fbt-story-img" />
-            <div class="fbt-story-badge">
-                <span>Wellness · Reimagined</span>
-            </div>
-        </div>
+				.fba-story-caption-line {
+					width: 14px;
+					height: 1px;
+					background: #37c080;
+					opacity: 0.6;
+				}
 
-        <!-- Right Text Column -->
-        <div class="fbt-story-text-col">
-            <div class="fbt-story-tag">— The Story</div>
-            <h2 class="fbt-story-title">
-                Where wellness<br /><span>meets luxury</span>
-            </h2>
-            <div class="fbt-story-paragraphs">
-                <p>
-                    Welcome to Fitbliss, where wellness meets luxury, and every visit is an experience to
-                    cherish. Founded by Dr. Shruti Kapoor, MD Radiologist, Fitbliss embodies her passion
-                    for holistic health and well-being.
-                </p>
-                <p>
-                    The journey of creating Fitbliss began when Dr. Kapoor embarked on a transformative
-                    Pilates training with the renowned Yashmin Karachiwala in Mumbai. Inspired by her own
-                    wellness journey and the profound impact of Pilates on her life, Dr. Kapoor envisioned
-                    a wellness center that would offer a sanctuary for individuals seeking to rejuvenate
-                    their body, mind and spirit.
-                </p>
-                <p>
-                    With a deep understanding of the importance of balance in life, she set out to create
-                    a space where luxury and wellness converge seamlessly.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>				</div>
+				/* ── Right Column: Editorial Typography ── */
+				.fba-story-content {
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+					box-sizing: border-box;
+				}
+
+				.fba-story-tag {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080 !important;
+					margin-bottom: 14px;
+				}
+
+				.fba-story-tag-line {
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+
+				/* Refined, Balanced Title Size */
+				.fba-story-title {
+					margin: 0 0 20px 0;
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: clamp(32px, 3.8vw, 46px) !important;
+					line-height: 0.98;
+					letter-spacing: 1.2px;
+					color: #ffffff !important;
+					font-weight: 400;
+					text-transform: uppercase;
+				}
+
+				.fba-story-title span {
+					color: #37c080 !important;
+					text-shadow: 0 0 30px rgba(55, 192, 128, 0.4);
+				}
+
+				/* High-End Editorial Narrative */
+				.fba-story-lead {
+					margin: 0 0 16px 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 15.5px !important;
+					line-height: 1.7;
+					color: #ffffff !important;
+					font-weight: 500;
+				}
+
+				.fba-story-lead strong {
+					color: #3ee69a !important;
+					font-weight: 700;
+				}
+
+				.fba-story-p {
+					margin: 0 0 16px 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px !important;
+					line-height: 1.72;
+					color: rgba(244, 242, 234, 0.82) !important;
+					font-weight: 400;
+				}
+
+				.fba-story-p strong {
+					color: #e6f3ec !important;
+					font-weight: 600;
+				}
+
+				
+
+				/* Responsive */
+				@media (max-width: 960px) {
+					.fba-story-container {
+						grid-template-columns: 1fr;
+						gap: 36px;
+					}
+					.fba-story-media-wrap {
+						max-width: 560px;
+						margin: 0 auto;
+					}
+				}
+
+				
+			</style>
+
+			<div class="fba-story-ambient"></div>
+
+			<div class="fba-story-container">
+				<!-- Left Image Stage -->
+				<div class="fba-story-media-wrap">
+					<div class="fba-story-img-stage">
+						<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/06/DSC06304-1-scaled.jpg"
+							alt="Community and Wellness Sanctuary at FitBliss" class="fba-story-img" />
+						<div class="fba-story-badge">
+							<span class="fba-story-badge-dot"></span>
+							<span>Wellness · Reimagined</span>
+						</div>
+					</div>
+					
 				</div>
+
+				<!-- Right Editorial Story -->
+				<div class="fba-story-content">
+					<div class="fba-story-tag">
+						<span class="fba-story-tag-line"></span>
+						<span>— The Story</span>
+					</div>
+
+					<h2 class="fba-story-title">
+						Where wellness<br />
+						<span>meets luxury</span>
+					</h2>
+
+					<!-- Editorial Lead -->
+					<p class="fba-story-lead">
+						Welcome to <strong>Fitbliss</strong>, where wellness meets luxury, and every visit is an experience to cherish. Founded by <strong>Dr. Shruti Kapoor</strong>, MD Radiologist, Fitbliss embodies her passion for holistic health and well-being.
+					</p>
+
+					<!-- Story Narrative -->
+					<p class="fba-story-p">
+						The journey of creating Fitbliss began when Dr. Kapoor embarked on a transformative Pilates training with the renowned <strong>Yashmin Karachiwala</strong> in Mumbai. Inspired by her own wellness journey and the profound impact of Pilates on her life, Dr. Kapoor envisioned a wellness center that would offer a sanctuary for individuals seeking to rejuvenate their body, mind and spirit.
+					</p>
+
+					<p class="fba-story-p">
+						With a deep understanding of the importance of balance in life, she set out to create a space where luxury and wellness converge seamlessly.
+					</p>
+					
 				</div>
+			</div>
+		</div>
 		<div class="elementor-element elementor-element-5530886d e-con-full e-flex e-con e-child" data-id="5530886d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-1f4a2a47 elementor-widget elementor-widget-html" data-id="1f4a2a47" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">

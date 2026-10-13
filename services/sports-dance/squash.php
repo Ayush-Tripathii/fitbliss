@@ -1364,7 +1364,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 

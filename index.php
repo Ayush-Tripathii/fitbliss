@@ -6670,27 +6670,9 @@ div[data-id="6222ead1"] {
     .fbt-footer {
         display: flex;
         align-items: center;
-        justify-content: space-between;
-        margin-top: 32px;
+        justify-content: flex-end;
+        margin-top: 28px;
         gap: 20px;
-        flex-wrap: wrap;
-    }
-    .fbt-dots-wrap {
-        display: flex;
-        gap: 8px;
-        align-items: center;
-        flex-wrap: wrap;
-        flex: 1;
-        min-width: 0;
-    }
-    .fbt-dot-btn {
-        height: 4px;
-        border: none;
-        padding: 0;
-        cursor: pointer;
-        border-radius: 0px !important; /* Sharp indicator pills */
-        transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-        flex-shrink: 0;
     }
     .fbt-nav-group {
         display: flex;
@@ -7061,21 +7043,6 @@ div[data-id="6222ead1"] {
 
     <!-- Redesigned Footer Controls -->
     <div class="fbt-footer">
-        <!-- Progress Segmented Bars -->
-        <div class="fbt-dots-wrap">
-            <button class="fbt-dot-btn" onclick="fbtGo(0)"  data-dot="0"  style="width:36px;background:#37c080;box-shadow:0 0 10px rgba(55,192,128,0.5);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(1)"  data-dot="1"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(2)"  data-dot="2"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(3)"  data-dot="3"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(4)"  data-dot="4"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(5)"  data-dot="5"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(6)"  data-dot="6"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(7)"  data-dot="7"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(8)"  data-dot="8"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(9)"  data-dot="9"  style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(10)" data-dot="10" style="width:16px;background:rgba(255,255,255,0.18);"></button>
-            <button class="fbt-dot-btn" onclick="fbtGo(11)" data-dot="11" style="width:16px;background:rgba(255,255,255,0.18);"></button>
-        </div>
 
         <!-- Right Side: Counter & Navigation Buttons -->
         <div class="fbt-nav-group">
@@ -7091,7 +7058,6 @@ div[data-id="6222ead1"] {
 <script>
     (function () {
         var track   = document.getElementById('fbtTrack');
-        var dotEls  = document.querySelectorAll('[data-dot]');
         var counter = document.getElementById('fbtCount');
         var N = 12, GAP = 24, cur = 0;
 
@@ -7151,11 +7117,6 @@ div[data-id="6222ead1"] {
             var tx = cur * (cardW() + GAP);
             track.style.transition = animate === false ? 'none' : 'transform .55s cubic-bezier(.16, 1, .3, 1)';
             track.style.transform  = 'translateX(-' + tx + 'px)';
-            dotEls.forEach(function (d, i) {
-                d.style.width      = i === cur ? '36px' : '16px';
-                d.style.background = i === cur ? '#37c080' : 'rgba(255,255,255,0.18)';
-                d.style.boxShadow  = i === cur ? '0 0 10px rgba(55,192,128,0.5)' : 'none';
-            });
             if (counter) counter.textContent = String(cur + 1).padStart(2, '0') + ' / ' + String(N).padStart(2, '0');
         }
 
@@ -7201,253 +7162,1625 @@ div[data-id="6222ead1"] {
 				</div>
 				</div>
 		</div>
-		<div class="elementor-element elementor-element-500388e9 e-con-full e-flex e-con e-child" data-id="500388e9" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-19248348 e-con-full e-flex e-con e-child" data-id="19248348" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-7cd99ed7 elementor-widget elementor-widget-heading" data-id="7cd99ed7" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">“</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-6b3af2e1 elementor-widget elementor-widget-text-editor" data-id="6b3af2e1" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">I&#8217;ve trained in three cities. FitBliss is the first place that felt like a studio, not a showroom. Shruti&#8217;s team actually watches you lift.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-6700c5c5 e-con-full e-flex e-con e-child" data-id="6700c5c5" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-501a6b8 e-con-full e-flex e-con e-child" data-id="501a6b8" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-1e1e1927 elementor-widget elementor-widget-text-editor" data-id="1e1e1927" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#f4f2ea;">Ananya Deshmukh</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-395f1480 elementor-widget elementor-widget-text-editor" data-id="395f1480" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Member since 2022</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-65c95549 e-con-full e-flex e-con e-child" data-id="65c95549" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-36c2cf71 elementor-widget elementor-widget-heading" data-id="36c2cf71" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">“</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-6abf49a elementor-widget elementor-widget-text-editor" data-id="6abf49a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">The Pilates reformer sessions changed my posture completely. Six months in — back pain gone, core stronger than it&#8217;s ever been.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-23946796 e-con-full e-flex e-con e-child" data-id="23946796" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-2deca202 e-con-full e-flex e-con e-child" data-id="2deca202" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2ce52af2 elementor-widget elementor-widget-text-editor" data-id="2ce52af2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: #f4f2ea;">Priya Sharma</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-1edd8554 elementor-widget elementor-widget-text-editor" data-id="1edd8554" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Pilates member</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4dfe9463 e-con-full e-flex e-con e-child" data-id="4dfe9463" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-4d43c13c elementor-widget elementor-widget-heading" data-id="4d43c13c" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">“</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-2a8d8d8f elementor-widget elementor-widget-text-editor" data-id="2a8d8d8f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Boxing classes here are the real deal. Coach Jigyasa is a national medalist who actually trains you like one. I lost 12 kg in 3 months.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-486b7508 e-con-full e-flex e-con e-child" data-id="486b7508" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-474c0301 e-con-full e-flex e-con e-child" data-id="474c0301" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-3a84773d elementor-widget elementor-widget-text-editor" data-id="3a84773d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#f4f2ea;">Rohit Verma</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-4ddbca45 elementor-widget elementor-widget-text-editor" data-id="4ddbca45" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Boxing &#038; strength</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3eb09020 e-con-full e-flex e-con e-child" data-id="3eb09020" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-31ed5d15 elementor-widget elementor-widget-heading" data-id="31ed5d15" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<span class="elementor-heading-title elementor-size-default">“</span>				</div>
-				</div>
-				<div class="elementor-element elementor-element-6beef406 elementor-widget elementor-widget-text-editor" data-id="6beef406" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Best spa in Bhopal, hands down. After squash sessions I always end with a steam — it&#8217;s become a ritual I look forward to.</p>								</div>
-				</div>
-		<div class="elementor-element elementor-element-6b7d7d6e e-con-full e-flex e-con e-child" data-id="6b7d7d6e" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-7c7aac4c e-con-full e-flex e-con e-child" data-id="7c7aac4c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-b493209 elementor-widget elementor-widget-text-editor" data-id="b493209" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:#f4f2ea;">Kavita Malhotra</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-436d95ec elementor-widget elementor-widget-text-editor" data-id="436d95ec" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;">Squash &#038; spa</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-5166c835 e-con-full e-flex e-con e-child" data-id="5166c835" data-element_type="container" data-e-type="container" id="gallery" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-408d9be0 e-con-full e-flex e-con e-child" data-id="408d9be0" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-631c2f91 elementor-widget elementor-widget-text-editor" data-id="631c2f91" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 3px; color: #37c080;">— Inside FitBliss</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-7bd428c3 elementor-widget elementor-widget-heading" data-id="7bd428c3" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">A look<br />around the room.</h2>				</div>
-				</div>
-		<div class="elementor-element elementor-element-16887339 e-con-full e-flex e-con e-child" data-id="16887339" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-7dc5dba0 elementor-widget elementor-widget-gallery" data-id="7dc5dba0" data-element_type="widget" data-e-type="widget" data-settings="{&quot;lazyload&quot;:&quot;yes&quot;,&quot;gallery_layout&quot;:&quot;grid&quot;,&quot;columns&quot;:4,&quot;columns_tablet&quot;:2,&quot;columns_mobile&quot;:1,&quot;gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;link_to&quot;:&quot;file&quot;,&quot;aspect_ratio&quot;:&quot;3:2&quot;,&quot;overlay_background&quot;:&quot;yes&quot;,&quot;content_hover_animation&quot;:&quot;fade-in&quot;}" data-widget_type="gallery.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-gallery__container">
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODcsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQxNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODgsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzIwMjUtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyODksInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzAwNTgtc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTAsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDXzg4OTItc2NhbGVkLTEuanBnIiwic2xpZGVzaG93IjoiN2RjNWRiYTAifQ%3D%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTEsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvRFNDMDQyNThfMTF6b24tMS5qcGciLCJzbGlkZXNob3ciOiI3ZGM1ZGJhMCJ9">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1-300x200.jpg" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTIsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvSU1HXzA2NDItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1-300x225.webp" data-width="300" data-height="225" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTMsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA2OTYtc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
-							<a class="e-gallery-item elementor-gallery-item elementor-animated-content" href="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1.webp" data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="7dc5dba0" data-elementor-lightbox-title="" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MjAyOTQsInVybCI6Imh0dHBzOlwvXC9maXRibGlzc2J5c2suY29tXC93cC1jb250ZW50XC91cGxvYWRzXC8yMDI2XC8wN1wvVFozXzA3NzItc2NhbGVkLTEud2VicCIsInNsaWRlc2hvdyI6IjdkYzVkYmEwIn0%3D">
-					<div class="e-gallery-image elementor-gallery-item__image" data-thumbnail="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1-300x200.webp" data-width="300" data-height="200" aria-label="" role="img" ></div>
-											<div class="elementor-gallery-item__overlay"></div>
-														</a>
+				<div class="elementor-element elementor-element-500388e9 e-con-full e-flex e-con e-child" data-id="500388e9" data-element_type="container" data-e-type="container">
+			<style>
+				/* ─── REDESIGNED MEMBER WRITTEN REVIEWS ─── */
+				.elementor-20307 .elementor-element.elementor-element-500388e9,
+				.elementor-element.elementor-element-500388e9 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #010303 !important;
+					box-sizing: border-box !important;
+					padding-left: 40px !important;
+					padding-right: 40px !important;
+					padding-top: 20px !important;
+					padding-bottom: 70px !important;
+					display: block !important;
+				}
+				.fbr-wrapper {
+					width: 100%;
+					box-sizing: border-box;
+					padding: 0;
+				}
+				.fbr-grid {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					gap: 24px;
+					width: 100%;
+					box-sizing: border-box;
+				}
+				/* Sharp Luxury Card */
+				.fbr-card {
+					position: relative;
+					background: rgba(12, 22, 22, 0.72);
+					backdrop-filter: blur(12px);
+					-webkit-backdrop-filter: blur(12px);
+					border: 1px solid rgba(255, 255, 255, 0.10);
+					border-radius: 0px !important; /* Sharp corners theme */
+					padding: 30px 32px 26px;
+					box-sizing: border-box;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.75);
+					transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease;
+					overflow: hidden;
+				}
+				.fbr-card:hover {
+					transform: translateY(-6px);
+					border-color: rgba(55, 192, 128, 0.5);
+					box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.85), 0 0 25px rgba(55, 192, 128, 0.16);
+				}
+				/* Top Neon Line Glow on Hover */
+				.fbr-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 14px #3ee69a;
+					opacity: 0;
+					transition: opacity 0.35s ease;
+					z-index: 5;
+					pointer-events: none;
+				}
+				.fbr-card:hover::before {
+					opacity: 1;
+				}
+				/* Card Header Row */
+				.fbr-card-header {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					margin-bottom: 18px;
+				}
+				.fbr-quote-icon {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					width: 38px;
+					height: 38px;
+					background: rgba(55, 192, 128, 0.12);
+					border: 1px solid rgba(55, 192, 128, 0.4);
+					border-radius: 0px !important;
+					box-shadow: 0 0 15px rgba(55, 192, 128, 0.15);
+				}
+				.fbr-quote-icon svg {
+					width: 18px;
+					height: 18px;
+					fill: #37c080;
+				}
+				.fbr-rating-stars {
+					display: flex;
+					align-items: center;
+					gap: 3px;
+					color: #3ee69a;
+					font-size: 13px;
+					letter-spacing: 2px;
+					text-shadow: 0 0 10px rgba(55, 192, 128, 0.4);
+				}
+				/* Review Body Text */
+				.fbr-quote-text {
+					margin: 0 0 22px 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 15.5px;
+					line-height: 1.7;
+					color: #d6d3c7;
+					font-weight: 400;
+					flex-grow: 1;
+				}
+				/* Subtle Divider Line */
+				.fbr-divider {
+					height: 1px;
+					width: 100%;
+					background: linear-gradient(90deg, rgba(55, 192, 128, 0.35), rgba(255, 255, 255, 0.08) 50%, transparent);
+					margin: 0 0 18px 0;
+				}
+				/* Author Box Row */
+				.fbr-author-box {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 14px;
+				}
+				.fbr-author-left {
+					display: flex;
+					align-items: center;
+					gap: 14px;
+				}
+				.fbr-author-avatar {
+					width: 40px;
+					height: 40px;
+					border-radius: 50%;
+					background: rgba(55, 192, 128, 0.15);
+					border: 1px solid rgba(55, 192, 128, 0.45);
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					font-family: 'Bebas Neue', Impact, sans-serif;
+					font-size: 16px;
+					color: #37c080;
+					flex-shrink: 0;
+					box-shadow: 0 0 15px rgba(55, 192, 128, 0.2);
+				}
+				.fbr-author-info {
+					display: flex;
+					flex-direction: column;
+					gap: 2px;
+				}
+				.fbr-author-name,
+				h4.fbr-author-name,
+				div.fbr-author-name {
+					margin: 0 !important;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif !important;
+					font-size: 22px !important;
+					letter-spacing: 1.5px !important;
+					text-transform: uppercase !important;
+					color: #ffffff !important;
+					font-weight: 400 !important;
+					line-height: 1.1 !important;
+					display: block !important;
+					opacity: 1 !important;
+					visibility: visible !important;
+				}
+				.fbr-author-sub,
+				p.fbr-author-sub {
+					margin: 0 !important;
+					font-family: 'Barlow', Inter, sans-serif !important;
+					font-size: 11px !important;
+					font-weight: 700 !important;
+					text-transform: uppercase !important;
+					letter-spacing: 1.5px !important;
+					color: #37c080 !important;
+					display: block !important;
+				}
+				.fbr-verified-tag {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 9.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.5px;
+					color: #37c080;
+					background: rgba(55, 192, 128, 0.08);
+					border: 1px solid rgba(55, 192, 128, 0.25);
+					border-radius: 0px !important;
+					padding: 4px 10px;
+					white-space: nowrap;
+				}
+				/* Responsive */
+				@media (max-width: 1024px) {
+					.elementor-20307 .elementor-element.elementor-element-500388e9,
+					.elementor-element.elementor-element-500388e9 {
+						padding-left: 20px !important;
+						padding-right: 20px !important;
+						padding-bottom: 50px !important;
+					}
+				}
+				@media (max-width: 820px) {
+					.fbr-grid {
+						grid-template-columns: 1fr;
+						gap: 18px;
+					}
+					.fbr-card {
+						padding: 24px 22px 20px;
+					}
+				}
+				@media (max-width: 767px) {
+					.elementor-20307 .elementor-element.elementor-element-500388e9,
+					.elementor-element.elementor-element-500388e9 {
+						padding-left: 8px !important;
+						padding-right: 8px !important;
+						padding-bottom: 36px !important;
+					}
+				}
+			</style>
+
+			<div class="fbr-wrapper">
+				<div class="fbr-grid">
+					<!-- Card 1: Ananya Deshmukh -->
+					<div class="fbr-card">
+						<div>
+							<div class="fbr-card-header">
+								<div class="fbr-quote-icon">
+									<svg viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+								</div>
+								<div class="fbr-rating-stars">★★★★★</div>
+							</div>
+							<p class="fbr-quote-text">I&#8217;ve trained in three cities. FitBliss is the first place that felt like a studio, not a showroom. Shruti&#8217;s team actually watches you lift.</p>
+						</div>
+						<div>
+							<div class="fbr-divider"></div>
+							<div class="fbr-author-box">
+								<div class="fbr-author-left">
+									<div class="fbr-author-avatar">AD</div>
+									<div class="fbr-author-info">
+										<div class="fbr-author-name" style="color: #ffffff !important; font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif !important; font-size: 22px !important; letter-spacing: 1.5px !important; line-height: 1.1 !important; margin: 0 !important; display: block !important;">ANANYA DESHMUKH</div>
+										<p class="fbr-author-sub">Member since 2022</p>
+									</div>
+								</div>
+								<span class="fbr-verified-tag">VERIFIED</span>
+							</div>
+						</div>
 					</div>
+
+					<!-- Card 2: Priya Sharma -->
+					<div class="fbr-card">
+						<div>
+							<div class="fbr-card-header">
+								<div class="fbr-quote-icon">
+									<svg viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+								</div>
+								<div class="fbr-rating-stars">★★★★★</div>
+							</div>
+							<p class="fbr-quote-text">The Pilates reformer sessions changed my posture completely. Six months in — back pain gone, core stronger than it&#8217;s ever been.</p>
+						</div>
+						<div>
+							<div class="fbr-divider"></div>
+							<div class="fbr-author-box">
+								<div class="fbr-author-left">
+									<div class="fbr-author-avatar">PS</div>
+									<div class="fbr-author-info">
+										<div class="fbr-author-name" style="color: #ffffff !important; font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif !important; font-size: 22px !important; letter-spacing: 1.5px !important; line-height: 1.1 !important; margin: 0 !important; display: block !important;">PRIYA SHARMA</div>
+										<p class="fbr-author-sub">Pilates member</p>
+									</div>
+								</div>
+								<span class="fbr-verified-tag">VERIFIED</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 3: Rohit Verma -->
+					<div class="fbr-card">
+						<div>
+							<div class="fbr-card-header">
+								<div class="fbr-quote-icon">
+									<svg viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+								</div>
+								<div class="fbr-rating-stars">★★★★★</div>
+							</div>
+							<p class="fbr-quote-text">Boxing classes here are the real deal. Coach Jigyasa is a national medalist who actually trains you like one. I lost 12 kg in 3 months.</p>
+						</div>
+						<div>
+							<div class="fbr-divider"></div>
+							<div class="fbr-author-box">
+								<div class="fbr-author-left">
+									<div class="fbr-author-avatar">RV</div>
+									<div class="fbr-author-info">
+										<div class="fbr-author-name" style="color: #ffffff !important; font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif !important; font-size: 22px !important; letter-spacing: 1.5px !important; line-height: 1.1 !important; margin: 0 !important; display: block !important;">ROHIT VERMA</div>
+										<p class="fbr-author-sub">Boxing &#038; strength</p>
+									</div>
+								</div>
+								<span class="fbr-verified-tag">VERIFIED</span>
+							</div>
+						</div>
+					</div>
+
+					<!-- Card 4: Kavita Malhotra -->
+					<div class="fbr-card">
+						<div>
+							<div class="fbr-card-header">
+								<div class="fbr-quote-icon">
+									<svg viewBox="0 0 24 24"><path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z"/></svg>
+								</div>
+								<div class="fbr-rating-stars">★★★★★</div>
+							</div>
+							<p class="fbr-quote-text">Best spa in Bhopal, hands down. After squash sessions I always end with a steam — it&#8217;s become a ritual I look forward to.</p>
+						</div>
+						<div>
+							<div class="fbr-divider"></div>
+							<div class="fbr-author-box">
+								<div class="fbr-author-left">
+									<div class="fbr-author-avatar">KM</div>
+									<div class="fbr-author-info">
+										<div class="fbr-author-name" style="color: #ffffff !important; font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif !important; font-size: 22px !important; letter-spacing: 1.5px !important; line-height: 1.1 !important; margin: 0 !important; display: block !important;">KAVITA MALHOTRA</div>
+										<p class="fbr-author-sub">Squash &#038; spa</p>
+									</div>
+								</div>
+								<span class="fbr-verified-tag">VERIFIED</span>
+							</div>
+						</div>
 					</div>
 				</div>
+			</div>
+		</div>
+				<div class="elementor-element elementor-element-5166c835 e-con-full e-flex e-con e-child" data-id="5166c835" data-element_type="container" data-e-type="container" id="gallery" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "INSIDE FITBLISS / GALLERY" LUXURY REDESIGN ─── */
+				#gallery.elementor-element-5166c835 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #010303 !important;
+					padding: clamp(70px, 8vw, 105px) clamp(20px, 4vw, 40px) 75px !important;
+					box-sizing: border-box !important;
+					display: block !important;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+					overflow: hidden !important;
+				}
+
+				/* Ambient Glow */
+				.fbg-ambient-glow {
+					position: absolute;
+					top: 0;
+					left: 50%;
+					transform: translateX(-50%);
+					width: 800px;
+					height: 350px;
+					background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(55, 192, 128, 0.09) 0%, transparent 70%);
+					pointer-events: none;
+					z-index: 0;
+				}
+
+				.fbg-inner {
+					position: relative;
+					z-index: 2;
+					max-width: 1320px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+
+				/* Header Row */
+				.fbg-header {
+					display: flex;
+					justify-content: space-between;
+					align-items: flex-end;
+					gap: 32px;
+					margin-bottom: 34px;
+					flex-wrap: wrap;
+				}
+				.fbg-header-left {
+					flex: 1 1 520px;
+					min-width: 280px;
+				}
+				.fbg-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3.5px;
+					color: #37c080;
+					margin-bottom: 12px;
+				}
+				.fbg-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+				.fbg-title {
+					margin: 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(38px, 5.2vw, 64px);
+					line-height: 0.95;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					color: #ffffff !important;
+					font-weight: 400;
+				}
+				.fbg-title-highlight {
+					color: #37c080 !important;
+					text-shadow: 0 0 35px rgba(55, 192, 128, 0.38);
+				}
+				.fbg-header-right {
+					flex: 0 1 420px;
+					min-width: 260px;
+					margin-bottom: 4px;
+				}
+				.fbg-desc {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					line-height: 1.65;
+					color: #9e9c8e;
+				}
+
+				/* Filter Bar */
+				.fbg-filter-bar {
+					display: flex;
+					align-items: center;
+					gap: 8px;
+					margin-bottom: 22px;
+					flex-wrap: wrap;
+				}
+				.fbg-filter-btn {
+					background: rgba(12, 22, 22, 0.72);
+					border: 1px solid rgba(255, 255, 255, 0.14);
+					color: #b5b3a6;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 1.2px;
+					padding: 5px 13px;
+					border-radius: 0px !important;
+					cursor: pointer;
+					transition: all 0.25s ease;
+					outline: none;
+				}
+				.fbg-filter-btn:hover,
+				.fbg-filter-btn.active {
+					background: rgba(55, 192, 128, 0.14);
+					border-color: #37c080;
+					color: #37c080;
+					box-shadow: 0 0 14px rgba(55, 192, 128, 0.18);
+				}
+
+				/* Gallery Grid */
+				.fbg-grid {
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+					gap: 16px;
+					width: 100%;
+					box-sizing: border-box;
+				}
+
+				/* Photo Card (Sharp Luxury) */
+				.fbg-card {
+					position: relative;
+					background: #020606;
+					border: 1px solid rgba(255, 255, 255, 0.10);
+					border-radius: 0px !important;
+					overflow: hidden;
+					aspect-ratio: 4 / 3;
+					cursor: pointer;
+					box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+					transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease, box-shadow 0.35s ease, opacity 0.3s ease;
+				}
+				.fbg-card.fbg-hidden {
+					display: none !important;
+				}
+				.fbg-card:hover {
+					transform: translateY(-6px);
+					border-color: rgba(55, 192, 128, 0.6);
+					box-shadow: 0 20px 45px -10px rgba(0, 0, 0, 0.8), 0 0 25px rgba(55, 192, 128, 0.2);
+				}
+
+				/* Top Neon Line on Hover */
+				.fbg-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					box-shadow: 0 0 14px #3ee69a;
+					opacity: 0;
+					transition: opacity 0.35s ease;
+					z-index: 5;
+					pointer-events: none;
+				}
+				.fbg-card:hover::before {
+					opacity: 1;
+				}
+
+				.fbg-img {
+					width: 100%;
+					height: 100%;
+					object-fit: cover;
+					object-position: center;
+					display: block;
+					transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+				}
+				.fbg-card:hover .fbg-img {
+					transform: scale(1.08);
+					filter: brightness(1.05);
+				}
+
+				/* Card Overlay */
+				.fbg-overlay {
+					position: absolute;
+					inset: 0;
+					background: linear-gradient(180deg, rgba(2, 6, 6, 0.1) 0%, rgba(2, 6, 6, 0.4) 50%, rgba(2, 6, 6, 0.94) 100%);
+					opacity: 0;
+					transition: opacity 0.35s ease;
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					padding: 16px;
+					box-sizing: border-box;
+					z-index: 2;
+				}
+				.fbg-card:hover .fbg-overlay {
+					opacity: 1;
+				}
+
+				/* Top Tag */
+				.fbg-tag {
+					align-self: flex-start;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 9.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					color: #37c080;
+					background: rgba(2, 6, 6, 0.92);
+					border: 1px solid rgba(55, 192, 128, 0.4);
+					border-radius: 0px !important;
+					padding: 4px 10px;
+					backdrop-filter: blur(6px);
+					transform: translateY(-8px);
+					transition: transform 0.3s ease;
+				}
+				.fbg-card:hover .fbg-tag {
+					transform: translateY(0);
+				}
+
+				/* Bottom Meta & Expand Icon */
+				.fbg-bottom {
+					display: flex;
+					align-items: flex-end;
+					justify-content: space-between;
+					gap: 10px;
+					transform: translateY(8px);
+					transition: transform 0.3s ease;
+				}
+				.fbg-card:hover .fbg-bottom {
+					transform: translateY(0);
+				}
+				.fbg-card-title {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px;
+					font-weight: 600;
+					color: #ffffff;
+					letter-spacing: 0.5px;
+					line-height: 1.3;
+				}
+				.fbg-expand-icon {
+					width: 32px;
+					height: 32px;
+					background: rgba(55, 192, 128, 0.2);
+					border: 1px solid rgba(55, 192, 128, 0.6);
+					border-radius: 0px !important;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #3ee69a;
+					flex-shrink: 0;
+					box-shadow: 0 0 12px rgba(55, 192, 128, 0.3);
+				}
+				.fbg-expand-icon svg {
+					width: 14px;
+					height: 14px;
+					fill: currentColor;
+				}
+
+				/* ─── Bottom Tour Bar ─── */
+				.fbg-tour-bar {
+					margin-top: 36px;
+					background: rgba(12, 22, 22, 0.75);
+					border: 1px solid rgba(255, 255, 255, 0.12);
+					border-radius: 0px !important;
+					padding: 24px 32px;
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 24px;
+					flex-wrap: wrap;
+					backdrop-filter: blur(12px);
+					box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.6);
+				}
+				.fbg-tour-left {
+					display: flex;
+					align-items: center;
+					gap: 16px;
+				}
+				.fbg-pulse-dot {
+					width: 10px;
+					height: 10px;
+					border-radius: 50%;
+					background: #37c080;
+					box-shadow: 0 0 10px #37c080;
+					animation: fbgPulse 2s infinite ease-in-out;
+					flex-shrink: 0;
+				}
+				@keyframes fbgPulse {
+					0%, 100% { opacity: 1; transform: scale(1); }
+					50% { opacity: 0.4; transform: scale(1.3); }
+				}
+				.fbg-tour-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14.5px;
+					font-weight: 500;
+					color: #d6d3c7;
+					letter-spacing: 0.3px;
+				}
+				.fbg-tour-text strong {
+					color: #ffffff;
+					font-weight: 700;
+				}
+				.fbg-tour-btn {
+					display: inline-flex;
+					align-items: center;
+					gap: 10px;
+					background: #37c080;
+					color: #020606 !important;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12.5px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 2px;
+					padding: 13px 26px;
+					border: 1px solid #37c080;
+					border-radius: 0px !important;
+					text-decoration: none !important;
+					transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+					box-shadow: 0 0 20px rgba(55, 192, 128, 0.35);
+				}
+				.fbg-tour-btn:hover {
+					background: #3ee69a;
+					border-color: #3ee69a;
+					transform: translateY(-2px);
+					box-shadow: 0 0 30px rgba(55, 192, 128, 0.6);
+					color: #020606 !important;
+				}
+				.fbg-tour-btn svg {
+					width: 16px;
+					height: 16px;
+					stroke: currentColor;
+					stroke-width: 2.2;
+					fill: none;
+					transition: transform 0.25s ease;
+				}
+				.fbg-tour-btn:hover svg {
+					transform: translateX(4px);
+				}
+
+				/* ─── Lightbox Modal ─── */
+				.fbg-lightbox {
+					position: fixed;
+					inset: 0;
+					background: rgba(2, 6, 6, 0.94);
+					backdrop-filter: blur(16px);
+					-webkit-backdrop-filter: blur(16px);
+					z-index: 999999;
+					display: none;
+					align-items: center;
+					justify-content: center;
+					padding: 25px;
+					box-sizing: border-box;
+				}
+				.fbg-lightbox.fbg-active {
+					display: flex;
+				}
+				.fbg-lightbox-content {
+					position: relative;
+					max-width: 90vw;
+					max-height: 85vh;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+				}
+				.fbg-lightbox-img {
+					max-width: 90vw;
+					max-height: 78vh;
+					object-fit: contain;
+					border: 1px solid rgba(255, 255, 255, 0.15);
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.95), 0 0 40px rgba(55, 192, 128, 0.25);
+				}
+				.fbg-lightbox-caption {
+					margin-top: 14px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14px;
+					letter-spacing: 1px;
+					color: #d6d3c7;
+					text-align: center;
+					display: flex;
+					align-items: center;
+					gap: 16px;
+				}
+				.fbg-lightbox-counter {
+					color: #37c080;
+					font-weight: 700;
+					letter-spacing: 2px;
+				}
+				.fbg-lightbox-close {
+					position: absolute;
+					top: 24px;
+					right: 28px;
+					width: 44px;
+					height: 44px;
+					background: rgba(12, 22, 22, 0.85);
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					color: #f5f3ec;
+					font-size: 22px;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: all 0.25s ease;
+					z-index: 10;
+					border-radius: 0px !important;
+				}
+				.fbg-lightbox-close:hover {
+					color: #37c080;
+					border-color: #37c080;
+					box-shadow: 0 0 15px rgba(55, 192, 128, 0.35);
+				}
+				.fbg-lightbox-nav {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 48px;
+					height: 48px;
+					background: rgba(12, 22, 22, 0.85);
+					border: 1px solid rgba(255, 255, 255, 0.2);
+					color: #f5f3ec;
+					font-size: 26px;
+					cursor: pointer;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					transition: all 0.25s ease;
+					z-index: 10;
+					border-radius: 0px !important;
+				}
+				.fbg-lightbox-nav:hover {
+					color: #37c080;
+					border-color: #37c080;
+					box-shadow: 0 0 15px rgba(55, 192, 128, 0.35);
+				}
+				.fbg-lightbox-prev { left: 24px; }
+				.fbg-lightbox-next { right: 24px; }
+
+				/* Responsive */
+				@media (max-width: 1024px) {
+					.fbg-grid {
+						grid-template-columns: repeat(2, 1fr);
+						gap: 14px;
+					}
+				}
+				@media (max-width: 767px) {
+					.fbg-header {
+						flex-direction: column;
+						align-items: flex-start;
+						gap: 16px;
+						margin-bottom: 24px;
+					}
+					.fbg-tour-bar {
+						flex-direction: column;
+						align-items: flex-start;
+						padding: 20px;
+						gap: 16px;
+					}
+					.fbg-tour-btn {
+						width: 100%;
+						justify-content: center;
+					}
+					.fbg-lightbox-nav {
+						width: 40px;
+						height: 40px;
+						font-size: 20px;
+					}
+					.fbg-lightbox-prev { left: 10px; }
+					.fbg-lightbox-next { right: 10px; }
+				}
+				@media (max-width: 520px) {
+					.fbg-grid {
+						grid-template-columns: 1fr;
+					}
+				}
+			</style>
+
+			<div class="fbg-ambient-glow"></div>
+
+			<div class="fbg-inner">
+				<!-- Header Row -->
+				<div class="fbg-header">
+					<div class="fbg-header-left">
+						<span class="fbg-eyebrow">
+							<span class="fbg-eyebrow-line"></span>
+							Inside FitBliss
+						</span>
+						<h2 class="fbg-title">
+							A LOOK AROUND <span class="fbg-title-highlight">THE ROOM.</span>
+						</h2>
+					</div>
+					<div class="fbg-header-right">
+						<p class="fbg-desc">Step inside Bhopal's premier wellness studio — meticulously engineered for focus, posture, and peak strength.</p>
+					</div>
 				</div>
+
+				<!-- Filter Tabs -->
+				<div class="fbg-filter-bar">
+					<button class="fbg-filter-btn active" data-filter="all">ALL (8)</button>
+					<button class="fbg-filter-btn" data-filter="pilates">PILATES &amp; YOGA</button>
+					<button class="fbg-filter-btn" data-filter="strength">STRENGTH &amp; GYM</button>
+					<button class="fbg-filter-btn" data-filter="community">COMMUNITY &amp; SQUAD</button>
 				</div>
-		<div class="elementor-element elementor-element-57850d1c e-con-full e-flex e-con e-child" data-id="57850d1c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-6116a50a elementor-widget elementor-widget-text-editor" data-id="6116a50a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Want a tour? Walk in Mon–Sat, 6am – 10pm.</p>								</div>
+
+				<!-- 8 Gallery Cards -->
+				<div class="fbg-grid" id="fbgGrid">
+					<!-- Photo 1: Pilates Reformer -->
+					<div class="fbg-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1.jpg" data-title="Dynamic Reformer Duet" data-tag="PILATES REFORMER" data-idx="0">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04158_11zon-1-300x200.jpg" alt="Dynamic Reformer Duet" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">PILATES REFORMER</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Dynamic Reformer Duet</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 2: Community Team Event -->
+					<div class="fbg-card" data-category="community" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1.jpg" data-title="FitBliss Community &amp; Team" data-tag="COMMUNITY &amp; EVENTS" data-idx="1">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_2025-scaled-1-300x200.jpg" alt="FitBliss Community &amp; Team" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">COMMUNITY &amp; EVENTS</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">FitBliss Community &amp; Team</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 3: Boxing & Energy Squad -->
+					<div class="fbg-card" data-category="community" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1.jpg" data-title="Boxing Studio Squad" data-tag="BOXING &amp; SQUAD" data-idx="2">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_0058-scaled-1-300x200.jpg" alt="Boxing Studio Squad" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">BOXING &amp; SQUAD</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Boxing Studio Squad</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 4: Shruti Kapoor & Members -->
+					<div class="fbg-card" data-category="community" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1.jpg" data-title="Coach Shruti &amp; Members" data-tag="LEADERSHIP &amp; SQUAD" data-idx="3">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_8892-scaled-1-300x200.jpg" alt="Coach Shruti &amp; Members" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">LEADERSHIP &amp; SQUAD</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Coach Shruti &amp; Members</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 5: Group Reformer Studio -->
+					<div class="fbg-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1.jpg" data-title="Reformer Studio Session" data-tag="PILATES REFORMER" data-idx="4">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC04258_11zon-1-300x200.jpg" alt="Reformer Studio Session" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">PILATES REFORMER</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Reformer Studio Session</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 6: Equipment Multi-Station -->
+					<div class="fbg-card" data-category="strength" data-src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1.webp" data-title="Advanced Biomechanics Machine" data-tag="EQUIPMENT ARENA" data-idx="5">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0642-scaled-1-300x225.webp" alt="Advanced Biomechanics Machine" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">EQUIPMENT ARENA</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Advanced Biomechanics Machine</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 7: Strength & Weights Floor -->
+					<div class="fbg-card" data-category="strength" data-src="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1.webp" data-title="Strength Arena &amp; Trainers" data-tag="STRENGTH ZONE" data-idx="6">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0696-scaled-1-300x200.webp" alt="Strength Arena &amp; Trainers" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">STRENGTH ZONE</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Strength Arena &amp; Trainers</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Photo 8: Reformer Studio Team -->
+					<div class="fbg-card" data-category="pilates" data-src="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1.webp" data-title="Pilates Studio Squad" data-tag="PILATES &amp; SQUAD" data-idx="7">
+						<img src="<?php echo $base_url; ?>/assets/images/2026/07/TZ3_0772-scaled-1-300x200.webp" alt="Pilates Studio Squad" class="fbg-img" loading="lazy" />
+						<div class="fbg-overlay">
+							<span class="fbg-tag">PILATES &amp; SQUAD</span>
+							<div class="fbg-bottom">
+								<h3 class="fbg-card-title">Pilates Studio Squad</h3>
+								<div class="fbg-expand-icon">
+									<svg viewBox="0 0 24 24"><path d="M15 3h6v6m0-6L14 10M9 21H3v-6m0 6l7-7"/></svg>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-1b23e452 elementor-widget elementor-widget-button" data-id="1b23e452" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014" target="_blank">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Schedule a visit →</span>
-					</span>
+
+				<!-- Tour & Visit Bar -->
+				<div class="fbg-tour-bar">
+					<div class="fbg-tour-left">
+						<span class="fbg-pulse-dot"></span>
+						<p class="fbg-tour-text"><strong>WALK-IN HOURS:</strong> Mon–Sat, 6:00 AM – 10:00 PM • Free studio tours &amp; trials daily.</p>
+					</div>
+					<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbg-tour-btn">
+						Schedule a visit
+						<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
 					</a>
 				</div>
-								</div>
+			</div>
+
+			<!-- Built-in Dark Luxury Lightbox -->
+			<div id="fbgLightbox" class="fbg-lightbox" onclick="fbgCloseOnBackdrop(event)">
+				<button class="fbg-lightbox-close" onclick="fbgCloseLightbox()" aria-label="Close Lightbox">✕</button>
+				<button class="fbg-lightbox-nav fbg-lightbox-prev" onclick="fbgNavLightbox(-1)" aria-label="Previous Photo">‹</button>
+				<button class="fbg-lightbox-nav fbg-lightbox-next" onclick="fbgNavLightbox(1)" aria-label="Next Photo">›</button>
+				<div class="fbg-lightbox-content">
+					<img id="fbgLbImg" src="" alt="Enlarged FitBliss Photo" class="fbg-lightbox-img" />
+					<div class="fbg-lightbox-caption">
+						<span id="fbgLbTitle">Dynamic Reformer Duet</span>
+						<span class="fbg-lightbox-counter" id="fbgLbCount">01 / 08</span>
+					</div>
 				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-512f8a28 e-con-full e-flex e-con e-child" data-id="512f8a28" data-element_type="container" data-e-type="container" id="join" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-4045e672 e-con-full e-flex e-con e-child" data-id="4045e672" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2a0e9167 elementor-widget elementor-widget-text-editor" data-id="2a0e9167" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;">— Book a free trial</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-594856c5 elementor-widget elementor-widget-heading" data-id="594856c5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Your first<br />session is<br />on us.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-1b9e30b7 elementor-widget elementor-widget-spacer" data-id="1b9e30b7" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
+			</div>
+
+			<script>
+				(function() {
+					/* Filter Logic */
+					var filterBtns = document.querySelectorAll('.fbg-filter-btn');
+					var cards = document.querySelectorAll('.fbg-card');
+
+					filterBtns.forEach(function(btn) {
+						btn.addEventListener('click', function() {
+							filterBtns.forEach(function(b) { b.classList.remove('active'); });
+							btn.classList.add('active');
+							var cat = btn.getAttribute('data-filter');
+
+							cards.forEach(function(card) {
+								if (cat === 'all' || card.getAttribute('data-category') === cat) {
+									card.classList.remove('fbg-hidden');
+								} else {
+									card.classList.add('fbg-hidden');
+								}
+							});
+						});
+					});
+
+					/* Lightbox Logic */
+					var currentIdx = 0;
+					var visibleCards = [];
+					var lb = document.getElementById('fbgLightbox');
+					var lbImg = document.getElementById('fbgLbImg');
+					var lbTitle = document.getElementById('fbgLbTitle');
+					var lbCount = document.getElementById('fbgLbCount');
+
+					function getVisibleCards() {
+						return Array.from(document.querySelectorAll('.fbg-card:not(.fbg-hidden)'));
+					}
+
+					function openLb(idx) {
+						visibleCards = getVisibleCards();
+						if (idx < 0) idx = 0;
+						if (idx >= visibleCards.length) idx = visibleCards.length - 1;
+						currentIdx = idx;
+						var c = visibleCards[currentIdx];
+						if (!c) return;
+
+						lbImg.src = c.getAttribute('data-src');
+						lbTitle.textContent = c.getAttribute('data-title');
+						lbCount.textContent = String(currentIdx + 1).padStart(2, '0') + ' / ' + String(visibleCards.length).padStart(2, '0');
+						lb.classList.add('fbg-active');
+						document.body.style.overflow = 'hidden';
+					}
+
+					window.fbgCloseLightbox = function() {
+						lb.classList.remove('fbg-active');
+						document.body.style.overflow = '';
+					};
+
+					window.fbgNavLightbox = function(step) {
+						visibleCards = getVisibleCards();
+						if (!visibleCards.length) return;
+						currentIdx = (currentIdx + step + visibleCards.length) % visibleCards.length;
+						var c = visibleCards[currentIdx];
+						lbImg.src = c.getAttribute('data-src');
+						lbTitle.textContent = c.getAttribute('data-title');
+						lbCount.textContent = String(currentIdx + 1).padStart(2, '0') + ' / ' + String(visibleCards.length).padStart(2, '0');
+					};
+
+					window.fbgCloseOnBackdrop = function(e) {
+						if (e.target === lb) {
+							fbgCloseLightbox();
+						}
+					};
+
+					cards.forEach(function(card) {
+						card.addEventListener('click', function() {
+							visibleCards = getVisibleCards();
+							var idx = visibleCards.indexOf(card);
+							openLb(idx);
+						});
+					});
+
+					/* Keyboard shortcuts */
+					document.addEventListener('keydown', function(e) {
+						if (!lb.classList.contains('fbg-active')) return;
+						if (e.key === 'Escape') fbgCloseLightbox();
+						if (e.key === 'ArrowLeft') fbgNavLightbox(-1);
+						if (e.key === 'ArrowRight') fbgNavLightbox(1);
+					});
+				})();
+			</script>
 		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-3741bfe2 elementor-widget elementor-widget-text-editor" data-id="3741bfe2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Walk in, meet a coach, try a class. If it clicks, we&#8217;ll build a plan. If it doesn&#8217;t, you&#8217;ll leave with a good workout and a better tea.</p>								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-7557d1d7 e-con-full e-flex e-con e-child" data-id="7557d1d7" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-69efbaa9 elementor-widget elementor-widget-text-editor" data-id="69efbaa9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-size:10px;text-transform:uppercase;letter-spacing:2.5px;color:rgba(244,242,234,.5);">Visit us</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-4b6c4593 elementor-widget elementor-widget-heading" data-id="4b6c4593" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">E 2/19, in front of Rani Kamlapati Railway Station, Bhopal</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-5b1e890d elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="5b1e890d" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
+								<div class="elementor-element elementor-element-512f8a28 e-con-full e-flex e-con e-child" data-id="512f8a28" data-element_type="container" data-e-type="container" id="join" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<style>
+				/* ─── FITBLISS "BOOK A FREE TRIAL / JOIN" LUXURY COMPACT TYPOGRAPHY ─── */
+				#join.elementor-element-512f8a28 {
+					position: relative !important;
+					width: 100% !important;
+					max-width: 100% !important;
+					background: #010303 !important;
+					padding: clamp(60px, 6vw, 90px) clamp(20px, 4vw, 40px) !important;
+					box-sizing: border-box !important;
+					display: block !important;
+					border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+					overflow: hidden !important;
+				}
+
+				/* Ambient Atmosphere */
+				.fbj-ambient-glow {
+					position: absolute;
+					inset: 0;
+					background: 
+						radial-gradient(ellipse 70% 50% at 15% 45%, rgba(55, 192, 128, 0.07) 0%, transparent 65%),
+						radial-gradient(ellipse 60% 50% at 85% 55%, rgba(55, 192, 128, 0.05) 0%, transparent 60%);
+					pointer-events: none;
+					z-index: 0;
+				}
+
+				.fbj-inner {
+					position: relative;
+					z-index: 2;
+					max-width: 1260px;
+					margin: 0 auto;
+					box-sizing: border-box;
+				}
+
+				/* 2-Column Grid Layout */
+				.fbj-grid {
+					display: grid;
+					grid-template-columns: 1.15fr 0.85fr;
+					gap: clamp(32px, 4.5vw, 56px);
+					align-items: center;
+					width: 100%;
+					box-sizing: border-box;
+				}
+
+				/* ── Left Column: Narrative & Pillars ── */
+				.fbj-content {
+					display: flex;
+					flex-direction: column;
+					align-items: flex-start;
+				}
+				.fbj-eyebrow {
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px;
+					font-weight: 700;
+					text-transform: uppercase;
+					letter-spacing: 3px;
+					color: #37c080 !important;
+					margin-bottom: 14px;
+				}
+				.fbj-eyebrow-line {
+					display: inline-block;
+					width: 18px;
+					height: 2px;
+					background: #37c080;
+				}
+				.fbj-title {
+					margin: 0 0 16px 0;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: clamp(36px, 4.2vw, 56px) !important;
+					line-height: 0.98;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					color: #ffffff !important;
+					font-weight: 400;
+				}
+				.fbj-title-highlight {
+					color: #37c080 !important;
+					text-shadow: 0 0 30px rgba(55, 192, 128, 0.4);
+				}
+				.fbj-lead {
+					margin: 0 0 24px 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 14px !important;
+					line-height: 1.65;
+					color: #dfdbce !important;
+					max-width: 500px;
+					font-weight: 400;
+				}
+
+				/* Feature Value Pills */
+				.fbj-features-list {
+					display: flex;
+					flex-direction: column;
+					gap: 10px;
+					margin-bottom: 8px;
+					width: 100%;
+					max-width: 500px;
+				}
+				.fbj-feature-item {
+					display: flex;
+					align-items: center;
+					gap: 12px;
+					background: rgba(12, 24, 24, 0.6);
+					border: 1px solid rgba(255, 255, 255, 0.08);
+					border-radius: 0px !important;
+					padding: 10px 14px;
+					box-sizing: border-box;
+					transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+				}
+				.fbj-feature-item:hover {
+					border-color: rgba(55, 192, 128, 0.45);
+					background: rgba(14, 28, 28, 0.85);
+					transform: translateX(3px);
+				}
+				.fbj-feature-icon {
+					width: 22px;
+					height: 22px;
+					background: rgba(55, 192, 128, 0.16);
+					border: 1px solid rgba(55, 192, 128, 0.5);
+					border-radius: 0px !important;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #3ee69a;
+					flex-shrink: 0;
+				}
+				.fbj-feature-icon svg {
+					width: 12px;
+					height: 12px;
+					stroke: currentColor;
+					stroke-width: 2.5;
+					fill: none;
+				}
+				.fbj-feature-text {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13px !important;
+					font-weight: 700;
+					color: #ffffff !important;
+					letter-spacing: 0.2px;
+				}
+				.fbj-feature-text span {
+					color: #9cbcae !important;
+					font-weight: 400;
+					font-size: 12px !important;
+				}
+
+				/* ── Right Column: Studio Card (Refined Compact Typography) ── */
+				.fbj-card {
+					position: relative;
+					background: rgba(10, 18, 18, 0.95);
+					backdrop-filter: blur(16px);
+					-webkit-backdrop-filter: blur(16px);
+					border: 1px solid rgba(55, 192, 128, 0.28);
+					border-radius: 0px !important;
+					padding: clamp(24px, 3vw, 32px) clamp(20px, 2.5vw, 28px);
+					box-sizing: border-box;
+					box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.9);
+					transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+					overflow: hidden;
+				}
+				.fbj-card:hover {
+					transform: translateY(-4px);
+					border-color: rgba(55, 192, 128, 0.55);
+					box-shadow: 0 30px 60px -10px rgba(0, 0, 0, 0.95), 0 0 28px rgba(55, 192, 128, 0.18);
+				}
+
+				/* Top Neon Line */
+				.fbj-card::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 10%;
+					right: 10%;
+					height: 2px;
+					background: linear-gradient(90deg, transparent, #3ee69a, transparent);
+					opacity: 0;
+					transition: opacity 0.3s ease;
+					z-index: 5;
+					pointer-events: none;
+				}
+				.fbj-card:hover::before {
+					opacity: 1;
+				}
+
+				/* Card Top Bar: Badge + Open Status */
+				.fbj-card-topbar {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					gap: 12px;
+					margin-bottom: 20px;
+					padding-bottom: 14px;
+					border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+				}
+				.fbj-card-tag {
+					display: inline-flex;
+					align-items: center;
+					padding: 4px 10px;
+					background: rgba(55, 192, 128, 0.08);
+					border: 1px solid rgba(55, 192, 128, 0.45);
+					border-radius: 0px !important;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10px !important;
+					font-weight: 700;
+					letter-spacing: 2px;
+					text-transform: uppercase;
+					color: #37c080 !important;
+				}
+				.fbj-status-pill {
+					display: inline-flex;
+					align-items: center;
+					gap: 6px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10px !important;
+					font-weight: 700;
+					letter-spacing: 1.8px;
+					text-transform: uppercase;
+					color: #cfdbd5 !important;
+				}
+				.fbj-pulse-dot {
+					width: 6px;
+					height: 6px;
+					border-radius: 50%;
+					background: #3ee69a;
+					box-shadow: 0 0 8px #3ee69a;
+					animation: fbjPulse 2s infinite ease-in-out;
+				}
+				@keyframes fbjPulse {
+					0%, 100% { opacity: 1; transform: scale(1); }
+					50% { opacity: 0.3; transform: scale(1.3); }
+				}
+
+				/* Location Box with Icon */
+				.fbj-location-row {
+					display: flex;
+					align-items: flex-start;
+					gap: 12px;
+					margin-bottom: 18px;
+				}
+				.fbj-loc-icon {
+					width: 32px;
+					height: 32px;
+					background: rgba(55, 192, 128, 0.12);
+					border: 1px solid rgba(55, 192, 128, 0.5);
+					border-radius: 0px !important;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: #3ee69a;
+					flex-shrink: 0;
+					margin-top: 1px;
+				}
+				.fbj-loc-icon svg {
+					width: 15px;
+					height: 15px;
+					fill: currentColor;
+				}
+				.fbj-location-info {
+					display: flex;
+					flex-direction: column;
+					gap: 3px;
+				}
+				.fbj-address-name {
+					margin: 0;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 13.5px !important;
+					line-height: 1.45;
+					font-weight: 700;
+					color: #ffffff !important;
+					letter-spacing: 0.4px;
+					text-transform: uppercase;
+				}
+				.fbj-directions-link {
+					display: inline-flex;
+					align-items: center;
+					gap: 4px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 10.5px !important;
+					font-weight: 700;
+					letter-spacing: 1.2px;
+					text-transform: uppercase;
+					color: #37c080 !important;
+					text-decoration: none !important;
+					transition: color 0.2s ease;
+				}
+				.fbj-directions-link:hover {
+					color: #3ee69a !important;
+					text-decoration: underline !important;
+				}
+				.fbj-directions-link svg {
+					width: 10px;
+					height: 10px;
+					stroke: currentColor;
+					stroke-width: 2.2;
+					fill: none;
+				}
+
+				/* Studio Hours Rows (Bordered Box Format from Screenshot) */
+				.fbj-timing-block {
+					display: flex;
+					flex-direction: column;
+					gap: 8px;
+					margin-bottom: 18px;
+				}
+				.fbj-timing-row {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+					background: rgba(4, 12, 12, 0.6);
+					border: 1px solid rgba(255, 255, 255, 0.08);
+					border-radius: 0px !important;
+					padding: 9px 14px;
+					box-sizing: border-box;
+				}
+				.fbj-timing-label {
+					display: inline-flex;
+					align-items: center;
+					gap: 7px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 11px !important;
+					font-weight: 700;
+					letter-spacing: 1.5px;
+					text-transform: uppercase;
+					color: #dfdbce !important;
+				}
+				.fbj-timing-dot {
+					display: inline-block;
+					width: 5px;
+					height: 5px;
+					background: #37c080;
+					border-radius: 0px !important;
+				}
+				.fbj-timing-hours {
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12.5px !important;
+					font-weight: 700;
+					letter-spacing: 0.5px;
+					color: #3ee69a !important;
+				}
+
+				/* Phones Row (Clean Separated Buttons) */
+				.fbj-phones-row {
+					display: grid;
+					grid-template-columns: 1fr 1fr;
+					gap: 8px;
+					margin-bottom: 18px;
+				}
+				.fbj-phone-pill {
+					display: inline-flex;
+					align-items: center;
+					justify-content: center;
+					gap: 7px;
+					background: rgba(12, 24, 24, 0.7);
+					border: 1px solid rgba(55, 192, 128, 0.35);
+					border-radius: 0px !important;
+					padding: 8px 10px;
+					font-family: 'Barlow', Inter, sans-serif;
+					font-size: 12px !important;
+					font-weight: 700;
+					letter-spacing: 0.4px;
+					color: #3ee69a !important;
+					text-decoration: none !important;
+					transition: all 0.2s ease;
+					box-sizing: border-box;
+				}
+				.fbj-phone-pill:hover {
+					background: rgba(55, 192, 128, 0.18);
+					border-color: #3ee69a;
+					color: #ffffff !important;
+					transform: translateY(-1px);
+				}
+				.fbj-phone-pill svg {
+					width: 12px;
+					height: 12px;
+					fill: currentColor;
+					flex-shrink: 0;
+				}
+
+				/* CTA Button (Compact Typography) */
+				.fbj-cta-btn {
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					gap: 8px;
+					width: 100%;
+					background: #37c080;
+					color: #020606 !important;
+					font-family: 'Bebas Neue', Impact, 'Barlow', sans-serif;
+					font-size: 16px !important;
+					letter-spacing: 1.8px;
+					text-transform: uppercase;
+					padding: 12px 18px;
+					border: 1px solid #37c080;
+					border-radius: 0px !important;
+					text-decoration: none !important;
+					transition: all 0.25s ease;
+					box-shadow: 0 0 20px rgba(55, 192, 128, 0.3);
+					box-sizing: border-box;
+				}
+				.fbj-cta-btn:hover {
+					background: #3ee69a;
+					border-color: #3ee69a;
+					transform: translateY(-1px);
+					box-shadow: 0 0 28px rgba(55, 192, 128, 0.55);
+					color: #020606 !important;
+				}
+				.fbj-cta-btn svg {
+					width: 15px;
+					height: 15px;
+					stroke: currentColor;
+					stroke-width: 2.4;
+					fill: none;
+					transition: transform 0.2s ease;
+				}
+				.fbj-cta-btn:hover svg {
+					transform: translateX(3px);
+				}
+
+				/* Responsive */
+				@media (max-width: 960px) {
+					.fbj-grid {
+						grid-template-columns: 1fr;
+						gap: 36px;
+					}
+					.fbj-content {
+						max-width: 100%;
+					}
+					.fbj-lead,
+					.fbj-features-list {
+						max-width: 100%;
+					}
+				}
+				@media (max-width: 600px) {
+					.fbj-card {
+						padding: 20px 16px;
+					}
+					.fbj-phones-row {
+						grid-template-columns: 1fr;
+					}
+				}
+			</style>
+
+			<div class="fbj-ambient-glow"></div>
+
+			<div class="fbj-inner">
+				<div class="fbj-grid">
+					<!-- Left Column: Narrative & Pillars -->
+					<div class="fbj-content">
+						<span class="fbj-eyebrow">
+							<span class="fbj-eyebrow-line"></span>
+							Book A Free Trial
 						</span>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-33a7dfb2 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="33a7dfb2" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Mon — Sat: 06:00 – 22:00</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-square" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">Sunday:   08:00 – 14:00</span>
-									</li>
-						</ul>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-461011a0 elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="461011a0" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-divider">
-			<span class="elementor-divider-separator">
-						</span>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-272433de elementor-widget elementor-widget-text-editor" data-id="272433de" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin:0;"><a href="tel:+917470787012" style="color:#37c080;text-decoration:none;font-size:14px;">+91 74707 87012</a> &nbsp;·&nbsp; <a href="tel:+917470787014" style="color:#37c080;text-decoration:none;font-size:14px;">+91 74707 87014</a></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-147a52fb elementor-widget elementor-widget-spacer" data-id="147a52fb" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-3cba06a3 elementor-align-justify elementor-widget elementor-widget-button" data-id="3cba06a3" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Book my free trial →</span>
-					</span>
-					</a>
-				</div>
+						<h2 class="fbj-title">
+							YOUR FIRST SESSION <span class="fbj-title-highlight">IS ON US.</span>
+						</h2>
+						<p class="fbj-lead">
+							Walk in, meet a coach, try a class. If it clicks, we&#8217;ll build a plan. If it doesn&#8217;t, you&#8217;ll leave with a good workout and a better tea.
+						</p>
+
+						<!-- Experience Value Pillars -->
+						<div class="fbj-features-list">
+							<div class="fbj-feature-item">
+								<div class="fbj-feature-icon">
+									<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
 								</div>
+								<p class="fbj-feature-text">1-on-1 Movement Assessment <span>— Goal setting with head coach</span></p>
+							</div>
+							<div class="fbj-feature-item">
+								<div class="fbj-feature-icon">
+									<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+								</div>
+								<p class="fbj-feature-text">Full Studio Experience <span>— Try Pilates, Boxing or Strength Floor</span></p>
+							</div>
+							<div class="fbj-feature-item">
+								<div class="fbj-feature-icon">
+									<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+								</div>
+								<p class="fbj-feature-text">Zero Lock-in Pressure <span>— Experience the space on your own terms</span></p>
+							</div>
+						</div>
+					</div>
+
+					<!-- Right Column: Studio Headquarters Card -->
+					<div class="fbj-card">
+						<!-- Topbar: Badge + Status -->
+						<div class="fbj-card-topbar">
+							<span class="fbj-card-tag">STUDIO HEADQUARTERS</span>
+							<div class="fbj-status-pill">
+								<span class="fbj-pulse-dot"></span>
+								<span>OPEN TODAY</span>
+							</div>
+						</div>
+
+						<!-- Location: Pin + Address -->
+						<div class="fbj-location-row">
+							<div class="fbj-loc-icon">
+								<svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+							</div>
+							<div class="fbj-location-info">
+								<p class="fbj-address-name">
+									E 2/19, In front of Rani Kamlapati Railway Station, Bhopal
+								</p>
+								<a href="https://maps.google.com/?q=FitBliss+by+Shruti+Kapoor+Bhopal" target="_blank" rel="noopener noreferrer" class="fbj-directions-link">
+									Get Directions
+									<svg viewBox="0 0 24 24"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+								</a>
+							</div>
+						</div>
+
+						<!-- Studio Timings Rows -->
+						<div class="fbj-timing-block">
+							<div class="fbj-timing-row">
+								<span class="fbj-timing-label">
+									<span class="fbj-timing-dot"></span>
+									MON — SAT
+								</span>
+								<span class="fbj-timing-hours">06:00 – 22:00</span>
+							</div>
+							<div class="fbj-timing-row">
+								<span class="fbj-timing-label">
+									<span class="fbj-timing-dot"></span>
+									SUNDAY
+								</span>
+								<span class="fbj-timing-hours">08:00 – 14:00</span>
+							</div>
+						</div>
+
+						<!-- Phone Numbers Row -->
+						<div class="fbj-phones-row">
+							<a href="tel:+917470787012" class="fbj-phone-pill">
+								<svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+								<span>+91 74707 87012</span>
+							</a>
+							<a href="tel:+917470787014" class="fbj-phone-pill">
+								<svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+								<span>+91 74707 87014</span>
+							</a>
+						</div>
+
+						<!-- CTA Button -->
+						<a href="https://wa.me/917470787014?text=Hi%2C%20I%20would%20like%20to%20book%20my%20free%20trial%20session%20at%20FitBliss!" target="_blank" rel="noopener noreferrer" class="fbj-cta-btn">
+							Book My Free Trial
+							<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+						</a>
+					</div>
 				</div>
-				</div>
-				</div>
+			</div>
+		</div>
+		
+		
 				</div>
 				</div>
 		</div>
@@ -8010,7 +9343,7 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         const linkHref = (nm) => {
-            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
+            const customLinks = { "Home": "<?php echo $base_url; ?>/", "About Us": "<?php echo $base_url; ?>/about/", "Services": "<?php echo $base_url; ?>/gym/", "Membership": "<?php echo $base_url; ?>/membership/", "Gallery": "<?php echo $base_url; ?>/gallery/", "Blog": "<?php echo $base_url; ?>/blog/", "Trainers": "<?php echo $base_url; ?>/trainers/", "Contact": "<?php echo $base_url; ?>/contact/" };
             return customLinks[nm] || "<?php echo $base_url; ?>/" + nm.toLowerCase().replace(/\s+/g, '-') + "/";
         };
 
