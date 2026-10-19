@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/includes/config.php';
 require_once __DIR__ . '/includes/security_shield.php';
 ?>
@@ -1429,7 +1429,16 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					position: relative;
 					overflow: hidden;
 					background: #060e0e;
+					border: 1px solid rgba(255, 255, 255, 0.08);
 					box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.9);
+					transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+					cursor: pointer;
+				}
+
+				.fba-story-img-stage:hover {
+					transform: translateY(-6px);
+					border-color: rgba(55, 192, 128, 0.6) !important;
+					box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(55, 192, 128, 0.25) !important;
 				}
 
 				.fba-story-img {
@@ -1443,8 +1452,30 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				}
 
 				.fba-story-img-stage:hover .fba-story-img {
-					transform: scale(1.025);
-					filter: brightness(1.02) contrast(1.04);
+					transform: scale(1.05);
+					filter: brightness(1.04) contrast(1.04);
+				}
+
+				.fba-story-badge {
+					position: absolute;
+					bottom: 18px;
+					left: 18px;
+					background: rgba(2, 6, 6, 0.88);
+					backdrop-filter: blur(10px);
+					-webkit-backdrop-filter: blur(10px);
+					padding: 6px 14px;
+					display: inline-flex;
+					align-items: center;
+					gap: 8px;
+					z-index: 3;
+					border: 1px solid rgba(55, 192, 128, 0.3);
+					transition: all 0.3s ease;
+				}
+
+				.fba-story-img-stage:hover .fba-story-badge {
+					border-color: #37c080;
+					background: rgba(2, 6, 6, 0.95);
+					box-shadow: 0 0 20px rgba(55, 192, 128, 0.4);
 				}
 
 				/* Minimalist Floating Badge */
@@ -1524,12 +1555,6 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 					letter-spacing: 3px;
 					color: #37c080 !important;
 					margin-bottom: 14px;
-				}
-
-				.fba-story-tag-line {
-					width: 18px;
-					height: 2px;
-					background: #37c080;
 				}
 
 				/* Refined, Balanced Title Size */
@@ -1614,7 +1639,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<!-- Right Editorial Story -->
 				<div class="fba-story-content">
 					<div class="fba-story-tag">
-						<span class="fba-story-tag-line"></span>
+						
 						<span>— The Story</span>
 					</div>
 
@@ -1644,168 +1669,269 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-1f4a2a47 elementor-widget elementor-widget-html" data-id="1f4a2a47" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Features Section ─── */
-    .fbt-features-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+	/* ─── Luxury Editorial Features Section ─── */
+	.fba-features-wrap {
+		position: relative;
+		width: 100%;
+		background: #010303;
+		padding: clamp(50px, 7vw, 90px) clamp(20px, 4vw, 40px);
+		box-sizing: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.07);
+	}
 
-    .fbt-features-container {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(28px, 5vw, 60px);
-        align-items: flex-start;
-    }
+	.fba-features-ambient {
+		position: absolute;
+		top: 0;
+		right: 10%;
+		width: 500px;
+		height: 500px;
+		background: radial-gradient(circle, rgba(55, 192, 128, 0.05) 0%, transparent 70%);
+		pointer-events: none;
+	}
 
-    /* Left Intro Column */
-    .fbt-features-intro {
-        flex: 1 1 280px;
-        min-width: 0;
-    }
+	.fba-features-container {
+		max-width: 1320px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: 1fr 1.15fr;
+		gap: clamp(36px, 5vw, 70px);
+		align-items: start;
+		position: relative;
+		z-index: 1;
+	}
 
-    .fbt-features-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        color: #37c080;
-        margin-bottom: 16px;
-    }
+	/* Left Column: Editorial Headline */
+	.fba-features-left {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
-    .fbt-features-title {
-        margin: 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+	.fba-features-tag {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #37c080 !important;
+		margin-bottom: 14px;
+	}
 
-    .fbt-features-desc-wrap {
-        margin-top: 24px;
-        display: flex;
-        flex-direction: column;
-        gap: 14px;
-    }
+	.fba-features-title {
+		margin: 0 0 20px 0;
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(32px, 3.8vw, 46px) !important;
+		line-height: 0.98;
+		letter-spacing: 1.2px;
+		color: #ffffff !important;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
 
-    .fbt-features-desc-wrap p {
-        margin: 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(14px, 2vw, 15px);
-        line-height: 1.7;
-        color: #9b998b;
-    }
+	.fba-features-title span {
+		color: #37c080 !important;
+		text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+	}
 
-    /* Right Cards Column */
-    .fbt-features-cards-col {
-        flex: 1.2 1 300px;
-        min-width: 0;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
+	.fba-features-desc-wrap {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
 
-    .fbt-feature-card {
-        background: #0d1717;
-        border: 1px solid rgba(255, 255, 255, 0.12);
-        border-radius: 2px;
-        padding: clamp(18px, 4vw, 28px);
-        box-sizing: border-box;
-        transition: border-color 0.25s ease, transform 0.25s ease;
-    }
+	.fba-features-desc-wrap p {
+		margin: 0;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 14.5px !important;
+		line-height: 1.72;
+		color: rgba(244, 242, 234, 0.8) !important;
+		font-weight: 400;
+	}
 
-    .fbt-feature-card:hover {
-        border-color: rgba(55, 192, 128, 0.4);
-        transform: translateY(-2px);
-    }
+	/* Right Column: Clean Editorial List (No Heavy Boxes) */
+	.fba-features-list {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		border-top: 1px solid rgba(255, 255, 255, 0.1);
+	}
 
-    .fbt-feature-badge {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-        margin-bottom: 12px;
-    }
+	.fba-feature-item {
+		display: grid;
+		grid-template-columns: 56px 1fr;
+		gap: 20px;
+		padding: clamp(20px, 3vw, 26px) 16px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+		border-left: 3px solid transparent;
+		background: transparent;
+		transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+		box-sizing: border-box;
+		cursor: pointer;
+	}
 
-    .fbt-feature-name {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(18px, 4vw, 22px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-        margin-bottom: 12px;
-        line-height: 1.1;
-    }
+	.fba-feature-item:hover {
+		transform: translateX(8px);
+		border-bottom-color: rgba(55, 192, 128, 0.4);
+		border-left-color: #37c080;
+		background: rgba(14, 28, 28, 0.55);
+		box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(55, 192, 128, 0.05);
+	}
 
-    .fbt-feature-text {
-        margin: 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        line-height: 1.6;
-        color: #9b998b;
-    }
+	.fba-feature-num {
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: 28px;
+		line-height: 1;
+		color: rgba(55, 192, 128, 0.45);
+		letter-spacing: 1px;
+		transition: all 0.3s ease;
+	}
+
+	.fba-feature-item:hover .fba-feature-num {
+		color: #5eeaa8 !important;
+		transform: scale(1.12);
+		text-shadow: 0 0 15px rgba(55, 192, 128, 0.6);
+	}
+
+	.fba-feature-content {
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
+	}
+
+	.fba-feature-meta {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 10px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #37c080;
+		transition: all 0.3s ease;
+	}
+
+	.fba-feature-item:hover .fba-feature-meta {
+		color: #3ee69a;
+		text-shadow: 0 0 10px rgba(55, 192, 128, 0.5);
+	}
+
+	.fba-feature-name {
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(20px, 3vw, 24px);
+		line-height: 1.1;
+		color: #ffffff;
+		font-weight: 400;
+		text-transform: uppercase;
+		letter-spacing: 0.8px;
+		margin: 0;
+		transition: color 0.3s ease, transform 0.3s ease;
+	}
+
+	.fba-feature-item:hover .fba-feature-name {
+		color: #ffffff;
+		transform: translateX(4px);
+	}
+
+	.fba-feature-text {
+		margin: 4px 0 0 0;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 14px !important;
+		line-height: 1.65;
+		color: rgba(244, 242, 234, 0.72) !important;
+		transition: color 0.3s ease;
+	}
+
+	.fba-feature-item:hover .fba-feature-text {
+		color: rgba(244, 242, 234, 0.95) !important;
+	}
+
+	@media (max-width: 900px) {
+		.fba-features-container {
+			grid-template-columns: 1fr;
+			gap: 36px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.fba-feature-item {
+			grid-template-columns: 40px 1fr;
+			gap: 14px;
+		}
+	}
 </style>
 
-<div class="fbt-features-section">
-    <div class="fbt-features-container">
-        <!-- Left Intro Column -->
-        <div class="fbt-features-intro">
-            <div class="fbt-features-tag">FEATURES</div>
-            <h2 class="fbt-features-title">
-                Commit to greatness.<br />Join our wellness centre,<br />rewrite your story.
-            </h2>
-            <div class="fbt-features-desc-wrap">
-                <p>
-                    Driven by a vision to empower individuals on their journey to optimal health, Fitbliss is
-                    more than just a wellness centre — it is a destination for transformation.
-                </p>
-                <p>
-                    Join us at Fitbliss and embark on a journey to discover the true meaning of well-being.
-                    Your path to a healthier, happier life starts here.
-                </p>
-            </div>
-        </div>
+<div class="fba-features-wrap">
+	<div class="fba-features-ambient"></div>
+	<div class="fba-features-container">
+		<!-- Left Intro Column -->
+		<div class="fba-features-left">
+			<div class="fba-features-tag">
+				
+				<span>— Features</span>
+			</div>
+			<h2 class="fba-features-title">
+				Commit to greatness.<br />
+				Join our wellness centre,<br />
+				<span>rewrite your story.</span>
+			</h2>
+			<div class="fba-features-desc-wrap">
+				<p>
+					Driven by a vision to empower individuals on their journey to optimal health, Fitbliss is
+					more than just a wellness centre — it is a destination for transformation.
+				</p>
+				<p>
+					Join us at Fitbliss and embark on a journey to discover the true meaning of well-being.
+					Your path to a healthier, happier life starts here.
+				</p>
+			</div>
+		</div>
 
-        <!-- Right Cards Column -->
-        <div class="fbt-features-cards-col">
-            <!-- Feature 1 -->
-            <div class="fbt-feature-card">
-                <div class="fbt-feature-badge">Diverse</div>
-                <div class="fbt-feature-name">Fitness offerings</div>
-                <p class="fbt-feature-text">
-                    Experience the thrill of boxing, find your flow in yoga, or dance your way to fitness with Zumba —
-                    all under one roof.
-                </p>
-            </div>
+		<!-- Right Clean Editorial List -->
+		<div class="fba-features-list">
+			<!-- Feature 1 -->
+			<div class="fba-feature-item">
+				<div class="fba-feature-num">01</div>
+				<div class="fba-feature-content">
+					<div class="fba-feature-meta">Diverse</div>
+					<h3 class="fba-feature-name">Fitness offerings</h3>
+					<p class="fba-feature-text">
+						Experience the thrill of boxing, find your flow in yoga, or dance your way to fitness with Zumba —
+						all under one roof.
+					</p>
+				</div>
+			</div>
 
-            <!-- Feature 2 -->
-            <div class="fbt-feature-card">
-                <div class="fbt-feature-badge">Expert guidance</div>
-                <div class="fbt-feature-name">Tailored workouts</div>
-                <p class="fbt-feature-text">
-                    Whether you're a beginner or a seasoned athlete, our trainers are here to support and motivate you
-                    every step.
-                </p>
-            </div>
+			<!-- Feature 2 -->
+			<div class="fba-feature-item">
+				<div class="fba-feature-num">02</div>
+				<div class="fba-feature-content">
+					<div class="fba-feature-meta">Expert guidance</div>
+					<h3 class="fba-feature-name">Tailored workouts</h3>
+					<p class="fba-feature-text">
+						Whether you're a beginner or a seasoned athlete, our trainers are here to support and motivate you
+						every step.
+					</p>
+				</div>
+			</div>
 
-            <!-- Feature 3 -->
-            <div class="fbt-feature-card">
-                <div class="fbt-feature-badge">Ambience</div>
-                <div class="fbt-feature-name">Serene by design</div>
-                <p class="fbt-feature-text">
-                    State-of-the-art facilities set against a serene ambience — every corner of Fitbliss reflects Dr.
-                    Kapoor's unwavering commitment to excellence.
-                </p>
-            </div>
-        </div>
-    </div>
+			<!-- Feature 3 -->
+			<div class="fba-feature-item">
+				<div class="fba-feature-num">03</div>
+				<div class="fba-feature-content">
+					<div class="fba-feature-meta">Ambience</div>
+					<h3 class="fba-feature-name">Serene by design</h3>
+					<p class="fba-feature-text">
+						State-of-the-art facilities set against a serene ambience — every corner of Fitbliss reflects Dr.
+						Kapoor's unwavering commitment to excellence.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>				</div>
 				</div>
 				</div>
@@ -1813,139 +1939,196 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-30a0c726 elementor-widget elementor-widget-html" data-id="30a0c726" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Four Principles Section ─── */
-    .fbt-principles-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+	/* ─── Four Principles Luxury Section ─── */
+	.fba-principles-wrap {
+		width: 100%;
+		background: #020505;
+		padding: clamp(50px, 7vw, 90px) clamp(20px, 4vw, 40px);
+		box-sizing: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.07);
+	}
 
-    .fbt-principles-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
+	.fba-principles-container {
+		max-width: 1320px;
+		margin: 0 auto;
+	}
 
-    .fbt-principles-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #37c080;
-    }
+	.fba-principles-tag {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #37c080 !important;
+		margin-bottom: 14px;
+	}
 
-    .fbt-principles-title {
-        margin: 16px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+	.fba-principles-title {
+		margin: 0 0 16px 0;
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(30px, 3.8vw, 48px) !important;
+		line-height: 1.15;
+		letter-spacing: 1.4px;
+		color: #ffffff !important;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
 
-    .fbt-principles-sub {
-        margin: 16px 0 clamp(24px, 5vw, 40px);
-        max-width: 700px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(14px, 2vw, 15px);
-        line-height: 1.7;
-        color: #9b998b;
-    }
+	.fba-principles-title span {
+		color: #37c080 !important;
+		text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+		margin-left: 8px;
+	}
 
-    /* 4 Columns Grid */
-    .fbt-principles-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(20px, 4vw, 28px);
-    }
+	.fba-principles-sub {
+		margin: 0 0 clamp(32px, 5vw, 50px) 0;
+		max-width: 1050px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 15px !important;
+		line-height: 1.7;
+		color: rgba(244, 242, 234, 0.82) !important;
+	}
 
-    .fbt-principle-col {
-        flex: 1 1 220px;
-        min-width: 0;
-        padding-top: 24px;
-        border-top: 1px solid rgba(255, 255, 255, 0.12);
-    }
+	/* 4 Columns Minimalist Editorial Grid */
+	.fba-principles-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: clamp(20px, 3vw, 36px);
+	}
 
-    .fbt-principle-num {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(30px, 5vw, 36px);
-        color: rgba(55, 192, 128, .35);
-        font-weight: 400;
-        margin-bottom: 10px;
-        line-height: 1;
-    }
+	.fba-principle-col {
+		display: flex;
+		flex-direction: column;
+		padding: 24px 20px 22px 20px;
+		border-top: 2px solid rgba(255, 255, 255, 0.1);
+		background: transparent;
+		transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+		box-sizing: border-box;
+		cursor: pointer;
+	}
 
-    .fbt-principle-name {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(18px, 4vw, 22px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-        margin-bottom: 10px;
-        line-height: 1.1;
-    }
+	.fba-principle-col:hover {
+		border-top-color: #37c080 !important;
+		background: rgba(14, 28, 28, 0.6);
+		transform: translateY(-8px);
+		box-shadow: 0 20px 45px rgba(0, 0, 0, 0.75), 0 0 25px rgba(55, 192, 128, 0.18);
+	}
 
-    .fbt-principle-desc {
-        margin: 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        line-height: 1.6;
-        color: #9b998b;
-    }
+	.fba-principle-num {
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: 36px;
+		color: rgba(55, 192, 128, 0.4);
+		font-weight: 400;
+		margin-bottom: 10px;
+		line-height: 1;
+		transition: all 0.3s ease;
+	}
+
+	.fba-principle-col:hover .fba-principle-num {
+		color: #5eeaa8 !important;
+		transform: scale(1.1);
+		text-shadow: 0 0 18px rgba(55, 192, 128, 0.65);
+	}
+
+	.fba-principle-name {
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(19px, 2.5vw, 22px);
+		text-transform: uppercase;
+		color: #ffffff;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+		margin: 0 0 10px 0;
+		line-height: 1.1;
+		transition: color 0.3s ease;
+	}
+
+	.fba-principle-col:hover .fba-principle-name {
+		color: #3ee69a;
+	}
+
+	.fba-principle-desc {
+		margin: 0;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 13.5px !important;
+		line-height: 1.65;
+		color: rgba(244, 242, 234, 0.7) !important;
+		transition: color 0.3s ease;
+	}
+
+	.fba-principle-col:hover .fba-principle-desc {
+		color: #eae5d8 !important;
+	}
+
+	@media (max-width: 900px) {
+		.fba-principles-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 28px;
+		}
+	}
+
+	@media (max-width: 500px) {
+		.fba-principles-grid {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
+	}
 </style>
 
-<div class="fbt-principles-section">
-    <div class="fbt-principles-container">
-        <div class="fbt-principles-tag">— What we stand for</div>
-        <h2 class="fbt-principles-title">
-            Four principles.<br />One promise.
-        </h2>
-        <p class="fbt-principles-sub">
-            Fitbliss caters to every aspect of holistic wellness — Pilates, yoga, Zumba, spa treatments
-            and more. Our values are the quiet architecture behind every session, every treatment,
-            every conversation.
-        </p>
+<div class="fba-principles-wrap">
+	<div class="fba-principles-container">
+		<div class="fba-principles-tag">
+			
+			<span>— What we stand for</span>
+		</div>
+		<h2 class="fba-principles-title">
+			Four principles. <span>One promise.</span>
+		</h2>
+		<p class="fba-principles-sub">
+			Our four foundational principles form the quiet architecture behind every session, every treatment, and our single promise to your holistic wellness.
+		</p>
 
-        <!-- 4 Columns Grid -->
-        <div class="fbt-principles-grid">
-            <!-- Principle 01 -->
-            <div class="fbt-principle-col">
-                <div class="fbt-principle-num">01</div>
-                <div class="fbt-principle-name">Holistic wellness</div>
-                <p class="fbt-principle-desc">
-                    Body, mind and spirit — treated as one system, cared for together across every service.
-                </p>
-            </div>
+		<!-- 4 Columns Grid -->
+		<div class="fba-principles-grid">
+			<!-- Principle 01 -->
+			<div class="fba-principle-col">
+				<div class="fba-principle-num">01</div>
+				<h3 class="fba-principle-name">Holistic wellness</h3>
+				<p class="fba-principle-desc">
+					Body, mind and spirit — treated as one system, cared for together across every service.
+				</p>
+			</div>
 
-            <!-- Principle 02 -->
-            <div class="fbt-principle-col">
-                <div class="fbt-principle-num">02</div>
-                <div class="fbt-principle-name">Luxury as standard</div>
-                <p class="fbt-principle-desc">
-                    State-of-the-art equipment, curated interiors, and hospitality that feels effortless.
-                </p>
-            </div>
+			<!-- Principle 02 -->
+			<div class="fba-principle-col">
+				<div class="fba-principle-num">02</div>
+				<h3 class="fba-principle-name">Luxury as standard</h3>
+				<p class="fba-principle-desc">
+					State-of-the-art equipment, curated interiors, and hospitality that feels effortless.
+				</p>
+			</div>
 
-            <!-- Principle 03 -->
-            <div class="fbt-principle-col">
-                <div class="fbt-principle-num">03</div>
-                <div class="fbt-principle-name">Personal attention</div>
-                <p class="fbt-principle-desc">
-                    Small batches, hand-picked coaches and programs tailored to the individual — never mass-market.
-                </p>
-            </div>
+			<!-- Principle 03 -->
+			<div class="fba-principle-col">
+				<div class="fba-principle-num">03</div>
+				<h3 class="fba-principle-name">Personal attention</h3>
+				<p class="fba-principle-desc">
+					Small batches, hand-picked coaches and programs tailored to the individual — never mass-market.
+				</p>
+			</div>
 
-            <!-- Principle 04 -->
-            <div class="fbt-principle-col">
-                <div class="fbt-principle-num">04</div>
-                <div class="fbt-principle-name">Rooted in science</div>
-                <p class="fbt-principle-desc">
-                    Radiology-trained founder. Certified practitioners. Every recommendation is grounded in evidence.
-                </p>
-            </div>
-        </div>
-    </div>
+			<!-- Principle 04 -->
+			<div class="fba-principle-col">
+				<div class="fba-principle-num">04</div>
+				<h3 class="fba-principle-name">Rooted in science</h3>
+				<p class="fba-principle-desc">
+					Radiology-trained founder. Certified practitioners. Every recommendation is grounded in evidence.
+				</p>
+			</div>
+		</div>
+	</div>
 </div>				</div>
 				</div>
 				</div>
@@ -1953,168 +2136,225 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-e5b444d elementor-widget elementor-widget-html" data-id="e5b444d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Destination Section ─── */
-    .fbt-dest-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+	/* ─── Destination Visual Gallery Section ─── */
+	.fba-dest-wrap {
+		width: 100%;
+		background: #010303;
+		padding: clamp(50px, 7vw, 90px) clamp(20px, 4vw, 40px);
+		box-sizing: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.07);
+	}
 
-    .fbt-dest-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
+	.fba-dest-container {
+		max-width: 1320px;
+		margin: 0 auto;
+	}
 
-    .fbt-dest-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #37c080;
-    }
+	.fba-dest-tag {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #37c080 !important;
+		margin-bottom: 14px;
+	}
 
-    .fbt-dest-title {
-        margin: 16px 0 clamp(24px, 5vw, 40px);
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2rem, 5vw, 3.5rem);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+	.fba-dest-title {
+		margin: 0 0 clamp(28px, 4.5vw, 44px) 0;
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(30px, 3.8vw, 48px) !important;
+		line-height: 1.15;
+		letter-spacing: 1.4px;
+		color: #ffffff !important;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
 
-    .fbt-dest-title span {
-        color: #37c080;
-    }
+	.fba-dest-title span {
+		color: #37c080 !important;
+		text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+		margin-left: 8px;
+	}
 
-    /* 4 Cards Flex Grid */
-    .fbt-dest-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(16px, 3vw, 24px);
-    }
+	/* 4 Visual Panels Grid */
+	.fba-dest-grid {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: clamp(16px, 2.5vw, 24px);
+	}
 
-    .fbt-dest-card {
-        flex: 1 1 240px;
-        min-width: 0;
-        box-sizing: border-box;
-    }
+	.fba-dest-card {
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		padding: 12px;
+		background: transparent;
+		border: 1px solid transparent;
+		transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+		cursor: pointer;
+	}
 
-    .fbt-dest-img-wrap {
-        aspect-ratio: 4/5;
-        overflow: hidden;
-        border-radius: 2px;
-        margin-bottom: 16px;
-        position: relative;
-        background: #0d1717;
-    }
+	.fba-dest-card:hover {
+		transform: translateY(-8px);
+		background: rgba(14, 28, 28, 0.55);
+		border-color: rgba(55, 192, 128, 0.3);
+		box-shadow: 0 25px 50px rgba(0, 0, 0, 0.75), 0 0 30px rgba(55, 192, 128, 0.18);
+	}
 
-    .fbt-dest-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        display: block;
-        transition: transform 0.4s ease;
-    }
+	.fba-dest-img-wrap {
+		aspect-ratio: 4/5;
+		overflow: hidden;
+		border-radius: 0px !important;
+		position: relative;
+		background: #0d1717;
+		border: 1px solid rgba(255, 255, 255, 0.08);
+		margin-bottom: 16px;
+		transition: border-color 0.35s ease, box-shadow 0.35s ease;
+	}
 
-    .fbt-dest-card:hover .fbt-dest-img {
-        transform: scale(1.05);
-    }
+	.fba-dest-card:hover .fba-dest-img-wrap {
+		border-color: #37c080 !important;
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.8), 0 0 25px rgba(55, 192, 128, 0.35);
+	}
 
-    .fbt-dest-card-name {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(18px, 4vw, 20px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-        margin-bottom: 8px;
-        line-height: 1.1;
-    }
+	.fba-dest-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
+		filter: brightness(0.95);
+		transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+	}
 
-    .fbt-dest-card-desc {
-        margin: 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(12px, 2vw, 13px);
-        line-height: 1.6;
-        color: #9b998b;
-    }
+	.fba-dest-card:hover .fba-dest-img {
+		transform: scale(1.08);
+		filter: brightness(1.06);
+	}
 
-    @media (max-width: 520px) {
-        .fbt-dest-card {
-            flex: 1 1 calc(50% - 10px); /* 2 columns on mobile if screen allows, else 1 column */
-            min-width: 140px;
-        }
-    }
+	.fba-dest-img-wrap::after {
+		content: "";
+		position: absolute;
+		inset: 0;
+		background: linear-gradient(to top, rgba(1, 3, 3, 0.75) 0%, transparent 50%);
+		pointer-events: none;
+		transition: opacity 0.3s ease;
+	}
 
-    @media (max-width: 360px) {
-        .fbt-dest-card {
-            flex: 1 1 100%;
-        }
-    }
+	.fba-dest-card:hover .fba-dest-img-wrap::after {
+		opacity: 0.85;
+	}
+
+	.fba-dest-card-name {
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: 21px;
+		text-transform: uppercase;
+		color: #ffffff;
+		font-weight: 400;
+		letter-spacing: 0.8px;
+		margin: 0 0 6px 0;
+		line-height: 1.1;
+		transition: all 0.3s ease;
+	}
+
+	.fba-dest-card:hover .fba-dest-card-name {
+		color: #3ee69a !important;
+		letter-spacing: 1.2px;
+		transform: translateX(4px);
+	}
+
+	.fba-dest-card-desc {
+		margin: 0;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 13px !important;
+		line-height: 1.6;
+		color: rgba(244, 242, 234, 0.7) !important;
+		transition: color 0.3s ease;
+	}
+
+	.fba-dest-card:hover .fba-dest-card-desc {
+		color: #eae5d8 !important;
+	}
+
+	@media (max-width: 960px) {
+		.fba-dest-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 20px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.fba-dest-grid {
+			grid-template-columns: 1fr;
+			gap: 24px;
+		}
+	}
 </style>
 
-<div class="fbt-dest-section">
-    <div class="fbt-dest-container">
-        <div class="fbt-dest-tag">— Under one roof</div>
-        <h2 class="fbt-dest-title">
-            A destination,<br /><span>not just a gym.</span>
-        </h2>
+<div class="fba-dest-wrap">
+	<div class="fba-dest-container">
+		<div class="fba-dest-tag">
+			
+			<span>— Under one roof</span>
+		</div>
+		<h2 class="fba-dest-title">
+			A destination, <span>not just a gym.</span>
+		</h2>
 
-        <!-- 4 Cards Grid -->
-        <div class="fbt-dest-grid">
-            <!-- Card 1 -->
-            <div class="fbt-dest-card">
-                <div class="fbt-dest-img-wrap">
-                    <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0575-scaled.jpg"
-                        alt="Pilates Studio" class="fbt-dest-img" />
-                </div>
-                <div class="fbt-dest-card-name">Pilates Studio</div>
-                <p class="fbt-dest-card-desc">
-                    Reformer &amp; mat, the practice Dr. Shruti built the brand around.
-                </p>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="fbt-dest-card">
-                <div class="fbt-dest-img-wrap">
-                    <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg"
-                        alt="Strength Floor" class="fbt-dest-img" />
-                </div>
-                <div class="fbt-dest-card-name">Strength Floor</div>
-                <p class="fbt-dest-card-desc">
-                    Barbells, plates and space designed for heavy, honest work.
-                </p>
-            </div>
-
-            <!-- Card 3 -->
-            <div class="fbt-dest-card">
-                <div class="fbt-dest-img-wrap">
-                    <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0617-scaled.webp"
-                        alt="Wellness Spa" class="fbt-dest-img" />
-                </div>
-                <div class="fbt-dest-card-name">Wellness Spa</div>
-                <p class="fbt-dest-card-desc">
-                    Steam, sauna, massage and Panchkarma — recovery treated as ceremony.
-                </p>
-            </div>
-
-            <!-- Card 4 -->
-            <div class="fbt-dest-card">
-                <div class="fbt-dest-img-wrap">
-                    <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0565-scaled.jpg"
-                        alt="Swimming Pool" class="fbt-dest-img" />
-                </div>
-                <div class="fbt-dest-card-name">Swimming Pool</div>
-                <p class="fbt-dest-card-desc">
-                    Temperature-controlled lanes for cardio, therapy and quiet ritual.
-                </p>
-            </div>
-        </div>
-    </div>
-</div>
-</div>				</div>
+		<!-- 4 Cards Grid -->
+		<div class="fba-dest-grid">
+			<!-- Card 1 -->
+			<div class="fba-dest-card">
+				<div class="fba-dest-img-wrap">
+					<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0575-scaled.jpg"
+						alt="Pilates Studio" class="fba-dest-img" />
 				</div>
+				<h3 class="fba-dest-card-name">Pilates Studio</h3>
+				<p class="fba-dest-card-desc">
+					Reformer &amp; mat, the practice Dr. Shruti built the brand around.
+				</p>
+			</div>
+
+			<!-- Card 2 -->
+			<div class="fba-dest-card">
+				<div class="fba-dest-img-wrap">
+					<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3887-scaled.jpg"
+						alt="Strength Floor" class="fbt-dest-img" />
+				</div>
+				<h3 class="fba-dest-card-name">Strength Floor</h3>
+				<p class="fba-dest-card-desc">
+					Barbells, plates and space designed for heavy, honest work.
+				</p>
+			</div>
+
+			<!-- Card 3 -->
+			<div class="fba-dest-card">
+				<div class="fba-dest-img-wrap">
+					<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0617-scaled.webp"
+						alt="Wellness Spa" class="fba-dest-img" />
+				</div>
+				<h3 class="fba-dest-card-name">Wellness Spa</h3>
+				<p class="fba-dest-card-desc">
+					Steam, sauna, massage and Panchkarma — recovery treated as ceremony.
+				</p>
+			</div>
+
+			<!-- Card 4 -->
+			<div class="fba-dest-card">
+				<div class="fba-dest-img-wrap">
+					<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG_0565-scaled.jpg"
+						alt="Swimming Pool" class="fba-dest-img" />
+				</div>
+				<h3 class="fba-dest-card-name">Swimming Pool</h3>
+				<p class="fba-dest-card-desc">
+					Temperature-controlled lanes for cardio, therapy and quiet ritual.
+				</p>
+			</div>
+		</div>
+	</div>
 </div>				</div>
 				</div>
 				</div>
@@ -2122,129 +2362,226 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-2d53a116 elementor-widget elementor-widget-html" data-id="2d53a116" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Founder Teaser Section ─── */
-    .fbt-founder-teaser-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+	/* ─── Founder Luxury Editorial Spotlight ─── */
+	.fba-founder-wrap {
+		width: 100%;
+		background: #020505;
+		padding: clamp(50px, 7vw, 90px) clamp(20px, 4vw, 40px);
+		box-sizing: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.07);
+	}
 
-    .fbt-founder-teaser-container {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(24px, 5vw, 60px);
-        align-items: center;
-    }
+	.fba-founder-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: minmax(280px, 380px) 1fr;
+		gap: clamp(36px, 6vw, 70px);
+		align-items: center;
+	}
 
-    /* Left Image Column */
-    .fbt-founder-teaser-img-col {
-        flex: 1 1 260px;
-        max-width: 400px;
-        min-width: 0;
-    }
+	/* Left Portrait Stage */
+	.fba-founder-media {
+		position: relative;
+	}
 
-    .fbt-founder-teaser-img {
-        width: 100%;
-        aspect-ratio: 4/5;
-        object-fit: cover;
-        border-radius: 2px;
-        display: block;
-    }
+	.fba-founder-img-stage {
+		position: relative;
+		aspect-ratio: 4/5;
+		overflow: hidden;
+		border-radius: 0px !important;
+		border: 1px solid rgba(255, 255, 255, 0.12);
+		background: #0d1717;
+		box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+		transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+		cursor: pointer;
+	}
 
-    /* Right Text Column */
-    .fbt-founder-teaser-text-col {
-        flex: 1.3 1 280px;
-        min-width: 0;
-    }
+	.fba-founder-img-stage:hover {
+		transform: translateY(-8px);
+		border-color: #37c080 !important;
+		box-shadow: 0 30px 65px rgba(0, 0, 0, 0.85), 0 0 35px rgba(55, 192, 128, 0.3) !important;
+	}
 
-    .fbt-founder-teaser-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #37c080;
-    }
+	.fba-founder-img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: center top;
+		display: block;
+		filter: brightness(0.97);
+		transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+	}
 
-    .fbt-founder-teaser-title {
-        margin: 16px 0 6px;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2.4rem, 4.5vw, 4.5rem);
-        line-height: 0.93;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+	.fba-founder-img-stage:hover .fba-founder-img {
+		transform: scale(1.06);
+		filter: brightness(1.04);
+	}
 
-    .fbt-founder-teaser-desc {
-        margin: 20px 0 28px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(14px, 2vw, 15px);
-        line-height: 1.7;
-        color: #9b998b;
-    }
+	.fba-founder-badge {
+		position: absolute;
+		bottom: 16px;
+		left: 16px;
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		padding: 6px 14px;
+		background: rgba(1, 3, 3, 0.88);
+		backdrop-filter: blur(12px);
+		border: 1px solid rgba(55, 192, 128, 0.35);
+		border-radius: 0px !important;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 10.5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #3ee69a;
+		transition: all 0.3s ease;
+	}
 
-    .fbt-founder-teaser-btn {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 24px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
+	.fba-founder-img-stage:hover .fba-founder-badge {
+		border-color: #37c080;
+		box-shadow: 0 0 18px rgba(55, 192, 128, 0.6);
+		background: rgba(1, 3, 3, 0.95);
+	}
 
-    .fbt-founder-teaser-btn:hover {
-        border-color: #37c080;
-        color: #37c080;
-        background: rgba(55, 192, 128, 0.08);
-        transform: translateY(-2px);
-    }
+	.fba-founder-badge-dot {
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background: #37c080;
+		box-shadow: 0 0 8px #37c080;
+	}
 
-    @media (max-width: 600px) {
-        .fbt-founder-teaser-img-col {
-            max-width: 100%;
-        }
+	/* Right Editorial Copy */
+	.fba-founder-text-col {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
 
-        .fbt-founder-teaser-btn {
-            width: 100%;
-        }
-    }
+	.fba-founder-tag {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		color: #37c080 !important;
+		margin-bottom: 14px;
+	}
+
+	.fba-founder-title {
+		margin: 0 0 18px 0;
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(32px, 4vw, 48px) !important;
+		line-height: 1.15;
+		letter-spacing: 1.4px;
+		color: #ffffff !important;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	.fba-founder-title span {
+		color: #37c080 !important;
+		text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+		margin-left: 8px;
+	}
+
+	.fba-founder-desc {
+		margin: 0 0 26px 0;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 15px !important;
+		line-height: 1.75;
+		color: rgba(244, 242, 234, 0.82) !important;
+	}
+
+	.fba-founder-btn {
+		background: transparent;
+		color: #37c080 !important;
+		border: 1px solid #37c080;
+		border-radius: 0px !important;
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		padding: 13px 28px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11.5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-decoration: none !important;
+		box-sizing: border-box;
+		transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	}
+
+	.fba-founder-btn:hover {
+		background: #37c080 !important;
+		color: #010303 !important;
+		box-shadow: 0 12px 30px rgba(55, 192, 128, 0.5) !important;
+		transform: translateY(-3px);
+	}
+
+	.fba-founder-btn svg {
+		width: 14px;
+		height: 14px;
+		stroke: currentColor;
+		stroke-width: 2.2;
+		fill: none;
+		transition: transform 0.25s ease;
+	}
+
+	.fba-founder-btn:hover svg {
+		transform: translateX(5px);
+	}
+
+	@media (max-width: 800px) {
+		.fba-founder-container {
+			grid-template-columns: 1fr;
+			gap: 36px;
+		}
+		.fba-founder-media {
+			max-width: 380px;
+		}
+	}
 </style>
 
-<div class="fbt-founder-teaser-section">
-    <div class="fbt-founder-teaser-container">
-        <!-- Image Column -->
-        <div class="fbt-founder-teaser-img-col">
-            <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp"
-                alt="Dr. Shruti Kapoor — Founder of FitBliss" class="fbt-founder-teaser-img" />
-        </div>
+<div class="fba-founder-wrap">
+	<div class="fba-founder-container">
+		<!-- Image Stage -->
+		<div class="fba-founder-media">
+			<div class="fba-founder-img-stage">
+				<img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/IMG-20250804-WA0081.webp"
+					alt="Dr. Shruti Kapoor — Founder of FitBliss" class="fba-founder-img" />
+				<div class="fba-founder-badge">
+					<span class="fba-founder-badge-dot"></span>
+					<span>Visionary</span>
+				</div>
+			</div>
+		</div>
 
-        <!-- Text Column -->
-        <div class="fbt-founder-teaser-text-col">
-            <div class="fbt-founder-teaser-tag">— The Founder</div>
-            <h2 class="fbt-founder-teaser-title">Dr. Shruti<br />Kapoor</h2>
-            <p class="fbt-founder-teaser-desc">
-                MD Radiologist, certified Pilates practitioner, and the guiding vision behind Fitbliss.
-                Read her story — the training in Mumbai, the philosophy, and the wellness centre
-                she built in Bhopal.
-            </p>
-            <a href="<?php echo $base_url; ?>/founder/" class="fbt-founder-teaser-btn">
-                Read the founder's story →
-            </a>
-        </div>
-    </div>
+		<!-- Text Column -->
+		<div class="fba-founder-text-col">
+			<div class="fba-founder-tag">
+				
+				<span>— The Founder</span>
+			</div>
+			<h2 class="fba-founder-title">
+				Dr. Shruti <span>Kapoor</span>
+			</h2>
+			<p class="fba-founder-desc">
+				MD Radiologist, certified Pilates practitioner, and the guiding vision behind Fitbliss.
+				Read her story — the training in Mumbai, the philosophy, and the wellness centre
+				she built in Bhopal.
+			</p>
+			<a href="<?php echo $base_url; ?>/founder/" class="fba-founder-btn">
+				Read the founder's story
+				<svg viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+			</a>
+		</div>
+	</div>
 </div>				</div>
 				</div>
 				</div>
@@ -2252,103 +2589,130 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				<div class="elementor-element elementor-element-34b6a082 elementor-widget elementor-widget-html" data-id="34b6a082" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Centered Bottom CTA Section ─── */
-    .fbt-bottom-cta-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+	/* ─── Centered Luxury Bottom CTA ─── */
+	.fba-bottom-cta-wrap {
+		position: relative;
+		width: 100%;
+		background: #010303;
+		padding: clamp(60px, 9vw, 100px) clamp(20px, 4vw, 40px);
+		box-sizing: border-box;
+		border-top: 1px solid rgba(255, 255, 255, 0.08);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+		text-align: center;
+		overflow: hidden;
+	}
 
-    .fbt-bottom-cta-container {
-        max-width: 1320px;
-        margin: 0 auto;
-        text-align: center;
-    }
+	.fba-bottom-cta-ambient {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 600px;
+		height: 350px;
+		background: radial-gradient(ellipse at center, rgba(55, 192, 128, 0.08) 0%, transparent 70%);
+		pointer-events: none;
+	}
 
-    .fbt-bottom-cta-title {
-        margin: 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(2.2rem, 6vw, 4.5rem);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-        text-transform: uppercase;
-    }
+	.fba-bottom-cta-container {
+		max-width: 900px;
+		margin: 0 auto;
+		position: relative;
+		z-index: 1;
+	}
 
-    .fbt-bottom-cta-title span {
-        color: #37c080;
-    }
+	.fba-bottom-cta-title {
+		margin: 0;
+		font-family: 'Bebas Neue', Impact, sans-serif;
+		font-size: clamp(34px, 5.2vw, 56px) !important;
+		line-height: 0.96;
+		letter-spacing: 1.5px;
+		color: #ffffff !important;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
 
-    /* Action Buttons Row */
-    .fbt-bottom-cta-buttons {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 12px;
-        margin-top: 32px;
-    }
+	.fba-bottom-cta-title span {
+		color: #37c080 !important;
+		text-shadow: 0 0 30px rgba(55, 192, 128, 0.4);
+	}
 
-    .fbt-bottom-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 24px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
+	/* Action Buttons Row */
+	.fba-bottom-cta-buttons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 14px;
+		margin-top: 34px;
+	}
 
-    .fbt-bottom-btn-primary {
-        background: #37c080;
-        color: #050a0b !important;
-        border: 1px solid #37c080;
-    }
+	.fba-bottom-btn {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		padding: 13px 28px;
+		font-family: 'Barlow', Inter, sans-serif;
+		font-size: 11.5px;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		text-decoration: none !important;
+		border-radius: 0px !important;
+		box-sizing: border-box;
+		transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	}
 
-    .fbt-bottom-btn-primary:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-        transform: translateY(-2px);
-    }
+	.fba-bottom-btn-primary {
+		background: #37c080;
+		color: #010303 !important;
+		border: 1px solid #37c080;
+	}
 
-    .fbt-bottom-btn-secondary {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(255, 255, 255, 0.25);
-    }
+	.fba-bottom-btn-primary:hover {
+		background: #5eeaa8 !important;
+		border-color: #5eeaa8 !important;
+		color: #060e0e !important;
+		transform: translateY(-3px) scale(1.02) !important;
+		box-shadow: 0 15px 35px rgba(55, 192, 128, 0.5), 0 0 25px rgba(62, 230, 154, 0.45) !important;
+	}
 
-    .fbt-bottom-btn-secondary:hover {
-        border-color: #37c080;
-        color: #37c080;
-        transform: translateY(-2px);
-    }
+	.fba-bottom-btn-secondary {
+		background: transparent;
+		color: #ffffff !important;
+		border: 1px solid rgba(255, 255, 255, 0.25);
+	}
 
-    @media (max-width: 600px) {
-        .fbt-bottom-btn {
-            width: 100%;
-        }
-    }
+	.fba-bottom-btn-secondary:hover {
+		border-color: #25d366 !important;
+		color: #25d366 !important;
+		background: rgba(37, 211, 102, 0.12) !important;
+		transform: translateY(-3px) scale(1.02) !important;
+		box-shadow: 0 15px 35px rgba(37, 211, 102, 0.3) !important;
+	}
+
+	@media (max-width: 500px) {
+		.fba-bottom-btn {
+			width: 100%;
+		}
+	}
 </style>
 
-<div class="fbt-bottom-cta-section">
-    <div class="fbt-bottom-cta-container">
-        <h2 class="fbt-bottom-cta-title">
-            Transform your body.<br /><span>Start today.</span>
-        </h2>
-        <div class="fbt-bottom-cta-buttons">
-            <a href="<?php echo $base_url; ?>/contact/" class="fbt-bottom-btn fbt-bottom-btn-primary">
-                Book a free trial
-            </a>
-            <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-bottom-btn fbt-bottom-btn-secondary">
-                WhatsApp now
-            </a>
-        </div>
-    </div>
+<div class="fba-bottom-cta-wrap">
+	<div class="fba-bottom-cta-ambient"></div>
+	<div class="fba-bottom-cta-container">
+		<h2 class="fba-bottom-cta-title">
+			Transform your body.<br />
+			<span>Start today.</span>
+		</h2>
+		<div class="fba-bottom-cta-buttons">
+			<a href="<?php echo $base_url; ?>/contact/" class="fba-bottom-btn fba-bottom-btn-primary">
+				Book a free trial
+			</a>
+			<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fba-bottom-btn fba-bottom-btn-secondary">
+				WhatsApp now
+			</a>
+		</div>
+	</div>
 </div>				</div>
 				</div>
 				</div>

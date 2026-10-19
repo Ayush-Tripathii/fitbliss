@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/security_shield.php';
 ?>
@@ -1617,497 +1617,1105 @@ document.addEventListener('DOMContentLoaded', function() {
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-fdf3f5a e-flex e-con-boxed e-con e-parent" data-id="fdf3f5a" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-23d5cd1 e-grid e-con-full e-con e-child" data-id="23d5cd1" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-234065e e-con-full e-flex e-con e-child" data-id="234065e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-acecbf5 elementor-widget elementor-widget-text-editor" data-id="acecbf5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Benefits</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-8d8d8cb elementor-widget elementor-widget-heading" data-id="8d8d8cb" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">STRUCTURE. FORM. TRANSFORMATION.</h1>				</div>
-				</div>
-				<div class="elementor-element elementor-element-5a9e15a elementor-widget elementor-widget-text-editor" data-id="5a9e15a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="font-weight: 400;">Generic workout plans yield generic results. 1-on-1 personal training eliminates guesswork, maximizes efficiency, and guarantees progress built safely around your body.</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-ecd7b19 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="ecd7b19" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="<?php echo $base_url; ?>/contact/">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Join a class</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-09ea23b elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button" data-id="09ea23b" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Whatsapp Us</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6a7222d e-con-full e-flex e-con e-child" data-id="6a7222d" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-53bb65d e-grid e-con-full e-con e-child" data-id="53bb65d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-3b9b84c elementor-widget elementor-widget-text-editor" data-id="3b9b84c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><strong><b>TAILORED WORKOUT PROGRAMMING</b><b><br /></b></strong></h5><p><span style="font-weight: 400;">Every rep, set, and exercise is custom-designed around your unique fitness level, injury history, movement baseline, and specific personal goals.</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-8472b74 elementor-widget elementor-widget-text-editor" data-id="8472b74" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><b>UNCOMPROMISING FORM &amp; SAFETY</b><b><br /></b></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Continuous expert eye on your biomechanics ensures perfect technique, eliminating joint strain and protecting you from exercise-induced injuries.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-57e1bd6 elementor-widget elementor-widget-text-editor" data-id="57e1bd6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><b>ACCELERATED RESULTS &amp; FAT LOSS</b></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Periodized strength circuits, metabolic conditioning, and structured progressive overload help you smash through plateaus twice as fast.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-6a38ad5 elementor-widget elementor-widget-text-editor" data-id="6a38ad5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><b>CUSTOMIZED NUTRITIONAL GUIDANCE</b></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Receive practical, sustainable dietary strategies aligned with your training intensity to fuel muscle gain, fat loss, and lasting energy.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-11ee997 elementor-widget elementor-widget-text-editor" data-id="11ee997" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">05</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><b>CONSTANT ACCOUNTABILITY &amp; MOTIVATION</b></h5><h5 class="mt-3 text-sm text-foreground/85"><span style="font-weight: 400;">Your coach tracks your progress, adjusts targets, and keeps you consistently committed, turning excuses into measurable physical milestones.</span></h5>								</div>
-				</div>
-				<div class="elementor-element elementor-element-cb17e6a elementor-widget elementor-widget-text-editor" data-id="cb17e6a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">06</span></h5><h5 class="mt-3 font-display text-xl uppercase tracking-wide"><b> ADAPTIVE LIFESTYLE COACHING</b><b><br /></b></h5><p><span style="font-weight: 400;">Whether you travel frequently, manage long work hours, or face physical limitations, your program adapts seamlessly to keep you on track.</span></p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
+		<style>
+/* ==============================================================================
+   FITBLISS PERSONAL TRAINING — LUXURY REDESIGN STYLES
+   ============================================================================== */
+.fbpt-section {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	overflow: visible;
+}
+
+.fbpt-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: clamp(60px, 8vw, 100px) clamp(20px, 4vw, 50px);
+	position: relative;
+	z-index: 2;
+	box-sizing: border-box;
+}
+
+.fbpt-tag {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #37c080;
+	margin-bottom: 12px;
+	display: block;
+}
+
+.fbpt-title {
+	margin: 0 0 20px 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(34px, 4.5vw, 54px);
+	line-height: 0.98;
+	color: #ffffff;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.fbpt-title span {
+	color: #37c080;
+	text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+}
+
+.fbpt-desc {
+	margin: 0 0 24px 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	line-height: 1.75;
+	color: rgba(244, 242, 234, 0.75);
+}
+
+.fbpt-ambient {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(55, 192, 128, 0.06) 0%, transparent 70%);
+	pointer-events: none;
+	filter: blur(60px);
+}
+
+/* ─── SECTION 1: Structure. Form. Transformation. ─── */
+.fbpt-intro-section {
+	overflow: visible !important;
+}
+
+.fbpt-intro-grid {
+	display: grid;
+	grid-template-columns: 0.92fr 1.08fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: stretch;
+}
+
+.fbpt-intro-col {
+	position: relative;
+	height: 100%;
+}
+
+.fbpt-intro-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: clamp(95px, 12vh, 120px);
+}
+
+@media (max-width: 991px) {
+	.fbpt-intro-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	.fbpt-intro-col {
+		height: auto;
+	}
+	.fbpt-intro-sticky {
+		position: static;
+		top: auto;
+	}
+}
+
+.fbpt-btn-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-top: 28px;
+}
+
+.fbpt-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 13px 28px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none !important;
+	border-radius: 0 !important;
+	box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbpt-btn-primary {
+	background: #37c080;
+	color: #010303 !important;
+	border: 1px solid #37c080;
+}
+
+.fbpt-btn-primary:hover {
+	background: #5eeaa8 !important;
+	border-color: #5eeaa8 !important;
+	transform: translateY(-3px) scale(1.02);
+	box-shadow: 0 15px 35px rgba(55, 192, 128, 0.5), 0 0 25px rgba(62, 230, 154, 0.45);
+}
+
+.fbpt-btn-secondary {
+	background: transparent;
+	color: #ffffff !important;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.fbpt-btn-secondary:hover {
+	border-color: #25d366 !important;
+	color: #25d366 !important;
+	background: rgba(37, 211, 102, 0.12) !important;
+	transform: translateY(-3px) scale(1.02);
+	box-shadow: 0 15px 35px rgba(37, 211, 102, 0.3);
+}
+
+.fbpt-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+}
+
+@media (max-width: 600px) {
+	.fbpt-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbpt-card {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.12);
+	padding: 24px 20px 22px 20px;
+	box-sizing: border-box;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbpt-card:hover {
+	border-top-color: #37c080 !important;
+	background: rgba(14, 28, 28, 0.6);
+	transform: translateY(-8px);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.75), 0 0 25px rgba(55, 192, 128, 0.18);
+}
+
+.fbpt-card-num {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 36px;
+	color: rgba(55, 192, 128, 0.45);
+	line-height: 1;
+	margin-bottom: 8px;
+	transition: all 0.3s ease;
+}
+
+.fbpt-card:hover .fbpt-card-num {
+	color: #5eeaa8 !important;
+	transform: scale(1.1);
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.65);
+}
+
+.fbpt-card-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(20px, 2.5vw, 24px);
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	margin: 0 0 10px 0;
+	line-height: 1.1;
+	transition: color 0.3s ease;
+}
+
+.fbpt-card:hover .fbpt-card-title {
+	color: #3ee69a;
+}
+
+.fbpt-card-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.65;
+	color: rgba(244, 242, 234, 0.7);
+	transition: color 0.3s ease;
+}
+
+.fbpt-card:hover .fbpt-card-desc {
+	color: #eae5d8;
+}
+
+/* ─── SECTION 2: Focus. Drive. ─── */
+.fbpt-floor-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.fbpt-floor-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+}
+
+.fbpt-media-card {
+	position: relative;
+	border-radius: 0 !important;
+	overflow: hidden;
+	background: #081112;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(55, 192, 128, 0.12);
+	transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+	cursor: pointer;
+}
+
+.fbpt-media-card:hover {
+	transform: translateY(-8px);
+	border-color: #37c080 !important;
+	box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9), 0 0 45px rgba(55, 192, 128, 0.3) !important;
+}
+
+.fbpt-media-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+	filter: brightness(0.96);
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.fbpt-media-card:hover img {
+	transform: scale(1.06);
+	filter: brightness(1.04);
+}
+
+.fbpt-pillar-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.fbpt-pillar-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	padding: 16px 18px;
+	background: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	border-left: 3px solid transparent;
+	box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbpt-pillar-item:hover {
+	transform: translateX(8px);
+	border-left-color: #37c080 !important;
+	background: rgba(14, 28, 28, 0.55);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.fbpt-pillar-num {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 26px;
+	color: rgba(55, 192, 128, 0.5);
+	line-height: 1;
+	flex-shrink: 0;
+	transition: all 0.3s ease;
+}
+
+.fbpt-pillar-item:hover .fbpt-pillar-num {
+	color: #5eeaa8 !important;
+	transform: scale(1.15);
+	text-shadow: 0 0 15px rgba(55, 192, 128, 0.6);
+}
+
+.fbpt-pillar-content {
+	flex: 1;
+}
+
+.fbpt-pillar-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	margin: 0 0 4px 0;
+	line-height: 1.1;
+	transition: color 0.3s ease;
+}
+
+.fbpt-pillar-item:hover .fbpt-pillar-title {
+	color: #3ee69a;
+}
+
+.fbpt-pillar-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.6;
+	color: rgba(244, 242, 234, 0.7);
+	transition: color 0.3s ease;
+}
+
+.fbpt-pillar-item:hover .fbpt-pillar-desc {
+	color: #eae5d8;
+}
+
+/* ─── SECTION 3: Your goals, our expert roadmap ─── */
+.fbpt-dest-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.fbpt-dest-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+}
+
+/* ─── SECTION 4: Globally engineered equipment ─── */
+.fbpt-equip-title {
+	font-size: clamp(24px, 3.2vw, 44px) !important;
+	line-height: 1.15 !important;
+	letter-spacing: 1.2px;
+	white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+	.fbpt-equip-title {
+		white-space: normal;
+		font-size: clamp(24px, 6vw, 34px) !important;
+	}
+}
+
+.fbpt-equip-desc-lead {
+	max-width: 100% !important;
+	margin-bottom: 40px !important;
+	font-size: clamp(13px, 1.05vw, 15px) !important;
+}
+
+@media (min-width: 1050px) {
+	.fbpt-equip-desc-lead {
+		white-space: nowrap !important;
+	}
+}
+
+@media (max-width: 1049px) {
+	.fbpt-equip-desc-lead {
+		white-space: normal !important;
+	}
+}
+
+.fbpt-equip-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 991px) {
+	.fbpt-equip-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.fbpt-equip-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbpt-equip-card {
+	position: relative;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	border-radius: 0 !important;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.fbpt-equip-card:hover {
+	transform: translateY(-8px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.18);
+}
+
+.fbpt-equip-media {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	background: #020405;
+	overflow: hidden;
+}
+
+.fbpt-equip-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	filter: brightness(0.95);
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.fbpt-equip-card:hover .fbpt-equip-media img {
+	transform: scale(1.07);
+	filter: brightness(1.05);
+}
+
+.fbpt-equip-badge {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	background: rgba(1, 3, 3, 0.85);
+	border: 1px solid rgba(55, 192, 128, 0.5);
+	backdrop-filter: blur(8px);
+	padding: 5px 12px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #37c080;
+	z-index: 2;
+	transition: all 0.3s ease;
+}
+
+.fbpt-equip-card:hover .fbpt-equip-badge {
+	background: rgba(55, 192, 128, 0.2);
+	border-color: #5eeaa8;
+	color: #5eeaa8;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.4);
+}
+
+.fbpt-equip-body {
+	padding: 24px 22px 26px 22px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background: transparent;
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.fbpt-equip-name {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 24px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 1.15;
+	margin: 0 0 10px 0;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.fbpt-equip-card:hover .fbpt-equip-name {
+	color: #3ee69a !important;
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.45);
+}
+
+.fbpt-equip-divider {
+	width: 32px;
+	height: 2px;
+	background: #37c080;
+	margin-bottom: 14px;
+	transition: width 0.35s ease, background 0.35s ease;
+}
+
+.fbpt-equip-card:hover .fbpt-equip-divider {
+	width: 54px;
+	background: #5eeaa8;
+	box-shadow: 0 0 10px rgba(55, 192, 128, 0.6);
+}
+
+.fbpt-equip-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.68;
+	color: rgba(244, 242, 234, 0.72);
+	transition: color 0.3s ease;
+}
+
+.fbpt-equip-card:hover .fbpt-equip-desc {
+	color: rgba(244, 242, 234, 0.95);
+}
+
+/* ─── SECTION 5: Cross-train your day ─── */
+.fbpt-cross-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 18px;
+}
+
+@media (max-width: 900px) {
+	.fbpt-cross-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 550px) {
+	.fbpt-cross-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ─── SECTION 6: FAQ Accordion ─── */
+.fbpt-faq-section {
+	overflow: visible !important;
+}
+
+.fbpt-faq-grid {
+	display: grid;
+	grid-template-columns: 0.85fr 1.15fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: stretch;
+}
+
+.fbpt-faq-col {
+	position: relative;
+	height: 100%;
+}
+
+.fbpt-faq-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: clamp(95px, 12vh, 120px);
+}
+
+@media (max-width: 991px) {
+	.fbpt-faq-grid {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+	.fbpt-faq-col {
+		height: auto;
+	}
+	.fbpt-faq-sticky {
+		position: static;
+		top: auto;
+	}
+}
+
+.fbpt-faq-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.fbpt-faq-item {
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(14, 28, 28, 0.35);
+	transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.fbpt-faq-item:hover {
+	border-color: rgba(55, 192, 128, 0.4);
+	background: rgba(14, 28, 28, 0.55);
+}
+
+.fbpt-faq-header {
+	padding: 18px 22px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 14px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.fbpt-faq-q {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 0.3px;
+	margin: 0;
+	transition: color 0.3s ease;
+}
+
+.fbpt-faq-item:hover .fbpt-faq-q {
+	color: #3ee69a;
+}
+
+.fbpt-faq-icon {
+	width: 22px;
+	height: 22px;
+	color: #37c080;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	flex-shrink: 0;
+	transition: transform 0.3s ease;
+}
+
+.fbpt-faq-item.active .fbpt-faq-icon {
+	transform: rotate(45deg);
+}
+
+.fbpt-faq-answer {
+	padding: 0 22px 20px 22px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: rgba(244, 242, 234, 0.75);
+	display: none;
+}
+
+.fbpt-faq-item.active .fbpt-faq-answer {
+	display: block;
+}
+
+/* ─── SECTION 7: Bottom CTA ─── */
+.fbpt-cta-wrap {
+	width: 100%;
+	background: #010303;
+	padding: clamp(60px, 9vw, 100px) clamp(20px, 4vw, 40px);
+	box-sizing: border-box;
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.fbpt-cta-ambient {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 350px;
+	background: radial-gradient(ellipse at center, rgba(55, 192, 128, 0.08) 0%, transparent 70%);
+	pointer-events: none;
+}
+
+.fbpt-cta-container {
+	max-width: 900px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 2;
+}
+
+.fbpt-cta-title {
+	margin: 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(34px, 5.2vw, 56px) !important;
+	line-height: 0.96;
+	letter-spacing: 1.5px;
+	color: #ffffff !important;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.fbpt-cta-title span {
+	color: #37c080 !important;
+	text-shadow: 0 0 30px rgba(55, 192, 128, 0.4);
+}
+
+.fbpt-cta-buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 14px;
+	margin-top: 34px;
+}
+</style>
+
+<!-- SECTION 1: STRUCTURE. FORM. TRANSFORMATION. -->
+<div class="fbpt-section fbpt-intro-section" style="background:#020505;">
+	<div class="fbpt-ambient" style="top:20%;left:-10%;"></div>
+	<div class="fbpt-container">
+		<div class="fbpt-intro-grid">
+			<div class="fbpt-intro-col">
+				<div class="fbpt-intro-sticky">
+					<span class="fbpt-tag">— Benefits</span>
+					<h2 class="fbpt-title">
+						STRUCTURE.<br/>
+						FORM.<br/>
+						<span>TRANSFORMATION.</span>
+					</h2>
+					<p class="fbpt-desc">
+						Generic workout plans yield generic results. 1-on-1 personal training eliminates guesswork, maximizes efficiency, and guarantees progress built safely around your body.
+					</p>
+					<div class="fbpt-btn-row">
+						<a href="<?php echo $base_url; ?>/contact/" class="fbpt-btn fbpt-btn-primary">Join a class</a>
+						<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbpt-btn fbpt-btn-secondary">Whatsapp Us</a>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-9ed7ecb e-flex e-con-boxed e-con e-parent" data-id="9ed7ecb" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-58f5fcd e-grid e-con-full e-con e-child" data-id="58f5fcd" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-0d924e5 e-con-full e-flex e-con e-child" data-id="0d924e5" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2f0f904 elementor-widget elementor-widget-text-editor" data-id="2f0f904" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  Why Choose Us</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-5aeceb5 elementor-widget elementor-widget-heading" data-id="5aeceb5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">FOCUS. DRIVE.
-</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4a8d962 elementor-widget elementor-widget-text-editor" data-id="4a8d962" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;"> Certified elite trainers, comprehensive body composition tracking, and complete access to world-class facilities under one dedicated roof in Bhopal.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-2afa85b elementor-widget elementor-widget-image" data-id="2afa85b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="534" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-1024x683.jpg" class="attachment-large size-large wp-image-19370" alt="Personal Training" srcset="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-1024x683.jpg 1024w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-300x200.jpg 300w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-768x512.jpg 768w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-1536x1024.jpg 1536w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-2048x1365.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-89d320b e-con-full e-flex e-con e-child" data-id="89d320b" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-546e418 e-con-full e-flex e-con e-child" data-id="546e418" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-291f6ed elementor-widget elementor-widget-text-editor" data-id="291f6ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01  </span></h5><h5 class="font-display text-3xl text-primary/50"><b>Certified &amp; Background-Checked Coaches</b><b><br /></b></h5><h5 class="mt-3 text-sm text-foreground/85"><span style="font-weight: 400;">Work alongside top-tier fitness professionals with real athletic backgrounds, exercise science expertise, and proven transformation track records.</span></h5>								</div>
-				</div>
-				<div class="elementor-element elementor-element-9148e5d elementor-widget elementor-widget-text-editor" data-id="9148e5d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02  </span></h5><h5 class="font-display text-3xl text-primary/50"><b>Scientific Progress Tracking</b></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Regular body composition analysis, strength benchmarks, and mobility assessments to measure real, objective physical improvements week after week.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-fc3e3ed elementor-widget elementor-widget-text-editor" data-id="fc3e3ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03  </span></h5><h5 class="font-display text-3xl text-primary/50"><b>Integrated Multi-Discipline Access</b><b><br /></b></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Incorporate strength training, boxing conditioning, mobility work, and thermal recovery into your customized 1-on-1 regimen.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-84feedc elementor-widget elementor-widget-text-editor" data-id="84feedc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04  </span></h5><h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;"><strong> </strong></span><strong><b>Supportive, Non-Intimidating Environment</b><b><br /></b></strong></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A welcoming space where coaches meet you where you are — encouraging, focused, and genuinely committed to your personal evolution.</span></li></ul>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-f5b4492 e-flex e-con-boxed e-con e-parent" data-id="f5b4492" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-a9783e3 e-grid e-con-full e-con e-child" data-id="a9783e3" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-bcb6359 e-con-full e-flex e-con e-child" data-id="bcb6359" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-fa59cb8 elementor-widget elementor-widget-image" data-id="fa59cb8" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="534" src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-1024x683.jpg" class="attachment-large size-large wp-image-19335" alt="" srcset="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-1024x683.jpg 1024w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-300x200.jpg 300w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-768x512.jpg 768w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-1536x1024.jpg 1536w, <?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-2048x1365.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-500eacf e-con-full e-flex e-con e-child" data-id="500eacf" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4a38bd2 elementor-widget elementor-widget-text-editor" data-id="4a38bd2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  The Fitbliss Floor</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-79b8ec6 elementor-widget elementor-widget-heading" data-id="79b8ec6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">YOUR GOALS, OUR EXPERT ROADMAP.
-</h1>				</div>
-				</div>
-				<div class="elementor-element elementor-element-a17309a elementor-widget elementor-widget-text-editor" data-id="a17309a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">No cookie-cutter routines. Real coaching combining biomechanical expertise, world-class equipment, and personal dedication to help you build the best version of yourself.</span></li></ul>								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-7b296d6 elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="7b296d6" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-5ce826f e-con-full e-flex e-con e-child" data-id="5ce826f" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-c08cdee e-grid e-con-full e-con e-child" data-id="c08cdee" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-e3fb20a e-con-full e-flex e-con e-child" data-id="e3fb20a" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-f32710c elementor-widget elementor-widget-text-editor" data-id="f32710c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Equipment &amp; tools</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-e216875 elementor-widget elementor-widget-heading" data-id="e216875" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Globally engineered.
-Precisely selected.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-46de998 e-con-full e-flex e-con e-child" data-id="46de998" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-354908a elementor-widget elementor-widget-text-editor" data-id="354908a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Every machine, bar and platform on our floor is chosen from the world&#8217;s most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. No compromises on the equipment your training deserves.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-968e697 e-con-full e-flex e-con e-child" data-id="968e697" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-5ae585d e-con-full e-flex e-con e-child" data-id="5ae585d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-fdf3b2b elementor-widget elementor-widget-html" data-id="fdf3b2b" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Hammer Strength</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Hammer Strength Plate-Loaded</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-93fbf6e e-con-full e-flex e-con e-child" data-id="93fbf6e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-fdcb7f7 elementor-widget elementor-widget-text-editor" data-id="fdcb7f7" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The gold standard for plate-loaded strength — biomechanically engineered iso-lateral chest, row, shoulder and leg presses for pure, joint-friendly loading.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f60d6f9 e-con-full e-flex e-con e-child" data-id="f60d6f9" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-3726c14 elementor-widget elementor-widget-html" data-id="3726c14" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg"  style="width:100%;height:100%;object-fit:cover;display:block;"  />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Life Fitness Selectorized Line</div>
-    
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-0544c52 e-con-full e-flex e-con e-child" data-id="0544c52" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-300ad77 elementor-widget elementor-widget-text-editor" data-id="300ad77" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A complete selectorized circuit — chest, back, shoulders, arms and legs — with smooth pin-loaded resistance and effortless adjustments for every body.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-b8d696c e-con-full e-flex e-con e-child" data-id="b8d696c" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-470a4d5 elementor-widget elementor-widget-html" data-id="470a4d5" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">SYNRGY360 Functional Rig</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-addfc95 e-con-full e-flex e-con e-child" data-id="addfc95" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ff591ed elementor-widget elementor-widget-text-editor" data-id="ff591ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The versatile SYNRGY360 training system — a limitless functional playground for suspension, battle ropes, bodyweight, mobility and small-group circuits.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-a382563 e-con-full e-flex e-con e-child" data-id="a382563" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-327647c elementor-widget elementor-widget-html" data-id="327647c" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Cardio-Deck.webp" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Life Fitness Cardio Deck</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-af6a7c0 e-con-full e-flex e-con e-child" data-id="af6a7c0" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-f647018 elementor-widget elementor-widget-text-editor" data-id="f647018" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Treadmills, cross trainers, upright and recumbent bikes from Life Fitness — the global benchmark for cardio comfort, console clarity and durability.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-4635d8b e-con-full e-flex e-con e-child" data-id="4635d8b" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-18f85f4 elementor-widget elementor-widget-html" data-id="18f85f4" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Barbells-Platforms.webp" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Olympic Barbells & Platforms</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-30ee919 e-con-full e-flex e-con e-child" data-id="30ee919" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-cf24b35 elementor-widget elementor-widget-text-editor" data-id="cf24b35" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Competition-spec Olympic bars, calibrated plates and dedicated lifting platforms for cleans, snatches, deadlifts and heavy compound work.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-74d9209 e-con-full e-flex e-con e-child" data-id="74d9209" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-ce15a3e elementor-widget elementor-widget-html" data-id="ce15a3e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Cable-Crossover-Free-Weights-1.webp" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Cable Crossover & Free Weights</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-2c5767c e-con-full e-flex e-con e-child" data-id="2c5767c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-48ad4d2 elementor-widget elementor-widget-text-editor" data-id="48ad4d2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Dual-adjustable cable crossovers, a full rubber-hex dumbbell wall, benches, squat racks and functional accessories — everything a serious lifter looks for.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-bebd0bf e-flex e-con-boxed e-con e-parent" data-id="bebd0bf" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-b8240b7 e-con-full e-flex e-con e-child" data-id="b8240b7" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-76adc01 elementor-widget elementor-widget-text-editor" data-id="76adc01" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Our Other Services</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-7df5b83 elementor-widget elementor-widget-heading" data-id="7df5b83" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Cross-train your day.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-bb1cb4a e-con-full e-flex e-con e-child" data-id="bb1cb4a" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-8f4ae1d e-grid e-con-full e-con e-child" data-id="8f4ae1d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-827a5ad elementor-widget elementor-widget-text-editor" data-id="827a5ad" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01  </span><strong><span style="font-size: 16px;">Boxing</span></strong></h5><p class="mt-3 text-sm text-foreground/85">State-of-the-art ring, expert coaches, real self-defence.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-00e363b elementor-widget elementor-widget-text-editor" data-id="00e363b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02  </span><strong><span style="font-size: 16px;">Kickboxing</span></strong></h5><div class="flex items-baseline justify-between">Explosive combinations, footwork and full-body conditioning.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-12d9bf9 elementor-widget elementor-widget-text-editor" data-id="12d9bf9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03  </span><strong><span style="font-size: 16px;">MMA</span></strong></h5><div class="flex items-baseline justify-between">BJJ, Muay Thai and wrestling — a complete fighter&#8217;s education.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-cce0b63 elementor-widget elementor-widget-text-editor" data-id="cce0b63" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04  </span><strong><span style="font-size: 16px;">Kids &amp; Cadets</span></strong></h5><div class="flex items-baseline justify-between">A fun, safe path to confidence, focus and discipline.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-0409e35 elementor-widget elementor-widget-text-editor" data-id="0409e35" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">05  </span><strong><span style="font-size: 16px;">Adults</span></strong></h5><div class="flex items-baseline justify-between">A challenging, supportive floor — beginners to advanced.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-11aab53 elementor-widget elementor-widget-text-editor" data-id="11aab53" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">06   </span><span style="font-size: 16px;">Women&#8217;s Batch</span></h5><div class="flex items-baseline justify-between">Female-led strength, self-defence and sisterhood.</div>								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-9544372 e-flex e-con-boxed e-con e-parent" data-id="9544372" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-09279f5 e-grid e-con-full e-con e-child" data-id="09279f5" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-9c90fad e-con-full e-flex e-con e-child" data-id="9c90fad" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-5b29f35 elementor-widget elementor-widget-text-editor" data-id="5b29f35" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  FAQ</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-1117773 elementor-widget elementor-widget-heading" data-id="1117773" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Questions,
-answered.</h1>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-0c57da6 e-con-full e-flex e-con e-child" data-id="0c57da6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-545cddd elementor-widget elementor-widget-qi_addons_for_elementor_accordion" data-id="545cddd" data-element_type="widget" data-e-type="widget" data-widget_type="qi_addons_for_elementor_accordion.default">
-				<div class="elementor-widget-container">
-					<div class="qodef-shortcode qodef-m qodef-qi-accordion qodef-qi-clear qodef-behavior--accordion qodef-layout--simple qodef-style--boxed qodef-height--auto">
-	<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Who is personal training suitable for at FitBliss?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400">Personal training is ideal for everyone — from complete beginners needing step-by-step guidance to advanced athletes looking to break plateaus or recover safely from past injuries.</span></li></ul>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">How are personal training sessions structured?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400">Each 60-minute session includes a targeted dynamic warm-up, skill or strength focus, high-efficiency core/metabolic work, and a guided cool-down stretch.</span></li></ul>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">How often should I train?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<p>2–3 sessions a week is a strong starting point. Your coach will help you build a cadence that fits your goals and calendar.</p>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Do I get diet plans along with my personal training sessions?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<p><span style="font-weight: 400">Yes! Your personal trainer works with you to establish macro targets, practical meal strategies, and lifestyle habits to complement your training.</span></p>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">How many times a week should I meet with my personal trainer?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<p><span style="font-weight: 400">Most clients achieve optimal results with 2 to 4 sessions per week, depending on their fitness baseline, timeline, and personal schedule.</span></p>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Can I try a personal training session before committing to a full package?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400"> Absolutely! We offer initial consultation and movement assessment sessions so you can experience our coaching approach firsthand.</span></li></ul>	</div>
-</div>
-</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-a60866d e-flex e-con-boxed e-con e-parent" data-id="a60866d" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-e0fbbdc e-grid e-con-full e-con e-child" data-id="e0fbbdc" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-8a4c251 e-con-full e-flex e-con e-child" data-id="8a4c251" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-12d5f29 elementor-widget elementor-widget-heading" data-id="12d5f29" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Ready to train?</h1>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-9f4f31f e-con-full e-flex e-con e-child" data-id="9f4f31f" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-1faa92f elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button" data-id="1faa92f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Whatsapp Us</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-2a5460a elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="2a5460a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="<?php echo $base_url; ?>/contact/">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Join a class</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		
-		
 			</div>
 
-	
-</main>
+			<div class="fbpt-cards-grid">
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">01</div>
+					<h3 class="fbpt-card-title">TAILORED WORKOUT PROGRAMMING</h3>
+					<p class="fbpt-card-desc">Every rep, set, and exercise is custom-designed around your unique fitness level, injury history, movement baseline, and specific personal goals.</p>
+				</div>
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">02</div>
+					<h3 class="fbpt-card-title">UNCOMPROMISING FORM &amp; SAFETY</h3>
+					<p class="fbpt-card-desc">Continuous expert eye on your biomechanics ensures perfect technique, eliminating joint strain and protecting you from exercise-induced injuries.</p>
+				</div>
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">03</div>
+					<h3 class="fbpt-card-title">ACCELERATED RESULTS &amp; FAT LOSS</h3>
+					<p class="fbpt-card-desc">Periodized strength circuits, metabolic conditioning, and structured progressive overload help you smash through plateaus twice as fast.</p>
+				</div>
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">04</div>
+					<h3 class="fbpt-card-title">CUSTOMIZED NUTRITIONAL GUIDANCE</h3>
+					<p class="fbpt-card-desc">Receive practical, sustainable dietary strategies aligned with your training intensity to fuel muscle gain, fat loss, and lasting energy.</p>
+				</div>
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">05</div>
+					<h3 class="fbpt-card-title">CONSTANT ACCOUNTABILITY &amp; MOTIVATION</h3>
+					<p class="fbpt-card-desc">Your coach tracks your progress, adjusts targets, and keeps you consistently committed, turning excuses into measurable physical milestones.</p>
+				</div>
+				<div class="fbpt-card">
+					<div class="fbpt-card-num">06</div>
+					<h3 class="fbpt-card-title">ADAPTIVE LIFESTYLE COACHING</h3>
+					<p class="fbpt-card-desc">Whether you travel frequently, manage long work hours, or face physical limitations, your program adapts seamlessly to keep you on track.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 2: FOCUS. DRIVE. -->
+<div class="fbpt-section" style="background:#010303;">
+	<div class="fbpt-ambient" style="top:30%;right:-10%;"></div>
+	<div class="fbpt-container">
+		<div class="fbpt-floor-grid">
+			<div>
+				<span class="fbpt-tag">— Why Choose Us</span>
+				<h2 class="fbpt-title">
+					FOCUS.<br/>
+					<span>DRIVE.</span>
+				</h2>
+				<p class="fbpt-desc">
+					Certified elite trainers, comprehensive body composition tracking, and complete access to world-class facilities under one dedicated roof in Bhopal.
+				</p>
+				<div class="fbpt-media-card">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3593-1024x683.jpg" alt="Personal Training at FitBliss" loading="lazy" />
+				</div>
+			</div>
+
+			<div class="fbpt-pillar-list">
+				<div class="fbpt-pillar-item">
+					<div class="fbpt-pillar-num">01</div>
+					<div class="fbpt-pillar-content">
+						<h3 class="fbpt-pillar-title">Certified &amp; Background-Checked Coaches</h3>
+						<p class="fbpt-pillar-desc">Work alongside top-tier fitness professionals with real athletic backgrounds, exercise science expertise, and proven transformation track records.</p>
+					</div>
+				</div>
+				<div class="fbpt-pillar-item">
+					<div class="fbpt-pillar-num">02</div>
+					<div class="fbpt-pillar-content">
+						<h3 class="fbpt-pillar-title">Scientific Progress Tracking</h3>
+						<p class="fbpt-pillar-desc">Regular body composition analysis, strength benchmarks, and mobility assessments to measure real, objective physical improvements week after week.</p>
+					</div>
+				</div>
+				<div class="fbpt-pillar-item">
+					<div class="fbpt-pillar-num">03</div>
+					<div class="fbpt-pillar-content">
+						<h3 class="fbpt-pillar-title">Integrated Multi-Discipline Access</h3>
+						<p class="fbpt-pillar-desc">Incorporate strength training, boxing conditioning, mobility work, and thermal recovery into your customized 1-on-1 regimen.</p>
+					</div>
+				</div>
+				<div class="fbpt-pillar-item">
+					<div class="fbpt-pillar-num">04</div>
+					<div class="fbpt-pillar-content">
+						<h3 class="fbpt-pillar-title">Supportive, Non-Intimidating Environment</h3>
+						<p class="fbpt-pillar-desc">A welcoming space where coaches meet you where you are — encouraging, focused, and genuinely committed to your personal evolution.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 3: YOUR GOALS, OUR EXPERT ROADMAP. -->
+<div class="fbpt-section" style="background:#020505;">
+	<div class="fbpt-container">
+		<div class="fbpt-dest-grid">
+			<div class="fbpt-media-card">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/DSC_3558-1024x683.jpg" alt="Your goals our expert roadmap at FitBliss" loading="lazy" />
+			</div>
+			<div>
+				<span class="fbpt-tag">— The Fitbliss Floor</span>
+				<h2 class="fbpt-title">
+					YOUR GOALS,<br/>
+					<span>OUR EXPERT ROADMAP.</span>
+				</h2>
+				<p class="fbpt-desc">
+					No cookie-cutter routines. Real coaching combining biomechanical expertise, world-class equipment, and personal dedication to help you build the best version of yourself.
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 4: Globally engineered equipment showcase -->
+<div class="fbpt-section" style="background:#010303;">
+	<div class="fbpt-ambient" style="top:25%;left:50%;transform:translateX(-50%);"></div>
+	<div class="fbpt-container">
+		<span class="fbpt-tag">— Equipment &amp; tools</span>
+		<h2 class="fbpt-title fbpt-equip-title">
+			Globally engineered. <span>Precisely selected.</span>
+		</h2>
+		<p class="fbpt-desc fbpt-equip-desc-lead">
+			Every machine, bar and platform on our floor is chosen from the world's leading manufacturers — engineered for biomechanical accuracy, joint safety and peak training results.
+		</p>
+
+		<div class="fbpt-equip-grid">
+			<!-- 1 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" alt="Hammer Strength Plate-Loaded" loading="lazy" />
+					<div class="fbpt-equip-badge">USA · Hammer Strength</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">Hammer Strength Plate-Loaded</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">The gold standard for plate-loaded strength — biomechanically engineered iso-lateral chest, row, shoulder and leg presses for pure, joint-friendly loading.</p>
+				</div>
+			</div>
+
+			<!-- 2 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg" alt="Life Fitness Selectorized Line" loading="lazy" />
+					<div class="fbpt-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">Life Fitness Selectorized Line</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">A complete selectorized circuit — chest, back, shoulders, arms and legs — with smooth pin-loaded resistance and effortless adjustments for every body.</p>
+				</div>
+			</div>
+
+			<!-- 3 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" alt="SYNRGY360 Functional Rig" loading="lazy" />
+					<div class="fbpt-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">SYNRGY360 Functional Rig</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">The versatile SYNRGY360 training system — a limitless functional playground for suspension, battle ropes, bodyweight, mobility and small-group circuits.</p>
+				</div>
+			</div>
+
+			<!-- 4 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Cardio-Deck.webp" alt="Life Fitness Cardio Deck" loading="lazy" />
+					<div class="fbpt-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">Life Fitness Cardio Deck</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">Treadmills, cross trainers, upright and recumbent bikes from Life Fitness — the global benchmark for cardio comfort, console clarity and durability.</p>
+				</div>
+			</div>
+
+			<!-- 5 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Barbells-Platforms.webp" alt="Olympic Barbells & Platforms" loading="lazy" />
+					<div class="fbpt-equip-badge">Imported</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">Olympic Barbells &amp; Platforms</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">Competition-spec Olympic bars, calibrated plates and dedicated lifting platforms for cleans, snatches, deadlifts and heavy compound work.</p>
+				</div>
+			</div>
+
+			<!-- 6 -->
+			<div class="fbpt-equip-card">
+				<div class="fbpt-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Cable-Crossover-Free-Weights-1.webp" alt="Cable Crossover & Free Weights" loading="lazy" />
+					<div class="fbpt-equip-badge">Imported</div>
+				</div>
+				<div class="fbpt-equip-body">
+					<h3 class="fbpt-equip-name">Cable Crossover &amp; Free Weights</h3>
+					<div class="fbpt-equip-divider"></div>
+					<p class="fbpt-equip-desc">Dual-adjustable cable crossovers, a full rubber-hex dumbbell wall, benches, squat racks and functional accessories — everything a serious lifter looks for.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 5: Cross-train your day -->
+<div class="fbpt-section" style="background:#020505;">
+	<div class="fbpt-container">
+		<span class="fbpt-tag">— Our Other Services</span>
+		<h2 class="fbpt-title">
+			Cross-train<br/>
+			<span>your day.</span>
+		</h2>
+
+		<div class="fbpt-cross-grid">
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">01</div>
+				<h3 class="fbpt-card-title">Boxing</h3>
+				<p class="fbpt-card-desc">State-of-the-art ring, expert coaches, real self-defence.</p>
+			</div>
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">02</div>
+				<h3 class="fbpt-card-title">Kickboxing</h3>
+				<p class="fbpt-card-desc">Explosive combinations, footwork and full-body conditioning.</p>
+			</div>
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">03</div>
+				<h3 class="fbpt-card-title">MMA</h3>
+				<p class="fbpt-card-desc">BJJ, Muay Thai and wrestling — a complete fighter's education.</p>
+			</div>
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">04</div>
+				<h3 class="fbpt-card-title">Kids &amp; Cadets</h3>
+				<p class="fbpt-card-desc">A fun, safe path to confidence, focus and discipline.</p>
+			</div>
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">05</div>
+				<h3 class="fbpt-card-title">Adults</h3>
+				<p class="fbpt-card-desc">A challenging, supportive floor — beginners to advanced.</p>
+			</div>
+			<div class="fbpt-card">
+				<div class="fbpt-card-num">06</div>
+				<h3 class="fbpt-card-title">Women's Batch</h3>
+				<p class="fbpt-card-desc">Female-led strength, self-defence and sisterhood.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 6: FAQ Accordion -->
+<div class="fbpt-section fbpt-faq-section" style="background:#010303;">
+	<div class="fbpt-container">
+		<div class="fbpt-faq-grid">
+			<div class="fbpt-faq-col">
+				<div class="fbpt-faq-sticky">
+					<span class="fbpt-tag">— FAQ</span>
+					<h2 class="fbpt-title">
+						Questions,<br/>
+						<span>answered.</span>
+					</h2>
+				</div>
+			</div>
+
+			<div class="fbpt-faq-list">
+				<div class="fbpt-faq-item active">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">Who is personal training suitable for at FitBliss?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						Personal training is ideal for everyone — from complete beginners needing step-by-step guidance to advanced athletes looking to break plateaus or recover safely from past injuries.
+					</div>
+				</div>
+
+				<div class="fbpt-faq-item">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">How are personal training sessions structured?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						Each 60-minute session includes a targeted dynamic warm-up, skill or strength focus, high-efficiency core/metabolic work, and a guided cool-down stretch.
+					</div>
+				</div>
+
+				<div class="fbpt-faq-item">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">How often should I train?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						2–3 sessions a week is a strong starting point. Your coach will help you build a cadence that fits your goals and calendar.
+					</div>
+				</div>
+
+				<div class="fbpt-faq-item">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">Do I get diet plans along with my personal training sessions?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						Yes! Your personal trainer works with you to establish macro targets, practical meal strategies, and lifestyle habits to complement your training.
+					</div>
+				</div>
+
+				<div class="fbpt-faq-item">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">How many times a week should I meet with my personal trainer?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						Most clients achieve optimal results with 2 to 4 sessions per week, depending on their fitness baseline, timeline, and personal schedule.
+					</div>
+				</div>
+
+				<div class="fbpt-faq-item">
+					<div class="fbpt-faq-header">
+						<h3 class="fbpt-faq-q">Can I try a personal training session before committing to a full package?</h3>
+						<div class="fbpt-faq-icon">+</div>
+					</div>
+					<div class="fbpt-faq-answer">
+						Absolutely! We offer initial consultation and movement assessment sessions so you can experience our coaching approach firsthand.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+document.querySelectorAll('.fbpt-faq-header').forEach(header => {
+	header.addEventListener('click', () => {
+		const item = header.parentElement;
+		const isActive = item.classList.contains('active');
+		document.querySelectorAll('.fbpt-faq-item').forEach(i => i.classList.remove('active'));
+		if (!isActive) item.classList.add('active');
+	});
+});
+</script>
+
+<!-- SECTION 7: Bottom CTA -->
+<div class="fbpt-cta-wrap">
+	<div class="fbpt-cta-ambient"></div>
+	<div class="fbpt-cta-container">
+		<h2 class="fbpt-cta-title">
+			Ready to train?<br/>
+			<span>Start today.</span>
+		</h2>
+		<div class="fbpt-cta-buttons">
+			<a href="<?php echo $base_url; ?>/contact/" class="fbpt-btn fbpt-btn-primary">
+				Join a class
+			</a>
+			<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbpt-btn fbpt-btn-secondary">
+				<svg width="15" height="15" viewBox="0 0 448 512" fill="currentColor" style="display:inline-block;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+				WhatsApp Us
+			</a>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+
+	</main>
 
 			<footer data-elementor-type="footer" data-elementor-id="29" class="elementor elementor-29 elementor-location-footer" data-elementor-post-type="elementor_library">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-5f1f9a04 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f1f9a04" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

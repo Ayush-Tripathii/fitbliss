@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/security_shield.php';
 ?>
@@ -60,6 +60,23 @@ require_once __DIR__ . '/../../includes/security_shield.php';
 
     body {
         overflow-x: clip;
+    }
+
+    /* Fix full-width layout on Equipment page to eliminate right-side blank space */
+    .elementor-element.elementor-element-d43e166 {
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .elementor-element.elementor-element-3bdb065 {
+        width: 100% !important;
+        flex: 1 1 100% !important;
+    }
+
+    .elementor-19792,
+    .elementor-19792 .elementor-element.elementor-element-2f142189 {
+        width: 100% !important;
+        max-width: 100% !important;
     }
 
         .header {
@@ -1489,464 +1506,588 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-2038882f e-con-full e-flex e-con e-child" data-id="2038882f" data-element_type="container" data-e-type="container" id="gym" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-61e972a1 elementor-widget elementor-widget-html" data-id="61e972a1" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="padding:40px 40px;"><div style="max-width:1320px;margin:0 auto;">
-  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px;">
-    <div>
-      <div style="color:#37c080;font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;margin-bottom:0;">— Gym & Strength</div>
-      <h2 style="margin:14px 0 0;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,5vw,4rem);
-                 line-height:.9;color:#f4f2ea;font-weight:400;text-transform:uppercase;">
-        Globally engineered.<br/><span style="color:#37c080;">Precisely selected.</span></h2>
-    </div>
-    <p style="margin:0;max-width:380px;font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.7;color:#9b998b;">Every machine, bar and platform on our gym floor is chosen from the world's most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. FitBliss has one of the largest collections of world-class gym equipment in Madhya Pradesh.</p>
-  </div>
- 
+		<style>
+/* ─── FITBLISS EQUIPMENT & TOOLS MODERN STYLING ─── */
+.fbequip-section {
+	background: #050a0b;
+	padding: 90px 24px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.fbequip-section::after {
+	content: '';
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(55, 192, 128, 0.25), transparent);
+}
+
+.fbequip-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+.fbequip-header-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 28px;
+	margin-bottom: 32px;
+}
+
+.fbequip-kicker {
+	color: #37c080;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+}
+
+.fbequip-title {
+	margin: 12px 0 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(2.4rem, 5vw, 4.2rem);
+	line-height: 0.92;
+	color: #f4f2ea;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.fbequip-title-accent {
+	color: #37c080;
+}
+
+.fbequip-title-single {
+	font-size: clamp(24px, 3.2vw, 44px) !important;
+	line-height: 1.15 !important;
+	white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+	.fbequip-title-single {
+		white-space: normal;
+		font-size: clamp(24px, 6vw, 34px) !important;
+	}
+}
+
+.fbequip-header-desc {
+	margin: 0;
+	max-width: 440px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	line-height: 1.7;
+	color: rgba(244, 242, 234, 0.72);
+}
+
+.fbequip-action-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-bottom: 48px;
+}
+
+.fbequip-btn {
+	display: inline-flex;
+	align-items: center;
+	padding: 13px 26px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbequip-btn-primary {
+	background: #37c080;
+	color: #050a0b !important;
+	border: 1px solid #37c080;
+}
+
+.fbequip-btn-primary:hover {
+	background: #5eeaa8;
+	border-color: #5eeaa8;
+	color: #050a0b !important;
+	transform: translateY(-2px);
+	box-shadow: 0 10px 25px rgba(55, 192, 128, 0.35);
+}
+
+.fbequip-btn-outline {
+	background: transparent;
+	color: #f4f2ea !important;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.fbequip-btn-outline:hover {
+	border-color: #37c080;
+	color: #37c080 !important;
+	background: rgba(55, 192, 128, 0.08);
+	transform: translateY(-2px);
+}
+
+.fbequip-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 26px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+	.fbequip-grid {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+	}
+}
+
+@media (max-width: 640px) {
+	.fbequip-section {
+		padding: 60px 16px;
+	}
+	.fbequip-grid {
+		grid-template-columns: 1fr;
+		gap: 18px;
+	}
+}
+
+.fbequip-card {
+	position: relative;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	border-radius: 0 !important;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.fbequip-card:hover {
+	transform: translateY(-8px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.18);
+}
+
+.fbequip-media {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	background: #020405;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.fbequip-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	display: block;
+	filter: brightness(0.95);
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+	padding: 16px;
+	box-sizing: border-box;
+}
+
+.fbequip-card:hover .fbequip-media img {
+	transform: scale(1.08);
+	filter: brightness(1.05);
+}
+
+.fbequip-badge {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	background: rgba(1, 3, 3, 0.85);
+	border: 1px solid rgba(55, 192, 128, 0.5);
+	backdrop-filter: blur(8px);
+	padding: 5px 12px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #37c080;
+	z-index: 2;
+	transition: all 0.3s ease;
+}
+
+.fbequip-card:hover .fbequip-badge {
+	background: rgba(55, 192, 128, 0.2);
+	border-color: #5eeaa8;
+	color: #5eeaa8;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.4);
+}
+
+.fbequip-body {
+	padding: 24px 22px 26px 22px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background: transparent;
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.fbequip-name {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 24px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 1.15;
+	margin: 0 0 10px 0;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.fbequip-card:hover .fbequip-name {
+	color: #3ee69a !important;
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.45);
+}
+
+.fbequip-divider {
+	width: 32px;
+	height: 2px;
+	background: #37c080;
+	margin-bottom: 14px;
+	transition: width 0.35s ease, background 0.35s ease;
+}
+
+.fbequip-card:hover .fbequip-divider {
+	width: 54px;
+	background: #5eeaa8;
+	box-shadow: 0 0 10px rgba(55, 192, 128, 0.6);
+}
+
+.fbequip-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.68;
+	color: rgba(244, 242, 234, 0.72);
+	transition: color 0.3s ease;
+}
+
+.fbequip-card:hover .fbequip-desc {
+	color: rgba(244, 242, 234, 0.95);
+}
+</style>
+
+<!-- SECTION 1: GYM & STRENGTH -->
+<div class="fbequip-section" id="gym">
+	<div class="fbequip-container">
+		<div class="fbequip-header-block" style="margin-bottom: 32px;">
+			<div class="fbequip-kicker">— Gym & Strength</div>
+			<h2 class="fbequip-title fbequip-title-single" style="margin: 10px 0 16px 0;">
+				Globally engineered. <span class="fbequip-title-accent">Precisely selected.</span>
+			</h2>
+			<p class="fbequip-header-desc" style="max-width: 880px; margin: 0; font-size: 15px; line-height: 1.75;">
+				Every machine, bar and platform on our gym floor is chosen from the world's most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. FitBliss has one of the largest collections of world-class gym equipment in Madhya Pradesh.
+			</p>
+		</div>
+
+		<div class="fbequip-action-row">
+			<a href="https://wa.me/917470787012" target="_blank" rel="noopener noreferrer" class="fbequip-btn fbequip-btn-primary">Enquire on WhatsApp →</a>
+			<a href="tel:+917470787014" class="fbequip-btn fbequip-btn-outline">Call the club</a>
+		</div>
+
+		<div class="fbequip-grid">
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" alt="Aspire Treadmill" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Cardio</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Aspire Treadmill</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A versatile treadmill with advanced biomechanics, touchscreen console options and Flex Deck shock absorption, reducing knee and joint stress by up to 30%.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png" alt="Aspire Elliptical" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Cardio</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Aspire Elliptical</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A smooth, durable elliptical for all fitness levels, featuring 25 resistance levels and smart console options for effective, low-impact cardio training.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="HD Air Bike" loading="lazy"/>
+				<div class="fbequip-badge">Hammer Strength · HIIT</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">HD Air Bike</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A rugged, high-performance air bike built for intense workouts, delivering full-body conditioning, powerful resistance and long-lasting durability for demanding training sessions.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="IC5 Indoor Cycle" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Cycling</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">IC5 Indoor Cycle</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">An advanced indoor cycle with magnetic resistance, Bluetooth and ANT+ connectivity, plus Coach By Color guidance for engaging, data-driven workouts.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/77de83c9-fa69-46f1-b402-63454affaee4.png" alt="PowerMill Climber" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Climber</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">PowerMill Climber</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A challenging stair climber with 26 speeds, spacious steps and anti-toe-pinch protection for safe, high-intensity or moderate cardio workouts.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/790ca760-1b8c-4258-908c-410f418031b4.png" alt="Heat Performance Row" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Rower</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Heat Performance Row</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A modern performance rower with digital feedback and wireless connectivity, offering power, interval, heart-rate and competitive race training programmes.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/74d81711-4ab7-4d65-96cb-5b705b6ae2bf.png" alt="HD Athletic NX Half Rack" loading="lazy"/>
+				<div class="fbequip-badge">Hammer Strength · Rack</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">HD Athletic NX Half Rack</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A space-efficient strength rack with integrated weight storage, ideal for safe, organised and versatile barbell training in compact or high-performance workout areas.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/09a18797-893f-4971-b94c-d63cfba0b72b.png" alt="Iso-Lateral Bench Press" loading="lazy"/>
+				<div class="fbequip-badge">Hammer Strength · Plate-Loaded</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Iso-Lateral Bench Press</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">An ergonomic plate-loaded press with independent arm movement, promoting balanced strength, natural pressing motion, improved muscle activation and reduced joint strain.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/d62bf7cc-d68f-437d-87a6-848b12c066d1.jpg" alt="Iso-Lateral High Row" loading="lazy"/>
+				<div class="fbequip-badge">Hammer Strength · Plate-Loaded</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Iso-Lateral High Row</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A powerful upper-body machine targeting the lats and upper back, with independent arm movement for balanced strength and controlled range of motion.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Dual-Adjustable-Pulley-with-Stabilization.png" alt="Dual Adjustable Pulley with Stabilization" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Cables</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Dual Adjustable Pulley with Stabilization</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A versatile cable system with low starting resistance, dynamic movement options and an adjustable stability pad for controlled, supported full-body training.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Decline-Bench.png" alt="Olympic Decline Bench" loading="lazy"/>
+				<div class="fbequip-badge">Hammer Strength · Benches</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Olympic Decline Bench</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A stable decline bench with protective racking and an adjustable kneepad, delivering quieter, safer and more precise pressing for users of different sizes.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/4d5117dc-0ca1-4083-a597-b48e12663ca1.png" alt="Training Tires" loading="lazy"/>
+				<div class="fbequip-badge">Functional · Power</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Training Tires</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">Versatile training tires in multiple weights, ideal for developing strength, stamina and explosive power among beginners as well as experienced athletes.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/397-481-synrgy360-t-combo-package-plat.webp" alt="SYNRGY360" loading="lazy"/>
+				<div class="fbequip-badge">Life Fitness · Rig</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">SYNRGY360</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">A customisable modular hub for functional and small-group workouts, offering multiple training stations, suspension zones and durable construction for varied fitness goals.</p>
+			</div>
+		</div>
+	</div>
+
+	</div>
 </div>
-<div style="max-width:1320px;margin:28px auto 0;display:flex;flex-wrap:wrap;gap:12px;"><a href="https://wa.me/917470787012" target="_blank" rel="noopener noreferrer" style="background:#37c080;color:#050a0b;padding:12px 24px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;">Enquire on WhatsApp →</a><a href="tel:+917470787014" style="background:transparent;color:#f4f2ea;border:1px solid rgba(255,255,255,0.25);padding:12px 24px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;">Call the club</a></div></div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-d9a1b97 e-grid e-con-full e-con e-child" data-id="d9a1b97" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-0e7b279 e-con-full e-flex e-con e-child" data-id="0e7b279" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-6dcd4d3 elementor-widget elementor-widget-html" data-id="6dcd4d3" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/deaeaea0-5932-488b-9dba-c8d7d3dc2a49.png" style="width:100%;height:100%;display:block;" />
- 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Aspire Treadmill</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-69b2c9b e-con-full e-flex e-con e-child" data-id="69b2c9b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-61fbbbd elementor-widget elementor-widget-text-editor" data-id="61fbbbd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A versatile treadmill with advanced biomechanics, touchscreen console options and Flex Deck shock absorption, reducing knee and joint stress by up to 30%. </p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-dca53dc e-con-full e-flex e-con e-child" data-id="dca53dc" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-656c1de elementor-widget elementor-widget-html" data-id="656c1de" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/25c2444c-c4bf-4073-a764-078f1b90a853-1.png"  style="width:100%;height:100%;display:block;"  />
 
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Aspire Elliptical</div>
-    
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-ea9acec e-con-full e-flex e-con e-child" data-id="ea9acec" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-bc09634 elementor-widget elementor-widget-text-editor" data-id="bc09634" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A smooth, durable elliptical for all fitness levels, featuring 25 resistance levels and smart console options for effective, low-impact cardio training.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-e975970 e-con-full e-flex e-con e-child" data-id="e975970" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-cd48825 elementor-widget elementor-widget-html" data-id="cd48825" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/a7bb5056-2f21-4417-ae5d-1811d546ccb4.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;display:block;" />
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">HD Air Bike</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-5e8a09b e-con-full e-flex e-con e-child" data-id="5e8a09b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-a220e5b elementor-widget elementor-widget-text-editor" data-id="a220e5b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A rugged, high-performance air bike built for intense workouts, delivering full-body conditioning, powerful resistance and long-lasting durability for demanding training sessions.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-61fe651 e-con-full e-flex e-con e-child" data-id="61fe651" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-dd45406 elementor-widget elementor-widget-html" data-id="dd45406" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/ic5-transp-bg-v1-0.png" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
- 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;"> IC5 Indoor Cycle</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-e5c4815 e-con-full e-flex e-con e-child" data-id="e5c4815" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-40e8c6f elementor-widget elementor-widget-text-editor" data-id="40e8c6f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">An advanced indoor cycle with magnetic resistance, Bluetooth and ANT+ connectivity, plus Coach By Color guidance for engaging, data-driven workouts.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-2ea72a2 e-con-full e-flex e-con e-child" data-id="2ea72a2" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-728204d elementor-widget elementor-widget-html" data-id="728204d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/77de83c9-fa69-46f1-b402-63454affaee4.png" style="width:100%;height:100%;display:block;" />
+<!-- SECTION 2: PILATES STUDIO -->
+<div class="fbequip-section" id="pilates">
+	<div class="fbequip-container">
+		<div class="fbequip-header-row">
+			<div>
+				<div class="fbequip-kicker">— Pilates Studio</div>
+				<h2 class="fbequip-title">
+					Studio-grade.<br/><span class="fbequip-title-accent">YKBI standard.</span>
+				</h2>
+			</div>
+			<p class="fbequip-header-desc">
+				Our dedicated Pilates studio is outfitted with clinical and studio-grade apparatus imported directly from the US. From full-scale Cadillac reformers to precision arc spine correctors, every piece is built for controlled, rehabilitative and athletic movement.
+			</p>
+		</div>
 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">PowerMill Climber</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-53e1c7e e-con-full e-flex e-con e-child" data-id="53e1c7e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-0c9b713 elementor-widget elementor-widget-text-editor" data-id="0c9b713" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A challenging stair climber with 26 speeds, spacious steps and anti-toe-pinch protection for safe, high-intensity or moderate cardio workouts.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-bd960a9 e-con-full e-flex e-con e-child" data-id="bd960a9" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-8a84e24 elementor-widget elementor-widget-html" data-id="8a84e24" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/790ca760-1b8c-4258-908c-410f418031b4.png" style="width:100%;height:100%;display:block;" />
+		<div class="fbequip-action-row">
+			<a href="https://wa.me/917470787012" target="_blank" rel="noopener noreferrer" class="fbequip-btn fbequip-btn-primary">Enquire on WhatsApp →</a>
+			<a href="tel:+917470787014" class="fbequip-btn fbequip-btn-outline">Call the club</a>
+		</div>
 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Heat Performance Row</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-9c0c870 e-con-full e-flex e-con e-child" data-id="9c0c870" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-24c1b10 elementor-widget elementor-widget-text-editor" data-id="24c1b10" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A modern performance rower with digital feedback and wireless connectivity, offering power, interval, heart-rate and competitive race training programmes. </p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ebd4e42 e-con-full e-flex e-con e-child" data-id="ebd4e42" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-5c200ee elementor-widget elementor-widget-html" data-id="5c200ee" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/74d81711-4ab7-4d65-96cb-5b705b6ae2bf.png" style="width:100%;height:100%;object-fit:cover;display:block;" />
+		<div class="fbequip-grid">
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Reformer.jpg" alt="Pilates Reformer" loading="lazy"/>
+				<div class="fbequip-badge">USA · Balanced Body</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Reformer</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Pilates Reformer is the most widely used Pilates apparatus. It consists of a sliding carriage, adjustable springs, ropes, and a footbar that provide variable resistance for hundreds of exercises.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Cadillac-Reformer.jpg" alt="Pilates Cadillac Reformer" loading="lazy"/>
+				<div class="fbequip-badge">USA · Trapeze</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Cadillac Reformer</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Cadillac Reformer combines a traditional reformer with a trapeze table. It includes a metal frame, springs, bars, straps, and hanging attachments for advanced rehabilitation and Pilates exercises.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-EXO-Chair.jpg" alt="Pilates EXO Chair" loading="lazy"/>
+				<div class="fbequip-badge">USA · Chair</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates EXO Chair</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The EXO Chair is a compact Pilates apparatus with a spring-loaded pedal that provides resistance for upper and lower body exercises.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Combo-Chair.jpg" alt="Pilates Combo Chair" loading="lazy"/>
+				<div class="fbequip-badge">USA · Chair</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Combo Chair</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Combo Chair is a versatile Pilates chair featuring split pedals, adjustable springs, and multiple resistance levels, allowing a wider range of exercises than a standard chair.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Form-Arc-Spine-Corrector.jpg" alt="Form Arc Spine Corrector" loading="lazy"/>
+				<div class="fbequip-badge">USA · Spine</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Form Arc Spine Corrector</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Form Arc Spine Corrector is a curved support used to improve spinal alignment, posture, and flexibility while strengthening the abdominal and back muscles.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Flowin-Mat.jpg" alt="Pilates Flowin Mat" loading="lazy"/>
+				<div class="fbequip-badge">Imported · Friction</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Flowin Mat</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Flowin Mat is a low-friction sliding training system that uses body weight and friction for resistance training.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Togo-Ball.jpg" alt="Pilates Togo Ball" loading="lazy"/>
+				<div class="fbequip-badge">Imported · Balance</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Togo Ball</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Togo Ball is a small inflatable Pilates ball used to increase stability, activate deep muscles, and improve body awareness.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Ring.jpg" alt="Pilates Ring (Magic Circle)" loading="lazy"/>
+				<div class="fbequip-badge">Imported · Core</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Ring (Magic Circle)</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Pilates Ring, also known as the Magic Circle, is a flexible resistance ring with padded handles used to tone the arms, legs, chest, and core.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-MOTR.jpg" alt="Pilates MOTR" loading="lazy"/>
+				<div class="fbequip-badge">Imported · Roller</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates MOTR</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The MOTR (Movement on the Roller) combines a foam roller with resistance cords, allowing users to perform balance, strength, mobility, and cardiovascular exercises.</p>
+			</div>
+		</div>
+		<div class="fbequip-card">
+			<div class="fbequip-media">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Jump-Board.jpg" alt="Pilates Jump Board" loading="lazy"/>
+				<div class="fbequip-badge">Imported · Plyo</div>
+			</div>
+			<div class="fbequip-body">
+				<h3 class="fbequip-name">Pilates Jump Board</h3>
+				<div class="fbequip-divider"></div>
+				<p class="fbequip-desc">The Jump Board is an attachment fitted to a Pilates Reformer that enables low-impact jumping and plyometric exercises while lying on the reformer.</p>
+			</div>
+		</div>
+	</div>
 
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">HD Athletic NX Half Rack</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-989fd10 e-con-full e-flex e-con e-child" data-id="989fd10" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-ad5345d elementor-widget elementor-widget-text-editor" data-id="ad5345d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A space-efficient strength rack with integrated weight storage, ideal for safe, organised and versatile barbell training in compact or high-performance workout areas. </p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-952af9e e-con-full e-flex e-con e-child" data-id="952af9e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-61483fe elementor-widget elementor-widget-html" data-id="61483fe" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/09a18797-893f-4971-b94c-d63cfba0b72b.png" style="width:100%;height:100%;object-fit:cover;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Iso-Lateral Bench Press</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-d96141d e-con-full e-flex e-con e-child" data-id="d96141d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-745f5cb elementor-widget elementor-widget-text-editor" data-id="745f5cb" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">An ergonomic plate-loaded press with independent arm movement, promoting balanced strength, natural pressing motion, improved muscle activation and reduced joint strain. </p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-1139792 e-con-full e-flex e-con e-child" data-id="1139792" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-451319b elementor-widget elementor-widget-html" data-id="451319b" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/d62bf7cc-d68f-437d-87a6-848b12c066d1.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Iso-Lateral High Row</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-8c5fc63 e-con-full e-flex e-con e-child" data-id="8c5fc63" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2d0e571 elementor-widget elementor-widget-text-editor" data-id="2d0e571" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A powerful upper-body machine targeting the lats and upper back, with independent arm movement for balanced strength and controlled range of motion.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-875ca91 e-con-full e-flex e-con e-child" data-id="875ca91" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-c2ae346 elementor-widget elementor-widget-html" data-id="c2ae346" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Dual-Adjustable-Pulley-with-Stabilization.png" style="width:100%;height:100%;object-fit:cover;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Dual Adjustable Pulley with Stabilization</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-a514cdc e-con-full e-flex e-con e-child" data-id="a514cdc" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-d9d802d elementor-widget elementor-widget-text-editor" data-id="d9d802d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A versatile cable system with low starting resistance, dynamic movement options and an adjustable stability pad for controlled, supported full-body training.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-8b44d0f e-con-full e-flex e-con e-child" data-id="8b44d0f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-19d70a8 elementor-widget elementor-widget-html" data-id="19d70a8" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Decline-Bench.png" style="width:100%;height:100%;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Olympic Decline Bench</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-10064fc e-con-full e-flex e-con e-child" data-id="10064fc" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-b0ec59f elementor-widget elementor-widget-text-editor" data-id="b0ec59f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A stable decline bench with protective racking and an adjustable kneepad, delivering quieter, safer and more precise pressing for users of different sizes.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-bee3a12 e-con-full e-flex e-con e-child" data-id="bee3a12" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-15908bf elementor-widget elementor-widget-html" data-id="15908bf" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/4d5117dc-0ca1-4083-a597-b48e12663ca1.png" style="width:100%;height:100%;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Training Tires</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-ba58e68 e-con-full e-flex e-con e-child" data-id="ba58e68" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-a809b34 elementor-widget elementor-widget-text-editor" data-id="a809b34" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Versatile training tires in multiple weights, ideal for developing strength, stamina and explosive power among beginners as well as experienced athletes.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-39b1c1d e-con-full e-flex e-con e-child" data-id="39b1c1d" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-f7878c4 elementor-widget elementor-widget-html" data-id="f7878c4" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/397-481-synrgy360-t-combo-package-plat.webp" style="width:100%;height:100%;display:block;" />
-
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">SYNRGY360</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-e42e59c e-con-full e-flex e-con e-child" data-id="e42e59c" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-0a45546 elementor-widget elementor-widget-text-editor" data-id="0a45546" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A customisable modular hub for functional and small-group workouts, offering multiple training stations, suspension zones and durable construction for varied fitness goals.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-2545790d e-con-full e-flex e-con e-child" data-id="2545790d" data-element_type="container" data-e-type="container" id="pilates" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-38fcbe3f elementor-widget elementor-widget-html" data-id="38fcbe3f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="padding:40px 40px;"><div style="max-width:1320px;margin:0 auto;">
-  <div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:44px;">
-    <div>
-      <div style="color:#37c080;font-family:'Barlow', Inter, sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:3px;margin-bottom:0;">— Pilates Equipment</div>
-      <h2 style="margin:14px 0 0;font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(2.4rem,5vw,4rem);
-                 line-height:.9;color:#f4f2ea;font-weight:400;text-transform:uppercase;">
-        Studio-grade.<br/><span style="color:#37c080;">YKBI standard.</span></h2>
-    </div>
-    <p style="margin:0;max-width:380px;font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.7;color:#9b998b;">Every spring, strap and carriage in our Pilates studio is calibrated for safe, effective movement. The same apparatus our coaches trained on — now available to every FitBliss member across solo PT, duet and group classes.</p>
-  </div>
- 
-</div><div style="max-width:1320px;margin:28px auto 0;display:flex;flex-wrap:wrap;gap:12px;"><a href="https://wa.me/917470787012" target="_blank" rel="noopener noreferrer" style="background:#37c080;color:#050a0b;padding:12px 24px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;">Enquire on WhatsApp →</a><a href="tel:+917470787014" style="background:transparent;color:#f4f2ea;border:1px solid rgba(255,255,255,0.25);padding:12px 24px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;">Call the club</a></div></div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-cd6c88b e-con-full e-flex e-con e-child" data-id="cd6c88b" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-c45429f e-con-full e-flex e-con e-child" data-id="c45429f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-1f3691a elementor-widget elementor-widget-html" data-id="1f3691a" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Reformer.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Hammer Strength</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Reformer</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-64332c1 e-con-full e-flex e-con e-child" data-id="64332c1" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-338467f elementor-widget elementor-widget-text-editor" data-id="338467f" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0px; text-align: left;">The Pilates Reformer is the most widely used Pilates apparatus. It consists of a sliding carriage, adjustable springs, ropes, and a footbar that provide variable resistance for hundreds of exercises.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-da40b4f e-con-full e-flex e-con e-child" data-id="da40b4f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-a487a30 elementor-widget elementor-widget-html" data-id="a487a30" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Cadillac-Reformer.jpg"  style="width:100%;height:100%;object-fit:cover;display:block;"  />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Cadillac Reformer</div>
-    
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-4a06c25 e-con-full e-flex e-con e-child" data-id="4a06c25" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-23f1d5b elementor-widget elementor-widget-text-editor" data-id="23f1d5b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Cadillac Reformer combines a traditional reformer with a trapeze table. It includes a metal frame, springs, bars, straps, and hanging attachments for advanced rehabilitation and Pilates exercises.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ef1344e e-con-full e-flex e-con e-child" data-id="ef1344e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-ae6ec27 elementor-widget elementor-widget-html" data-id="ae6ec27" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-EXO-Chair.jpg" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates EXO Chair</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-4bdbf85 e-con-full e-flex e-con e-child" data-id="4bdbf85" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-d8c5c82 elementor-widget elementor-widget-text-editor" data-id="d8c5c82" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The EXO Chair is a compact Pilates apparatus with a spring-loaded pedal that provides resistance for upper and lower body exercises.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-bc7ce44 e-con-full e-flex e-con e-child" data-id="bc7ce44" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-d73b791 elementor-widget elementor-widget-html" data-id="d73b791" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Combo-Chair.jpg" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Combo Chair</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-38b50a6 e-con-full e-flex e-con e-child" data-id="38b50a6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-5383318 elementor-widget elementor-widget-text-editor" data-id="5383318" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Combo Chair is a versatile Pilates chair featuring split pedals, adjustable springs, and multiple resistance levels, allowing a wider range of exercises than a standard chair.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-47ceeaf e-con-full e-flex e-con e-child" data-id="47ceeaf" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-b709c1e elementor-widget elementor-widget-html" data-id="b709c1e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Form-Arc-Spine-Corrector.jpg" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Form Arc Spine Corrector</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-eff4d37 e-con-full e-flex e-con e-child" data-id="eff4d37" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-257088d elementor-widget elementor-widget-text-editor" data-id="257088d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Form Arc Spine Corrector is a curved support used to improve spinal alignment, posture, and flexibility while strengthening the abdominal and back muscles.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f91ab61 e-con-full e-flex e-con e-child" data-id="f91ab61" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-61e578d elementor-widget elementor-widget-html" data-id="61e578d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Flowin-Mat.jpg" style="width:100%;height:100%;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Flowin Mat</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-6353c19 e-con-full e-flex e-con e-child" data-id="6353c19" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-9048a8c elementor-widget elementor-widget-text-editor" data-id="9048a8c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Flowin Mat is a low-friction sliding training system that uses body weight and friction for resistance training.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-3e52cc5 e-con-full e-flex e-con e-child" data-id="3e52cc5" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-c5c17a6 elementor-widget elementor-widget-html" data-id="c5c17a6" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Togo-Ball.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Togo Ball</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-b26a8f4 e-con-full e-flex e-con e-child" data-id="b26a8f4" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-c03c9d9 elementor-widget elementor-widget-text-editor" data-id="c03c9d9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Togo Ball is a small inflatable Pilates ball used to increase stability, activate deep muscles, and improve body awareness.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6ca6834 e-con-full e-flex e-con e-child" data-id="6ca6834" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-17dc11e elementor-widget elementor-widget-html" data-id="17dc11e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Ring.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Ring (Magic Circle)</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-177de7a e-con-full e-flex e-con e-child" data-id="177de7a" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2cb0a7a elementor-widget elementor-widget-text-editor" data-id="2cb0a7a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Pilates Ring, also known as the Magic Circle, is a flexible resistance ring with padded handles used to tone the arms, legs, chest, and core.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-fc508d4 e-con-full e-flex e-con e-child" data-id="fc508d4" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-ffeda71 elementor-widget elementor-widget-html" data-id="ffeda71" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-MOTR.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates MOTR</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-5c8bd3b e-con-full e-flex e-con e-child" data-id="5c8bd3b" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-d3d7674 elementor-widget elementor-widget-text-editor" data-id="d3d7674" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The MOTR (Movement on the Roller) combines a foam roller with resistance cords, allowing users to perform balance, strength, mobility, and cardiovascular exercises.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-506d98e e-con-full e-flex e-con e-child" data-id="506d98e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-96d620e elementor-widget elementor-widget-html" data-id="96d620e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Pilates-Jump-Board.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Pilates Jump Board</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-9348b6e e-con-full e-flex e-con e-child" data-id="9348b6e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4d961f9 elementor-widget elementor-widget-text-editor" data-id="4d961f9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The Jump Board is an attachment fitted to a Pilates Reformer that enables low-impact jumping and plyometric exercises while lying on the reformer.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-230abfee e-con-full e-flex e-con e-child" data-id="230abfee" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+	</div>
+</div>
+<div class="elementor-element elementor-element-230abfee e-con-full e-flex e-con e-child" data-id="230abfee" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-2f0d8ed3 elementor-widget elementor-widget-html" data-id="2f0d8ed3" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>

@@ -10,7 +10,7 @@ class FontLoadLocally
 {
 	const FONTS_FOLDER = 'gkit-fonts';
 	const GOOGLE_FONTS_API_URL = 'https://www.googleapis.com/webfonts/v1/webfonts';
-	const GOOGLE_FONTS_API_KEY = 'AIzaSyAdhJh9b4BpR0cQqIt1uBBeaq2f58Ztd7E';
+	const GOOGLE_FONTS_API_KEY = '';
 
 	/**
 	 * Recursively filters blocks for only those with 'gutenkit' in the block name.

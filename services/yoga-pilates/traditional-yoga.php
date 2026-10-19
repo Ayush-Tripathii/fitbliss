@@ -1618,479 +1618,1048 @@ document.addEventListener('DOMContentLoaded', function() {
 				</div>
 					</div>
 				</div>
-		<div class="elementor-element elementor-element-fdf3f5a e-flex e-con-boxed e-con e-parent" data-id="fdf3f5a" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-23d5cd1 e-grid e-con-full e-con e-child" data-id="23d5cd1" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-234065e e-con-full e-flex e-con e-child" data-id="234065e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-acecbf5 elementor-widget elementor-widget-text-editor" data-id="acecbf5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Benefits</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-8d8d8cb elementor-widget elementor-widget-heading" data-id="8d8d8cb" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">FLEXIBILITY. BALANCE. TRANQUILITY.</h1>				</div>
-				</div>
-				<div class="elementor-element elementor-element-5a9e15a elementor-widget elementor-widget-text-editor" data-id="5a9e15a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Traditional Yoga goes far beyond physical poses. It integrates conscious breath control, joint alignment, and mental stillness for complete holistic health.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-ecd7b19 elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="ecd7b19" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="<?php echo $base_url; ?>/contact/">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Join a class</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-09ea23b elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button" data-id="09ea23b" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Whatsapp Us</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6a7222d e-con-full e-flex e-con e-child" data-id="6a7222d" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-53bb65d e-grid e-con-full e-con e-child" data-id="53bb65d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-3b9b84c elementor-widget elementor-widget-text-editor" data-id="3b9b84c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01</span></h5><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>ENHANCED FLEXIBILITY &amp; JOINT HEALTH</b></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sustained classical asanas safely lengthen tight connective tissue, restore spinal mobility, and lubricate stiffness across all major joints.</span></li></ul></div><div class="bg-background p-6 md:p-7"> </div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-8472b74 elementor-widget elementor-widget-text-editor" data-id="8472b74" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02</span></h5><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>PRANAYAMA &amp; BREATH MASTERY</b></p><p class="mt-3 text-sm text-foreground/85"><span style="font-weight: 400;">Systematic breathwork techniques expand lung capacity, optimize oxygen delivery across cells, and instantly regulate your nervous system.</span></p></div><div class="bg-background p-6 md:p-7"> </div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-57e1bd6 elementor-widget elementor-widget-text-editor" data-id="57e1bd6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03</span></h5><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>STRESS &amp; CORTISOL REDUCTION</b></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Calming breath-led flows soothe mental chatter, lower stress hormones, and induce deep emotional calm after demanding workdays.</span></li></ul></div><div class="bg-background p-6 md:p-7"> </div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-6a38ad5 elementor-widget elementor-widget-text-editor" data-id="6a38ad5" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04</span></h5><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>CORE STABILITY &amp; POSTURAL HARMONY</b><b><br /></b></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Isometric holds and balance postures strengthen stabilizing deep muscle groups, supporting healthy spinal alignment and posture.</span></li></ul></div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-11ee997 elementor-widget elementor-widget-text-editor" data-id="11ee997" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">05</span></h5><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>INTERNAL DETOX &amp; DIGESTIVE BOOST</b></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Targeted twisting postures and abdominal compression stimulate internal organ function, aiding digestion and metabolic cleansing.</span></li></ul></div><div class="bg-background p-6 md:p-7"> </div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-cb17e6a elementor-widget elementor-widget-text-editor" data-id="cb17e6a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">06</span></h5><section class="border-b border-border"><div class="mx-auto max-w-[1400px] px-6 py-20 md:px-10 md:py-28"><div class="grid gap-12 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] lg:gap-16"><div class="grid gap-px bg-border sm:grid-cols-2"><div class="bg-background p-6 md:p-7"><p class="mt-3 text-sm text-foreground/85"><b>MENTAL CLARITY &amp; SLEEP QUALITY</b></p><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Ending every session with deep relaxation (Savasana) clears cognitive fatigue, sharpens mental focus, and restores natural sleep cycles.</span></li></ul></div></div></div></div></section><section class="border-b border-border"><div class="mx-auto max-w-[1400px] px-6 py-20 md:px-10 md:py-28"><div class="grid gap-16 lg:grid-cols-[minmax(0,0.55fr)_minmax(0,1fr)]"> </div></div></section>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-9ed7ecb e-flex e-con-boxed e-con e-parent" data-id="9ed7ecb" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-58f5fcd e-grid e-con-full e-con e-child" data-id="58f5fcd" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-0d924e5 e-con-full e-flex e-con e-child" data-id="0d924e5" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-2f0f904 elementor-widget elementor-widget-text-editor" data-id="2f0f904" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  Why Choose Us</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-5aeceb5 elementor-widget elementor-widget-heading" data-id="5aeceb5" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">AUTHENTIC. PEACEFUL.</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4a8d962 elementor-widget elementor-widget-text-editor" data-id="4a8d962" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Dedicated peaceful yoga shala, natural ambient light, traditional props, and certified yoga masters offering personal guidance in Bhopal.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-2afa85b elementor-widget elementor-widget-image" data-id="2afa85b" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="534" src="<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-1024x683.jpg" class="attachment-large size-large wp-image-19402" alt="Traditional Yoga" srcset="<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-1024x683.jpg 1024w, <?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-300x200.jpg 300w, <?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-768x512.jpg 768w, <?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-1536x1024.jpg 1536w, <?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-2048x1365.jpg 2048w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-89d320b e-con-full e-flex e-con e-child" data-id="89d320b" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-546e418 e-con-full e-flex e-con e-child" data-id="546e418" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-291f6ed elementor-widget elementor-widget-text-editor" data-id="291f6ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01  </span><strong><b>Purpose-Built Yoga Shala</b></strong></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A quiet, serene studio space designed with natural acoustics, tranquil lighting, and non-distracting elements for deep practice.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-9148e5d elementor-widget elementor-widget-text-editor" data-id="9148e5d" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02  </span><strong><b>Certified Classical Yoga Masters</b></strong></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Experienced gurus and instructors trained in authentic lineages — prioritizing alignment precision, breath integration, and safety.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-fc3e3ed elementor-widget elementor-widget-text-editor" data-id="fc3e3ed" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03  </span><strong><b>Inclusive Practice for All Ages</b><b><br /></b></strong></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Sessions scale gracefully — whether you are a flexible practitioner or a complete beginner learning basic breath control for the first time.</span></li></ul>								</div>
-				</div>
-				<div class="elementor-element elementor-element-84feedc elementor-widget elementor-widget-text-editor" data-id="84feedc" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04  <strong> </strong></span><strong><b>Holistic Wellness Integration</b><b><br /></b></strong></h5><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">A welcoming space to disconnect from screen fatigue, reconnect with your inner self, and foster lasting mind-body harmony.</span></li></ul>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-f5b4492 e-flex e-con-boxed e-con e-parent" data-id="f5b4492" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-a9783e3 e-grid e-con-full e-con e-child" data-id="a9783e3" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-bcb6359 e-con-full e-flex e-con e-child" data-id="bcb6359" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-fa59cb8 elementor-widget elementor-widget-image" data-id="fa59cb8" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
-				<div class="elementor-widget-container">
-															<img decoding="async" width="800" height="616" src="<?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio-1024x788.jpg" class="attachment-large size-large wp-image-2628" alt="" srcset="<?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio-1024x788.jpg 1024w, <?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio-300x231.jpg 300w, <?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio-768x591.jpg 768w, <?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio.jpg 1200w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-500eacf e-con-full e-flex e-con e-child" data-id="500eacf" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-4a38bd2 elementor-widget elementor-widget-text-editor" data-id="4a38bd2" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  The Fitbliss Floor</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-79b8ec6 elementor-widget elementor-widget-heading" data-id="79b8ec6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">ANCIENT WISDOM, MODERN RECOVERY.
-</h1>				</div>
-				</div>
-				<div class="elementor-element elementor-element-a17309a elementor-widget elementor-widget-text-editor" data-id="a17309a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<section class="border-b border-border bg-ink"><div class="mx-auto grid max-w-[1400px] gap-10 px-6 py-16 md:grid-cols-2 md:px-10 md:py-20"><div class="flex flex-col justify-center"><ul><li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Disconnect from daily chaos. Step onto the mat to stretch tight muscles, master your breath, and discover a deeper level of physical and mental resilience.</span></li></ul></div></div></section><section class="border-b border-border"></section>								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-d90bc6d elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="d90bc6d" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-eeae751 e-con-full e-flex e-con e-child" data-id="eeae751" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-b049363 e-grid e-con-full e-con e-child" data-id="b049363" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-19a8c96 e-con-full e-flex e-con e-child" data-id="19a8c96" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-8c93dae elementor-widget elementor-widget-text-editor" data-id="8c93dae" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Equipment &amp; tools</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-c992066 elementor-widget elementor-widget-heading" data-id="c992066" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Globally engineered.
-Precisely selected.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-599493a e-con-full e-flex e-con e-child" data-id="599493a" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-c81eecd elementor-widget elementor-widget-text-editor" data-id="c81eecd" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Every machine, bar and platform on our floor is chosen from the world&#8217;s most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. No compromises on the equipment your training deserves.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-b2d3b71 e-con-full e-flex e-con e-child" data-id="b2d3b71" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-47d62b0 e-con-full e-flex e-con e-child" data-id="47d62b0" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-0dd83f1 elementor-widget elementor-widget-html" data-id="0dd83f1" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Hammer Strength</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Hammer Strength Plate-Loaded</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-4b2994d e-con-full e-flex e-con e-child" data-id="4b2994d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-cbb877a elementor-widget elementor-widget-text-editor" data-id="cbb877a" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The gold standard for plate-loaded strength — biomechanically engineered iso-lateral chest, row, shoulder and leg presses for pure, joint-friendly loading.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ad0325f e-con-full e-flex e-con e-child" data-id="ad0325f" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-b7b9bdb elementor-widget elementor-widget-html" data-id="b7b9bdb" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg"  style="width:100%;height:100%;object-fit:cover;display:block;"  />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Life Fitness Selectorized Line</div>
-    
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-0e89ca6 e-con-full e-flex e-con e-child" data-id="0e89ca6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-3d431a4 elementor-widget elementor-widget-text-editor" data-id="3d431a4" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">A complete selectorized circuit — chest, back, shoulders, arms and legs — with smooth pin-loaded resistance and effortless adjustments for every body.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-6045b01 e-con-full e-flex e-con e-child" data-id="6045b01" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-40c71b9 elementor-widget elementor-widget-html" data-id="40c71b9" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">SYNRGY360 Functional Rig</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-ef16030 e-con-full e-flex e-con e-child" data-id="ef16030" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-5f4d473 elementor-widget elementor-widget-text-editor" data-id="5f4d473" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">The versatile SYNRGY360 training system — a limitless functional playground for suspension, battle ropes, bodyweight, mobility and small-group circuits.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-ee57e27 e-con-full e-flex e-con e-child" data-id="ee57e27" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-f597540 elementor-widget elementor-widget-html" data-id="f597540" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Cardio-Deck.webp" alt="SYNRGY360 Functional Rig" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">USA · Life Fitness</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Life Fitness Cardio Deck</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-c74b861 e-con-full e-flex e-con e-child" data-id="c74b861" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-c99f734 elementor-widget elementor-widget-text-editor" data-id="c99f734" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Treadmills, cross trainers, upright and recumbent bikes from Life Fitness — the global benchmark for cardio comfort, console clarity and durability.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-f6e341e e-con-full e-flex e-con e-child" data-id="f6e341e" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-8cceb73 elementor-widget elementor-widget-html" data-id="8cceb73" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Barbells-Platforms.webp" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Olympic Barbells & Platforms</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-8241a4e e-con-full e-flex e-con e-child" data-id="8241a4e" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-904d6a6 elementor-widget elementor-widget-text-editor" data-id="904d6a6" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Competition-spec Olympic bars, calibrated plates and dedicated lifting platforms for cleans, snatches, deadlifts and heavy compound work.</p>								</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-72556db e-con-full e-flex e-con e-child" data-id="72556db" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-8b3210e elementor-widget elementor-widget-html" data-id="8b3210e" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="position:relative;width:100%;height:340px;overflow:hidden;">
-  <img decoding="async" src="<?php echo $base_url; ?>/assets/images/2026/07/Cable-Crossover-Free-Weights-1.webp" style="width:100%;height:100%;object-fit:cover;display:block;" />
-  <div style="position:absolute;top:14px;right:14px;background:rgba(1,3,3,0.75);border:1px solid rgba(55,192,128,0.6);padding:6px 10px;font-family:'Barlow',sans-serif;font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:#37c080;">Imported</div>
-  <div style="position:absolute;left:0;right:0;bottom:0;background:linear-gradient(to top, rgba(1,3,3,0.9), rgba(1,3,3,0.15) 70%, transparent);padding:16px 18px 14px;">
-    <div style="font-family:'Bebas Neue',Impact,sans-serif;font-size:24px;letter-spacing:1px;text-transform:uppercase;color:#f4ead5;line-height:1.1;">Cable Crossover & Free Weights</div>
-  </div>
-</div>				</div>
-				</div>
-		<div class="elementor-element elementor-element-f8a76af e-con-full e-flex e-con e-child" data-id="f8a76af" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-e820246 elementor-widget elementor-widget-text-editor" data-id="e820246" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="margin: 0;">Dual-adjustable cable crossovers, a full rubber-hex dumbbell wall, benches, squat racks and functional accessories — everything a serious lifter looks for.</p>								</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-bebd0bf e-flex e-con-boxed e-con e-parent" data-id="bebd0bf" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-b8240b7 e-con-full e-flex e-con e-child" data-id="b8240b7" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-76adc01 elementor-widget elementor-widget-text-editor" data-id="76adc01" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">— Our Other Services</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-7df5b83 elementor-widget elementor-widget-heading" data-id="7df5b83" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Cross-train your day.</h2>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-bb1cb4a e-con-full e-flex e-con e-child" data-id="bb1cb4a" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-8f4ae1d e-grid e-con-full e-con e-child" data-id="8f4ae1d" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-827a5ad elementor-widget elementor-widget-text-editor" data-id="827a5ad" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">01  </span><strong><span style="font-size: 16px;">Boxing</span></strong></h5><p class="mt-3 text-sm text-foreground/85">State-of-the-art ring, expert coaches, real self-defence.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-00e363b elementor-widget elementor-widget-text-editor" data-id="00e363b" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">02  </span><strong><span style="font-size: 16px;">Kickboxing</span></strong></h5><div class="flex items-baseline justify-between">Explosive combinations, footwork and full-body conditioning.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-12d9bf9 elementor-widget elementor-widget-text-editor" data-id="12d9bf9" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">03  </span><strong><span style="font-size: 16px;">MMA</span></strong></h5><div class="flex items-baseline justify-between">BJJ, Muay Thai and wrestling — a complete fighter&#8217;s education.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-cce0b63 elementor-widget elementor-widget-text-editor" data-id="cce0b63" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">04  </span><strong><span style="font-size: 16px;">Kids &amp; Cadets</span></strong></h5><div class="flex items-baseline justify-between">A fun, safe path to confidence, focus and discipline.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-0409e35 elementor-widget elementor-widget-text-editor" data-id="0409e35" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">05  </span><strong><span style="font-size: 16px;">Adults</span></strong></h5><div class="flex items-baseline justify-between">A challenging, supportive floor — beginners to advanced.</div>								</div>
-				</div>
-				<div class="elementor-element elementor-element-11aab53 elementor-widget elementor-widget-text-editor" data-id="11aab53" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<h5 class="font-display text-3xl text-primary/50"><span style="color: #41b290;">06   </span><span style="font-size: 16px;">Women&#8217;s Batch</span></h5><div class="flex items-baseline justify-between">Female-led strength, self-defence and sisterhood.</div>								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-9544372 e-flex e-con-boxed e-con e-parent" data-id="9544372" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-09279f5 e-grid e-con-full e-con e-child" data-id="09279f5" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-9c90fad e-con-full e-flex e-con e-child" data-id="9c90fad" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-5b29f35 elementor-widget elementor-widget-text-editor" data-id="5b29f35" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p><span style="color: #41b290;">—  FAQ</span></p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-1117773 elementor-widget elementor-widget-heading" data-id="1117773" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Questions,
-answered.</h1>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-0c57da6 e-con-full e-flex e-con e-child" data-id="0c57da6" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-545cddd elementor-widget elementor-widget-qi_addons_for_elementor_accordion" data-id="545cddd" data-element_type="widget" data-e-type="widget" data-widget_type="qi_addons_for_elementor_accordion.default">
-				<div class="elementor-widget-container">
-					<div class="qodef-shortcode qodef-m qodef-qi-accordion qodef-qi-clear qodef-behavior--accordion qodef-layout--simple qodef-style--boxed qodef-height--auto">
-	<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Do I need to be flexible before starting Traditional Yoga at FitBliss?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400">Not at all! Flexibility is a </span><i><span style="font-weight: 400">result</span></i><span style="font-weight: 400"> of yoga, not a prerequisite. Our teachers offer modified options and props so everyone can practice comfortably regardless of current flexibility.</span></li></ul>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">What is the difference between Traditional Yoga and modern gym stretching?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400"> Traditional Yoga combines physical postures (asanas) with conscious breathwork (pranayama) and mental focus, offering deep nervous system restoration alongside muscle stretching.</span></li></ul>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title"> What should I wear and bring to a yoga session?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<p><span style="font-weight: 400">Wear comfortable, loose, or stretchable cotton clothing that allows full freedom of movement. Premium mats, blocks, and straps are provided at the studio.</span></p>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Is yoga suitable for older adults or individuals with joint stiffness?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400"> Yes! Traditional Yoga is exceptionally gentle on joints and can be customized to relieve stiffness, improve balance, and ease age-related mobility issues safely.</span></li></ul>	</div>
-</div>
-<h4 class="qodef-e-title-holder">
-	<span class="qodef-e-title">Can I combine Yoga classes with gym training or thermal recovery at FitBliss?</span>
-	<span class="qodef-e-mark">
-		<span class="qodef-icon--plus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-plus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-		<span class="qodef-icon--minus">
-				<span class="qodef-e-icon">
-		<svg aria-hidden="true" class="e-font-icon-svg e-fas-minus" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M416 208H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h384c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path></svg>	</span>
-			</span>
-	</span>
-</h4>
-<div class="qodef-e-content">
-	<div class="qodef-e-content-inner">
-		<ul><li style="font-weight: 400"><span style="font-weight: 400">Absolutely! Many of our members use yoga to improve mobility for heavy lifting days on our gym floor or follow up their practice with a soothing steam session.</span></li></ul>	</div>
-</div>
-</div>
-				</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-		<div class="elementor-element elementor-element-a60866d e-flex e-con-boxed e-con e-parent" data-id="a60866d" data-element_type="container" data-e-type="container">
-					<div class="e-con-inner">
-		<div class="elementor-element elementor-element-e0fbbdc e-grid e-con-full e-con e-child" data-id="e0fbbdc" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-8a4c251 e-con-full e-flex e-con e-child" data-id="8a4c251" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-12d5f29 elementor-widget elementor-widget-heading" data-id="12d5f29" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h1 class="elementor-heading-title elementor-size-default">Ready to train?</h1>				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-9f4f31f e-con-full e-flex e-con e-child" data-id="9f4f31f" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-1faa92f elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-button" data-id="1faa92f" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="https://wa.me/917470787014">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Whatsapp Us</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				<div class="elementor-element elementor-element-2a5460a elementor-widget__width-initial elementor-widget elementor-widget-button" data-id="2a5460a" data-element_type="widget" data-e-type="widget" data-widget_type="button.default">
-				<div class="elementor-widget-container">
-									<div class="elementor-button-wrapper">
-					<a class="elementor-button elementor-button-link elementor-size-sm" href="<?php echo $base_url; ?>/contact/">
-						<span class="elementor-button-content-wrapper">
-									<span class="elementor-button-text">Join a class</span>
-					</span>
-					</a>
-				</div>
-								</div>
-				</div>
-				</div>
-				</div>
-					</div>
-				</div>
-				</div>
-		
-		
-			</div>
+		<style>
+/* ==============================================================================
+   FITBLISS LUXURY SERVICE REDESIGN — traditional-yoga
+   ============================================================================== */
+.fbsvc-section {
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	overflow: visible;
+}
 
-	
-</main>
+.fbsvc-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: clamp(60px, 8vw, 100px) clamp(20px, 4vw, 50px);
+	position: relative;
+	z-index: 2;
+	box-sizing: border-box;
+}
+
+.fbsvc-tag {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #37c080;
+	margin-bottom: 12px;
+	display: block;
+}
+
+.fbsvc-title {
+	margin: 0 0 20px 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(34px, 4.5vw, 54px);
+	line-height: 0.98;
+	color: #ffffff;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+
+.fbsvc-title span {
+	color: #37c080;
+	text-shadow: 0 0 25px rgba(55, 192, 128, 0.35);
+}
+
+.fbsvc-desc {
+	margin: 0 0 24px 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	line-height: 1.75;
+	color: rgba(244, 242, 234, 0.75);
+}
+
+.fbsvc-ambient {
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(55, 192, 128, 0.06) 0%, transparent 70%);
+	pointer-events: none;
+	filter: blur(60px);
+}
+
+/* ─── SECTION 1: Intro / Benefits Sticky ─── */
+.fbsvc-intro-section {
+	overflow: visible !important;
+}
+
+.fbsvc-intro-grid {
+	display: grid;
+	grid-template-columns: 0.92fr 1.08fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: stretch;
+}
+
+.fbsvc-intro-col {
+	position: relative;
+	height: 100%;
+}
+
+.fbsvc-intro-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: clamp(95px, 12vh, 120px);
+}
+
+@media (max-width: 991px) {
+	.fbsvc-intro-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+	.fbsvc-intro-col {
+		height: auto;
+	}
+	.fbsvc-intro-sticky {
+		position: static;
+		top: auto;
+	}
+}
+
+.fbsvc-btn-row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-top: 28px;
+}
+
+.fbsvc-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 13px 28px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none !important;
+	border-radius: 0 !important;
+	box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbsvc-btn-primary {
+	background: #37c080;
+	color: #010303 !important;
+	border: 1px solid #37c080;
+}
+
+.fbsvc-btn-primary:hover {
+	background: #5eeaa8 !important;
+	border-color: #5eeaa8 !important;
+	transform: translateY(-3px) scale(1.02);
+	box-shadow: 0 15px 35px rgba(55, 192, 128, 0.5), 0 0 25px rgba(62, 230, 154, 0.45);
+}
+
+.fbsvc-btn-secondary {
+	background: transparent;
+	color: #ffffff !important;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.fbsvc-btn-secondary:hover {
+	border-color: #25d366 !important;
+	color: #25d366 !important;
+	background: rgba(37, 211, 102, 0.12) !important;
+	transform: translateY(-3px) scale(1.02);
+	box-shadow: 0 15px 35px rgba(37, 211, 102, 0.3);
+}
+
+.fbsvc-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 16px;
+}
+
+@media (max-width: 600px) {
+	.fbsvc-cards-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbsvc-card {
+	background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.12);
+	padding: 24px 20px 22px 20px;
+	box-sizing: border-box;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbsvc-card:hover {
+	border-top-color: #37c080 !important;
+	background: rgba(14, 28, 28, 0.6);
+	transform: translateY(-8px);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.75), 0 0 25px rgba(55, 192, 128, 0.18);
+}
+
+.fbsvc-card-num {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 36px;
+	color: rgba(55, 192, 128, 0.45);
+	line-height: 1;
+	margin-bottom: 8px;
+	transition: all 0.3s ease;
+}
+
+.fbsvc-card:hover .fbsvc-card-num {
+	color: #5eeaa8 !important;
+	transform: scale(1.1);
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.65);
+}
+
+.fbsvc-card-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(20px, 2.5vw, 24px);
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	margin: 0 0 10px 0;
+	line-height: 1.1;
+	transition: color 0.3s ease;
+}
+
+.fbsvc-card:hover .fbsvc-card-title {
+	color: #3ee69a;
+}
+
+.fbsvc-card-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.65;
+	color: rgba(244, 242, 234, 0.7);
+	transition: color 0.3s ease;
+}
+
+.fbsvc-card:hover .fbsvc-card-desc {
+	color: #eae5d8;
+}
+
+.fbsvc-floor-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.fbsvc-floor-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+}
+
+.fbsvc-media-card {
+	position: relative;
+	border-radius: 0 !important;
+	overflow: hidden;
+	background: #081112;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 35px rgba(55, 192, 128, 0.12);
+	transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+	cursor: pointer;
+}
+
+.fbsvc-media-card:hover {
+	transform: translateY(-8px);
+	border-color: #37c080 !important;
+	box-shadow: 0 30px 70px rgba(0, 0, 0, 0.9), 0 0 45px rgba(55, 192, 128, 0.3) !important;
+}
+
+.fbsvc-media-card img {
+	width: 100%;
+	height: auto;
+	display: block;
+	filter: brightness(0.96);
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.fbsvc-media-card:hover img {
+	transform: scale(1.06);
+	filter: brightness(1.04);
+}
+
+.fbsvc-pillar-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.fbsvc-pillar-item {
+	display: flex;
+	align-items: flex-start;
+	gap: 16px;
+	padding: 16px 18px;
+	background: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	border-left: 3px solid transparent;
+	box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbsvc-pillar-item:hover {
+	transform: translateX(8px);
+	border-left-color: #37c080 !important;
+	background: rgba(14, 28, 28, 0.55);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.fbsvc-pillar-num {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 26px;
+	color: rgba(55, 192, 128, 0.5);
+	line-height: 1;
+	flex-shrink: 0;
+	transition: all 0.3s ease;
+}
+
+.fbsvc-pillar-item:hover .fbsvc-pillar-num {
+	color: #5eeaa8 !important;
+	transform: scale(1.15);
+	text-shadow: 0 0 15px rgba(55, 192, 128, 0.6);
+}
+
+.fbsvc-pillar-content {
+	flex: 1;
+}
+
+.fbsvc-pillar-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: 400;
+	letter-spacing: 0.8px;
+	margin: 0 0 4px 0;
+	line-height: 1.1;
+	transition: color 0.3s ease;
+}
+
+.fbsvc-pillar-item:hover .fbsvc-pillar-title {
+	color: #3ee69a;
+}
+
+.fbsvc-pillar-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.6;
+	color: rgba(244, 242, 234, 0.7);
+	transition: color 0.3s ease;
+}
+
+.fbsvc-pillar-item:hover .fbsvc-pillar-desc {
+	color: #eae5d8;
+}
+
+.fbsvc-dest-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: center;
+}
+
+@media (max-width: 991px) {
+	.fbsvc-dest-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+}
+
+/* ─── SECTION 4: Globally engineered equipment ─── */
+.fbsvc-equip-title {
+	font-size: clamp(24px, 3.2vw, 44px) !important;
+	line-height: 1.15 !important;
+	letter-spacing: 1.2px;
+	white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+	.fbsvc-equip-title {
+		white-space: normal;
+		font-size: clamp(24px, 6vw, 34px) !important;
+	}
+}
+
+.fbsvc-equip-desc-lead {
+	max-width: 850px !important;
+	margin-bottom: 35px !important;
+	font-size: 15px !important;
+	line-height: 1.75 !important;
+	white-space: normal !important;
+	color: rgba(244, 242, 234, 0.75) !important;
+}
+
+.fbsvc-equip-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 991px) {
+	.fbsvc-equip-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.fbsvc-equip-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbsvc-equip-card {
+	position: relative;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	border-radius: 0 !important;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.fbsvc-equip-card:hover {
+	transform: translateY(-8px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.18);
+}
+
+.fbsvc-equip-media {
+	position: relative;
+	width: 100%;
+	height: 280px;
+	background: #020405;
+	overflow: hidden;
+}
+
+.fbsvc-equip-media img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	display: block;
+	filter: brightness(0.95);
+	transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+}
+
+.fbsvc-equip-card:hover .fbsvc-equip-media img {
+	transform: scale(1.07);
+	filter: brightness(1.05);
+}
+
+.fbsvc-equip-badge {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	background: rgba(1, 3, 3, 0.85);
+	border: 1px solid rgba(55, 192, 128, 0.5);
+	backdrop-filter: blur(8px);
+	padding: 5px 12px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #37c080;
+	z-index: 2;
+	transition: all 0.3s ease;
+}
+
+.fbsvc-equip-card:hover .fbsvc-equip-badge {
+	background: rgba(55, 192, 128, 0.2);
+	border-color: #5eeaa8;
+	color: #5eeaa8;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.4);
+}
+
+.fbsvc-equip-body {
+	padding: 24px 22px 26px 22px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background: transparent;
+	border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.fbsvc-equip-name {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 24px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: 1.15;
+	margin: 0 0 10px 0;
+	transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.fbsvc-equip-card:hover .fbsvc-equip-name {
+	color: #3ee69a !important;
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.45);
+}
+
+.fbsvc-equip-divider {
+	width: 32px;
+	height: 2px;
+	background: #37c080;
+	margin-bottom: 14px;
+	transition: width 0.35s ease, background 0.35s ease;
+}
+
+.fbsvc-equip-card:hover .fbsvc-equip-divider {
+	width: 54px;
+	background: #5eeaa8;
+	box-shadow: 0 0 10px rgba(55, 192, 128, 0.6);
+}
+
+.fbsvc-equip-desc {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.68;
+	color: rgba(244, 242, 234, 0.72);
+	transition: color 0.3s ease;
+}
+
+.fbsvc-equip-card:hover .fbsvc-equip-desc {
+	color: rgba(244, 242, 234, 0.95);
+}
+
+.fbsvc-cross-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 18px;
+}
+
+@media (max-width: 900px) {
+	.fbsvc-cross-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 550px) {
+	.fbsvc-cross-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* ─── SECTION 6: FAQ Accordion Sticky ─── */
+.fbsvc-faq-section {
+	overflow: visible !important;
+}
+
+.fbsvc-faq-grid {
+	display: grid;
+	grid-template-columns: 0.85fr 1.15fr;
+	gap: clamp(35px, 6vw, 70px);
+	align-items: stretch;
+}
+
+.fbsvc-faq-col {
+	position: relative;
+	height: 100%;
+}
+
+.fbsvc-faq-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: clamp(95px, 12vh, 120px);
+}
+
+@media (max-width: 991px) {
+	.fbsvc-faq-grid {
+		grid-template-columns: 1fr;
+		gap: 30px;
+	}
+	.fbsvc-faq-col {
+		height: auto;
+	}
+	.fbsvc-faq-sticky {
+		position: static;
+		top: auto;
+	}
+}
+
+.fbsvc-faq-list {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.fbsvc-faq-item {
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(14, 28, 28, 0.35);
+	transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.fbsvc-faq-item:hover {
+	border-color: rgba(55, 192, 128, 0.4);
+	background: rgba(14, 28, 28, 0.55);
+}
+
+.fbsvc-faq-header {
+	padding: 18px 22px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 14px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.fbsvc-faq-q {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 0.3px;
+	margin: 0;
+	transition: color 0.3s ease;
+}
+
+.fbsvc-faq-item:hover .fbsvc-faq-q {
+	color: #3ee69a;
+}
+
+.fbsvc-faq-icon {
+	width: 22px;
+	height: 22px;
+	color: #37c080;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	flex-shrink: 0;
+	transition: transform 0.3s ease;
+}
+
+.fbsvc-faq-item.active .fbsvc-faq-icon {
+	transform: rotate(45deg);
+}
+
+.fbsvc-faq-answer {
+	padding: 0 22px 20px 22px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14px;
+	line-height: 1.7;
+	color: rgba(244, 242, 234, 0.75);
+	display: none;
+}
+
+.fbsvc-faq-item.active .fbsvc-faq-answer {
+	display: block;
+}
+
+.fbsvc-cta-wrap {
+	width: 100%;
+	position: relative;
+	background: #010303;
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+.fbsvc-cta-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: clamp(70px, 9vw, 120px) clamp(20px, 4vw, 50px);
+	text-align: center;
+	position: relative;
+	z-index: 2;
+	box-sizing: border-box;
+}
+
+.fbsvc-cta-title {
+	margin: 0 0 28px 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(38px, 6vw, 68px);
+	line-height: 0.95;
+	color: #ffffff;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+
+.fbsvc-cta-title span {
+	color: #37c080;
+	text-shadow: 0 0 35px rgba(55, 192, 128, 0.45);
+}
+
+.fbsvc-cta-buttons {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.fbsvc-cta-ambient {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 600px;
+	height: 350px;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(55, 192, 128, 0.12) 0%, transparent 70%);
+	pointer-events: none;
+	filter: blur(70px);
+}
+</style>
+
+<!-- SECTION 1: Benefits -->
+<div class="fbsvc-section fbsvc-intro-section" style="background:#010303;">
+	<div class="fbsvc-ambient" style="top:-100px; right:-100px;"></div>
+	<div class="fbsvc-container">
+		<div class="fbsvc-intro-grid">
+			<div class="fbsvc-intro-col">
+				<div class="fbsvc-intro-sticky">
+				<span class="fbsvc-tag">— Benefits</span>
+				<h2 class="fbsvc-title">
+					FLEXIBILITY. BALANCE. TRANQUILITY.<br/><span></span>
+				</h2>
+				<p class="fbsvc-desc">
+					Traditional Yoga goes far beyond physical poses. It integrates conscious breath control, joint alignment, and mental stillness for complete holistic health.
+				</p>
+				<div class="fbsvc-btn-row">
+					<a href="<?php echo $base_url; ?>/contact/" class="fbsvc-btn fbsvc-btn-primary">
+						Join a class
+					</a>
+					<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbsvc-btn fbsvc-btn-secondary">
+						<svg width="15" height="15" viewBox="0 0 448 512" fill="currentColor" style="display:inline-block;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+						WhatsApp Us
+					</a>
+				</div>
+			</div>
+			</div>
+			<div class="fbsvc-cards-grid">
+			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">01</div>
+				<h3 class="fbsvc-card-title">ENHANCED FLEXIBILITY & JOINT HEALTH</h3>
+				<p class="fbsvc-card-desc">Sustained classical asanas safely lengthen tight connective tissue, restore spinal mobility, and lubricate stiffness across all major joints.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">02</div>
+				<h3 class="fbsvc-card-title">PRANAYAMA & BREATH MASTERY</h3>
+				<p class="fbsvc-card-desc">Systematic breathwork techniques expand lung capacity, optimize oxygen delivery across cells, and instantly regulate your nervous system.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">03</div>
+				<h3 class="fbsvc-card-title">STRESS & CORTISOL REDUCTION</h3>
+				<p class="fbsvc-card-desc">Calming breath-led flows soothe mental chatter, lower stress hormones, and induce deep emotional calm after demanding workdays.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">04</div>
+				<h3 class="fbsvc-card-title">CORE STABILITY & POSTURAL HARMONY</h3>
+				<p class="fbsvc-card-desc">Isometric holds and balance postures strengthen stabilizing deep muscle groups, supporting healthy spinal alignment and posture.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">05</div>
+				<h3 class="fbsvc-card-title">INTERNAL DETOX & DIGESTIVE BOOST</h3>
+				<p class="fbsvc-card-desc">Targeted twisting postures and abdominal compression stimulate internal organ function, aiding digestion and metabolic cleansing.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">06</div>
+				<h3 class="fbsvc-card-title">MENTAL CLARITY & SLEEP QUALITY</h3>
+				<p class="fbsvc-card-desc">Ending every session with deep relaxation (Savasana) clears cognitive fatigue, sharpens mental focus, and restores natural sleep cycles.</p>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 2: Why Choose Us -->
+<div class="fbsvc-section" style="background:#081112;">
+	<div class="fbsvc-ambient" style="bottom:-100px; left:-100px;"></div>
+	<div class="fbsvc-container">
+		<div class="fbsvc-floor-grid">
+			<div class="fbsvc-media-card">
+				<img src="<?php echo $base_url; ?>/assets/images/2026/07/0Z8_2468-1024x683.jpg" alt="AUTHENTIC. PEACEFUL." loading="lazy"/>
+			</div>
+			<div>
+				<span class="fbsvc-tag">— Why Choose Us</span>
+				<h2 class="fbsvc-title">
+					AUTHENTIC. PEACEFUL.<br/><span></span>
+				</h2>
+				<p class="fbsvc-desc">
+					Dedicated peaceful yoga shala, natural ambient light, traditional props, and certified yoga masters offering personal guidance in Bhopal.
+				</p>
+				<div class="fbsvc-pillar-list">
+				<div class="fbsvc-pillar-item">
+					<div class="fbsvc-pillar-num">01</div>
+					<div class="fbsvc-pillar-content">
+						<h3 class="fbsvc-pillar-title">Purpose-Built Yoga Shala</h3>
+						<p class="fbsvc-pillar-desc">A quiet, serene studio space designed with natural acoustics, tranquil lighting, and non-distracting elements for deep practice.</p>
+					</div>
+				</div>				<div class="fbsvc-pillar-item">
+					<div class="fbsvc-pillar-num">02</div>
+					<div class="fbsvc-pillar-content">
+						<h3 class="fbsvc-pillar-title">Certified Classical Yoga Masters</h3>
+						<p class="fbsvc-pillar-desc">Experienced gurus and instructors trained in authentic lineages — prioritizing alignment precision, breath integration, and safety.</p>
+					</div>
+				</div>				<div class="fbsvc-pillar-item">
+					<div class="fbsvc-pillar-num">03</div>
+					<div class="fbsvc-pillar-content">
+						<h3 class="fbsvc-pillar-title">Inclusive Practice for All Ages</h3>
+						<p class="fbsvc-pillar-desc">Sessions scale gracefully — whether you are a flexible practitioner or a complete beginner learning basic breath control for the first time.</p>
+					</div>
+				</div>				<div class="fbsvc-pillar-item">
+					<div class="fbsvc-pillar-num">04</div>
+					<div class="fbsvc-pillar-content">
+						<h3 class="fbsvc-pillar-title">Holistic Wellness Integration</h3>
+						<p class="fbsvc-pillar-desc">A welcoming space to disconnect from screen fatigue, reconnect with your inner self, and foster lasting mind-body harmony.</p>
+					</div>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 3: The Fitbliss Floor -->
+<div class="fbsvc-section" style="background:#010303;">
+	<div class="fbsvc-container">
+		<div class="fbsvc-dest-grid">
+			<div>
+				<span class="fbsvc-tag">— The Fitbliss Floor</span>
+				<h2 class="fbsvc-title">
+					ANCIENT WISDOM,<br/><span> MODERN RECOVERY.</span>
+				</h2>
+				<p class="fbsvc-desc">
+					Disconnect from daily chaos. Step onto the mat to stretch tight muscles, master your breath, and discover a deeper level of physical and mental resilience.
+				</p>
+				<div class="fbsvc-btn-row">
+					<a href="<?php echo $base_url; ?>/contact/" class="fbsvc-btn fbsvc-btn-primary">
+						Join a class
+					</a>
+				</div>
+			</div>
+			<div class="fbsvc-media-card">
+				<img src="<?php echo $base_url; ?>/assets/images/2024/05/Yoga-studio-1024x788.jpg" alt="ANCIENT WISDOM, MODERN RECOVERY." loading="lazy"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 4: Equipment & tools -->
+<div class="fbsvc-section" style="background:#081112;">
+	<div class="fbsvc-container">
+		<div style="margin-bottom: clamp(35px, 5vw, 55px); max-width: 100%;">
+			<span class="fbsvc-tag">— Equipment &amp; tools</span>
+			<h2 class="fbsvc-title fbsvc-equip-title">
+				Globally engineered. <span>Precisely selected.</span>
+			</h2>
+			<p class="fbsvc-desc fbsvc-equip-desc-lead">
+				Every machine, bar and platform on our floor is chosen from the world’s most trusted strength and conditioning brands — Hammer Strength, Life Fitness and SYNRGY360. No compromises on the equipment your training deserves.
+			</p>
+		</div>
+		<div class="fbsvc-equip-grid">
+			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Hammer-Strength-Machine-Plated-Loaded-Lateral-Leg-Extension-Machine.avif" alt="Hammer Strength Plate-Loaded" loading="lazy"/>
+					<div class="fbsvc-equip-badge">USA · Hammer Strength</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">Hammer Strength Plate-Loaded</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">The gold standard for plate-loaded strength — biomechanically engineered iso-lateral chest, row, shoulder and leg presses for pure, joint-friendly loading.</p>
+				</div>
+			</div>			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Selectorized-Line.jpg" alt="Life Fitness Selectorized Line" loading="lazy"/>
+					<div class="fbsvc-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">Life Fitness Selectorized Line</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">A complete selectorized circuit — chest, back, shoulders, arms and legs — with smooth pin-loaded resistance and effortless adjustments for every body.</p>
+				</div>
+			</div>			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/SYNRGY360-Functional-Rig.jpg" alt="SYNRGY360 Functional Rig" loading="lazy"/>
+					<div class="fbsvc-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">SYNRGY360 Functional Rig</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">The versatile SYNRGY360 training system — a limitless functional playground for suspension, battle ropes, bodyweight, mobility and small-group circuits.</p>
+				</div>
+			</div>			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Life-Fitness-Cardio-Deck.webp" alt="Life Fitness Cardio Deck" loading="lazy"/>
+					<div class="fbsvc-equip-badge">USA · Life Fitness</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">Life Fitness Cardio Deck</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">Treadmills, cross trainers, upright and recumbent bikes from Life Fitness — the global benchmark for cardio comfort, console clarity and durability.</p>
+				</div>
+			</div>			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Olympic-Barbells-Platforms.webp" alt="Olympic Barbells & Platforms" loading="lazy"/>
+					<div class="fbsvc-equip-badge">Imported</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">Olympic Barbells & Platforms</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">Competition-spec Olympic bars, calibrated plates and dedicated lifting platforms for cleans, snatches, deadlifts and heavy compound work.</p>
+				</div>
+			</div>			<div class="fbsvc-equip-card">
+				<div class="fbsvc-equip-media">
+					<img src="<?php echo $base_url; ?>/assets/images/2026/07/Cable-Crossover-Free-Weights-1.webp" alt="Cable Crossover & Free Weights" loading="lazy"/>
+					<div class="fbsvc-equip-badge">Imported</div>
+				</div>
+				<div class="fbsvc-equip-body">
+					<h3 class="fbsvc-equip-name">Cable Crossover & Free Weights</h3>
+					<div class="fbsvc-equip-divider"></div>
+					<p class="fbsvc-equip-desc">Dual-adjustable cable crossovers, a full rubber-hex dumbbell wall, benches, squat racks and functional accessories — everything a serious lifter looks for.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 5: Our Other Services -->
+<div class="fbsvc-section" style="background:#010303;">
+	<div class="fbsvc-container">
+		<div style="margin-bottom: clamp(35px, 5vw, 55px); max-width: 100%;">
+			<span class="fbsvc-tag">— Our Other Services</span>
+			<h2 class="fbsvc-title">
+				Cross-train <span>your day.</span>
+			</h2>
+		</div>
+		<div class="fbsvc-cross-grid">
+			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">01</div>
+				<h3 class="fbsvc-card-title">Boxing</h3>
+				<p class="fbsvc-card-desc">State-of-the-art ring, expert coaches, real self-defence.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">02</div>
+				<h3 class="fbsvc-card-title">Kickboxing</h3>
+				<p class="fbsvc-card-desc">Explosive combinations, footwork and full-body conditioning.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">03</div>
+				<h3 class="fbsvc-card-title">MMA</h3>
+				<p class="fbsvc-card-desc">BJJ, Muay Thai and wrestling — a complete fighter’s education.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">04</div>
+				<h3 class="fbsvc-card-title">Kids & Cadets</h3>
+				<p class="fbsvc-card-desc">A fun, safe path to confidence, focus and discipline.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">05</div>
+				<h3 class="fbsvc-card-title">Adults</h3>
+				<p class="fbsvc-card-desc">A challenging, supportive floor — beginners to advanced.</p>
+			</div>			<div class="fbsvc-card">
+				<div class="fbsvc-card-num">06</div>
+				<h3 class="fbsvc-card-title">Women's Batch</h3>
+				<p class="fbsvc-card-desc">Female-led strength, self-defence and sisterhood.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- SECTION 6: FAQ Accordion -->
+<div class="fbsvc-section fbsvc-faq-section" style="background:#081112;">
+	<div class="fbsvc-container">
+		<div class="fbsvc-faq-grid">
+			<div class="fbsvc-faq-col">
+				<div class="fbsvc-faq-sticky">
+				<span class="fbsvc-tag">— FAQ</span>
+				<h2 class="fbsvc-title">
+					Questions,<br/>
+					<span>answered.</span>
+				</h2>
+			</div>
+			</div>
+			<div class="fbsvc-faq-list">
+				<div class="fbsvc-faq-item active">
+					<div class="fbsvc-faq-header">
+						<h3 class="fbsvc-faq-q">Do I need to be flexible before starting Traditional Yoga at FitBliss?</h3>
+						<div class="fbsvc-faq-icon">+</div>
+					</div>
+					<div class="fbsvc-faq-answer">
+						Not at all! Flexibility is a result of yoga, not a prerequisite. Our teachers offer modified options and props so everyone can practice comfortably regardless of current flexibility.
+					</div>
+				</div>				<div class="fbsvc-faq-item">
+					<div class="fbsvc-faq-header">
+						<h3 class="fbsvc-faq-q">What is the difference between Traditional Yoga and modern gym stretching?</h3>
+						<div class="fbsvc-faq-icon">+</div>
+					</div>
+					<div class="fbsvc-faq-answer">
+						 Traditional Yoga combines physical postures (asanas) with conscious breathwork (pranayama) and mental focus, offering deep nervous system restoration alongside muscle stretching.
+					</div>
+				</div>				<div class="fbsvc-faq-item">
+					<div class="fbsvc-faq-header">
+						<h3 class="fbsvc-faq-q">What should I wear and bring to a yoga session?</h3>
+						<div class="fbsvc-faq-icon">+</div>
+					</div>
+					<div class="fbsvc-faq-answer">
+						Wear comfortable, loose, or stretchable cotton clothing that allows full freedom of movement. Premium mats, blocks, and straps are provided at the studio.
+					</div>
+				</div>				<div class="fbsvc-faq-item">
+					<div class="fbsvc-faq-header">
+						<h3 class="fbsvc-faq-q">Is yoga suitable for older adults or individuals with joint stiffness?</h3>
+						<div class="fbsvc-faq-icon">+</div>
+					</div>
+					<div class="fbsvc-faq-answer">
+						 Yes! Traditional Yoga is exceptionally gentle on joints and can be customized to relieve stiffness, improve balance, and ease age-related mobility issues safely.
+					</div>
+				</div>				<div class="fbsvc-faq-item">
+					<div class="fbsvc-faq-header">
+						<h3 class="fbsvc-faq-q">Can I combine Yoga classes with gym training or thermal recovery at FitBliss?</h3>
+						<div class="fbsvc-faq-icon">+</div>
+					</div>
+					<div class="fbsvc-faq-answer">
+						Absolutely! Many of our members use yoga to improve mobility for heavy lifting days on our gym floor or follow up their practice with a soothing steam session.
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+document.querySelectorAll('.fbsvc-faq-header').forEach(header => {
+	header.addEventListener('click', () => {
+		const item = header.parentElement;
+		const isActive = item.classList.contains('active');
+		document.querySelectorAll('.fbsvc-faq-item').forEach(i => i.classList.remove('active'));
+		if (!isActive) item.classList.add('active');
+	});
+});
+</script>
+
+<!-- SECTION 7: Bottom CTA -->
+<div class="fbsvc-cta-wrap">
+	<div class="fbsvc-cta-ambient"></div>
+	<div class="fbsvc-cta-container">
+		<h2 class="fbsvc-cta-title">
+			Ready to train?<br/>
+			<span>Start today.</span>
+		</h2>
+		<div class="fbsvc-cta-buttons">
+			<a href="<?php echo $base_url; ?>/contact/" class="fbsvc-btn fbsvc-btn-primary">
+				Join a class
+			</a>
+			<a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbsvc-btn fbsvc-btn-secondary">
+				<svg width="15" height="15" viewBox="0 0 448 512" fill="currentColor" style="display:inline-block;"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"></path></svg>
+				WhatsApp Us
+			</a>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+
+	</main>
 
 			<footer data-elementor-type="footer" data-elementor-id="29" class="elementor elementor-29 elementor-location-footer" data-elementor-post-type="elementor_library">
 					<section class="elementor-section elementor-top-section elementor-element elementor-element-5f1f9a04 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5f1f9a04" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">

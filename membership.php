@@ -1490,195 +1490,773 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 </div>				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-3c3e1835 e-con-full e-flex e-con e-child" data-id="3c3e1835" data-element_type="container" data-e-type="container" id="strength-training" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-element elementor-element-3c3e1835 e-con-full e-flex e-con e-child" data-id="3c3e1835" data-element_type="container" data-e-type="container" id="strength-training" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-68a718d3 elementor-widget elementor-widget-html" data-id="68a718d3" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
 					<style>
-    /* ─── Pricing Table Section ─── */
-    .fbt-pricing-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
+/* ─── FITBLISS MEMBERSHIPS LUXURY DARK STYLING ─── */
+.fbt-pricing-section,
+.fbt-group-section,
+.fbt-pilates-section,
+.fbt-notes-section {
+	padding: clamp(50px, 8vw, 90px) clamp(16px, 4vw, 40px);
+	box-sizing: border-box;
+	background: #050a0b;
+	position: relative;
+}
 
-    .fbt-pricing-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
+.fbt-pricing-section::after,
+.fbt-group-section::after,
+.fbt-pilates-section::after,
+.fbt-notes-section::after {
+	content: '';
+	position: absolute;
+	left: 5%;
+	right: 5%;
+	bottom: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, rgba(55, 192, 128, 0.2), transparent);
+}
 
-    /* Top Header Row */
-    .fbt-pricing-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-        align-items: flex-end;
-        margin-bottom: 36px;
-    }
+.fbt-pricing-container,
+.fbt-group-container,
+.fbt-pilates-container,
+.fbt-notes-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
 
-    .fbt-pricing-title-wrap {
-        flex: 1 1 300px;
-    }
+/* Header Row */
+.fbt-pricing-header,
+.fbt-group-header,
+.fbt-pilates-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 24px;
+	align-items: flex-end;
+	margin-bottom: 38px;
+}
 
-    .fbt-pricing-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
+.fbt-pricing-title-wrap,
+.fbt-group-title-wrap,
+.fbt-pilates-title-wrap {
+	flex: 1 1 320px;
+}
 
-    .fbt-pricing-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
+.fbt-pricing-tag,
+.fbt-group-tag,
+.fbt-pilates-tag,
+.fbt-elite-tag {
+	color: #37c080;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 0;
+}
 
-    .fbt-pricing-sub {
-        margin: 0;
-        max-width: 380px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: #9b998b;
-        line-height: 1.6;
-    }
+.fbt-pricing-title,
+.fbt-group-title,
+.fbt-pilates-title {
+	margin: 12px 0 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(32px, 6vw, 44px);
+	line-height: 0.95;
+	color: #f4f2ea;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
 
-    /* Responsive Table Wrap */
-    .fbt-table-wrapper {
-        overflow-x: auto;
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        background: #091212;
-        -webkit-overflow-scrolling: touch;
-    }
+.fbt-pricing-sub,
+.fbt-group-sub,
+.fbt-pilates-sub {
+	margin: 0;
+	max-width: 420px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14.5px;
+	color: rgba(244, 242, 234, 0.72);
+	line-height: 1.68;
+}
 
-    .fbt-pricing-table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;
-    }
+/* ─── TABLES (S1, S2, S4) ─── */
+.fbt-table-wrapper {
+	overflow-x: auto;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(55, 192, 128, 0.5);
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+	-webkit-overflow-scrolling: touch;
+	transition: all 0.3s ease;
+}
 
-    .fbt-pricing-table th {
-        padding: 14px clamp(14px, 3vw, 20px);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-        background: #010303;
-    }
+.fbt-table-wrapper:hover {
+	border-top-color: #37c080;
+	box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8), 0 0 25px rgba(55, 192, 128, 0.12);
+}
 
-    .fbt-pricing-table td {
-        padding: 14px clamp(14px, 3vw, 20px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
+.fbt-pricing-table,
+.fbt-pilates-table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+}
 
-    .fbt-pricing-table tr:last-child td {
-        border-bottom: none;
-    }
+.fbt-pricing-table th,
+.fbt-pilates-table th {
+	padding: 18px clamp(16px, 3vw, 24px);
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #37c080;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+	background: rgba(1, 3, 3, 0.75);
+}
 
-    .fbt-td-duration {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(15px, 2.5vw, 18px);
-        letter-spacing: .5px;
-        text-transform: uppercase;
-        color: #f4f2ea;
-    }
+.fbt-pricing-table td,
+.fbt-pilates-table td {
+	padding: 18px clamp(16px, 3vw, 24px);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+	transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
 
-    .fbt-td-req {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: rgba(244, 242, 234, .85);
-    }
+.fbt-pricing-table tr:last-child td,
+.fbt-pilates-table tr:last-child td {
+	border-bottom: none;
+}
 
-    /* Badges & Notes */
-    .fbt-pricing-notes {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px 10px;
-        margin-top: 20px;
-    }
+.fbt-pricing-table tbody tr,
+.fbt-pilates-table tbody tr {
+	transition: all 0.25s ease;
+	cursor: pointer;
+}
 
-    .fbt-note-badge {
-        display: inline-flex;
-        align-items: center;
-        padding: 6px 12px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(10px, 2.5vw, 11px);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
+.fbt-pricing-table tbody tr:hover,
+.fbt-pilates-table tbody tr:hover {
+	background: rgba(55, 192, 128, 0.07);
+}
 
-    .fbt-note-primary {
-        border: 1px solid rgba(55, 192, 128, 0.4);
-        color: #37c080;
-        background: rgba(55, 192, 128, 0.05);
-    }
+.fbt-pricing-table tbody tr:hover td,
+.fbt-pilates-table tbody tr:hover td {
+	color: #ffffff;
+}
 
-    .fbt-note-secondary {
-        border: 1px solid rgba(244, 242, 234, 0.2);
-        color: #9b998b;
-        background: rgba(255, 255, 255, 0.02);
-    }
+.fbt-td-duration {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(17px, 2.5vw, 21px);
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+	color: #f4f2ea;
+	transition: color 0.25s ease;
+}
 
-    /* Action Buttons */
-    .fbt-pricing-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
-    }
+.fbt-pricing-table tbody tr:hover .fbt-td-duration,
+.fbt-pilates-table tbody tr:hover .fbt-td-duration {
+	color: #3ee69a;
+	text-shadow: 0 0 12px rgba(55, 192, 128, 0.4);
+}
 
-    .fbt-btn-cta {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
+.fbt-td-req,
+.fbt-td-sessions {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14px;
+	color: rgba(244, 242, 234, 0.8);
+}
 
-    .fbt-btn-whatsapp {
-        background: #37c080;
-        color: #050a0b;
-        border: 1px solid #37c080;
-    }
+/* Badges & Notes */
+.fbt-pricing-notes {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px 12px;
+	margin-top: 24px;
+}
 
-    .fbt-btn-whatsapp:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
+.fbt-note-badge {
+	display: inline-flex;
+	align-items: center;
+	padding: 7px 14px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	transition: all 0.25s ease;
+}
 
-    .fbt-btn-call {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
+.fbt-note-primary {
+	border: 1px solid rgba(55, 192, 128, 0.4);
+	color: #37c080;
+	background: rgba(55, 192, 128, 0.06);
+}
 
-    .fbt-btn-call:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
+.fbt-note-primary:hover {
+	background: rgba(55, 192, 128, 0.15);
+	border-color: #5eeaa8;
+	color: #5eeaa8;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.25);
+}
 
-    @media (max-width: 600px) {
-        .fbt-btn-cta {
-            width: 100%;
-        }
-    }
+.fbt-note-secondary {
+	border: 1px solid rgba(255, 255, 255, 0.12);
+	color: rgba(244, 242, 234, 0.7);
+	background: rgba(255, 255, 255, 0.02);
+}
+
+.fbt-note-secondary:hover {
+	border-color: rgba(55, 192, 128, 0.35);
+	color: #f4f2ea;
+	background: rgba(55, 192, 128, 0.05);
+}
+
+/* Action Buttons */
+.fbt-pricing-actions,
+.fbt-group-actions,
+.fbt-pilates-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	margin-top: 32px;
+}
+
+.fbt-btn-cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	padding: 13px 26px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	box-sizing: border-box;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.fbt-btn-whatsapp {
+	background: #37c080;
+	color: #050a0b !important;
+	border: 1px solid #37c080;
+}
+
+.fbt-btn-whatsapp:hover {
+	background: #5eeaa8;
+	border-color: #5eeaa8;
+	transform: translateY(-2px);
+	box-shadow: 0 10px 25px rgba(55, 192, 128, 0.35);
+}
+
+.fbt-btn-call {
+	background: transparent;
+	color: #f4f2ea !important;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.fbt-btn-call:hover {
+	border-color: #37c080;
+	color: #37c080 !important;
+	background: rgba(55, 192, 128, 0.08);
+	transform: translateY(-2px);
+}
+
+/* ─── GROUP ACTIVITY CARDS (S3) ─── */
+.fbt-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 26px;
+	box-sizing: border-box;
+}
+
+@media (max-width: 860px) {
+	.fbt-cards-grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+}
+
+.fbt-group-card {
+	position: relative;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	padding: 34px 30px;
+	box-sizing: border-box;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+}
+
+.fbt-group-card:hover {
+	transform: translateY(-8px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.18);
+}
+
+.fbt-card-badge {
+	position: absolute;
+	top: 18px;
+	right: 18px;
+	background: rgba(1, 3, 3, 0.85);
+	border: 1px solid rgba(55, 192, 128, 0.5);
+	padding: 5px 12px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #37c080;
+	transition: all 0.3s ease;
+}
+
+.fbt-group-card:hover .fbt-card-badge {
+	background: rgba(55, 192, 128, 0.2);
+	border-color: #5eeaa8;
+	color: #5eeaa8;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.4);
+}
+
+.fbt-card-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(24px, 4vw, 30px);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 18px;
+	transition: color 0.3s ease;
+}
+
+.fbt-group-card:hover .fbt-card-title {
+	color: #3ee69a;
+	text-shadow: 0 0 18px rgba(55, 192, 128, 0.45);
+}
+
+.fbt-tags-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin-bottom: 24px;
+	flex: 1;
+}
+
+.fbt-tag-pill {
+	display: inline-flex;
+	padding: 6px 12px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11.5px;
+	font-weight: 600;
+	color: rgba(244, 242, 234, 0.75);
+	background: rgba(255, 255, 255, 0.03);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	transition: all 0.25s ease;
+}
+
+.fbt-group-card:hover .fbt-tag-pill {
+	background: rgba(55, 192, 128, 0.08);
+	border-color: rgba(55, 192, 128, 0.3);
+	color: #f4f2ea;
+}
+
+.fbt-tag-pill:hover {
+	background: rgba(55, 192, 128, 0.2) !important;
+	border-color: #5eeaa8 !important;
+	color: #5eeaa8 !important;
+	transform: translateY(-2px);
+}
+
+.fbt-card-info-row {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 18px;
+	border-top: 1px solid rgba(255, 255, 255, 0.06);
+	gap: 16px;
+}
+
+.fbt-info-label {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+	color: #37c080;
+	margin-bottom: 4px;
+}
+
+.fbt-info-val {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	color: #f4f2ea;
+}
+
+/* ─── PILATES PT GRID (S4) ─── */
+.fbt-pilates-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 26px;
+	margin-bottom: 26px;
+}
+
+@media (max-width: 860px) {
+	.fbt-pilates-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbt-col-subtitle {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #f4f2ea;
+	margin-bottom: 12px;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+
+.fbt-notice-card {
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(55, 192, 128, 0.35);
+	border-left: 3px solid #37c080;
+	padding: 22px 26px;
+	box-sizing: border-box;
+	margin-top: 24px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 16px;
+	transition: all 0.3s ease;
+}
+
+.fbt-notice-card:hover {
+	border-color: #5eeaa8;
+	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.7), 0 0 20px rgba(55, 192, 128, 0.15);
+	transform: translateY(-3px);
+}
+
+.fbt-notice-title {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #37c080;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+.fbt-notice-text {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13.5px;
+	color: rgba(244, 242, 234, 0.75);
+}
+
+/* ─── ELITE CLUB (S5) ─── */
+.fbt-elite-section {
+	position: relative;
+	overflow: hidden;
+	background: #010303;
+	padding: clamp(60px, 10vw, 110px) clamp(16px, 4vw, 40px);
+	box-sizing: border-box;
+}
+
+.fbt-elite-bg {
+	position: absolute;
+	inset: 0;
+	z-index: 0;
+}
+
+.fbt-elite-bg img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0.18;
+	filter: saturate(0.8) brightness(0.7);
+}
+
+.fbt-elite-overlay {
+	position: absolute;
+	inset: 0;
+	background: radial-gradient(circle at center, rgba(1, 3, 3, 0.7) 0%, #010303 90%);
+}
+
+.fbt-elite-content {
+	position: relative;
+	z-index: 1;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+
+.fbt-elite-header {
+	margin-bottom: 44px;
+}
+
+.fbt-elite-title {
+	margin: 12px 0 14px;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(34px, 6vw, 48px);
+	line-height: 0.95;
+	color: #f4f2ea;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.fbt-elite-title span {
+	color: #37c080;
+}
+
+.fbt-elite-sub {
+	margin: 0;
+	max-width: 500px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	color: rgba(244, 242, 234, 0.75);
+	line-height: 1.7;
+}
+
+.fbt-elite-cards-grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 26px;
+}
+
+@media (max-width: 900px) {
+	.fbt-elite-cards-grid {
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+}
+
+.fbt-elite-card {
+	position: relative;
+	background: linear-gradient(180deg, rgba(9, 19, 20, 0.9) 0%, rgba(4, 8, 9, 0.95) 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	padding: 34px 28px;
+	display: flex;
+	flex-direction: column;
+	backdrop-filter: blur(10px);
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbt-elite-card:hover {
+	transform: translateY(-8px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), 0 0 30px rgba(55, 192, 128, 0.18);
+}
+
+.fbt-elite-card-featured {
+	border-color: rgba(55, 192, 128, 0.45);
+	border-top: 2px solid #37c080;
+	background: linear-gradient(180deg, rgba(14, 28, 30, 0.95) 0%, rgba(5, 12, 13, 0.98) 100%);
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), 0 0 25px rgba(55, 192, 128, 0.12);
+}
+
+.fbt-elite-card-tag {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: #37c080;
+	margin-bottom: 10px;
+}
+
+.fbt-elite-card-name {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 32px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 12px;
+	transition: color 0.3s ease;
+}
+
+.fbt-elite-card:hover .fbt-elite-card-name {
+	color: #3ee69a;
+}
+
+.fbt-elite-card-desc {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14px;
+	line-height: 1.68;
+	color: rgba(244, 242, 234, 0.75);
+	margin: 0 0 26px 0;
+	flex: 1;
+}
+
+.fbt-elite-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 13px 24px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbt-elite-btn-primary {
+	background: #37c080;
+	color: #050a0b !important;
+	border: 1px solid #37c080;
+}
+
+.fbt-elite-btn-primary:hover {
+	background: #5eeaa8;
+	border-color: #5eeaa8;
+	transform: translateY(-2px);
+	box-shadow: 0 10px 25px rgba(55, 192, 128, 0.4);
+}
+
+.fbt-elite-btn-secondary {
+	background: transparent;
+	color: #f4f2ea !important;
+	border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+.fbt-elite-btn-secondary:hover {
+	border-color: #37c080;
+	color: #37c080 !important;
+	background: rgba(55, 192, 128, 0.08);
+	transform: translateY(-2px);
+}
+
+/* ─── POLICY NOTES (S6) ─── */
+.fbt-notes-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 20px;
+}
+
+@media (max-width: 1024px) {
+	.fbt-notes-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 600px) {
+	.fbt-notes-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+.fbt-note-card {
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	padding: 24px 22px;
+	box-sizing: border-box;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	cursor: pointer;
+}
+
+.fbt-note-card:hover {
+	transform: translateY(-6px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.8), 0 0 25px rgba(55, 192, 128, 0.15);
+}
+
+.fbt-note-number {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #37c080;
+	margin-bottom: 8px;
+	transition: color 0.3s ease;
+}
+
+.fbt-note-card:hover .fbt-note-number {
+	color: #5eeaa8;
+}
+
+.fbt-note-heading {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: 20px;
+	letter-spacing: 0.8px;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 8px;
+}
+
+.fbt-note-text {
+	margin: 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 13px;
+	line-height: 1.6;
+	color: rgba(244, 242, 234, 0.7);
+}
+
+/* ─── CTA SECTION (S7) ─── */
+.fbt-mem-cta {
+	background: #020405;
+	padding: 80px 24px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.fbt-mem-cta-inner {
+	max-width: 1320px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 28px;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid #37c080;
+	padding: clamp(36px, 6vw, 56px) clamp(24px, 5vw, 48px);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+	transition: all 0.35s ease;
+}
+
+.fbt-mem-cta-inner:hover {
+	box-shadow: 0 30px 70px rgba(0, 0, 0, 0.95), 0 0 35px rgba(55, 192, 128, 0.16);
+	border-color: rgba(55, 192, 128, 0.35);
+	border-top-color: #5eeaa8;
+}
+
+.fbt-mem-cta-title {
+	margin: 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(32px, 6vw, 44px);
+	line-height: 0.95;
+	color: #f4f2ea;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.fbt-mem-cta-title span {
+	color: #37c080;
+	display: block;
+}
+
+.fbt-mem-cta-desc {
+	margin: 14px 0 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 15px;
+	line-height: 1.68;
+	color: rgba(244, 242, 234, 0.72);
+	max-width: 520px;
+}
 </style>
 
 <div class="fbt-pricing-section">
@@ -1718,7 +2296,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     </tr>
                     <tr>
                         <td class="fbt-td-duration">1 Year</td>
-                        <td class="fbt-td-req">1 / 3 Month PT</td>
+                        <td class="fbt-td-req">1 Month PT</td>
                     </tr>
                 </tbody>
             </table>
@@ -1726,16 +2304,17 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
         <!-- Notes -->
         <div class="fbt-pricing-notes">
-            <span class="fbt-note-badge fbt-note-primary">1 Month PT mandatory for all plans</span>
-            <span class="fbt-note-badge fbt-note-secondary">PT Add-on: ₹10,000</span>
+            <div class="fbt-note-badge fbt-note-primary">Includes: Gym floor + Zumba + Dance + Yoga + Spinning + Crossfit</div>
+            <div class="fbt-note-badge fbt-note-secondary">Personal training optional after month 1</div>
+            <div class="fbt-note-badge fbt-note-secondary">Access to locker &amp; shower facilities</div>
         </div>
 
-        <!-- Action CTAs -->
+        <!-- CTA Actions -->
         <div class="fbt-pricing-actions">
             <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp">
                 Enquire on WhatsApp →
             </a>
-            <a href="tel:+917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-call">
+            <a href="tel:+917470787014" class="fbt-btn-cta fbt-btn-call">
                 Call the club
             </a>
         </div>
@@ -1746,186 +2325,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-7872470 e-con-full e-flex e-con e-child" data-id="7872470" data-element_type="container" data-e-type="container" id="gym-only" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-a7dce5f elementor-widget elementor-widget-html" data-id="a7dce5f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<style>
-    /* ─── Pricing Table Section (Gym Only) ─── */
-    .fbt-pricing-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
-
-    .fbt-pricing-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
-
-    /* Top Header Row */
-    .fbt-pricing-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-        align-items: flex-end;
-        margin-bottom: 36px;
-    }
-
-    .fbt-pricing-title-wrap {
-        flex: 1 1 300px;
-    }
-
-    .fbt-pricing-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
-
-    .fbt-pricing-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
-
-    .fbt-pricing-sub {
-        margin: 0;
-        max-width: 380px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: #9b998b;
-        line-height: 1.6;
-    }
-
-    /* Responsive Table Wrap */
-    .fbt-table-wrapper {
-        overflow-x: auto;
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        background: #091212;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .fbt-pricing-table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;
-    }
-
-    .fbt-pricing-table th {
-        padding: 14px clamp(14px, 3vw, 20px);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-        background: #010303;
-    }
-
-    .fbt-pricing-table td {
-        padding: 14px clamp(14px, 3vw, 20px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .fbt-pricing-table tr:last-child td {
-        border-bottom: none;
-    }
-
-    .fbt-td-duration {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(15px, 2.5vw, 18px);
-        letter-spacing: .5px;
-        text-transform: uppercase;
-        color: #f4f2ea;
-    }
-
-    .fbt-td-req {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: rgba(244, 242, 234, .85);
-    }
-
-    /* Badges & Notes */
-    .fbt-pricing-notes {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px 10px;
-        margin-top: 20px;
-    }
-
-    .fbt-note-badge {
-        display: inline-flex;
-        align-items: center;
-        padding: 6px 12px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(10px, 2.5vw, 11px);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        border: 1px solid rgba(55, 192, 128, 0.4);
-        color: #37c080;
-        background: rgba(55, 192, 128, 0.05);
-    }
-
-    /* Action Buttons */
-    .fbt-pricing-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
-    }
-
-    .fbt-btn-cta {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
-
-    .fbt-btn-whatsapp {
-        background: #37c080;
-        color: #050a0b;
-        border: 1px solid #37c080;
-    }
-
-    .fbt-btn-whatsapp:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
-
-    .fbt-btn-call {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
-
-    .fbt-btn-call:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
-
-    @media (max-width: 600px) {
-        .fbt-btn-cta {
-            width: 100%;
-        }
-    }
-</style>
-
-<div class="fbt-pricing-section">
+					<div class="fbt-pricing-section">
     <div class="fbt-pricing-container">
         <!-- Header Row -->
         <div class="fbt-pricing-header">
@@ -1962,7 +2362,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                     </tr>
                     <tr>
                         <td class="fbt-td-duration">1 Year</td>
-                        <td class="fbt-td-req">1 / 3 Month PT</td>
+                        <td class="fbt-td-req">1 Month PT</td>
                     </tr>
                 </tbody>
             </table>
@@ -1970,15 +2370,16 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
         <!-- Notes -->
         <div class="fbt-pricing-notes">
-            <span class="fbt-note-badge">PT Add-on: ₹10,000</span>
+            <div class="fbt-note-badge fbt-note-primary">Gym floor only · Personal training optional</div>
+            <div class="fbt-note-badge fbt-note-secondary">Access to locker &amp; shower facilities</div>
         </div>
 
-        <!-- Action CTAs -->
+        <!-- CTA Actions -->
         <div class="fbt-pricing-actions">
             <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp">
                 Enquire on WhatsApp →
             </a>
-            <a href="tel:+917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-call">
+            <a href="tel:+917470787014" class="fbt-btn-cta fbt-btn-call">
                 Call the club
             </a>
         </div>
@@ -1989,204 +2390,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-1cb98f32 e-con-full e-flex e-con e-child" data-id="1cb98f32" data-element_type="container" data-e-type="container" id="group-activity" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-6ce2384b elementor-widget elementor-widget-html" data-id="6ce2384b" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<style>
-    /* ─── Group Activity Section ─── */
-    .fbt-group-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
-
-    .fbt-group-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
-
-    /* Top Header Row */
-    .fbt-group-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-        align-items: flex-end;
-        margin-bottom: 40px;
-    }
-
-    .fbt-group-title-wrap {
-        flex: 1 1 300px;
-    }
-
-    .fbt-group-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
-
-    .fbt-group-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
-
-    .fbt-group-sub {
-        margin: 0;
-        max-width: 340px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: #9b998b;
-        line-height: 1.6;
-    }
-
-    /* Cards Grid */
-    .fbt-cards-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .fbt-group-card {
-        flex: 1 1 280px;
-        min-width: 0;
-        background: rgba(13, 23, 23, 0.55);
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        padding: clamp(20px, 4vw, 30px);
-        box-sizing: border-box;
-    }
-
-    .fbt-card-badge {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-    }
-
-    .fbt-card-title {
-        margin-top: 10px;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(24px, 5vw, 30px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-        line-height: 1.1;
-    }
-
-    .fbt-tags-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 6px;
-        margin-top: 14px;
-    }
-
-    .fbt-tag-pill {
-        display: inline-flex;
-        align-items: center;
-        border: 1px solid rgba(255, 255, 255, 0.18);
-        color: rgba(244, 242, 234, .85);
-        padding: 5px 12px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        background: rgba(255, 255, 255, 0.02);
-    }
-
-    .fbt-card-info-row {
-        display: flex;
-        flex-wrap: wrap;
-        gap: clamp(16px, 4vw, 28px);
-        margin-top: 22px;
-        padding-top: 20px;
-        border-top: 1px solid rgba(255, 255, 255, 0.10);
-    }
-
-    .fbt-info-label {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        text-transform: uppercase;
-        letter-spacing: 1.5px;
-        color: #9b998b;
-    }
-
-    .fbt-info-val {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 14px;
-        color: #f4f2ea;
-        margin-top: 6px;
-        line-height: 1.5;
-    }
-
-    .fbt-note-text {
-        margin: 20px 0 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #9b998b;
-    }
-
-    /* Action Buttons */
-    .fbt-group-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
-    }
-
-    .fbt-btn-cta {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
-
-    .fbt-btn-whatsapp {
-        background: #37c080;
-        color: #050a0b;
-        border: 1px solid #37c080;
-    }
-
-    .fbt-btn-whatsapp:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
-
-    .fbt-btn-call {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
-
-    .fbt-btn-call:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
-
-    @media (max-width: 600px) {
-        .fbt-btn-cta {
-            width: 100%;
-        }
-    }
-</style>
-
-<div class="fbt-group-section">
+					<div class="fbt-group-section">
     <div class="fbt-group-container">
         <!-- Header Row -->
         <div class="fbt-group-header">
@@ -2229,11 +2433,12 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             <!-- Card 2 -->
             <div class="fbt-group-card">
                 <div class="fbt-card-badge">Dance Series</div>
-                <div class="fbt-card-title">Bollywood · Power · Animal Flow</div>
+                <div class="fbt-card-title">Dance Classes</div>
                 <div class="fbt-tags-wrapper">
-                    <span class="fbt-tag-pill">Bollywood Dance</span>
-                    <span class="fbt-tag-pill">Power Dance</span>
-                    <span class="fbt-tag-pill">Animal Flow Dance</span>
+                    <span class="fbt-tag-pill">Bollywood</span>
+                    <span class="fbt-tag-pill">Contemporary</span>
+                    <span class="fbt-tag-pill">Salsa / Bachata</span>
+                    <span class="fbt-tag-pill">Hip-Hop</span>
                 </div>
                 <div class="fbt-card-info-row">
                     <div>
@@ -2248,15 +2453,19 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             </div>
         </div>
 
-        <!-- Note Text -->
-        <p class="fbt-note-text">Note: GST is applicable on all plans.</p>
+        <!-- Notes -->
+        <div class="fbt-pricing-notes">
+            <div class="fbt-note-badge fbt-note-primary">12 sessions / month</div>
+            <div class="fbt-note-badge fbt-note-secondary">1 demo session available</div>
+            <div class="fbt-note-badge fbt-note-secondary">Certified instructors</div>
+        </div>
 
-        <!-- Action CTAs -->
+        <!-- CTA Actions -->
         <div class="fbt-group-actions">
             <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp">
                 Enquire on WhatsApp →
             </a>
-            <a href="tel:+917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-call">
+            <a href="tel:+917470787014" class="fbt-btn-cta fbt-btn-call">
                 Call the club
             </a>
         </div>
@@ -2267,268 +2476,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-65ef311 e-con-full e-flex e-con e-child" data-id="65ef311" data-element_type="container" data-e-type="container" id="pilates-pt" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-1351704d elementor-widget elementor-widget-html" data-id="1351704d" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<style>
-    /* ─── Pilates Personal Training Section ─── */
-    .fbt-pilates-section {
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
-
-    .fbt-pilates-container {
-        max-width: 1320px;
-        margin: 0 auto;
-    }
-
-    /* Top Header Row */
-    .fbt-pilates-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        gap: 20px;
-        align-items: flex-end;
-        margin-bottom: 40px;
-    }
-
-    .fbt-pilates-title-wrap {
-        flex: 1 1 300px;
-    }
-
-    .fbt-pilates-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
-
-    .fbt-pilates-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
-
-    .fbt-pilates-sub {
-        margin: 0;
-        max-width: 340px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: #9b998b;
-        line-height: 1.6;
-    }
-
-    /* Main Content Flex Grid */
-    .fbt-pilates-grid {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 24px;
-        align-items: flex-start;
-    }
-
-    .fbt-pilates-table-col {
-        flex: 1.7 1 300px;
-        min-width: 0;
-    }
-
-    .fbt-pilates-card-col {
-        flex: 1 1 270px;
-        min-width: 0;
-    }
-
-    .fbt-col-subtitle {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-        margin-bottom: 16px;
-    }
-
-    /* Responsive Table */
-    .fbt-table-wrapper {
-        overflow-x: auto;
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        background: #091212;
-        -webkit-overflow-scrolling: touch;
-    }
-
-    .fbt-pilates-table {
-        width: 100%;
-        border-collapse: collapse;
-        text-align: left;
-    }
-
-    .fbt-pilates-table th {
-        padding: 14px clamp(14px, 3vw, 20px);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-        background: #010303;
-    }
-
-    .fbt-pilates-table td {
-        padding: 14px clamp(14px, 3vw, 20px);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-    }
-
-    .fbt-pilates-table tr:last-child td {
-        border-bottom: none;
-    }
-
-    .fbt-td-duration {
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(15px, 2.5vw, 18px);
-        letter-spacing: .5px;
-        text-transform: uppercase;
-        color: #f4f2ea;
-    }
-
-    .fbt-td-sessions {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        color: rgba(244, 242, 234, .85);
-    }
-
-    /* Badges & Notes */
-    .fbt-pilates-notes {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px 10px;
-        margin-top: 20px;
-    }
-
-    .fbt-note-badge {
-        display: inline-flex;
-        align-items: center;
-        padding: 6px 12px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(10px, 2.5vw, 11px);
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-    }
-
-    .fbt-note-primary {
-        border: 1px solid rgba(55, 192, 128, 0.4);
-        color: #37c080;
-        background: rgba(55, 192, 128, 0.05);
-    }
-
-    .fbt-note-secondary {
-        border: 1px solid rgba(244, 242, 234, 0.2);
-        color: #9b998b;
-        background: rgba(255, 255, 255, 0.02);
-    }
-
-    /* Duet Card */
-    .fbt-duet-card {
-        background: rgba(13, 23, 23, 0.55);
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        overflow: hidden;
-    }
-
-    .fbt-duet-img {
-        width: 100%;
-        height: clamp(160px, 25vw, 200px);
-        object-fit: cover;
-        display: block;
-    }
-
-    .fbt-duet-body {
-        padding: clamp(18px, 4vw, 24px);
-    }
-
-    .fbt-duet-row {
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-        gap: 12px;
-        padding: 10px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-    }
-
-    .fbt-duet-row:last-child {
-        border-bottom: none;
-    }
-
-    .fbt-duet-label {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 13px;
-        color: #9b998b;
-    }
-
-    .fbt-duet-val {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(12px, 2vw, 13px);
-        color: #f4f2ea;
-        text-align: right;
-    }
-
-    /* Action Buttons */
-    .fbt-pilates-actions {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 12px;
-        margin-top: 28px;
-    }
-
-    .fbt-btn-cta {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-    }
-
-    .fbt-btn-whatsapp {
-        background: #37c080;
-        color: #050a0b !important;
-        border: 1px solid #37c080;
-    }
-
-    .fbt-btn-whatsapp:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
-
-    .fbt-btn-call {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
-
-    .fbt-btn-call:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
-
-    @media (max-width: 600px) {
-        .fbt-btn-cta {
-            width: 100%;
-        }
-    }
-</style>
-
-<div class="fbt-pilates-section">
+					<div class="fbt-pilates-section">
     <div class="fbt-pilates-container">
         <!-- Header Row -->
         <div class="fbt-pilates-header">
@@ -2574,46 +2522,59 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
                         </tbody>
                     </table>
                 </div>
-                <div class="fbt-pilates-notes">
-                    <span class="fbt-note-badge fbt-note-primary">Happy Hour: 12:00 – 4:00 PM</span>
-                    <span class="fbt-note-badge fbt-note-secondary">GST applicable on all plans</span>
-                </div>
             </div>
 
-            <!-- Right Column: Duet Card -->
-            <div class="fbt-pilates-card-col">
-                <div class="fbt-duet-card">
-                    <img decoding="async" src="https://natural-creations.lovable.app/assets/fac-pilates-P46eP5ip.jpg" alt="Pilates studio" class="fbt-duet-img" />
-                    <div class="fbt-duet-body">
-                        <div class="fbt-col-subtitle" style="margin-bottom:6px;">Duet Training · 2 people</div>
-                        <div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:clamp(22px,4vw,26px);text-transform:uppercase;color:#f4f2ea;font-weight:400;">
-                            Bring a partner.
-                        </div>
-                        <div style="margin-top:16px;">
-                            <div class="fbt-duet-row">
-                                <span class="fbt-duet-label">Duration</span>
-                                <span class="fbt-duet-val">1 Month · 12 sessions</span>
-                            </div>
-                            <div class="fbt-duet-row">
-                                <span class="fbt-duet-label">Happy Hour</span>
-                                <span class="fbt-duet-val">12:00 – 4:00 PM</span>
-                            </div>
-                            <div class="fbt-duet-row">
-                                <span class="fbt-duet-label">Trial session</span>
-                                <span class="fbt-duet-val">Available — enquire</span>
-                            </div>
-                        </div>
-                    </div>
+            <!-- Right Column: Duo Table -->
+            <div class="fbt-pilates-table-col">
+                <div class="fbt-col-subtitle">Duo Pilates PT (Train with a partner)</div>
+                <div class="fbt-table-wrapper">
+                    <table class="fbt-pilates-table">
+                        <thead>
+                            <tr>
+                                <th>Duration</th>
+                                <th>Sessions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="fbt-td-duration">1 Month</td>
+                                <td class="fbt-td-sessions">8</td>
+                            </tr>
+                            <tr>
+                                <td class="fbt-td-duration">1 Month</td>
+                                <td class="fbt-td-sessions">12</td>
+                            </tr>
+                            <tr>
+                                <td class="fbt-td-duration">3 Months</td>
+                                <td class="fbt-td-sessions">24</td>
+                            </tr>
+                            <tr>
+                                <td class="fbt-td-duration">3 Months</td>
+                                <td class="fbt-td-sessions">36</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
 
-        <!-- Action CTAs -->
+        <!-- Happy Hour Notice -->
+        <div class="fbt-notice-card">
+            <div>
+                <div class="fbt-notice-title">Happy Hour · 12:00 – 4:00 PM</div>
+                <p class="fbt-notice-text">Special discounted rates apply for midday sessions. Book in advance.</p>
+            </div>
+            <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp" style="margin-top:0;">
+                Ask about Happy Hour →
+            </a>
+        </div>
+
+        <!-- CTA Actions -->
         <div class="fbt-pilates-actions">
             <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp">
                 Enquire on WhatsApp →
             </a>
-            <a href="tel:+917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-call">
+            <a href="tel:+917470787014" class="fbt-btn-cta fbt-btn-call">
                 Call the club
             </a>
         </div>
@@ -2624,237 +2585,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-45d70905 e-con-full e-flex e-con e-child" data-id="45d70905" data-element_type="container" data-e-type="container" id="elite-club" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-17bc94f8 elementor-widget elementor-widget-html" data-id="17bc94f8" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<style>
-    /* ─── Elite Club Section ─── */
-    .fbt-elite-section {
-        position: relative;
-        overflow: hidden;
-        background: #010303;
-    }
-
-    .fbt-elite-bg {
-        position: absolute;
-        inset: 0;
-        z-index: 0;
-    }
-
-    .fbt-elite-bg img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        opacity: 0.2;
-    }
-
-    .fbt-elite-overlay {
-        position: absolute;
-        inset: 0;
-        background: rgba(1, 3, 3, 0.88);
-    }
-
-    .fbt-elite-content {
-        position: relative;
-        z-index: 1;
-        padding: clamp(40px, 8vw, 80px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-    }
-
-    .fbt-elite-header {
-        max-width: 900px;
-        margin: 0 auto 40px;
-    }
-
-    .fbt-elite-tag {
-        color: #37c080;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-    }
-
-    .fbt-elite-title {
-        margin: 12px 0 0;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 0.95;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
-
-    .fbt-elite-title span {
-        color: #37c080;
-        display: block;
-    }
-
-    .fbt-elite-sub {
-        margin: 14px 0 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(13px, 2vw, 14px);
-        line-height: 1.6;
-        color: #9b998b;
-    }
-
-    /* 3 Cards Row */
-    .fbt-elite-cards-grid {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-    }
-
-    .fbt-elite-card {
-        flex: 1 1 260px;
-        min-width: 0;
-        background: rgba(13, 23, 23, 0.55);
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        padding: clamp(20px, 4vw, 30px);
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .fbt-elite-card-featured {
-        background: rgba(55, 192, 128, 0.06);
-        border-color: #37c080;
-    }
-
-    .fbt-elite-card-tag {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-    }
-
-    .fbt-elite-card-name {
-        margin-top: 10px;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(24px, 5vw, 30px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-    }
-
-    .fbt-elite-card-desc {
-        margin: 14px 0 18px;
-        padding-top: 16px;
-        border-top: 1px solid rgba(255, 255, 255, 0.10);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 13px;
-        line-height: 1.5;
-        color: #9b998b;
-        flex-grow: 1;
-    }
-
-    .fbt-elite-btn {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        gap: 8px;
-        padding: 12px 22px;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        text-decoration: none;
-        box-sizing: border-box;
-        transition: all 0.25s ease;
-        align-self: flex-start;
-    }
-
-    .fbt-elite-btn-secondary {
-        background: transparent;
-        color: #f4f2ea;
-        border: 1px solid rgba(244, 242, 234, 0.25);
-    }
-
-    .fbt-elite-btn-secondary:hover {
-        border-color: #37c080;
-        color: #37c080;
-    }
-
-    .fbt-elite-btn-primary {
-        background: #37c080;
-        color: #050a0b !important;
-        border: 1px solid #37c080;
-    }
-
-    .fbt-elite-btn-primary:hover {
-        background: #2eb073;
-        border-color: #2eb073;
-    }
-
-    /* What's Included Grid */
-    .fbt-included-wrap {
-        max-width: 1320px;
-        margin: 36px auto 0;
-    }
-
-    .fbt-included-title {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2.5px;
-        color: #37c080;
-        margin-bottom: 14px;
-    }
-
-    .fbt-included-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 0 20px;
-    }
-
-    .fbt-included-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 10px 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.10);
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 13px;
-        color: #f4f2ea;
-    }
-
-    .fbt-included-item span {
-        color: #37c080;
-        font-size: 10px;
-    }
-
-    .fbt-footer-note {
-        max-width: 1320px;
-        margin: 20px auto 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        color: #9b998b;
-    }
-
-    /* Responsive Breakpoints */
-    @media (max-width: 799px) {
-        .fbt-included-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media (max-width: 599px) {
-        .fbt-included-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .fbt-elite-btn {
-            width: 100%;
-        }
-    }
-</style>
-
-<div class="fbt-elite-section">
+					<div class="fbt-elite-section">
     <div class="fbt-elite-bg">
         <img decoding="async" src="https://natural-creations.lovable.app/assets/fac-gym-KKOxT9GI.jpg" alt="Gym" />
         <div class="fbt-elite-overlay"></div>
@@ -2888,7 +2619,7 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 
             <!-- Couple (Featured) -->
             <div class="fbt-elite-card fbt-elite-card-featured">
-                <div class="fbt-elite-card-tag">Annual</div>
+                <div class="fbt-elite-card-tag">Annual · Most Popular</div>
                 <div class="fbt-elite-card-name">Couple</div>
                 <p class="fbt-elite-card-desc">Two members, one all-inclusive annual membership.</p>
                 <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-elite-btn fbt-elite-btn-primary">
@@ -2899,34 +2630,13 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
             <!-- Family -->
             <div class="fbt-elite-card">
                 <div class="fbt-elite-card-tag">Annual</div>
-                <div class="fbt-elite-card-name">Family (2 + 2)</div>
-                <p class="fbt-elite-card-desc">For direct family members only — two adults and two dependents.</p>
+                <div class="fbt-elite-card-name">Family (4 Members)</div>
+                <p class="fbt-elite-card-desc">Four members, all-access for the whole family across the full facility.</p>
                 <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-elite-btn fbt-elite-btn-secondary">
                     Enquire →
                 </a>
             </div>
         </div>
-
-        <!-- What's Included -->
-        <div class="fbt-included-wrap">
-            <div class="fbt-included-title">Everything included in Elite Club:</div>
-            <div class="fbt-included-grid">
-                <div class="fbt-included-item"><span>✦</span>Gym access</div>
-                <div class="fbt-included-item"><span>✦</span>Pilates PT</div>
-                <div class="fbt-included-item"><span>✦</span>Yoga</div>
-                <div class="fbt-included-item"><span>✦</span>Aerial Yoga</div>
-                <div class="fbt-included-item"><span>✦</span>Zumba</div>
-                <div class="fbt-included-item"><span>✦</span>Boxing</div>
-                <div class="fbt-included-item"><span>✦</span>Spinning</div>
-                <div class="fbt-included-item"><span>✦</span>Aerobics</div>
-                <div class="fbt-included-item"><span>✦</span>Squash (without PT)</div>
-            </div>
-        </div>
-
-        <!-- Note -->
-        <p class="fbt-footer-note">
-            Family (2 + 2) valid only for direct family members. · GST applicable on all plans.
-        </p>
     </div>
 </div>				</div>
 				</div>
@@ -2934,86 +2644,36 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-7916e6e0 e-con-full e-flex e-con e-child" data-id="7916e6e0" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-30a2fc1f elementor-widget elementor-widget-html" data-id="30a2fc1f" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<style>
-    /* ─── Policy Notes Section ─── */
-    .fbt-notes-section {
-        padding: clamp(32px, 6vw, 60px) clamp(16px, 4vw, 40px);
-        box-sizing: border-box;
-        background: #050a0b;
-    }
-
-    .fbt-notes-container {
-        max-width: 1320px;
-        margin: 0 auto;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 16px;
-    }
-
-    .fbt-note-card {
-        flex: 1 1 250px;
-        min-width: 0;
-        background: rgba(13, 23, 23, 0.55);
-        border: 1px solid rgba(255, 255, 255, 0.10);
-        border-radius: 2px;
-        padding: clamp(16px, 3.5vw, 24px);
-        box-sizing: border-box;
-        transition: border-color 0.25s ease;
-    }
-
-    .fbt-note-card:hover {
-        border-color: rgba(55, 192, 128, 0.4);
-    }
-
-    .fbt-note-number {
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: 10px;
-        font-weight: 600;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        color: #37c080;
-    }
-
-    .fbt-note-heading {
-        margin-top: 10px;
-        font-family: 'Bebas Neue', Impact, sans-serif;
-        font-size: clamp(18px, 4vw, 22px);
-        text-transform: uppercase;
-        color: #f4f2ea;
-        font-weight: 400;
-        line-height: 1.1;
-    }
-
-    .fbt-note-text {
-        margin: 8px 0 0;
-        font-family: 'Barlow', Inter, sans-serif;
-        font-size: clamp(12px, 2vw, 13px);
-        line-height: 1.55;
-        color: #9b998b;
-    }
-</style>
-
-<div class="fbt-notes-section">
+					<div class="fbt-notes-section">
     <div class="fbt-notes-container">
-        <!-- Note 01 -->
-        <div class="fbt-note-card">
-            <div class="fbt-note-number">Note 01</div>
-            <div class="fbt-note-heading">GST applicable</div>
-            <p class="fbt-note-text">GST is applicable on all plans as per prevailing rates.</p>
-        </div>
+        <div class="fbt-notes-grid">
+            <!-- Note 01 -->
+            <div class="fbt-note-card">
+                <div class="fbt-note-number">Note 01</div>
+                <div class="fbt-note-heading">GST applicable</div>
+                <p class="fbt-note-text">GST is applicable on all plans as per prevailing rates.</p>
+            </div>
 
-        <!-- Note 02 -->
-        <div class="fbt-note-card">
-            <div class="fbt-note-number">Note 02</div>
-            <div class="fbt-note-heading">No refund &amp; discount policy</div>
-            <p class="fbt-note-text">Memberships are non-refundable and no discounts apply once processed.</p>
-        </div>
+            <!-- Note 02 -->
+            <div class="fbt-note-card">
+                <div class="fbt-note-number">Note 02</div>
+                <div class="fbt-note-heading">No refund &amp; discount</div>
+                <p class="fbt-note-text">Memberships are non-refundable and no discounts apply once processed.</p>
+            </div>
 
-        <!-- Note 03 -->
-        <div class="fbt-note-card">
-            <div class="fbt-note-number">Note 03</div>
-            <div class="fbt-note-heading">PT mandatory</div>
-            <p class="fbt-note-text">1 Month PT is mandatory for all Strength Training and Gym-Only plans.</p>
+            <!-- Note 03 -->
+            <div class="fbt-note-card">
+                <div class="fbt-note-number">Note 03</div>
+                <div class="fbt-note-heading">Non-transferable &amp; freeze</div>
+                <p class="fbt-note-text">Memberships are non-transferable. Annual memberships can be frozen for up to 30 days.</p>
+            </div>
+
+            <!-- Note 04 -->
+            <div class="fbt-note-card">
+                <div class="fbt-note-number">Note 04</div>
+                <div class="fbt-note-heading">Trainer &amp; Lockers</div>
+                <p class="fbt-note-text">Personal training is conducted by Fitbliss certified trainers only. Day lockers available.</p>
+            </div>
         </div>
     </div>
 </div>				</div>
@@ -3022,19 +2682,23 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		<div class="elementor-element elementor-element-340297cd e-con-full e-flex e-con e-child" data-id="340297cd" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 				<div class="elementor-element elementor-element-6f203679 elementor-widget elementor-widget-html" data-id="6f203679" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-					<div style="padding:80px 40px;"><div style="max-width:1320px;margin:0 auto;display:flex;flex-wrap:wrap;
-                      justify-content:space-between;align-items:center;gap:24px;">
-  <div style="max-width:600px;">
-    <h2 style="margin:0;font-family:'Bebas Neue', Impact, sans-serif;font-size:42px;line-height:.95;color:#f4f2ea;font-weight:400;">Ready to walk in?</h2>
-    <h2 style="margin:0;font-family:'Bebas Neue', Impact, sans-serif;font-size:42px;line-height:.95;color:#37c080;font-weight:400;">We'll show you around.</h2>
-    <p style="margin:14px 0 0;font-family:'Barlow', Inter, sans-serif;font-size:15px;line-height:1.6;color:#9b998b;">
-      Message us to book a facility tour, meet a coach, and pick the plan that actually fits your week.</p>
-  </div>
-  <div>
-    <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" style="background:#37c080;color:#050a0b;border:1px solid #37c080;display:inline-flex;align-items:center;gap:8px;padding:12px 22px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;margin:0 10px 10px 0;">WhatsApp now →</a>
-    <a href="<?php echo $base_url; ?>/" target="_blank" rel="noopener noreferrer" style="background:transparent;color:#f4f2ea;border:1px solid rgba(244,242,234,0.25);display:inline-flex;align-items:center;gap:8px;padding:12px 22px;font-family:'Barlow', Inter, sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:2px;text-decoration:none;margin:0 10px 10px 0;">Back to home</a>
-  </div>
-</div></div>				</div>
+					<div class="fbt-mem-cta">
+    <div class="fbt-mem-cta-inner">
+        <div>
+            <h2 class="fbt-mem-cta-title">
+                Ready to walk in?
+                <span>We'll show you around.</span>
+            </h2>
+            <p class="fbt-mem-cta-desc">
+                Message us to book a facility tour, meet a coach, and pick the plan that actually fits your week.
+            </p>
+        </div>
+        <div>
+            <a href="https://wa.me/917470787014" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-whatsapp" style="margin-right:10px;margin-bottom:10px;">WhatsApp now →</a>
+            <a href="<?php echo $base_url; ?>/" target="_blank" rel="noopener noreferrer" class="fbt-btn-cta fbt-btn-call" style="margin-bottom:10px;">Back to home</a>
+        </div>
+    </div>
+</div>				</div>
 				</div>
 				</div>
 				</div>

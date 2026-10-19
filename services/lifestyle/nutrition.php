@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once __DIR__ . '/../../includes/config.php';
 require_once __DIR__ . '/../../includes/security_shield.php';
 ?>
@@ -2251,8 +2251,7 @@ training floor.</h2>				</div>
 				</div>
 				<div class="elementor-element elementor-element-4078043 elementor-widget elementor-widget-heading" data-id="4078043" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
 				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Globally engineered.
-Precisely selected.</h2>				</div>
+					<h2 class="elementor-heading-title elementor-size-default" style="white-space:nowrap;">Globally engineered. Precisely selected.</h2>				</div>
 				</div>
 				</div>
 		<div class="elementor-element elementor-element-b7b8ed9 e-con-full e-flex e-con e-child" data-id="b7b8ed9" data-element_type="container" data-e-type="container">

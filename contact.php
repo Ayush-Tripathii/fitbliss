@@ -1379,160 +1379,451 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 				</div>
 				</div>
 				</div>
-		<div class="elementor-element elementor-element-4cfd4827 e-con-full e-flex e-con e-child" data-id="4cfd4827" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-1ab6269b e-con-full e-flex e-con e-child" data-id="1ab6269b" data-element_type="container" data-e-type="container">
-		<div class="elementor-element elementor-element-54aca491 e-con-full e-flex e-con e-child" data-id="54aca491" data-element_type="container" data-e-type="container">
-				<div class="elementor-element elementor-element-665991ab elementor-widget elementor-widget-html" data-id="665991ab" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<div style="font-family:'Bebas Neue', Impact, sans-serif;font-size:80px;text-transform:uppercase;color:rgba(55,192,128,0.06);line-height:0.85;letter-spacing:3px;margin-bottom:-20px;pointer-events:none;user-select:none;">CONTACT</div>				</div>
-				</div>
-				<div class="elementor-element elementor-element-3f0c2273 elementor-widget elementor-widget-spacer" data-id="3f0c2273" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-4b04a913 elementor-widget elementor-widget-text-editor" data-id="4b04a913" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p style="font-family:Barlow,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:3px;color:#37c080;margin:0;">+ Get in touch</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-37327492 elementor-widget elementor-widget-spacer" data-id="37327492" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-2e75a290 elementor-widget elementor-widget-heading" data-id="2e75a290" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Ready to get fit?</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-73727cc4 elementor-widget elementor-widget-heading" data-id="73727cc4" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h2 class="elementor-heading-title elementor-size-default">Let's connect!</h2>				</div>
-				</div>
-				<div class="elementor-element elementor-element-4e8101bd elementor-widget elementor-widget-spacer" data-id="4e8101bd" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-18159b70 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="18159b70" data-element_type="widget" data-e-type="widget" data-widget_type="icon-list.default">
-				<div class="elementor-widget-container">
-							<ul class="elementor-icon-list-items">
-							<li class="elementor-icon-list-item">
-											<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-map-marker" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">E 2/19 in front of Rani Kamlapati Railway Station, Bhopal, Madhya Pradesh 462016</span>
-									</li>
-								<li class="elementor-icon-list-item">
-											<a href="mailto:info@fitblissbysk.com">
+				<div class="elementor-element elementor-element-4cfd4827 e-con-full e-flex e-con e-child" data-id="4cfd4827" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<style>
+/* ─── FITBLISS CONTACT LUXURY REDESIGN ─── */
+.fbc-section {
+	width: 100%;
+	background: #050a0b;
+	padding: clamp(50px, 8vw, 90px) clamp(16px, 4vw, 40px);
+	box-sizing: border-box;
+	position: relative;
+}
 
-												<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-far-envelope" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>						</span>
-										<span class="elementor-icon-list-text"><span class="__cf_email__" data-cfemail="82ebece4edc2e4ebf6e0eeebf1f1e0fbf1e9ace1edef">info@fitblissbysk.com</span></span>
-											</a>
-									</li>
-								<li class="elementor-icon-list-item">
-											<a href="tel:+917470787012">
+.fbc-container {
+	max-width: 1320px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
 
-												<span class="elementor-icon-list-icon">
-							<svg aria-hidden="true" class="e-font-icon-svg e-fas-phone-alt" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z"></path></svg>						</span>
-										<span class="elementor-icon-list-text">+91 74707 87012,  +91 74707 87014</span>
-											</a>
-									</li>
-						</ul>
+.fbc-grid {
+	display: grid;
+	grid-template-columns: 1fr 1.12fr;
+	gap: clamp(32px, 5vw, 64px);
+	margin-bottom: clamp(48px, 8vw, 80px);
+	align-items: start;
+	box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+	.fbc-grid {
+		grid-template-columns: 1fr;
+		gap: 40px;
+	}
+}
+
+/* Left Column */
+.fbc-left-col {
+	position: relative;
+}
+
+.fbc-watermark {
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(70px, 12vw, 110px);
+	color: rgba(55, 192, 128, 0.05);
+	line-height: 0.85;
+	letter-spacing: 4px;
+	margin-bottom: -20px;
+	pointer-events: none;
+	user-select: none;
+	text-transform: uppercase;
+}
+
+.fbc-kicker {
+	color: #37c080;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 8px;
+}
+
+.fbc-title {
+	margin: 0 0 32px 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(34px, 6vw, 50px);
+	line-height: 0.95;
+	color: #f4f2ea;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.fbc-title span {
+	color: #37c080;
+}
+
+/* Info Cards */
+.fbc-cards-list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-bottom: 34px;
+}
+
+.fbc-info-card {
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(255, 255, 255, 0.14);
+	padding: 22px 24px;
+	display: flex;
+	align-items: flex-start;
+	gap: 18px;
+	transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbc-info-card:hover {
+	transform: translateY(-5px);
+	border-top-color: #37c080 !important;
+	border-color: rgba(55, 192, 128, 0.4);
+	box-shadow: 0 20px 45px rgba(0, 0, 0, 0.85), 0 0 25px rgba(55, 192, 128, 0.15);
+}
+
+.fbc-icon-box {
+	width: 44px;
+	height: 44px;
+	background: rgba(55, 192, 128, 0.1);
+	border: 1px solid rgba(55, 192, 128, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #37c080;
+	flex-shrink: 0;
+	transition: all 0.3s ease;
+}
+
+.fbc-info-card:hover .fbc-icon-box {
+	background: #37c080;
+	color: #050a0b;
+	box-shadow: 0 0 15px rgba(55, 192, 128, 0.5);
+}
+
+.fbc-info-body {
+	flex: 1;
+}
+
+.fbc-info-label {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 10.5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	color: #37c080;
+	margin-bottom: 4px;
+}
+
+.fbc-info-value {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14.5px;
+	line-height: 1.6;
+	color: rgba(244, 242, 234, 0.88);
+}
+
+.fbc-info-value a {
+	color: #f4f2ea;
+	text-decoration: none;
+	transition: color 0.25s ease;
+}
+
+.fbc-info-value a:hover {
+	color: #3ee69a;
+	text-shadow: 0 0 10px rgba(55, 192, 128, 0.4);
+}
+
+/* Social Row */
+.fbc-social-wrap {
+	margin-top: 10px;
+}
+
+.fbc-social-label {
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: rgba(244, 242, 234, 0.6);
+	margin-bottom: 14px;
+}
+
+.fbc-social-icons {
+	display: flex;
+	gap: 12px;
+}
+
+.fbc-social-btn {
+	width: 44px;
+	height: 44px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	color: #f4f2ea;
+	text-decoration: none;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbc-social-btn:hover {
+	border-color: #37c080;
+	color: #37c080;
+	background: rgba(55, 192, 128, 0.12);
+	transform: translateY(-4px) scale(1.08);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6), 0 0 15px rgba(55, 192, 128, 0.3);
+}
+
+.fbc-social-btn svg {
+	width: 17px;
+	height: 17px;
+	fill: currentColor;
+}
+
+/* Right Column - Form Card */
+.fbc-form-card {
+	background: linear-gradient(180deg, #091314 0%, #040809 100%);
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid #37c080;
+	padding: clamp(32px, 5vw, 48px) clamp(24px, 4vw, 42px);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+	box-sizing: border-box;
+	transition: all 0.35s ease;
+}
+
+.fbc-form-card:hover {
+	border-color: rgba(55, 192, 128, 0.35);
+	border-top-color: #5eeaa8;
+	box-shadow: 0 30px 70px rgba(0, 0, 0, 0.95), 0 0 30px rgba(55, 192, 128, 0.15);
+}
+
+.fbc-form-title {
+	margin: 0 0 8px 0;
+	font-family: 'Bebas Neue', Impact, sans-serif;
+	font-size: clamp(28px, 5vw, 36px);
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.fbc-form-desc {
+	margin: 0 0 28px 0;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 14px;
+	line-height: 1.6;
+	color: rgba(244, 242, 234, 0.7);
+}
+
+/* Fluent Form Styling inside card */
+.fbc-form-card .ff-el-group {
+	margin-bottom: 20px !important;
+}
+
+.fbc-form-card .ff-el-input--label label {
+	font-family: 'Barlow', Inter, sans-serif !important;
+	font-size: 11px !important;
+	font-weight: 700 !important;
+	letter-spacing: 1.5px !important;
+	text-transform: uppercase !important;
+	color: #37c080 !important;
+	margin-bottom: 8px !important;
+	display: block !important;
+}
+
+.fbc-form-card input.ff-el-form-control,
+.fbc-form-card textarea.ff-el-form-control {
+	width: 100% !important;
+	background: #040809 !important;
+	border: 1px solid rgba(255, 255, 255, 0.12) !important;
+	color: #f4f2ea !important;
+	font-family: 'Barlow', Inter, sans-serif !important;
+	font-size: 14px !important;
+	padding: 14px 18px !important;
+	border-radius: 0 !important;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+	box-sizing: border-box !important;
+}
+
+.fbc-form-card input.ff-el-form-control:focus,
+.fbc-form-card textarea.ff-el-form-control:focus {
+	border-color: #37c080 !important;
+	background: #070e10 !important;
+	box-shadow: 0 0 18px rgba(55, 192, 128, 0.25) !important;
+	outline: none !important;
+}
+
+.fbc-form-card .ff-btn-submit {
+	background: #37c080 !important;
+	color: #050a0b !important;
+	border: 1px solid #37c080 !important;
+	font-family: 'Barlow', Inter, sans-serif !important;
+	font-size: 12px !important;
+	font-weight: 700 !important;
+	text-transform: uppercase !important;
+	letter-spacing: 2px !important;
+	padding: 16px 36px !important;
+	border-radius: 0 !important;
+	cursor: pointer !important;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+	width: 100% !important;
+	box-sizing: border-box !important;
+}
+
+.fbc-form-card .ff-btn-submit:hover {
+	background: #5eeaa8 !important;
+	border-color: #5eeaa8 !important;
+	transform: translateY(-2px) !important;
+	box-shadow: 0 12px 28px rgba(55, 192, 128, 0.4) !important;
+}
+
+/* ─── MAP SECTION ─── */
+.fbc-map-wrapper {
+	position: relative;
+	width: 100%;
+	height: 440px;
+	background: #020405;
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-top: 2px solid rgba(55, 192, 128, 0.4);
+	box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85);
+	overflow: hidden;
+	box-sizing: border-box;
+	transition: all 0.35s ease;
+}
+
+.fbc-map-wrapper:hover {
+	border-top-color: #37c080;
+	box-shadow: 0 30px 70px rgba(0, 0, 0, 0.95), 0 0 30px rgba(55, 192, 128, 0.15);
+}
+
+.fbc-map-wrapper iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+	display: block;
+	filter: contrast(1.05) brightness(0.95);
+	transition: filter 0.3s ease;
+}
+
+.fbc-map-btn {
+	position: absolute;
+	top: 18px;
+	left: 18px;
+	z-index: 10;
+	background: rgba(5, 10, 11, 0.9);
+	color: #f4f2ea;
+	border: 1px solid rgba(55, 192, 128, 0.5);
+	backdrop-filter: blur(8px);
+	padding: 10px 20px;
+	font-family: 'Barlow', Inter, sans-serif;
+	font-size: 11px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-decoration: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+	box-sizing: border-box;
+}
+
+.fbc-map-btn:hover {
+	background: #37c080;
+	color: #050a0b;
+	border-color: #37c080;
+	transform: translateY(-2px);
+	box-shadow: 0 10px 20px rgba(55, 192, 128, 0.35);
+}
+</style>
+
+<div class="fbc-section">
+	<div class="fbc-container">
+		<div class="fbc-grid">
+			<!-- LEFT COLUMN: Contact Information -->
+			<div class="fbc-left-col">
+				<div class="fbc-watermark">CONTACT</div>
+				<div class="fbc-kicker">— Get in touch</div>
+				<h2 class="fbc-title">
+					Ready to get fit?<br/>
+					<span>Let's connect!</span>
+				</h2>
+
+				<div class="fbc-cards-list">
+					<!-- Card 1: Address -->
+					<div class="fbc-info-card">
+						<div class="fbc-icon-box">
+							<svg width="20" height="20" viewBox="0 0 384 512" fill="currentColor"><path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"/></svg>
 						</div>
-				</div>
-				<div class="elementor-element elementor-element-2a41ee78 elementor-widget elementor-widget-spacer" data-id="2a41ee78" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
+						<div class="fbc-info-body">
+							<div class="fbc-info-label">Visit Our Facility</div>
+							<div class="fbc-info-value">E 2/19 in front of Rani Kamlapati Railway Station, Bhopal, Madhya Pradesh 462016</div>
 						</div>
-				</div>
-				<div class="elementor-element elementor-element-73f8e7a4 elementor-shape-circle e-grid-align-left elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="73f8e7a4" data-element_type="widget" data-e-type="widget" data-widget_type="social-icons.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-social-icons-wrapper elementor-grid" role="list">
-							<span class="elementor-grid-item" role="listitem">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-lc999d" href="https://www.facebook.com/fitblissbysk" target="_blank">
-						<span class="elementor-screen-only">Facebook</span>
-						<svg aria-hidden="true" class="e-font-icon-svg e-fab-facebook" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>					</a>
-				</span>
-							<span class="elementor-grid-item" role="listitem">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-xj9pe7" href="https://twitter.com/fitblissbysk" target="_blank">
-						<span class="elementor-screen-only">Twitter</span>
-						<svg aria-hidden="true" class="e-font-icon-svg e-fab-twitter" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg>					</a>
-				</span>
-							<span class="elementor-grid-item" role="listitem">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-44x7qh" href="https://www.youtube.com/@fitblissbysk" target="_blank">
-						<span class="elementor-screen-only">Youtube</span>
-						<svg aria-hidden="true" class="e-font-icon-svg e-fab-youtube" viewBox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path></svg>					</a>
-				</span>
-							<span class="elementor-grid-item" role="listitem">
-					<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-ea50edd" href="https://www.instagram.com/fitblissbysk/?hl=en" target="_blank">
-						<span class="elementor-screen-only">Instagram</span>
-						<svg aria-hidden="true" class="e-font-icon-svg e-fab-instagram" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>					</a>
-				</span>
 					</div>
-						</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-48fc8208 e-con-full e-flex e-con e-child" data-id="48fc8208" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-				<div class="elementor-element elementor-element-66534fd9 elementor-widget elementor-widget-heading" data-id="66534fd9" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
-				<div class="elementor-widget-container">
-					<h3 class="elementor-heading-title elementor-size-default">Send us a message</h3>				</div>
-				</div>
-				<div class="elementor-element elementor-element-7e1e2987 elementor-widget elementor-widget-text-editor" data-id="7e1e2987" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-									<p>Fill in the form below and our team will get back to you within 24 hours.</p>								</div>
-				</div>
-				<div class="elementor-element elementor-element-1c3a9cf1 elementor-widget elementor-widget-spacer" data-id="1c3a9cf1" data-element_type="widget" data-e-type="widget" data-widget_type="spacer.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-spacer">
-			<div class="elementor-spacer-inner"></div>
-		</div>
-						</div>
-				</div>
-				<div class="elementor-element elementor-element-86d9b90 fluentform-widget-submit-button-center fluentform-widget-submit-button-custom elementor-widget elementor-widget-fluent-form-widget" data-id="86d9b90" data-element_type="widget" data-e-type="widget" data-widget_type="fluent-form-widget.default">
-				<div class="elementor-widget-container">
-					
-            <div class="fluentform-widget-wrapper fluentform-widget-align-default">
 
-            
-            <div class='fluentform ff-default fluentform_wrapper_1 ffs_default_wrap'><form data-form_id="1" id="fluentform_1" class="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading ffs_default" data-form_instance="ff_form_instance_1_1" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
-                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Contact Form</legend><input type='hidden' name='__fluent_form_embded_post_id' value='18771' /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" value="1ea1268e73" /><input type="hidden" name="_wp_http_referer" value="/contact/" /><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label asterisk-right"><label for='ff_1_input_text' id='label_ff_1_input_text' aria-label="Name">Name</label></div><div class='ff-el-input--content'><input type="text" name="input_text" class="ff-el-form-control" placeholder="Name" data-name="input_text" id="ff_1_input_text"  aria-invalid="false" aria-required=false></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_email' id='label_ff_1_email' aria-label="Email">Email</label></div><div class='ff-el-input--content'><input type="email" name="email" id="ff_1_email" class="ff-el-form-control" placeholder="Email" data-name="email"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_subject' id='label_ff_1_subject' aria-label="Phone">Phone</label></div><div class='ff-el-input--content'><input type="text" name="subject" class="ff-el-form-control" placeholder="Phone" data-name="subject" id="ff_1_subject"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_message' id='label_ff_1_message' aria-label="Your Message">Your Message</label></div><div class='ff-el-input--content'><textarea aria-required="true" aria-labelledby="label_ff_1_message" name="message" id="ff_1_message" class="ff-el-form-control" placeholder="Your Message" rows="4" cols="2" data-name="message" ></textarea></div></div><input type="hidden" name="pagelink" value="<?php echo $base_url; ?>/contact/" data-name="pagelink" ><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md ff_btn_style"  aria-label="Submit">Submit</button></div></fieldset></form><div id='fluentform_1_errors' class='ff-errors-in-stack ff_form_instance_1_1 ff-form-loading_errors ff_form_instance_1_1_errors'></div></div>            <script type="text/javascript">
-                window.fluent_form_ff_form_instance_1_1 = {"id":"1","ajaxUrl":"https:\/\/staging.fitblissbysk.com\/wp-admin\/admin-ajax.php","settings":{"layout":{"labelPlacement":"top","helpMessagePlacement":"with_label","errorMessagePlacement":"inline","cssClassName":"","asteriskPlacement":"asterisk-right"},"restrictions":{"denyEmptySubmission":{"enabled":false}}},"form_instance":"ff_form_instance_1_1","form_id_selector":"fluentform_1","rules":{"input_text":{"required":{"value":false,"message":"This field is required","global_message":"This field is required","global":true}},"email":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"},"email":{"value":true,"message":"This field must contain a valid email","global":false,"global_message":"This field must contain a valid email"}},"subject":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}},"message":{"required":{"value":true,"message":"This field is required","global":false,"global_message":"This field is required"}}},"debounce_time":300,"file_upload_settings":[]};
-                            </script>
-                        </div>
-
-            				</div>
-				</div>
-				</div>
-				</div>
-				</div>
-		<div class="elementor-element elementor-element-1f9572be e-con-full e-flex e-con e-child" data-id="1f9572be" data-element_type="container" data-e-type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-		<div class="elementor-element elementor-element-5219f4ff e-con-full e-flex e-con e-child" data-id="5219f4ff" data-element_type="container" data-e-type="container" data-settings="{&quot;position&quot;:&quot;relative&quot;}">
-				<div class="elementor-element elementor-element-3bccf4c4 elementor-widget elementor-widget-google_maps" data-id="3bccf4c4" data-element_type="widget" data-e-type="widget" data-widget_type="google_maps.default">
-				<div class="elementor-widget-container">
-							<div class="elementor-custom-embed">
-			<iframe loading="lazy"
-					src="https://maps.google.com/maps?q=FitBliss%20by%20Shruti%20Kapoor%2C%20E%202%2F19%2C%20Rani%20Kamlapati%20Railway%20Station%2C%20Bhopal&#038;t=m&#038;z=15&#038;output=embed&#038;iwloc=near"
-					title="FitBliss by Shruti Kapoor, E 2/19, Rani Kamlapati Railway Station, Bhopal"
-					aria-label="FitBliss by Shruti Kapoor, E 2/19, Rani Kamlapati Railway Station, Bhopal"
-			></iframe>
-		</div>
+					<!-- Card 2: Email -->
+					<div class="fbc-info-card">
+						<div class="fbc-icon-box">
+							<svg width="20" height="20" viewBox="0 0 512 512" fill="currentColor"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.5c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.6zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"/></svg>
 						</div>
+						<div class="fbc-info-body">
+							<div class="fbc-info-label">Send an Email</div>
+							<div class="fbc-info-value"><a href="mailto:info@fitblissbysk.com">info@fitblissbysk.com</a></div>
+						</div>
+					</div>
+
+					<!-- Card 3: Phone -->
+					<div class="fbc-info-card">
+						<div class="fbc-icon-box">
+							<svg width="20" height="20" viewBox="0 0 512 512" fill="currentColor"><path d="M493.4 401.5l-104-24a24 24 0 0 0-23.4 7.6l-45.6 45.6c-67.9-33.1-123.4-88.6-156.5-156.5l45.6-45.6a24 24 0 0 0 7.6-23.4l-24-104A24 24 0 0 0 169.1 81H48C21.5 81 0 102.5 0 129c0 211.5 171.5 383 383 383 26.5 0 48-21.5 48-48v-121.1a24 24 0 0 0-37.6-21.4z"/></svg>
+						</div>
+						<div class="fbc-info-body">
+							<div class="fbc-info-label">Call Our Club</div>
+							<div class="fbc-info-value">
+								<a href="tel:+917470787012">+91 74707 87012</a> &nbsp;·&nbsp; 
+								<a href="tel:+917470787014">+91 74707 87014</a>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="elementor-element elementor-element-66abcbbd elementor-widget elementor-widget-html" data-id="66abcbbd" data-element_type="widget" data-e-type="widget" data-widget_type="html.default">
-				<div class="elementor-widget-container">
-					<a href="https://maps.google.com/?q=E+2/19+Rani+Kamlapati+Railway+Station+Bhopal" target="_blank" rel="noopener noreferrer" style="position:absolute;top:14px;left:14px;z-index:10;background:#050a0b;color:#f4f2ea;border:1px solid rgba(255,255,255,0.15);padding:8px 16px;font-family:Barlow,sans-serif;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;text-decoration:none;display:inline-flex;align-items:center;gap:6px;">Open in Maps ↗</a>				</div>
+
+				<!-- Social Links -->
+				<div class="fbc-social-wrap">
+					<div class="fbc-social-label">Follow Us</div>
+					<div class="fbc-social-icons">
+						<a class="fbc-social-btn" href="https://www.facebook.com/fitblissbysk" target="_blank" rel="noopener noreferrer" title="Facebook">
+							<svg viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+						</a>
+						<a class="fbc-social-btn" href="https://twitter.com/fitblissbysk" target="_blank" rel="noopener noreferrer" title="Twitter">
+							<svg viewBox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+						</a>
+						<a class="fbc-social-btn" href="https://www.youtube.com/@fitblissbysk" target="_blank" rel="noopener noreferrer" title="YouTube">
+							<svg viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+						</a>
+						<a class="fbc-social-btn" href="https://www.instagram.com/fitblissbysk/?hl=en" target="_blank" rel="noopener noreferrer" title="Instagram">
+							<svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+						</a>
+					</div>
 				</div>
-				</div>
-				</div>
-				</div>
+			</div>
+
+			<!-- RIGHT COLUMN: Send Us a Message (Form) -->
+			<div class="fbc-form-card">
+				<h3 class="fbc-form-title">Send us a message</h3>
+				<p class="fbc-form-desc">Fill in the form below and our team will get back to you within 24 hours.</p>
+				<form data-form_id="1" id="fluentform_1" class="frm-fluent-form fluent_form_1 ff-el-form-top ff_form_instance_1_1 ff-form-loading ffs_default" data-form_instance="ff_form_instance_1_1" method="POST" ><fieldset  style="border: none!important;margin: 0!important;padding: 0!important;background-color: transparent!important;box-shadow: none!important;outline: none!important; min-inline-size: 100%;">
+                    <legend class="ff_screen_reader_title" style="display: block; margin: 0!important;padding: 0!important;height: 0!important;text-indent: -999999px;width: 0!important;overflow:hidden;">Contact Form</legend><input type='hidden' name='__fluent_form_embded_post_id' value='18771' /><input type="hidden" id="_fluentform_1_fluentformnonce" name="_fluentform_1_fluentformnonce" value="1ea1268e73" /><input type="hidden" name="_wp_http_referer" value="/contact/" /><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label asterisk-right"><label for='ff_1_input_text' id='label_ff_1_input_text' aria-label="Name">Name</label></div><div class='ff-el-input--content'><input type="text" name="input_text" class="ff-el-form-control" placeholder="Name" data-name="input_text" id="ff_1_input_text"  aria-invalid="false" aria-required=false></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_email' id='label_ff_1_email' aria-label="Email">Email</label></div><div class='ff-el-input--content'><input type="email" name="email" id="ff_1_email" class="ff-el-form-control" placeholder="Email" data-name="email"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_subject' id='label_ff_1_subject' aria-label="Phone">Phone</label></div><div class='ff-el-input--content'><input type="text" name="subject" class="ff-el-form-control" placeholder="Phone" data-name="subject" id="ff_1_subject"  aria-invalid="false" aria-required=true></div></div><div class='ff-el-group ff-el-form-hide_label'><div class="ff-el-input--label ff-el-is-required asterisk-right"><label for='ff_1_message' id='label_ff_1_message' aria-label="Your Message">Your Message</label></div><div class='ff-el-input--content'><textarea aria-required="true" aria-labelledby="label_ff_1_message" name="message" id="ff_1_message" class="ff-el-form-control" placeholder="Your Message" rows="4" cols="2" data-name="message" ></textarea></div></div><input type="hidden" name="pagelink" value="<?php echo $base_url; ?>/contact/" data-name="pagelink" ><div class='ff-el-group ff-text-left ff_submit_btn_wrapper'><button type="submit" class="ff-btn ff-btn-submit ff-btn-md ff_btn_style"  aria-label="Submit">Submit</button></div></fieldset></form>
+			</div>
+		</div>
+
+		<!-- MAP SECTION -->
+		<div class="fbc-map-wrapper">
+			<a class="fbc-map-btn" href="https://maps.google.com/?q=E+2/19+Rani+Kamlapati+Railway+Station+Bhopal" target="_blank" rel="noopener noreferrer">
+				Open in Maps ↗
+			</a>
+			<iframe loading="lazy" src="https://maps.google.com/maps?q=FitBliss%20by%20Shruti%20Kapoor%2C%20E%202%2F19%2C%20Rani%20Kamlapati%20Railway%20Station%2C%20Bhopal&#038;t=m&#038;z=15&#038;output=embed&#038;iwloc=near" title="FitBliss by Shruti Kapoor, E 2/19, Rani Kamlapati Railway Station, Bhopal" aria-label="FitBliss by Shruti Kapoor"></iframe>
+		</div>
+	</div>
+</div>
+		</div></div>
 				</div>
 		</div>
 						</div>
